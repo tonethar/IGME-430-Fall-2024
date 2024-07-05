@@ -8,7 +8,8 @@
 - [JavaScript Tutorial](https://www.javascripttutorial.net/)
 - [freecodecamp.org/news/tag/javascript](https://www.freecodecamp.org/news/tag/javascript/)
 - Books
-  - https://eloquentjavascript.net/
+  - https://eloquentjavascript.net/ (Marijn Haverbeke)
+  - https://exploringjs.com/ (Axel Rauschmayer)
 - Playgrounds:
   - https://playcode.io/new
 - Portfolio
