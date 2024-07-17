@@ -1,6 +1,6 @@
 # Quotes App
 
-## Version #1 - Base Client App
+## I. Version #1 - Base Client App
 
 ### Functional Requirements for End User
   - View quote of the day
@@ -21,7 +21,7 @@
  
 ---
 
-## Version #2 - Base Server 
+## II. Version #2 - Base Server 
 - Quote data moved from client to cloud
   
 ### Server Functionality
@@ -44,7 +44,7 @@
 
 ---
 
-## Version #3 - Improved App
+## III. Version #3 - Improved App
 - This version adds timestamps and tagging features
 
 ### Client
@@ -73,7 +73,7 @@
 
 ---
 
-## Version #4 - Final App
+## IV. Version #4 - Final App
 
 ### Client
 - App now has form for submitting suggestions for new quotes
@@ -92,7 +92,7 @@
 
 --- 
 
-## Other features
+## V. Other features
 - Quotes created by generative AI
 
 ---
