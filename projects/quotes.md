@@ -17,19 +17,32 @@
 - Vue.js Implementation
 
 ### Data Model
+- All quote data is local to client
 - Quote
   - id:long
   - text:string
   - author:string
  
+---
 
-## Version #2 - Base Server Functionality
+## Version #2 - Base Server 
 
+### Functionality
+- Read only
+- Authentication is not required
 - Endpoints:
   - `GET quotes/` - returns all quotes
   - `GET quotes/id` - returns one quote with matching `id`
+    - when a match can not be made, returns 404 and error info in JSON format
   - `GET quotes/random` - returns one random quote
   - `GET quotes/random/n` - returns `n` number of quotes
+
+### Data Model
+- Quote
+  - id:long
+  - text:string
+  - author:string
+ 
 
 ## Reference
 - https://jelvix.com/blog/software-requirements-specification
