@@ -94,6 +94,7 @@
 
 ## V. Other features
 - Quotes created by generative AI
+- Better searching, GraphQL
 
 ---
 
