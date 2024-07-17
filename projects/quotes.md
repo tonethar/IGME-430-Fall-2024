@@ -50,15 +50,27 @@
 - This version adds timestamps and tagging
 
 ### Client
-- Reorganize favorites
-- Share quote
-- Filter quotes by category (tags)
-  - example: "inspirational", "religious"
-- Filter quotes by creation date
-  - example: View recently created
+- Improved features:
+  - Reorder favorite quotes list
+  - Filter favorite quotes by category (tags)
+- New features:
+  - Share quote
+  - Filter quote search by category (tags)
+    - example: "inspirational", "religious"
+  - Filter quotes by creation date
+    - example: View recently created
 
 ### Server
 - Read only
+- Authentication is not required
+- Endpoints:
+  - `GET quotes/random/?tags=` - returns one random quote of specified categories
+    - ex. `quotes/random/?tags=funny`
+    - ex. `quotes/random/?tags=funny,serious`
+  - `GET quotes/random/n/?tags=` - returns `n` number of quotes of specified categories
+  - `GET quotes/latest`
+  - `GET quotes/latest/n`
+  - `GET quotes/latest/n/?tags=`
 
 
 ---
