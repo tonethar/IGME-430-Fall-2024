@@ -42,8 +42,28 @@
   - id:long
   - text:string
   - author:string
- 
+
+
+---
+
+## Version #3 - Improved App
+- This version adds timestamps and tagging
+
+### Client
+- Reorganize favorites
+- Share quote
+- Filter quotes by category (tags)
+  - example: "inspirational", "religious"
+- Filter quotes by creation date
+  - example: View recently created
+
+### Server
+- Read only
+
+
+---
 
 ## Reference
 - https://jelvix.com/blog/software-requirements-specification
 - https://www.rfc-editor.org/rfc/rfc9110.html
+- https://quotemarks.app/
