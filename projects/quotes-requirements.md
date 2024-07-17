@@ -12,10 +12,6 @@
     - last viewed quotes
     - all favorited quotes
 
-### Software Requirements
-- Vanillajs Implemewntation
-- Vue.js Implementation
-
 ### Data Model
 - All quote data is local to client
 - Quote
