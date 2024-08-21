@@ -23,7 +23,7 @@ GOAL: To get the basics of this working
 2. **Error Handling A** - if a "404" (file not found) .status code happens, log a message to the console and notify the user.
 Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 
-3. **Error Handling B** - if the loaded file does not parse to legal JSON (signified by JSON.parse() throwing an exception), log the exact error message to the console and notify the user.
+3. **Error Handling B** - if the loaded file does not parse to legal JSON (signified by `JSON.parse()` throwing an exception), log the exact error message to the console and notify the user.
     - You will need to use a `try`/`catch`/`finally` block.
     - Test this by changing the value of `jsonUrl` to "data/quotes-data.csv" (CSV doesn't parse to JSON)
 
@@ -40,5 +40,15 @@ Other HTTP methods (for creating, updating and deleting resources) that we will 
     - and template strings  (e.g. `Hello ${name}`) instead of string concatenation (e.g. "Hello " + name)
     - and destructured function parameters - try doing that somewhere
 3. XHR has the ability to specify *request headers* (which are meta data about the request, and also a part of the HTTP protocol):
-setRequestHeader(header, value)
-example (which tells the server "Send me JSON if you can!"): xhr.setRequestHeader("content-type", "application/json")
+    - setRequestHeader(header, value)
+    - example (which tells the server "Send me JSON if you can!"): `xhr.setRequestHeader("content-type", "application/json")`
+  
+---
+
+## V. Links
+- [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/)
+- [`XHR` example](https://flaviocopes.com/xhr/#an-example-xhr-request)
+- [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+- [`XHR.setRequestHeader()`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader)
+- [HTTP Protocol Methods]()
+- [HTTP Protocol Request Headers]()
