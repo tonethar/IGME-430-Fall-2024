@@ -12,7 +12,7 @@
 
 ## III. Instructions
 GOAL: To get the basics of this working
-1. When the "Get a random quote!" button is clicked, show a quote!
+1. **When the "Get a random quote!" button is clicked, show a quote and its author!**
     - the `id` of the button is `"btn-random"`
     - the `id` of the `<div>` where you can put the quote is `"content"`
     - the data file of quotes is located at `data/quotes-data.json`
@@ -73,3 +73,4 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 - Refactor the app to talk to a web service (instead of a static JSON file)
 - Refactor the app to send a *request header* to a server
 - Refactor the app to use the `fetch()` API and promises instead of `XHR`
+- Other improvements such as using `new Date()` to show when the quote was last updated
