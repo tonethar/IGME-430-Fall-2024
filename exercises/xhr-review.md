@@ -17,7 +17,7 @@ GOAL: To get the basics of this working
     - the `id` of the `<div>` where you can put the quote is `"content"`
     - the data file of quotes is located at `data/quotes-data.json`
     - use the `XMLHttpRequest` (aka `XHR`) object to download the JSON data
-    - once the JSON file is loaded, use `JSON.parse()` to convert it to an object you can parse
+    - once the JSON file is loaded, use `JSON.parse()` to convert it to an object your code can parse
     - show both the `.content` and `.author` of the quote to the user by creating a `<p></p>` and inserting it into the content `<div>`
 
 2. **Error Handling A** - if a "404" (file not found) .status code happens, log a message to the console and notify the user.
