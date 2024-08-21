@@ -27,7 +27,7 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
     - You will need to use a `try`/`catch`/`finally` block.
     - Test this by changing the value of `jsonUrl` to "data/quotes-data.csv" (CSV doesn't parse to JSON)
 
-4. Change the quote HTML (the `<p>...</p>` tag) to instead use the "card" HTML (that is commented out in the HTML file)
+4. **Change the quote HTML** (the `<p>...</p>` tag) to instead use the "card" HTML (that is commented out in the HTML file)
 
 ---
 
