@@ -40,7 +40,7 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
     - and template strings  (e.g. `Hello ${name}`) instead of string concatenation (e.g. "Hello " + name)
     - and destructured function parameters - try doing that somewhere
 3. XHR has the ability to specify *request headers* (which are meta data about the request, and also a part of the HTTP protocol):
-    - setRequestHeader(header, value)
+    - call `xhr.setRequestHeader(header, value)` AFTER `xhr.open()`
     - example (which tells the server "Send me JSON if you can!"): `xhr.setRequestHeader("Accept", "application/json")`
   
 ---
