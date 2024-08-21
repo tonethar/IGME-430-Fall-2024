@@ -34,21 +34,42 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 ## IV. N.B.
 
 1. Here, xhr.open's first parameter is "GET" - which is an HTTP protocol *method*
-Other HTTP methods (for creating, updating and deleting resources) that we will use in the course include POST, PUT, PATCH and DELETE
+    - In addition to `GET`, other HTTP methods (for creating, updating and deleting resources) that we will use in the course include `DELETE`, `HEAD`, `PATCH`, `POST` and `PUT`
 2. Code style:
     - the "cool kids" pretty much exclusively use arrow functions these days
     - and template strings  (e.g. `Hello ${name}`) instead of string concatenation (e.g. "Hello " + name)
     - and destructured function parameters - try doing that somewhere
 3. XHR has the ability to specify *request headers* (which are meta data about the request, and also a part of the HTTP protocol):
     - setRequestHeader(header, value)
-    - example (which tells the server "Send me JSON if you can!"): `xhr.setRequestHeader("content-type", "application/json")`
+    - example (which tells the server "Send me JSON if you can!"): `xhr.setRequestHeader("Accept", "application/json")`
   
 ---
 
 ## V. Links
-- [`XHR`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/)
-- [`XHR` example](https://flaviocopes.com/xhr/#an-example-xhr-request)
-- [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
-- [`XHR.setRequestHeader()`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader)
-- [HTTP Protocol Methods]()
-- [HTTP Protocol Request Headers]()
+- `XHR`:
+  - [`XMLHttpRequest`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/)
+  - [`XMLHttpRequest` example](https://flaviocopes.com/xhr/#an-example-xhr-request)
+  - [`XMLHttpRequest.setRequestHeader()`](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/setRequestHeader)
+- HTTP Protocol:
+  - [HTTP Protocol Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+  - [HTTP Protocol Request Headers - Accept Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept)
+- JS:
+  - [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
+  - [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+  - [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+  - [Paramter Destructuring](https://www.geeksforgeeks.org/parameter-destructuring/)
+- Tailwind CSS:
+  - https://tailwindcss.com/
+  - https://tailwindflex.com/
+  - https://kopi.dev/tailwind-css-with-cdn-html/
+ 
+---
+
+## VI. Screenshots
+
+---
+
+## VII. Coming Soon
+- Refactor the app to talk to a web service (instead of a static JSON file)
+- Refactor the app to send a *request header* to a server
+- Refactor the app to use the `fetch()` API and promises instead of `XHR`
