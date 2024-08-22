@@ -1,4 +1,4 @@
-# XHR Review
+# 1 - Ajax(`XHR`) Review
 
 ## I. Overview
 
@@ -84,3 +84,10 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 - Refactor the app to send a *request header* to a server
 - Refactor the app to use the `fetch()` API and promises instead of `XHR`
 - Other improvements such as using `new Date()` to show when the quote was last updated
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   :-\  |  [**IGME-430**](../) | [**2 - Ajax & Web Services, Accept headers**](2-ajax-web-services-accept-headers.md)
