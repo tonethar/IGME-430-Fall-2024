@@ -78,7 +78,7 @@
   //echo $acceptHeader;
   
   // I. LOAD DATA FILE
-   $str = file_get_contents("quotes-data.json");
+  $str = file_get_contents("quotes-data.json");
   
   // II. CONVERT TO PHP ASSOCIATIVE ARRAY
   $all_quotes = json_decode($str);
