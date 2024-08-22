@@ -11,7 +11,7 @@
 
 ### II-A. quote-random.php
 
-- working version (running on gibson) here --> [quote-random.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random.php)
+- Working version (running on gibson) here --> [quote-random.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random.php)
 
 ```php
 <?php
@@ -59,7 +59,7 @@
 
 ### II-B. quote-random-json-or-text.php
 
-- working version (running on gibson) here --> [quote-random-json-or-text.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random-json-or-text.php)
+- Working version (running on gibson) here --> [quote-random-json-or-text.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random-json-or-text.php)
 
 ```php
 <?php
