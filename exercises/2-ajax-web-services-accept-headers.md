@@ -116,8 +116,14 @@
 - Your banjo account already has PHP installed - so if you upload the 2 above PHP files to banjo they should work fine
 - Be sure to also upload **quotes-data.json** to the same folder as the 2 PHP files
 - Don't forget to put files in a sub-directory of `www`
-- If you run into problems, aslk for help:
-  - s
+- If you run into problems, ask for help:
+  - it might be a **php.ini** file issue - [here are some instructions on how to fix that](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-php-ini.md)
+- Here are some PHP resources that relate to banjo. Some of the example links are on an old server that might not be running, but the info is still good:
+  - [PHP Web Service Part I - What is a web service?](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-1.md)
+  - [PHP Web Service Part II - PHP Foundations](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-2.md)
+  - [PHP Web Service Part III - Coding get-random-joke.php](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-3.md)
+  - [PHP Web Service Part IV - Coding get-jokes.php](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-4.md)
+  - [PHP Web Service Part V - creating a proxy server](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-5.md)
 
 
 ## IV. Terms
