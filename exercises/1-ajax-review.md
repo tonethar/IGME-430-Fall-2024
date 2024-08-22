@@ -84,6 +84,8 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
   - look under the *Sources* tab and pop some breakpoints into `getJsonXHR` - step through the code!
   - look under the *Network* tab to see what they tell you about the XHR requests - the status code, request headers (e.g. `Accept`) and response headers (e.g. `Content-type`), and the returned content 
 
+![screenshot](_images/quotes-app-3.png)
+
 ---
 
 ## VIII. Coming Soon
