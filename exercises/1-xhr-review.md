@@ -59,7 +59,7 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
   - [`JSON.parse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)
   - [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
   - [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-  - [Paramter Destructuring](https://www.geeksforgeeks.org/parameter-destructuring/)
+  - [Parameter Destructuring](https://www.geeksforgeeks.org/parameter-destructuring/)
 - Tailwind CSS:
   - https://tailwindcss.com/
   - https://tailwindflex.com/
