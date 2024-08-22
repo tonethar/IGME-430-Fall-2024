@@ -66,10 +66,10 @@
  // THIS VERSION LOOKS AT THE REQUEST HEADERS SENT OVER BY THE CLIENT
  
  // DEBUG CODE
-//   echo "<p>Request Headers</p>";
-//   echo "<pre>";
-//   print_r(apache_request_headers());
-//   echo "</pre>";
+ //   echo "<p>Request Headers</p>";
+ //   echo "<pre>";
+ //   print_r(apache_request_headers());
+ //   echo "</pre>";
 
  
   // 0. GET VALUE OF 'Accept' REQUEST HEADER
