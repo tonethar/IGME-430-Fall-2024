@@ -68,7 +68,7 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 
 ## VI. Screenshots
 
-![screenshot](_image/quotes-app-1.png)
+![screenshot](_images/quotes-app-1.png)
 
 ---
 
