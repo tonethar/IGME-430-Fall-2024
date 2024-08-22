@@ -63,7 +63,10 @@
 
 - Working version (running on banjo) here --> [quote-random-json-or-text.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random-json-or-text.php)
 - This version is sensitive to the `Accept` HTTP request header - and if the script detects the value of `Accept` to be `application/json` then it will return JSON data, otherwise it will return plain text data
-- Test the above link - because the browser is NOT sending `Accept: application/json`, you are going to be seeing the plain text version of the data
+- Test the above link - because the browser is NOT sending `Accept: application/json`, you are going to be seeing the plain text version of the data.
+- How can you send the correct `Accept` header? Easy! Here are some ways:
+  - Use the Postman App and configure it to send a `Accept: application/json` request header
+  - With XHR you can send an `Accept` header after `xhr.open()` a connection, but before your `xhr.send()` it
 
 ```php
 <?php
