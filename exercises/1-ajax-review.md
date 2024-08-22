@@ -1,4 +1,4 @@
-# 1 - Ajax(`XHR`) Review
+# 1 - Ajax (`XHR`) Review
 
 ## I. Overview
 
