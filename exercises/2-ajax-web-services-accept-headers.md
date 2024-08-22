@@ -11,7 +11,7 @@
 
 ### II-A. quote-random.php
 
-- Working version (running on gibson) here --> [quote-random.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random.php)
+- Working version (running on banjo) here --> [quote-random.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random.php)
 
 ```php
 <?php
@@ -59,7 +59,7 @@
 
 ### II-B. quote-random-json-or-text.php
 
-- Working version (running on gibson) here --> [quote-random-json-or-text.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random-json-or-text.php)
+- Working version (running on banjo) here --> [quote-random-json-or-text.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random-json-or-text.php)
 
 ```php
 <?php
@@ -111,7 +111,16 @@
 
 ---
 
-## III. Terms
+## III. Posting to banjo.rit.edu
+- Did you forget how to post to `banjo.rit.edu`? Get help here --> https://github.com/tonethar/IGME-235-Shared/blob/master/notes/core-skills/ftp-upload-walkthrough.md
+- Your banjo account already has PHP installed - so if you upload the 2 above PHP files to banjo they should work fine
+- Be sure to also upload **quotes-data.json** to the same folder as the 2 PHP files
+- Don't forget to put files in a sub-directory of `www`
+- If you run into problems, aslk for help:
+  - s
+
+
+## IV. Terms
 
 ### Request Methods
 - Today we are still just using the GET request nethod, which means  
