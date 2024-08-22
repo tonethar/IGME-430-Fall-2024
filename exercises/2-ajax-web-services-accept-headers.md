@@ -12,6 +12,8 @@
 ### II-A. quote-random.php
 
 - Working version (running on banjo) here --> [quote-random.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random.php)
+- This web service returns a random quote in the JSON format
+- It is written in [PHP](https://www.w3schools.com/php/)
 
 ```php
 <?php
