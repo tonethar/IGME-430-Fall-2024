@@ -69,17 +69,24 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 
 ## VI. Screenshots
 
-**Completed (with basic `<p></p>` HTML)**
+**Completed (with basic `<p></p>` HTML):**
 ![screenshot](_images/quotes-app-1.png)
 
 ---
 
-**Completed (with Tailwind "Card" HTML)**
+**Completed (with Tailwind "Card" HTML):**
 ![screenshot](_images/quotes-app-2.png)
 
 ---
 
-## VII. Coming Soon
+## VII. Try this
+- Open up the web inspector and ...
+  - look under the *Sources* tab and pop some breakpoints into `getJsonXHR` - step through the code!
+  - look under the *Network* tab to see what they tell you about the XHR requests - the status code, request headers (e.g. `Accept`) and response headers (e.g. `Content-type`), and the returned content 
+
+---
+
+## VIII. Coming Soon
 - Refactor the app to talk to a web service (instead of a static JSON file)
 - Refactor the app to send a *request header* to a server
 - Refactor the app to use the `fetch()` API and promises instead of `XHR`
