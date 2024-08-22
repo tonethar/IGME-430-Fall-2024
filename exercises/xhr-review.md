@@ -68,6 +68,8 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 
 ## VI. Screenshots
 
+![screenshot](_image/quotes-app-1.png)
+
 ---
 
 ## VII. Coming Soon
