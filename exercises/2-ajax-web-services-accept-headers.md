@@ -43,17 +43,17 @@
   */
  
   // IV. Send HTTP headers
-	// https://www.php.net/manual/en/function.header.php
-	// DO THIS **BEFORE** you `echo()` the content!
-	header('content-type: application/json');      			// tell the requestor that this is JSON
-	header('Access-Control-Allow-Origin: *');     			// turn on CORS
-	header('X-this-430-service-is-kinda-lame: true');   // a custom header 
+  // https://www.php.net/manual/en/function.header.php
+  // DO THIS **BEFORE** you `echo()` the content!
+  header('content-type: application/json');      			// tell the requestor that this is JSON
+  header('Access-Control-Allow-Origin: *');     			// turn on CORS
+  header('X-this-430-service-is-kinda-lame: true');   // a custom header 
 	
-	// V. Send the content
-	// json_encode() turns a PHP associative array into a string of well-formed JSON
-	// https://www.php.net/manual/en/function.json-encode.php
-	$string = json_encode($randomQuote);
-	echo $string;
+  // V. Send the content
+  // json_encode() turns a PHP associative array into a string of well-formed JSON
+  // https://www.php.net/manual/en/function.json-encode.php
+  $string = json_encode($randomQuote);
+  echo $string;
 ?>
 ```
 
