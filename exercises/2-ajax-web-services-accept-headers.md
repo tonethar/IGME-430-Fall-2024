@@ -49,7 +49,6 @@
   // DO THIS **BEFORE** you `echo()` the content!
   header('content-type: application/json');           // tell the requestor that this is JSON
   header('Access-Control-Allow-Origin: *');           // turn on CORS
-  header('Access-Control-Allow-Headers: *');	      // needed with CORS
   header('X-this-430-service-is-kinda-lame: true');   // a custom header
   
 	
