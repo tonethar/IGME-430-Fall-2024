@@ -7,6 +7,7 @@
 ---
 
 ## II. Start Files
+
 - [quotes-app-start.zip](_files/quotes-app-start.zip)
 
 ---
@@ -68,7 +69,11 @@ Test this by changing the value of `jsonUrl` to "data/quotes-dataXYZ.json"
 
 ## VI. Screenshots
 
+**Completed (with basic `<p></p>` HTML)**
 ![screenshot](_images/quotes-app-1.png)
+
+**Completed (with Tailwind "Card" HTML)**
+![screenshot](_images/quotes-app-2.png)
 
 ---
 
