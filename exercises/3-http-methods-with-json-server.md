@@ -53,6 +53,8 @@ Hello World! My content includes a trailing CRLF.
 
 ### B. HTTP Response Headers
 
+### C. The content (text, images, etc)
+
 ---
 
 ## III. json-server
