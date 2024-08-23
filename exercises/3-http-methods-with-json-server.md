@@ -86,6 +86,7 @@ ___
 
 10. Summary of GET endpoints:
 
+    - http://localhost:3000/version `will show value of version property`
     - http://localhost:3000/quotes `// will show all of the quotes`
     - http://localhost:3000/quotes?index=3 `// will show a quote that has an index value of 3`
     - http://localhost:3000/quotes/4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 `will show a quote of id=4c6217c3-c6e5-460b-8f8f-0df64ad6fef2`
@@ -95,7 +96,9 @@ ___
     - http://localhost:3000/quotes?index_gte=3 `an array of all quotes with an id greater than or equal to 3`
     - http://localhost:3000/quotes?index_lte=3 `an array of all quotes with an id less than or equal to 3`
     - http://localhost:3000/quotes?index_ne=3 `an array of all quotes with an id not equal to 3`
-
+    - http://localhost:3000/quotes?_start=1&_end=4 `a range of quotes in an array`
+    - http://localhost:3000/quotes?_sort=author `sort array of results by author`
+    - http://localhost:3000/quotes?tags[0]=fiction `quotes where the first tag is "fiction"`
 ---
 
 ## IV. Reference
