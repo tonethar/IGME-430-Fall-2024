@@ -107,13 +107,30 @@ ___
 
 ---
 
-## IV. Reference
+## IV. Exercises
+- Get the "Get a random quote" button working with our quote server:
+  - Have it download ALL the quotes as an array, and then pick a random quote from that array and display it (an ineffcient and sloppy way to do it, but it's OK this time)
+- Get the search box working:
+  - The user will be able to type in a quote `index` and view that specific quote
+  - This time make sure that only the single matching quote is downloaded from the server, NOT the entire array. 
+
+---
+
+## V. Reference
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Resources_and_specifications
 - HTTP Protocol Specifications:
   - HTTP/1.0 - https://www.w3.org/Protocols/HTTP/1.0/draft-ietf-http-v10-spec-01.html
   - HTTP/1.1 - https://www.ietf.org/rfc/rfc2616.txt
   - HTTP/1.1 (Current Spec) - https://www.rfc-editor.org/rfc/rfc9110
 
+---
+
+## VI. Next Time
+- More HTTP methods for Creating, Updating and Deleting quotes:
+  - `POST`
+  - `PUT` 
+  - `PATCH`
+  - `DELETE`
 
 ---
 ---
