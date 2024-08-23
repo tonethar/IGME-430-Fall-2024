@@ -58,6 +58,29 @@ Hello World! My content includes a trailing CRLF.
 ## III. json-server
 - https://www.npmjs.com/package/json-server
 
+1. Create a new folder named **quotes-server**
+
+2. Inside of the **quotes-server** folder, create a **data** folder
+
+3. Put the **quotes-data.json** file into the **quotes-server/data/** folder
+
+4. Open up Gitbash (or Terminal on Mac) and make sure that the **quotes-server** folder is the *current working directory*
+
+5. To create a boilerplate **package.json** file type `npm init -y`
+
+6. To install the `json-server` package type `npm i json-server`
+
+7. To run the server type `npx json-server quotes-data.json`
+
+8. That's it - to test the GET endpoints of the server:
+
+    - In a browser, head to http://localhost:3000/0 to see the first quotes, http://localhost:3000/1 to see the second quote and so on
+    - From the command line, `curl http://localhost:3000/0` works (if you have `curl` installed)
+    - You can also use Postman to test the endpoints
+    - We don't have the random quote functionality here, but your quotes app code can point at and download a specific quote - http://localhost:3000/4 is the last one - go ahead an try that now (don't forget to run the quotes app off of live server) 
+
+10. 
+
 ---
 
 ## IV. Reference
