@@ -137,4 +137,9 @@
 ## IV. Terms
 
 ### Request Methods
-- Today we are still just using the GET request nethod, which means  
+- Today we are still just using the GET request nethod
+
+---
+
+## V. Links
+- [MDN - `fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
