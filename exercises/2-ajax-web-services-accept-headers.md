@@ -137,7 +137,7 @@
 ## IV. Terms
 
 ### Request Methods
-- Today we are still just using the GET request nethod
+- Today we are still just using the GET request method
 
 ---
 
