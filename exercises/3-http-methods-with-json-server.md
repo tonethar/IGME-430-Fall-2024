@@ -65,7 +65,7 @@ ___
 
 2. Inside of the **quotes-server** folder, create a **data** folder
 
-3. Put the **quotes-data.json** file into the **quotes-server/data/** folder
+3. Put the **quotes-data-2.json** file into the **quotes-server/data/** folder
 
 4. Open up Gitbash (or Terminal on Mac) and make sure that the **quotes-server** folder is the *current working directory*
 
@@ -73,17 +73,22 @@ ___
 
 6. To install the `json-server` package type `npm i json-server`
 
-7. To run the server type `npx json-server quotes-data.json`
+7. To run the server type `npx json-server quotes-data-2.json`
 
 8. That's it - to test the GET endpoints of the server:
 
-    - In a browser, head to http://localhost:3000/0 to see the first quotes, http://localhost:3000/1 to see the second quote and so on
-    - From the command line, `curl http://localhost:3000/0` works (if you have `curl` installed)
-    - You can also use Postman to test the endpoints
-    - We don't have the random quote functionality here, but your quotes app code can point at and download a specific quote - http://localhost:3000/4 is the last one - go ahead an try that now (don't forget to run the quotes app off of live server) 
+    - In a browser
+     - http://localhost:3000/quotes will show all of the quotes
+     - http://localhost:3000/quotes?index=0 will show the first quote, http://localhost:3000/quotes?index=1 will show the second quote and so on
+     - From the command line, `curl http://localhost:3000/quotes` works (if you have `curl` installed)
+     - You can also use Postman to test the endpoints
+     - We don't have the random quote functionality here, but your quotes app JS code can point at and download a specific quote - go ahead an try that now (don't forget to run the quotes app off of live server) 
 
-10. 
+10. Summary of GET endpoints:
 
+    - http://localhost:3000/quotes `// will show all of the quotes`
+    - http://localhost:3000/quotes?index=3 `// will show a quote that has an index value of 3`
+    - http://localhost:3000/quotes/4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 `will show a quote of id=4c6217c3-c6e5-460b-8f8f-0df64ad6fef2`
 ---
 
 ## IV. Reference
