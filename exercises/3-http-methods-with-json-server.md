@@ -56,6 +56,7 @@ Hello World! My content includes a trailing CRLF.
 ### C. The content (text, images, etc)
 
 ---
+___
 
 ## III. json-server
 - https://www.npmjs.com/package/json-server
