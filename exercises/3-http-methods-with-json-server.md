@@ -78,11 +78,11 @@ ___
 8. That's it - to test the GET endpoints of the server:
 
     - In a browser
-     - http://localhost:3000/quotes will show all of the quotes
-     - http://localhost:3000/quotes?index=0 will show the first quote, http://localhost:3000/quotes?index=1 will show the second quote and so on
-     - From the command line, `curl http://localhost:3000/quotes` works (if you have `curl` installed)
-     - You can also use Postman to test the endpoints
-     - We don't have the random quote functionality here, but your quotes app JS code can point at and download a specific quote - go ahead an try that now (don't forget to run the quotes app off of live server) 
+      - http://localhost:3000/quotes will show all of the quotes
+      - http://localhost:3000/quotes?index=0 will show the first quote, http://localhost:3000/quotes?index=1 will show the second quote and so on
+    - From the command line, `curl http://localhost:3000/quotes` works (if you have `curl` installed)
+    - You can also use Postman to test the endpoints
+    - We don't have the random quote functionality here, but your quotes app JS code can point at and download a specific quote - go ahead an try that now (don't forget to run the quotes app off of live server) 
 
 10. Summary of GET endpoints:
 
@@ -99,6 +99,7 @@ ___
     - http://localhost:3000/quotes?_start=1&_end=4 `a range of quotes in an array`
     - http://localhost:3000/quotes?_sort=author `sort array of results by author`
     - http://localhost:3000/quotes?tags[0]=fiction `array of quotes where the first tag is "fiction"`
+
 ---
 
 ## IV. Reference
