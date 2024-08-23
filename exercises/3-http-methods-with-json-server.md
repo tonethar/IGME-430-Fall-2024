@@ -89,6 +89,7 @@ ___
     - http://localhost:3000/quotes `// will show all of the quotes`
     - http://localhost:3000/quotes?index=3 `// will show a quote that has an index value of 3`
     - http://localhost:3000/quotes/4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 `will show a quote of id=4c6217c3-c6e5-460b-8f8f-0df64ad6fef2`
+    - http://localhost:3000/quotes?id=4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 `will do the same thing`
 ---
 
 ## IV. Reference
