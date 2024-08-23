@@ -100,6 +100,11 @@ ___
     - http://localhost:3000/quotes?_sort=author `sort array of results by author`
     - http://localhost:3000/quotes?tags[0]=fiction `array of quotes where the first tag is "fiction"`
 
+11. To make your life a little easier:
+    - reminder: you can quit the quotes-server code by typing `control-c`
+    - in **package.json** replace the `"test"` key with the follow - `"start": "npx json-server data/quotes-data-2.json"`
+    - from the command line you can now type `npm run start` (or just `npm start`) to launch the server
+    - 
 ---
 
 ## IV. Reference
