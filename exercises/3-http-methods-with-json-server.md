@@ -32,4 +32,11 @@
   - HTTP/1.0 - https://www.w3.org/Protocols/HTTP/1.0/draft-ietf-http-v10-spec-01.html
   - HTTP/1.1 - https://www.ietf.org/rfc/rfc2616.txt
   - HTTP/1.1 (Current Spec) - https://www.rfc-editor.org/rfc/rfc9110
-  - 
+
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**2 - Ajax, Web Services, HTTP Headers (Accept & Content-type)**](2-ajax-web-services-accept-headers.md)  |  [**IGME-430**](../) | TBA
