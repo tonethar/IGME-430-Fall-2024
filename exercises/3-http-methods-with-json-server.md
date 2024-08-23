@@ -98,7 +98,7 @@ ___
     - http://localhost:3000/quotes?index_ne=3 `an array of all quotes with an id not equal to 3`
     - http://localhost:3000/quotes?_start=1&_end=4 `a range of quotes in an array`
     - http://localhost:3000/quotes?_sort=author `sort array of results by author`
-    - http://localhost:3000/quotes?tags[0]=fiction `quotes where the first tag is "fiction"`
+    - http://localhost:3000/quotes?tags[0]=fiction `array of quotes where the first tag is "fiction"`
 ---
 
 ## IV. Reference
