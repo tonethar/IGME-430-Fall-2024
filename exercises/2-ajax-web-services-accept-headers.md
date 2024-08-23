@@ -143,3 +143,10 @@
 
 ## V. Links
 - [MDN - `fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**1 - Ajax (XHR) Review**](1-ajax-review.md)  |  [**IGME-430**](../) | [**3 - Exploring HTTP methods with json-server**](3-http-methods-with-json-server.md)
