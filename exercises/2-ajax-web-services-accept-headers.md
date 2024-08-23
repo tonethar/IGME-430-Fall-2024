@@ -135,7 +135,7 @@
 
 ---
 
-# IV. `ssh` (secure shell)
+## IV. `ssh` (secure shell)
 - Once we get in to using [node](https://nodejs.org/en) and [express](https://www.npmjs.com/package/express), we'll be doing quite a bit of work on the command line, for example running `node`, installing packages and running projects with `npm`, pushing code to github with `git`, file management tasks and so on
 - You can also use `ssh` and [GitBash](https://git-scm.com/download/win) (or Terminal on Mac) to remotely connect to banjo.rit.edu:
 
