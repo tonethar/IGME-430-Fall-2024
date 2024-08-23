@@ -2,6 +2,8 @@
 
 ## I. Overview
 
+---
+
 ## II. Overview of HTTP Messaging (Request & Response Phases)
 - Source: https://www.rfc-editor.org/rfc/rfc9110#name-example-message-exchange
 
