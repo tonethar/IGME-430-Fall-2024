@@ -133,15 +133,42 @@
   - [PHP Web Service Part IV - Coding get-jokes.php](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-4.md)
   - [PHP Web Service Part V - creating a proxy server](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-5.md)
 
+---
 
-## IV. Terms
+# IV. `ssh` (secure shell)
+- Once we get in to using [node](https://nodejs.org/en) and [express](https://www.npmjs.com/package/express), we'll be doing quite a bit of work on the command line, for example running `node`, installing packages and running projects with `npm`, pushing code to github with `git`, file management tasks and so on
+- You can also use `ssh` and [GitBash](https://git-scm.com/download/win) (or Terminal on Mac) to remotely connect to banjo.rit.edu:
+
+```
+ssh abc1234@banjo.rit.edu
+Password: •••••••
+```
+
+- Then go to town on the command line:
+
+```
+pwd                 # show absolute path to current working directory (aka cwd)
+cd www              # change cwd to www
+cd ..               # change cwd to parent directory
+ls                  # list contents of cwd
+ls -1               # "long" list of cwd
+ls -al              # also show hidden files
+rm <fileName>       # delete file
+mkdir <foldername>  # create folder
+mv log log.txt      # rename log to log.txt
+nano file.txt       # open (or create) file.txt in a text editor
+```
+
+---
+
+## V. Terms
 
 ### Request Methods
 - Today we are still just using the GET request method
 
 ---
 
-## V. Links
+## VI. Links
 - [MDN - `fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 ---
