@@ -135,7 +135,7 @@
 - Did you forget how to post to `banjo.rit.edu`? Get help here --> https://github.com/tonethar/IGME-235-Shared/blob/master/notes/core-skills/ftp-upload-walkthrough.md
 - If you run into problems, ask for help:
   - it might be a **php.ini** file issue - [here are some instructions on how to fix that](https://github.com/tonethar/IGME-230-Master/blob/master/notes/HW-php-ini.md)
-- Here are some PHP resources that relate to banjo. Some of the example links are on an old server that might not be running, but the info is still good:
+- Here are some PHP resources (optional, I won't test you on this) that relate to PHP on banjo. Some of the example links are on an old server that might not be running, but the info is still good:
   - [PHP Web Service Part I - What is a web service?](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-1.md)
   - [PHP Web Service Part II - PHP Foundations](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-2.md)
   - [PHP Web Service Part III - Coding get-random-joke.php](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-php-web-service-3.md)
@@ -177,7 +177,12 @@ nano file.txt       # open (or create) file.txt in a text editor
 
 ---
 
-## VI. Links
+## VI. Discussion
+- Look over the 2 PHP scripts above - especially the header code - are there any potential issues we could or should address?
+
+---
+
+## VII. Links
 - [MDN - `fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 ---
