@@ -176,4 +176,4 @@ nano file.txt       # open (or create) file.txt in a text editor
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**1 - Ajax (XHR) Review**](1-ajax-review.md)  |  [**IGME-430**](../) | [**Web services & Query Strings**](3-web-service-query-string.md)
+| [**1 - Ajax (XHR) Review**](1-ajax-review.md)  |  [**IGME-430**](../) | [**3 - Web services & Query Strings**](3-web-service-query-string.md)
