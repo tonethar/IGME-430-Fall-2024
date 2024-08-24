@@ -1,4 +1,4 @@
-# API Design
+# API Design Notes
 
 ## I. Overview
 
@@ -25,6 +25,11 @@
 7. Batch Processing
 
 8. Query Language
+
+9. Not mentioned above
+
+    - HTTP Headers
+    - Authentication
 
 ---
 
