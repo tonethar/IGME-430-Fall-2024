@@ -139,4 +139,4 @@ ___
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**2 - Ajax, Web Services, HTTP Headers (Accept & Content-type)**](2-ajax-web-services-accept-headers.md)  |  [**IGME-430**](../) | TBA
+| [**3 - Web services & Query Strings**](3-web-service-query-string.md)  |  [**IGME-430**](../) | TBA
