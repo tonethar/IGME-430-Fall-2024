@@ -109,7 +109,14 @@ ___
 
 ---
 
-## IV. Exercises
+## IV. Discussion
+- Note the 2 ways we are passing data to our quotes web service:
+  - with a *query string*
+  - in a "RESTful" style
+
+---
+
+## V. Exercises
 - Get the "Get a random quote" button working with our quote server:
   - Have it download ALL the quotes as an array, and then pick a random quote from that array and display it (an ineffcient and sloppy way to do it, but it's OK this time)
 - Get the search box working:
@@ -118,7 +125,7 @@ ___
 
 ---
 
-## V. Reference
+## VI. Reference
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Resources_and_specifications
 - HTTP Protocol Specifications:
   - HTTP/1.0 - https://www.w3.org/Protocols/HTTP/1.0/draft-ietf-http-v10-spec-01.html
@@ -127,7 +134,7 @@ ___
 
 ---
 
-## VI. Next Time
+## VII. Next Time
 - More HTTP methods for Creating, Updating and Deleting quotes:
   - `POST`
   - `PUT` 
