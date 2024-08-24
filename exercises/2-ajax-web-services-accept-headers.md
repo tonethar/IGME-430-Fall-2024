@@ -2,6 +2,13 @@
 
 ## I. Overview
 - Today we will be updating our Quotes app to utilize a remote web service instead of a local JSON file.
+- What's a web service?
+  - Think of it like a *function* that's located somewhere on the web and is "alweays on" - you call the function, maybe you pass in some arguments, the function does some calculations, and then it *returns* a value
+    - example: `Math.random() // takes no args, returns a random number between 0 and 1`
+    - example: `JSON.parse() // takes a string argument, returns an object literal`
+    - Also - https://en.wikipedia.org/wiki/Web_service
+      - a service offered by an electronic device to another electronic device, communicating with each other via the Internet, OR
+      - a server running on a computer device, listening for requests at a particular port over a network, serving web documents (HTML, JSON, XML, images)
 - Rather than our client app having to download ALL of the quotes from the JSON file and then choose just one, this web service will do that for us and just return one quote.
 - We will also see how to utilize HTTP *request headers* to specify the content-type of the data our app will receive.
 
