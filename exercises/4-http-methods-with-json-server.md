@@ -1,4 +1,4 @@
-# 3 - Exploring HTTP methods with json-server
+# 4 - Exploring HTTP methods with json-server
 
 ## I. Overview
 
