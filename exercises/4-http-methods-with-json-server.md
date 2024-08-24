@@ -111,7 +111,7 @@ ___
 
 ## IV. Discussion
 - Note the 2 ways we are passing data to our quotes web service:
-  - with a *query string*
+  - with a *query string* AND
   - in a "RESTful" style
 
 ---
