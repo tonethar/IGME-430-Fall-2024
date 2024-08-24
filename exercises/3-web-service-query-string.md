@@ -5,9 +5,11 @@
 ---
 
 ## II. Code
-- https://people.rit.edu/~acjvks/fall-2024/services/random-jokes.php
-- https://people.rit.edu/~acjvks/fall-2024/services/random-jokes.php?limit=5
+- Working links on banjo:
+  - https://people.rit.edu/~acjvks/fall-2024/services/random-jokes.php
+  - https://people.rit.edu/~acjvks/fall-2024/services/random-jokes.php?limit=5
 
+**random-jokes.php**
 ```php
 <?php
 	/*
