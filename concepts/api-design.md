@@ -25,3 +25,9 @@
 7. Batch Processing
 
 8. Query Language
+
+---
+
+## III. More
+
+- https://blog.bytebytego.com/p/design-effective-and-secure-rest
