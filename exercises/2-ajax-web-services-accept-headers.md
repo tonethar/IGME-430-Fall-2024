@@ -20,6 +20,8 @@
 
 - Working version (running on banjo) here --> [quote-random.php](https://people.rit.edu/~acjvks/fall-2024/services/quote/quote-random.php)
 - This web service returns a random quote in the JSON format
+- Note that this is a very simple web service, we always get only one random quote, and we can not specify (for example) an author, a category or a minimum rating.
+- We can however (with the second version of the script below) specify that we want to receive a particular `content-type`
 - It is written in [PHP](https://www.w3schools.com/php/)
 
 ```php
