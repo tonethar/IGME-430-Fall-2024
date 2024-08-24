@@ -132,8 +132,7 @@ ___
   - HTTP/1.1 - https://www.ietf.org/rfc/rfc2616.txt
   - HTTP/1.1 (Current Spec) - https://www.rfc-editor.org/rfc/rfc9110
 - API Design:
-  - https://blog.bytebytego.com/p/design-effective-and-secure-rest
-  - [ByteByteGo - Top 8 Tips for Efficient API Design](https://www.youtube.com/channel/UCZgt6AzoyjslHTC9dz0UoTw/community?lb=Ugkx9RTVVqWA6TDTTaxG391GRtEMSYpDZJ1J)
+  - [430 API Design Notes](../concepts/api-design.md)
  
 
 ---
