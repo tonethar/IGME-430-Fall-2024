@@ -98,4 +98,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**2 - Ajax, Web Services, HTTP Headers (Accept & Content-type)**](2-ajax-web-services-accept-headers.md)  |  [**IGME-430**](../) | [4 - Exploring HTTP methods with json-server](4-http-methods-with-json-server.md)
+| [**2 - Ajax, Web Services, HTTP Headers (Accept & Content-type)**](2-ajax-web-services-accept-headers.md)  |  [**IGME-430**](../) | [**4 - Exploring HTTP methods with json-server**](4-http-methods-with-json-server.md)
