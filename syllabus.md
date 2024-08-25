@@ -66,7 +66,8 @@ https://education.github.com/pack/join
 | 65+%	| D |
 | <65%	| F |
 
-### i) Strategies for success/getting help
+### i) Strategies for success & getting help
+- Act like (and be) a *professional*
 - Start assignments and complete assignments early 
 
 
