@@ -1,15 +1,15 @@
 # IGME-430 Rich Media Web Application Development II. 
-## Spring 2024: Syllabus (DRAFT)
+## Fall 2024: Syllabus
 
 ## I. Course Catalog Description 
 *This course provides students the opportunity to continue the exploration of Media Rich Internet Applications (MRIAs).  Topics include communications for media ecologies, distributed web application frameworks, advanced interactivity, data transformation, representation, automation, persistence, and large scale systems deployment.  In addition, students are exposed to concepts and technologies related to the next generation of MRIA development.*
 
-<hr>
+---
 
 ## II. Prerequisites
 **IGME-330 or equivalent course**
 
-<hr>
+---
 
 ## III. Instructor and Meeting Details 
 - Instructor: Tony Jefferson 
@@ -21,23 +21,41 @@
     - In person: TR 3:45PM-4:45PM
     - Other M-F days/times - probably in Slack - available by request
 
-<hr>
+---
 
 ## IV. Course Materials and Communication
-- most of the course content will be located on this GitHub site
+- There is not a textbook for this course
+- Much of the course content will be located on this GitHub site
 - https://mycourses.rit.edu will contain additional materials, and will also be used for announcements, assignment submissions, and grading
-- keep an eye on the dropboxes in mycourses for assignment due dates
+- Keep an eye on the dropboxes in myCourses for assignment due dates
 
 
-<hr>
+## V. Computer Accounts and Cloud Server
+- You'll need an IGM account to login to the lab computers. You almost certainly already have this account, but if you don't (or if you have problems with it), ask me about it.
+- You'll need a GitHub education account with access to the Student Developer Pack https://education.github.com/
+https://education.github.com/pack/join
+- You will need a Heroku account that is linked to your GitHub Education account. A document in the Content>Guides section will walk you through how to link them.
+- https://www.heroku.com/
+- Heroku will also require you to enter a credit card. Provided you follow the instructions in the Git And Heroku setup assignment, your card will not be charged. Heroku requires credit card information as identification to prevent fraudulent use. If you have any issues with this, please let me know so we can discuss the situation.
 
-## V. Attendance
-Attendance is mandatory and you are expected to be on time. Lectures will start promptly at the beginning of class, and will be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. no leaving early).
+---
 
-<hr>
+## VI. Required Software
 
-## VI. Grading
-Final course grades are determined using the following scale: 
+- [Google Chrome](https://www.google.com/chrome/dr/download) and the [JSON Viewer Pro](https://chromewebstore.google.com/detail/json-viewer-pro/eifflpmocdbdmepbjaopkkhbfmdgijcc?hl=en-US) extension
+- [VSCode](https://code.visualstudio.com/download)
+- [Postman](https://www.postman.com/downloads/)
+- [Git & Git Bash](https://gitforwindows.org/) (Git & Terminal is sufficient for Mac OS)
+- [Node.js and npm (Node Package Manager)](https://nodejs.org/en/) - install the LTS ("Long Term Support") version
+- [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+
+---
+
+## VII. Grading
+- Percentages:
+  - Projects - 50%
+  - Exercises/HW/Quizzes - 50%
+- Final course grades are determined using the following scale: 
 
 | Class Average | Grade |
 | ------------- | ----- |
@@ -47,38 +65,41 @@ Final course grades are determined using the following scale:
 | 65+%	| D |
 | <65%	| F |
 
-### Projects (45%)
-
-- 2 or 3 projects
-
-### Homework (30%)
-Completing the HW and in-class exercises is essential to learning the course material. You can expect an average of one HW assignment (or "Check off", see below) per class meeting. Keep an eye on the mycourses dropboxes for the dues dates of these assignments. **Important!** - When you submit web file(s) (HTML,CSS,JavaScript) to mycourses dropboxes, they (or the folder they are contained in) must be zipped. If you do not do so, mycourses will strip out all of the CSS and JavaScript, and leave you with a non-functioning and ugly web page. Unzipped assignments will therefore usually receive a grade of zero.
-
-### Check Offs (15%)
-"Check offs" are required checkpoints or smaller HW assignments:
-  - https://giphy.com/gifs/tos-big-hair-poofy-IgGNIfJx7bYHfEV3c8
-
-### Attendance/Participation (10%)
+### i) Attendance/Participation
+- Attendance is mandatory and you are expected to be on time. Lectures will start promptly at the beginning of class, and will be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. no leaving early).
 - 1 absence = no penalty, 2 = -2%, 3 = -5%, 4 = -10%, 5+ = additional -5% per absence (Yes, at 5+ absences that's a *negative* grade that reduces your overall grade even further. myCourses is able to calculate that). You can request to be excused from a class meeting, write me in advance of the meeting. If you can't attend class for any reason, let me know *in advance*.
 - Being late is penalized at half an absence. 
 
-### Policy on Incomplete Grades
+### ii) Policy on Incomplete Grades
 Incomplete grades will be given only in the most exceptional circumstances, soley for issues that arise AFTER the 'W' deadline has passed, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor as early as possible in the semester if you're having difficulty. 
 
-### Academic Dishonesty
-- The course policy on academic dishonesty is simple: If you get caught cheating or plagiarizing or commiting duplicate submission without permission, you get an "F" as a grade for the course, a letter detailing the incident goes into your records folder, and you are immediately removed from the class. (If this is a second occurrence during your career at RIT, the penalties are harsher.) Please review RIT's policy on academic dishonesty: 
+### iii) Academic Dishonesty
+- The course policy on academic dishonesty is simple: If you get caught cheating or plagiarizing or commiting duplicate submission without permission, you get an "F" as a grade for the course, a letter detailing the incident goes into your records folder, and you are immediately removed from the class. (If this is a second occurrence during your career at RIT, the penalties are harsher.) Please review RIT's policy on academic integrity: 
 [http://www.rit.edu/~w-policy/sectionD/D8.html](http://www.rit.edu/~w-policy/sectionD/D8.html)
 - **Duplicate submission** is the submitting of the same or similar work for credit in more than one course without prior approval of the instructors for those same courses. *If you took IGME-330 previously, you **may not hand** in code that you previously submitted (for example, a previous version Project 1 Audio Visualizer)*
 
+### iv) Use of AI
+
+AI / Large Language Models such as ChatGPT, Bard, and related tools such as Copilot are rapidly becoming ubiquitous in our field. These tools allow developers to create and troubleshoot code in ways never before possible. I would like to outline my stance on using these tools for class here.
+
+In an industry setting, I am all in favor of utilizing these tools to improve programmer quality of life and productivity. In fact, I believe that not utilizing these tools will give professional programmers a distinct disadvantage when compared to those who do.
+
+That being said, I am strongly against their use in this class, particularly in situations where they are generating code for you. The purpose of this class is for you to learn about its concepts. That is what you are paying for.
+
+Relying on tools like Copilot to simply generate large portions of assignments and projects is highly likely to leave you less knowledgeable of the subject matter we will cover.  Additionally, to interface with these models in the future you need to have enough knowledge about the subject to be able to intelligently describe what you want and to be able to vet the output. The class is structured to provide you with a strong foundational base of back-end web dev knowledge on which to launch potential careers and projects.
+
+The best way I can describe how you should interact with these tools down the line is to treat them like a senior programmer. They can help you solve problems and explain ideas to you, but if you don't know what to ask them they can't assist you. Describing an end application that you want them to generate without having a fundamental knowledge of what it is they will be generating will almost always leave you with something that does not meet the actual requirements.
+
+I encourage you to investigate these tools on your own time and make use of them for personal projects. They will no doubt be invaluable in your careers moving forward, but utilizing them for code generation in this class will be detrimental to your own success moving forward.
 <hr>
 
-## VII. Important RIT Deadlines
+## VIII. Important RIT Deadlines
 - Note the deadlines for Add/Drop & "W" here: https://www.rit.edu/calendar
 - You have one semester after the class has ended to challenge your grade. 
 
 <hr>
 
-## VIII. Notices of Accommodation
+## IX. Notices of Accommodation
 If you have a "Notice of Accommodation", I should have received a copy electronically. Please discuss this with me after class or during my office hours, so that I can make sure all of your accommodations are met.
 
 <hr>
