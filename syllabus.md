@@ -55,6 +55,7 @@ https://education.github.com/pack/join
 - Percentages:
   - Projects - 50%
   - Exercises/HW/Quizzes - 50%
+- Late work or quiz makeups not accepted without prior approval
 - Final course grades are determined using the following scale: 
 
 | Class Average | Grade |
@@ -65,15 +66,20 @@ https://education.github.com/pack/join
 | 65+%	| D |
 | <65%	| F |
 
-### i) Attendance/Participation
+### i) Strategies for success/getting help
+- Start assignments and complete assignments early 
+
+
+
+### ii) Attendance/Participation
 - Attendance is mandatory and you are expected to be on time. Lectures will start promptly at the beginning of class, and will be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. no leaving early).
 - 1 absence = no penalty, 2 = -2%, 3 = -5%, 4 = -10%, 5+ = additional -5% per absence (Yes, at 5+ absences that's a *negative* grade that reduces your overall grade even further. myCourses is able to calculate that). You can request to be excused from a class meeting, write me in advance of the meeting. If you can't attend class for any reason, let me know *in advance*.
 - Being late is penalized at half an absence. 
 
-### ii) Policy on Incomplete Grades
+### iii) Policy on Incomplete Grades
 Incomplete grades will be given only in the most exceptional circumstances, soley for issues that arise AFTER the 'W' deadline has passed, and then only by prior arrangement with the professor. Being overcommitted, overwhelmed, and/or not having enough time to complete your coursework is not sufficient justification for an "I". Instead, meet with the professor as early as possible in the semester if you're having difficulty. 
 
-### iii) Academic Dishonesty
+### iv) Academic Dishonesty
 - The expectation in this course is that you always do your own work.
 - The course policy on academic dishonesty is simple: If you get caught cheating or plagiarizing or commiting duplicate submission without permission, you get an "F" as a grade for the course. Please review RIT's policy on academic integrity: 
 [[http://www.rit.edu/~w-policy/sectionD/D8.html](https://www.rit.edu/policies/d080)
