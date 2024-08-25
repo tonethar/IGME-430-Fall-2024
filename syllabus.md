@@ -69,6 +69,7 @@ https://education.github.com/pack/join
 - Start and complete assignments early
 - Get better at debugging
 - Ask for help:
+  - Class Buddies
   - Slack
   - DM the prof
   - Office Hours
