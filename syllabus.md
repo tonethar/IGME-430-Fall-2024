@@ -12,14 +12,12 @@
 ---
 
 ## III. Instructor and Meeting Details 
-- Instructor: Tony Jefferson 
+- Instructor: Tony Jefferson ("Professor Jefferson" or "Tony" both work)
 - **IGME-430-02** - TR 6:30PM-7:45PM in GOL-2570
 - Contact: Slack DM (ONLY) -- here's [a link you can click to reach me easily](https://rit.enterprise.slack.com/user/@U01FESWS866).
      - Exception: If you need to copy someone else in, email me at tony@mail.rit.edu, but also send a Slack DM, so that I know to go look for it.
   - Office Location: GOL-2525 (IGM "Main Hall")
-  - Office hours:
-    - In person: TR 3:45PM-4:45PM
-    - Other M-F days/times - probably in Slack - available by request
+  - Office hours TBA
 
 ---
 
@@ -68,7 +66,12 @@ https://education.github.com/pack/join
 
 ### i) Strategies for success & getting help
 - Act like (and be) a *professional*
-- Start assignments and complete assignments early 
+- Start and complete assignments early
+- Get better at debugging
+- Ask for help:
+  - Slack
+  - DM the prof
+  - Office Hours
 
 
 
