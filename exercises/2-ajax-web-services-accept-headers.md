@@ -180,10 +180,16 @@ Host: 1997.webhistory.org
 
 ---
 
-## V. Terms
+## V. HTTP Protocol Terms
 
-### Request Methods
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+
+### HTTP Request Methods
 - Today we are still just using the GET request method
+
+### HTTP Request Headers
+- Today we are sending the `Accept` request header
+  
 
 ---
 
@@ -193,7 +199,12 @@ Host: 1997.webhistory.org
 ---
 
 ## VII. Fetch
-- [MDN - `fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+- Reference:
+  - [MDN - `fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+  - [Ajax-5 - the `fetch()` API](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-5.md)
+  - [Ajax-6 - `async` & `await` with the `fetch()` API](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-6.md)
+  - [Ajax-7 - JavaScript Promises](https://github.com/tonethar/IGME-330-Master/blob/master/notes/HW-ajax-7.md)
+- Let's create a `const getJsonFetch = async (url, callback) => {...}` helper function!
 
 ---
 
