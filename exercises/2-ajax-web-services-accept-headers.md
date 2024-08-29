@@ -182,8 +182,18 @@ nano file.txt       # open (or create) file.txt in a text editor
 
 ---
 
-## VII. Links
+## VII. Fetch
 - [MDN - `fetch()` API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
+---
+
+## VIII. HW (Easy Peasy!)
+- Your Quotes App folder is now named **quotes-app-2/**
+- The code is now utilizing **quote-random-json-or-text.php** instead of the JSON file (ideally the PHP that you have posted to banjo, but if it doesn't work you can use my link)
+- The code is sending the proper `Accept` header
+- The code is now utilizing `fetch()` (instead of `XHR`) with the the `const getJsonFetch = async (url, callback) => {...}` helper function
+- After you post it to banjo be sure that it works! (you might need to finagle your link to the PHP script depending on how you locate things)
+
 
 ---
 ---
