@@ -168,6 +168,16 @@ mv log log.txt      # rename log to log.txt
 nano file.txt       # open (or create) file.txt in a text editor
 ```
 
+- Want to `telnet` an HTTP request to a web server? `telnet` is still installed on banjo ...
+
+```
+telnet 1997.webhistory.org 80
+GET /home.html HTTP/1.1
+Host: 1997.webhistory.org
+```
+
+- They are sending back a "junk" page (as a way to troll us?)
+
 ---
 
 ## V. Terms
