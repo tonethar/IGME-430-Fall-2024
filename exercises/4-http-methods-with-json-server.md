@@ -128,8 +128,11 @@ ___
 ---
 
 ## V. Exercises
-- Get the "Get a random quote" button working with our quote server:
-  - Have it download ALL the quotes as an array, and then pick a random quote from that array and display it (an ineffcient and sloppy way to do it, but it's OK this time)
+- Duplicate the **quotes-app-2/** folder (the client quote app we've been working on) and name the copy **quotes-app-3/**
+  - delete the **data/** folder and its contents (you will soon be getting your data from **quotes-server**
+- In **quotes-app-3/**, get the "Get a random quote" button function working with your locally running **quotes-server**:
+  - note that the **quotes-server** is running on port 3000, and Live Server has your **quotes-app-3/** running on port 5500 (or 5501 etc). For now, having them run in seperate VSCode windows is OK.
+  - have it download ALL the quotes as an array, and then pick a random quote from that array and display it (an inefficient and sloppy way to do it, but it's OK this time)
 - Get the search box working:
   - The user will be able to type in a quote `index` and view that specific quote
   - This time make sure that only the single matching quote is downloaded from the server, NOT the entire array. 
