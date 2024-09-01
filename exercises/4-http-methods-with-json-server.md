@@ -143,7 +143,7 @@ ___
  
 ```js
 btnSearch.onclick = (evt) => {
-  // <form>, on't submit!
+  // <form>, don't submit!
   evt.preventDefault();
   // now grab the `value` of #input-term
   // now build the URL to fetch that specific quote
