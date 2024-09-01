@@ -160,7 +160,7 @@ btnSearch.onclick = (evt) => {
 
 ---
 
-### Screenshot of Search Functionality
+### Screenshot of Search Functionality (and the "Get a random quote!" button still needs to work)
 
 ![screenshot](_images/quotes-app-4.png)
 
