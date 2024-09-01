@@ -68,6 +68,7 @@
 - Open up the **quotes-data-2.json** file - you'll see that it has been updated and now contains the quote
 - Fire up the **quotes-app-3/** client app and hit the "random" button a few times - at some point you should view the new quote
 
+---
 
 ## IV. `DELETE`
 - To delete a resource, we can pass in the `id`
