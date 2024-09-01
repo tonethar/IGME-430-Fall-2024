@@ -23,7 +23,27 @@
 - we covered these [last time](4-http-methods-with-json-server.md#GET-endpoints)
 
 ### POST
+- Used to create a new resource
+  - You can't do it from the Browser's *location box* (those are GET requests only)
+  - You'll instead need to use an HTML `<form>` of `method="POST"` OR
+  - You can use XHR or fetch() and set the request method to `POST`
+  - You can use Postman!
+    - POST http://localhost:3000/quotes
+    - Under the request body tab, add this JSON:
 
+```json
+{
+  "index": null,
+  "id": "80ba8ef9-f9a7-4459-a4a0-c1619ea7dafa",
+  "author": "Oscad Wilder",
+  "content": "The meaning of life is to party, hardy!",
+  "tags": ["apocryphal"],
+  "createdAt": null,
+  "updatedAt": null
+}
+```
+
+- BTW - you can generate new UUID's in the browser with `crypto.randomUUID()`
 
 ---
 ---
