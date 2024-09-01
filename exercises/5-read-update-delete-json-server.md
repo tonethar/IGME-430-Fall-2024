@@ -18,12 +18,12 @@
 
 ---
 
-## III. Endpoints
+## III. GET & POST Endpoints
 ### GET
 - we covered these [last time](4-http-methods-with-json-server.md#GET-endpoints)
 
 ### POST
-- Used to create a new resource
+- Used to *create* a new resource
   - You can't do it from the Browser's *location box* (those are GET requests only)
   - You'll instead need to use an HTML `<form>` of `method="POST"` OR
   - You can use XHR or fetch() and set the request method to `POST`
@@ -61,6 +61,11 @@
 
 - Why did json-server send back the JSON object we created? According to the specification about `POST` - *"If a resource has been created on the origin server, the response SHOULD be 201 (Created) and contain an entity which describes the status of the request and refers to the new resource..."*
 - BTW - you can generate new UUID's in the browser with `crypto.randomUUID()`
+
+### Did our POST request work?
+- Check http://localhost:3000/quotes and verify that the quote was created
+- Open up the **quotes-data-2.json** file - you'll see that it has been updated and now contains the quote
+- Fire up the **quotes-app-3/** client app and hit the "random" button a few times - at some point you should view the new quote
 
 ---
 ---
