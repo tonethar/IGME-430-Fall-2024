@@ -2,7 +2,8 @@
 
 ## I. Overview
 - Rather than working wiht a web service that returns only a single quote, today we'll start working with a web service that has quote searching and filtering capabilities
-- We will set this up with a new quotes data file ([**quotes-data-2.json.zip**](_files/quotes-data-2.json.zip)) and thenjson-server npm package (https://www.npmjs.com/package/json-server)
+- We will set this up with a new quotes data file ([**quotes-data-2.json.zip**](_files/quotes-data-2.json.zip)) AND
+- the `json-server` npm package (https://www.npmjs.com/package/json-server), which will take this JSON file and construct a read/write API with it
 
 ---
 
