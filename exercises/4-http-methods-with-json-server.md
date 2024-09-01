@@ -67,7 +67,7 @@ ___
 
 2. Inside of the **quotes-server** folder, create a **data** folder
 
-3. Put the **quotes-data-2.json** file into the **quotes-server/data/** folder
+3. Put the **quotes-data-2.json** file into the **quotes-server/data/** folder - here's the data file --> [**quotes-data-2.json.zip**](_files/quotes-data-2.json.zip)
 
 4. Open up Gitbash (or Terminal on Mac) and make sure that the **quotes-server** folder is the *current working directory*
 
