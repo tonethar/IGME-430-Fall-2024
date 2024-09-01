@@ -20,7 +20,7 @@
 
 ## III. Endpoints
 ### GET
-- we covered these [last time](#GET-endpoints)
+- we covered these [last time](4-http-methods-with-json-server.md#GET-endpoints)
 
 ### POST
 
