@@ -73,18 +73,29 @@
 ## IV. `DELETE`
 - To delete a resource, we can pass in the `id`
   - the following will delete the Oscar Wilde quote:
-  - `DELETE` http://localhost:3000/quotes/4c951b60-1f90-41e7-a913-c1f454ff4c6e
+  - `DELETE` `http://localhost:3000/quotes/4c951b60-1f90-41e7-a913-c1f454ff4c6e`
 
 **Before:**
 
 ![screenshot](_images/json-server-3.png)
 
+**After:**
 - The server responds with a status code of `200 OK`
+- The Oscar Wilde quote is GONE!
 - Attempting to `DELETE` a resource that isn't there returns a `404 Not Found` status code
 
 ---
 
 ## V. `PATCH`
+
+- Used to update existing resources
+- You need to send over (just) the changes in the Body (like we did with `POST`), select "raw", and "JSON"
+- `PATCH` `http://localhost:3000/quotes/7690718f-01b7-4775-9998-6a4adb480d27`
+- Body text - `{"author": "Dr. Thomas Sowell"}`
+
+![screenshot](_images/json-server-4.png)
+
+- In the example above, we added "Dr." to the beginning of Thomas Sowell's name. The server returned the updated resource.
 
 ---
 ---
