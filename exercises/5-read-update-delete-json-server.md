@@ -17,6 +17,15 @@
 - **D**elete - DELETE
 
 ---
+
+## III. Endpoints
+### GET
+- we covered these [last time](#GET-endpoints)
+
+### POST
+
+
+---
 ---
 
 | <-- Previous Unit | Home | Next Unit -->
