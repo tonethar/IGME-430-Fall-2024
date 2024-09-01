@@ -8,6 +8,7 @@
   - **D**elete
 - We are going to learn about all of these today!
 
+---
 
 ## II. HTTP Verbs 
 - **C**reate - POST (create a resource)
