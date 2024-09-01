@@ -139,7 +139,7 @@ ___
   - The user will be able to type in a quote `index` and view that specific quote
   - Review the quotes endpoints above - one of these will fetch a quote by its `index` value
   - This time make sure that only the single matching quote is downloaded from the server, NOT the entire array!
-  - One issue you will run into - `btn-search` (the "?" button in the text input) is inside of an HTML `<form>` tag. Clicking the button will cause the browser to "submit" the form, which reloads the HTML page, which will wipe out any chnages you have made to the DOM. You will need to disable this default "submit" behavior of the `<form>`. Here is the starting code for the `btn-search` button:
+  - ***One issue you will run into -*** `btn-search` (the "?" button in the text input) is inside of an HTML `<form>` tag. Clicking the button will cause the browser to "submit" the form, which reloads the HTML page, which will wipe out any chnages you have made to the DOM. You will need to disable this default "submit" behavior of the `<form>`. Here is the starting code for the `btn-search` button:
  
 ```js
 btnSearch.onclick = (evt) => {
