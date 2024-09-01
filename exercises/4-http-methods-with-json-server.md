@@ -156,7 +156,7 @@ btnSearch.onclick = (evt) => {
 }
 ```
 
-- ***Optional***: Get some error handling working - if the service returns an empty array (because there is no match for the requested `index`) display a message to the user
+- ***Task C***) Get some error handling working - if the service returns an empty array (because there is no match for the requested `index`) display a message to the user
 
 - ***Submnission***:
   - ZIP up and post your **quotes-app-3/** folder to the myCOurses dropbox
