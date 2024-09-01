@@ -130,14 +130,27 @@ ___
 ## V. Exercises
 - Duplicate the **quotes-app-2/** folder (the client quote app we've been working on) and name the copy **quotes-app-3/**
   - delete the **data/** folder and its contents (you will soon be getting your data from **quotes-server**
-- ***A)*** In **quotes-app-3/**, get the "Get a random quote!" button working with your locally running **quotes-server**:
+  - this time be sure to use `getJsonFetch()` (instead of `getJsonXHR`)`
+- ***A)*** Easy! In **quotes-app-3/**, get the "Get a random quote!" button working with your locally running **quotes-server**:
   - the url to the local server will be `const jsonUrl = "http://localhost:3000/quotes";`
   - note that the **quotes-server** is running on port 3000, and Live Server has your **quotes-app-3/** running on port 5500 (or 5501 etc). For now, having them run in seperate VSCode windows is OK.
   - have it download ALL the quotes as an array, and then pick a random quote from that array and display it (an inefficient and sloppy way to do it, but it's OK this time)
 - ***B***) Get the search box working:
   - The user will be able to type in a quote `index` and view that specific quote
   - Review the quotes endpoints above - one of these will fetch a quote by its `index` value
-  - This time make sure that only the single matching quote is downloaded from the server, NOT the entire array! 
+  - This time make sure that only the single matching quote is downloaded from the server, NOT the entire array!
+  - One issue you will run into - `btn-search` (the "?" button in the text input) is inside of an HTML `<form>` tag. Clicking the button will cause the browser to "submit" the form, which reloads the HTML page, which will wipe out any chnages you have made to the DOM. You will need to disable this default "submit" behavior of the `<form>`. Here is the starting code for the `btn-search` button:
+ 
+```js
+btnSearch.onclick = (evt) => {
+  // <form>, on't submit!
+  evt.preventDefault();
+  // now grab the `value` of #input-term
+  // now build the URL to fetch that specific quote
+  // now call `getJsonFetch()`
+
+
+```
 
 ---
 
