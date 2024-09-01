@@ -37,7 +37,7 @@
   "id": "80ba8ef9-f9a7-4459-a4a0-c1619ea7dafa",
   "author": "Oscad Wilder",
   "content": "The meaning of life is to party, hardy!",
-  "tags": ["apocryphal"],
+  "tags": ["uncategorized"],
   "createdAt": null,
   "updatedAt": null
 }
