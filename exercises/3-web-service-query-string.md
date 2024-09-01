@@ -2,6 +2,12 @@
 
 ## I. Overview
 
+- Here's a quick demo of a web service that take takes a parameter via a query string
+- This service always returns an array, with one or more jokes in it
+- Note that if we omit the `limit` parameter from the query string, the web service will return an array with single joke in it
+- Note that our **random-jokes.php** script is validating that the limit paramater is numeric, and its value is between 1 and 10
+- PS - this PHP script should also run on your banjo account if you want to upload it there (but you don't have to, we won't be otherwise using this script)
+
 ---
 
 ## II. Code
