@@ -89,7 +89,7 @@ ___
     - You can also use Postman to test the endpoints
     - We don't have the random quote functionality here, but your quotes app JS code can point at and download a specific quote - go ahead an try that now (don't forget to run the quotes app off of live server) 
 
-10. Summary of GET endpoints:
+10. Summary of GET endpoints: (these links will work ONLY if you have **quores-server** running)
 
     - http://localhost:3000/version `will show value of version property`
     - http://localhost:3000/quotes `// will show all of the quotes`
