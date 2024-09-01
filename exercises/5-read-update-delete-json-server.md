@@ -98,6 +98,12 @@
 - In the example above, we added "Dr." to the beginning of Thomas Sowell's name. The server returned the updated resource.
 
 ---
+
+## VI. `POST` in the browser with an HTML `<form>`
+
+
+
+---
 ---
 
 | <-- Previous Unit | Home | Next Unit -->
