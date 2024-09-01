@@ -64,7 +64,7 @@
 - BTW - you can generate new UUID's in the browser with `crypto.randomUUID()`
 
 ### Did our POST request work?
-- Check http://localhost:3000/quotes and verify that the quote was created
+- Check GET http://localhost:3000/quotes both in the browser and in Postman, and verify that the quote was created
 - Open up the **quotes-data-2.json** file - you'll see that it has been updated and now contains the quote
 - Fire up the **quotes-app-3/** client app and hit the "random" button a few times - at some point you should view the new quote
 
