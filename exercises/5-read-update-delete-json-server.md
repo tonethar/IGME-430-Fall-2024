@@ -11,10 +11,10 @@
 ---
 
 ## II. HTTP Verbs 
-- **C**reate - POST (create a resource)
-- **R**ead - GET
-- **U**pdate - PUT (usually used to completely replace resource), PATCH (partially update a resource)
-- **D**elete - DELETE
+- **C**reate - `POST` (create a resource)
+- **R**ead - `GET`
+- **U**pdate - `PUT` (usually used to completely replace resource), `PATCH` (partially update a resource)
+- **D**elete - `DELETE`
 
 ---
 
@@ -28,7 +28,7 @@
   - You'll instead need to use an HTML `<form>` of `method="POST"` OR
   - You can use XHR or fetch() and set the request method to `POST`
   - You can use Postman!
-    - POST http://localhost:3000/quotes
+    - `POST` http://localhost:3000/quotes
     - Under the request body tab, and with the "raw" radio button selected, add this JSON:
 
 ```json
@@ -64,7 +64,7 @@
 - BTW - you can generate new UUID's in the browser with `crypto.randomUUID()`
 
 ### Did our POST request work?
-- Check GET http://localhost:3000/quotes both in the browser and in Postman, and verify that the quote was created
+- Check `GET` http://localhost:3000/quotes both in the browser and in Postman, and verify that the quote was created
 - Open up the **quotes-data-2.json** file - you'll see that it has been updated and now contains the quote
 - Fire up the **quotes-app-3/** client app and hit the "random" button a few times - at some point you should view the new quote
 
