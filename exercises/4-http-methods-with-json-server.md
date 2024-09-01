@@ -142,6 +142,7 @@ ___
   - ***One issue you will run into -*** `btn-search` (the "?" button in the text input) is inside of an HTML `<form>` tag. Clicking the button will cause the browser to "submit" the form, which reloads the HTML page, which will wipe out any chnages you have made to the DOM. You will need to disable this default "submit" behavior of the `<form>`. Here is the starting code for the `btn-search` button:
  
 ```js
+// don't forget to declare and initialize btnSearch
 btnSearch.onclick = (evt) => {
   // <form>, don't submit!
   evt.preventDefault();
@@ -151,6 +152,11 @@ btnSearch.onclick = (evt) => {
   ...
 }
 ```
+
+- ***Submnission***:
+  - ZIP up and post your **quotes-app-3/** folder to the myCOurses dropbox
+  - Don;t worry about posting **quotes-server/** - I will test the client app with my version
+  - Don;t worry about posting anything to banjo - it won;t work anyway because **quotes-server/** is only running locally
 
 ---
 
