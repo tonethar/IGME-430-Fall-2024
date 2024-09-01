@@ -119,9 +119,11 @@ ___
 ---
 
 ## IV. Discussion
-- Note the 2 ways we are passing data to our quotes web service:
+- Note the 2 ways we are utilizing the url to pass data to our quotes web service:
   - with a *query string* AND
-  - in a "RESTful" style
+  - using the path to identify a resource (the quotes)
+  - using query parameters to sort/filter those resources (quotes)
+  - The above is called a "RESTful" API style - https://aws.amazon.com/what-is/restful-api/
 
 ---
 
