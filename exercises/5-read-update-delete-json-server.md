@@ -29,7 +29,7 @@
   - You can use XHR or fetch() and set the request method to `POST`
   - You can use Postman!
     - POST http://localhost:3000/quotes
-    - Under the request body tab, add this JSON:
+    - Under the request body tab, and with the "raw" radio button selected, add this JSON:
 
 ```json
 {
@@ -42,6 +42,20 @@
   "updatedAt": null
 }
 ```
+
+- Now click the "Send" button
+  - You should get a response from the server, with a "201 Created" Status Code
+ 
+---
+
+**Before:**
+![screenshot](_images/json-server-1.png)
+
+
+**After:**
+![screenshot](_images/json-server-2.png)
+
+---
 
 - BTW - you can generate new UUID's in the browser with `crypto.randomUUID()`
 
