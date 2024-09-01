@@ -53,7 +53,7 @@
 ![screenshot](_images/json-server-1.png)
 
 
-**After:**
+**After the server responds:**
 
 ![screenshot](_images/json-server-2.png)
 
