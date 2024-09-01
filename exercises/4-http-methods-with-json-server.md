@@ -148,8 +148,8 @@ btnSearch.onclick = (evt) => {
   // now grab the `value` of #input-term
   // now build the URL to fetch that specific quote
   // now call `getJsonFetch()`
-
-
+  ...
+}
 ```
 
 ---
