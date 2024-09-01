@@ -107,6 +107,15 @@ ___
     - in **package.json** replace the `"test"` key with the following - `"start": "npx json-server data/quotes-data-2.json"`
     - from the command line you can now type `npm run start` (or just `npm start`) to launch the server
 
+12. Other stuff to know:
+   - there is very little JS source code here, but the **node_modules** folder is huge!
+     - whenever you submit a node project to myCourses ALWAYS delete the **node_modules** folder FIRST
+     - and if you are going to save this yourself, you'll also want to delete the **node_modules** folder
+     - if you are commiting this code to a repository, add **node_modules** to **.gitignore**
+   - later on, if you want to run the project again, how do you get the **node_modules** back? Easy!
+     - `cd` to the project folder and type `npm install` (or `npm i` for short) - npm will then look at the `"dependencies"` key in **package.json** and download the npm packages that are listed there
+     - then type `npm start` to get json-server to serve up our JSON file
+
 ---
 
 ## IV. Discussion
