@@ -130,7 +130,7 @@ ___
 
 ---
 
-## V. Exercises
+## V. Exercise
 - Duplicate the **quotes-app-2/** folder (the client quote app we've been working on) and name the copy **quotes-app-3/**
   - delete the **data/** folder and its contents (you will soon be getting your data from **quotes-server**
   - this time be sure to use `getJsonFetch()` (instead of `getJsonXHR`)`
@@ -156,7 +156,7 @@ btnSearch.onclick = (evt) => {
 }
 ```
 
-- ***Task C***) Get some error handling working - if the service returns an empty array (because there is no match for the requested `index`) display a message to the user
+- ***Task C***) Get some error handling working - if the service returns an empty array (because there is no match for the requested `index`) display a "quote not found" message to the user
 
 - ***Submnission***:
   - ZIP up and post your **quotes-app-3/** folder to the myCOurses dropbox
