@@ -1,4 +1,4 @@
-# 4 - Exploring HTTP methods with json-server
+# 4 - Exploring HTTP methods with `json-server`
 
 ## I. Overview
 - Rather than working with a web service that returns only a single quote, today we'll start working with a web service that has quote searching and filtering capabilities
