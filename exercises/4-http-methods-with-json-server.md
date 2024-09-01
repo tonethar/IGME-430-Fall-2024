@@ -154,6 +154,12 @@ btnSearch.onclick = (evt) => {
 
 ---
 
+### Screenshot of Search Functionality
+
+![screenshot](_images/quotes-app-4.png)
+
+---
+
 ## VI. Reference
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Resources_and_specifications
 - HTTP Protocol Specifications:
