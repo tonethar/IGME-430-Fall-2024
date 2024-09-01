@@ -1,7 +1,7 @@
 # 4 - Exploring HTTP methods with json-server
 
 ## I. Overview
-- Rather than working wiht a web service that returns only a single quote, today we'll start working with a web service that has quote searching and filtering capabilities
+- Rather than working with a web service that returns only a single quote, today we'll start working with a web service that has quote searching and filtering capabilities
 - We will set this up with a new quotes data file ([**quotes-data-2.json.zip**](_files/quotes-data-2.json.zip)) AND
 - the `json-server` npm package (https://www.npmjs.com/package/json-server), which will take this JSON file and construct a read/write API with it
 
@@ -142,7 +142,7 @@ ___
   - The user will be able to type in a quote `index` and view that specific quote
   - Review the quotes endpoints above - one of these will fetch a quote by its `index` value
   - This time make sure that only the single matching quote is downloaded from the server, NOT the entire array!
-  - ***One issue you will run into -*** `btn-search` (the "?" button in the text input) is inside of an HTML `<form>` tag. Clicking the button will cause the browser to "submit" the form, which reloads the HTML page, which will wipe out any chnages you have made to the DOM. You will need to disable this default "submit" behavior of the `<form>`. Here is the starting code for the `btn-search` button:
+  - ***One issue you will run into -*** `btn-search` (the "?" button in the text input) is inside of an HTML `<form>` tag. Clicking the button will cause the browser to "submit" the form, which reloads the HTML page, which will wipe out any changes you have made to the DOM (ex. displaying a quote). You will need to disable this default "submit" behavior of the `<form>`. Here is the starting code for the `btn-search` button:
  
 ```js
 // don't forget to declare and initialize btnSearch
@@ -155,6 +155,8 @@ btnSearch.onclick = (evt) => {
   ...
 }
 ```
+
+- ***Optional***: Get some error handling working - if the service returns an empty array (because there is no match for the requested `index`) display a message to the user
 
 - ***Submnission***:
   - ZIP up and post your **quotes-app-3/** folder to the myCOurses dropbox
