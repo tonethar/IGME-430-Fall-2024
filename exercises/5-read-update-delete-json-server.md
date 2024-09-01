@@ -1,16 +1,19 @@
 # Read/Update/Delete with `json-server`
 
-## II. Overview
-- Do you know what CRUD is?
+## I. Overview
+- Do you know about the CRUD acronym?
   - **C**reate
   - **R**ead
   - **U**pdate
   - **D**elete
-- HTTP Verbs 
-  - **C**reate - POST (create a resource)
-  - **R**ead - GET
-  - **U**pdate - PUT (usually used to completely replace resource), PATCH (partially update a resource)
-  - **D**elete - DELETE
+- We are going to learn about all of these today!
+
+
+## II. HTTP Verbs 
+- **C**reate - POST (create a resource)
+- **R**ead - GET
+- **U**pdate - PUT (usually used to completely replace resource), PATCH (partially update a resource)
+- **D**elete - DELETE
 
 ---
 ---
