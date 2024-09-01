@@ -10,7 +10,7 @@
 
 ---
 
-## II. HTTP Verbs 
+## II. HTTP Methods (aka "verbs", "actions", etc)
 - **C**reate - `POST` (create a resource)
 - **R**ead - `GET`
 - **U**pdate - `PUT` (usually used to completely replace resource), `PATCH` (partially update a resource)
@@ -18,11 +18,11 @@
 
 ---
 
-## III. GET & POST Endpoints
-### GET
+## III. `GET` & `POST` Endpoints
+### `GET`
 - we covered these [last time](4-http-methods-with-json-server.md#GET-endpoints)
 
-### POST
+### `POST`
 - Used to *create* a new resource
   - You can't do it from the Browser's *location box* (those are GET requests only)
   - You'll instead need to use an HTML `<form>` of `method="POST"` OR
@@ -67,6 +67,23 @@
 - Check `GET` http://localhost:3000/quotes both in the browser and in Postman, and verify that the quote was created
 - Open up the **quotes-data-2.json** file - you'll see that it has been updated and now contains the quote
 - Fire up the **quotes-app-3/** client app and hit the "random" button a few times - at some point you should view the new quote
+
+
+## IV. `DELETE`
+- To delete a resource, we can pass in the `id`
+  - the following will delete the Oscar Wilde quote:
+  - `DELETE` http://localhost:3000/quotes/4c951b60-1f90-41e7-a913-c1f454ff4c6e
+
+**Before:**
+
+![screenshot](_images/json-server-3.png)
+
+- The server responds with a status code of `200 OK`
+- Attempting to `DELETE` a resource that isn't there returns a `404 Not Found` status code
+
+---
+
+## V. `PATCH`
 
 ---
 ---
