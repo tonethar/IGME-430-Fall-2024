@@ -59,7 +59,8 @@
 
 ---
 
-- Why did json-server send back the JSON object we created? According to the specification about `POST` - *"If a resource has been created on the origin server, the response SHOULD be 201 (Created) and contain an entity which describes the status of the request and refers to the new resource..."*
+- Why did json-server send back the JSON object we created?
+  - according to the specification about `POST` - *"If a resource has been created on the origin server, the response SHOULD be 201 (Created) and contain an entity which describes the status of the request and refers to the new resource..."*
 - BTW - you can generate new UUID's in the browser with `crypto.randomUUID()`
 
 ### Did our POST request work?
