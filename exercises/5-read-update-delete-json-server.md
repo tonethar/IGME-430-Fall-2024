@@ -15,7 +15,8 @@
 [V. `PATCH`](#v-patch)
 
 [VI. `POST` in the browser with an HTML `<form>`](#vi-post-in-the-browser-with-an-html-form)
- 
+
+[VII. Homework]()
   
 ---
 
@@ -122,6 +123,8 @@
 
 - Let's build an admin form to perform Create, Read, and Delete operations
 
+### A. Here's the HTML
+
 **quotes-admin-start.html**
 
 ```html
@@ -184,7 +187,9 @@
   </html>
 ```
 
-### Would you like some code?
+---
+
+### B. Would you like some code?
 
 ![screenshot](_images/json-server-5.png)
 
@@ -195,6 +200,16 @@
 ![screenshot](_images/json-server-8.png)
 
 ![screenshot](_images/json-server-9.png)
+
+---
+
+### C. Try it out
+
+
+---
+
+## VII. Homework
+
 
 ---
 ---
