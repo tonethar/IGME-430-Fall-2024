@@ -120,6 +120,69 @@
 
 ## VI. `POST` in the browser with an HTML `<form>`
 
+- Let's build an admin form to perform Create, Read, and Delete operations
+
+**quotes-admin-start.html**
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotes Admin</title>
+</head>
+<body>
+  <h1>Quotes Admin</h1>
+  <h2>Add a Quote (POST)</h2>
+  <!-- AI prompt - "I need an HTML form with content, author and id fields" -->
+  <!-- Nice Reference: https://www.w3schools.com/html/html_forms.asp -->
+  <form
+    id="form-new-quote"
+    action="http://localhost:3000/quotes" 
+    method="POST" 
+  >
+    <label for="content">Quote:</label><br>
+    <textarea id="content" name="content" rows="4" required></textarea><br><br>
+    
+    <label for="author">Author:</label><br>
+    <input type="text" id="author" name="author" required><br><br>
+    
+    <label for="id">ID:</label><br>
+    <input id="id" name="id" required size="38" readonly><br><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+  <hr>
+
+  <h2>POST Results</h2>
+  <div id="post-results">
+    <p></p>
+    <pre></pre>
+  </div>
+
+  <hr><hr>
+
+  <h2>Delete Quote</h2>
+  <button id="btn-delete">Delete</button> | <input id="delete-id" size="38"> 
+
+  <h3>DELETE Results</h3>
+  <div id="delete-results">
+    <p></p>
+    <pre></pre>
+  </div>
+
+  <hr><hr>
+
+  <h2>View All Quotes</h2>
+  <div id="all-quotes"></div>
+  <script>
+    // Code goes here!
+  </script>
+  </body>
+  </html>
+```
 
 
 ---
