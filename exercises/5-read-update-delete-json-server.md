@@ -265,14 +265,15 @@ deleteQuote(allQuotesEndpoint, deleteId, deleteCallback);
 
 ### Screenshots
 
-**View All Quotes**
+**A. View All Quotes**
 
 ![screenshot](_images/json-server-12.png)
 
 ---
 
-**Delete Quote**
-- BTW - Attempting to delete a non-existant quote returns a 404 error
+**B. Delete Quote**
+- Successfully deleting a quote returns a `200 Ok` status code
+- BTW - Attempting to delete a non-existent quote returns a 404 error
 
 ![screenshot](_images/json-server-13.png)
 
