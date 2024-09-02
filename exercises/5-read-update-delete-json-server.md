@@ -2,17 +2,17 @@
 
 ---
 
-- [I. CRUD]()
+[I. CRUD](#i-crud)
 
-- [II. CRUD & HTTP Methods]()
+[II. CRUD & HTTP Methods](#ii-crud--http-methods)
 
-- [III. `GET` & `POST` Endpoints]()
+[III. `GET` & `POST` Endpoints](#iii-get--post-endpoint)
 
-- [IV. `DELETE`]()
+[IV. `DELETE`](#iv-delete)
 
-- [V. `PATCH`]()
+[V. `PATCH`](#v-patch)
 
-- [VI. `POST` in the browser with an HTML `<form>`]()
+[VI. `POST` in the browser with an HTML `<form>`](#vi-post-in-the-browser-with-an-html-form)
  
   
 ---
