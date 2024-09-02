@@ -245,7 +245,7 @@ const showAllQuotes = () => {
 
 ---
 
-### B - Get the "Delete Quote" Functionality working
+### B - Get the "Delete Quote" functionality working
 
 - write a `deleteQuote()` helper function - here's the signature:
 
