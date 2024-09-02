@@ -247,7 +247,7 @@ const showAllQuotes = () => {
 
 ### B - Get the "Delete Quote" Functionality working
 
-- write a `deleteQuote()` helper function - here's the signature
+- write a `deleteQuote()` helper function - here's the signature:
 
 ```js
 const deleteQuote = async (url, quoteId, callback) => {...}
@@ -257,7 +257,7 @@ const deleteQuote = async (url, quoteId, callback) => {...}
 
 ```js
 deleteQuote(allQuotesEndpoint, deleteId, deleteCallback);
-``
+```
 
 - you can reuse `allQuotesEndpoint`, and you'll need to create a `deleteCallback` function
 
