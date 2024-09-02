@@ -205,8 +205,9 @@
 
 ### C. Try it out
 
-- Test it. Typing in a quote and author and clicking Submit should send over a new quote and give you a response of `201 Created`
-  - to vefify that it was added, check the http://localhost:3000/quotes endpoint in Postman or the browser, or check the JSON file etc
+- Test it:
+  - typing in a quote and author and clicking Submit should send over a new quote and give you a response of `201 Created`
+  - to verify that it was added, check the http://localhost:3000/quotes endpoint in Postman or the browser, or check the JSON file etc
   - try submitting the form without typing in an author name - the browser does *some* form validationfor us for free with the `required` attribute
   - note that here the quote `id`, `createdAt` and `updatedAt` values are generated on the *client*. But that's not the usual practice - we would usually let the server do this initialization, but using a bare-bones version of json-server means we don't have any way to do any server-side validation or initialization other than the default behavior
 
