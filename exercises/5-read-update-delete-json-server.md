@@ -235,16 +235,46 @@
   - ii) when a quote has been deleted
 - you will need to create `getJsonFetch()` (pretty much a copy/paste from last time)
 - you will need to initialize the `allQuotesEndpoint` variable (easy and obvious)
-- you will need to create  the `allQuotesCallback` function (take a look at `postCallback` to see what you need to do)
+- you will need to create  the `allQuotesCallback` function (take a look at the `postCallback` function to see what you need to do)
 
 ```js
 const showAllQuotes = () => {
   getJsonFetch(allQuotesEndpoint, allQuotesCallback);
 }
 ```
-by writing 
+
+---
 
 ### B - Get the "Delete Quote" Functionality working
+
+- write a `deleteQuote()` helper function - here's the signature
+
+```js
+const deleteQuote = async (url, quoteId, callback) => {...}
+```
+
+- Here's the call to that function when the Delete button is clicked, and there's a quote id (the `deleteId` in the call below) in the `<input>`:
+
+```js
+deleteQuote(allQuotesEndpoint, deleteId, deleteCallback);
+``
+
+- you can reuse `allQuotesEndpoint`, and you'll need to create a `deleteCallback` function
+
+---
+
+### Screenshots
+
+**View All Quotes**
+
+![screenshot](_images/json-server-12.png)
+
+---
+
+**Delete Quote**
+- BTW - Attempting to delete a non-existant quote returns a 404 error
+
+![screenshot](_images/json-server-13.png)
 
 ---
 ---
