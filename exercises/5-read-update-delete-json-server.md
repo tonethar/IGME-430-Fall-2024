@@ -206,7 +206,7 @@
 ### C. Try it out
 
 - Test it:
-  - typing in a quote and author and clicking Submit should send over a new quote and give you a response of `201 Created`
+  - typing in a quote and author and clicking Submit should send over a new quote and give you a response of `201 Created`, and a copy of the new quote that was created
   - to verify that it was added, check the http://localhost:3000/quotes endpoint in Postman or the browser, or check the JSON file etc
   - try submitting the form without typing in an author name - the browser does *some* form validationfor us for free with the `required` attribute
   - note that here the quote `id`, `createdAt` and `updatedAt` values are generated on the *client*. But that's not the usual practice - we would usually let the server do this initialization, but using a bare-bones version of json-server means we don't have any way to do any server-side validation or initialization other than the default behavior
@@ -227,6 +227,24 @@
 
 ## VII. Homework
 
+### A - Get the "View All Quotes" functionality working
+- write a `showAllQuotes()` function
+- the starter is below
+- call this function when the page first loads AND whenever you have altered the list of quotes:
+  - i) when a new quote has been successfully added
+  - ii) when a quote has been deleted
+- you will need to create `getJsonFetch()` (pretty much a copy/paste from last time)
+- you will need to initialize the `allQuotesEndpoint` variable (easy and obvious)
+- you will need to create  the `allQuotesCallback` function (take a look at `postCallback` to see what you need to do)
+
+```js
+const showAllQuotes = () => {
+  getJsonFetch(allQuotesEndpoint, allQuotesCallback);
+}
+```
+by writing 
+
+### B - Get the "Delete Quote" Functionality working
 
 ---
 ---
