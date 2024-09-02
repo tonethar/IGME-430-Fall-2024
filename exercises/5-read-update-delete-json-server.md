@@ -184,6 +184,17 @@
   </html>
 ```
 
+### Would you like some code?
+
+![screenshot](_images/json-server-5.png)
+
+![screenshot](_images/json-server-6.png)
+
+![screenshot](_images/json-server-7.png)
+
+![screenshot](_images/json-server-8.png)
+
+![screenshot](_images/json-server-9.png)
 
 ---
 ---
