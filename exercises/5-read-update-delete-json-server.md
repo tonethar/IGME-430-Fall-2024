@@ -205,6 +205,15 @@
 
 ### C. Try it out
 
+- Test it. Typing in a quote and author and clicking Submit should send over a new quote and give you a response of `201 Created`
+
+**Before:**
+
+![screenshot](_images/json-server-10.png)
+
+**After:**
+
+![screenshot](_images/json-server-11.png)
 
 ---
 
