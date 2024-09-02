@@ -4,7 +4,7 @@
 
 [I. CRUD](#i-crud)
 
-[II. CRUD & HTTP Methods](#ii-crud--http-methods)
+[II. CRUD & HTTP Methods](#ii-crud--http-methods-aka-verbs-actions-etc)
 
 [III. `GET` & `POST` Endpoints](#iii-get--post-endpoint)
 
