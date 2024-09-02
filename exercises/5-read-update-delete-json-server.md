@@ -1,16 +1,33 @@
 # Read/Update/Delete with `json-server`
 
-## I. Overview
+---
+
+- [I. CRUD]()
+
+- [II. CRUD & HTTP Methods]()
+
+- [III. `GET` & `POST` Endpoints]()
+
+- [IV. `DELETE`]()
+
+- [V. `PATCH`]()
+
+- [VI. `POST` in the browser with an HTML `<form>`]()
+ 
+  
+---
+
+## I. CRUD
 - Do you know about the CRUD acronym?
   - **C**reate
   - **R**ead
   - **U**pdate
   - **D**elete
-- We are going to learn about all of these today!
+- We are going to learn about how to implement all of these in HTTP, today!
 
 ---
 
-## II. HTTP Methods (aka "verbs", "actions", etc)
+## II. CRUD & HTTP Methods (aka "verbs", "actions", etc)
 - **C**reate - `POST` (create a resource)
 - **R**ead - `GET`
 - **U**pdate - `PUT` (usually used to completely replace resource), `PATCH` (partially update a resource)
