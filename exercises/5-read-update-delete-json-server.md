@@ -16,7 +16,7 @@
 
 [VI. `POST` in the browser with an HTML `<form>`](#vi-post-in-the-browser-with-an-html-form)
 
-[VII. Homework]()
+[VII. Homework](#vii-homework)
   
 ---
 
