@@ -78,7 +78,7 @@ ___
 
 6. To install the `json-server` package type `npm i json-server`
 
-7. To run the server type `npx json-server quotes-data-2.json`
+7. To run the server type `npx json-server data/quotes-data-2.json`
 
 8. That's it - to test the GET endpoints of the server:
 
