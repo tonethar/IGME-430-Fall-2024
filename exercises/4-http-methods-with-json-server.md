@@ -161,9 +161,9 @@ btnSearch.onclick = (evt) => {
 - ***Task C***) Get some error handling working - if the service returns an empty array (because there is no match for the requested `index`) instead of throwing an exception from `randomElement()`, instead display a "ERROR: Quote not found!" message to the user
 
 - ***Submnission***:
-  - ZIP up and post your **quotes-app-3/** folder to the myCOurses dropbox
+  - ZIP up and post your **quotes-app-3/** folder to the myCourses dropbox
   - Don't worry about posting **quotes-server/** - I will test the client app with my version of the server
-  - Don't worry about posting anything to banjo - it won;t work anyway because **quotes-server/** is only running locally
+  - Don't worry about posting anything to banjo - it won't work anyway because **quotes-server/** is only running locally
 
 ---
 
