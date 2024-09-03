@@ -26,6 +26,7 @@
 - Much of the course content will be located on this GitHub site
 - https://mycourses.rit.edu will contain additional materials, and will also be used for announcements, assignment submissions, and grading
 - Keep an eye on the dropboxes in myCourses for assignment due dates
+- Our IGME-430 Slack workspace is here - https://rit-igme-430-2241.slack.com/
 
 
 ## V. Computer Accounts and Cloud Server
