@@ -66,23 +66,33 @@ curl --request POST --data '{
    
     G. Returns the HTTP header options (solely) for the target resource
 
+```
 
-**DELETE** -
+    DELETE - 
 
-**GET** -
 
-**PATCH** -
+    GET - 
 
-**POST** -
 
-**PUT** -
+    PATCH - 
+
+
+    POST -
+
+
+    PUT -
+
+```
 
 - Bonus: There are two missing methods (that we didn't) talk about in class - write them below and indicate their applicable desciption
-  
-**???** - 
 
-**???** - 
+```
 
+    ???- 
+
+
+    ???- 
+```
 
 ---
 ---
