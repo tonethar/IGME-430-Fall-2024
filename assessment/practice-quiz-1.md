@@ -104,7 +104,7 @@ curl --request POST --data '{
   
   B) *response* header
   
-  C) *request* header AND a *respomse* header
+  C) *request* header AND a *response* header
 
 ```
 Accept:
@@ -122,7 +122,7 @@ Access-Control-Allow-Origin:
 Connection:
 
 
-Content-Encoding: gzip
+Content-Encoding:
 
 
 Content-Type:
