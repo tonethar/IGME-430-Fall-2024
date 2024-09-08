@@ -61,21 +61,21 @@ F. Returns the resource's HTTP headers (solely)
 G. Returns the HTTP header options (solely) for the target resource
 
 
-**DELETE**
+**DELETE** -
 
-**GET**
+**GET** -
 
-**PATCH**
+**PATCH** -
 
-**POST**
+**POST** -
 
-**PUT**
+**PUT** -
 
-- Bonus: There are two missing methods (that we didn't) talka bout in class - note them and the applicable desciption below
+- Bonus: There are two missing methods (that we didn't) talk about in class - write them below and indicate their applicable desciption
   
-??? 
+**???** - 
 
-???
+**???** - 
 
 
 ---
