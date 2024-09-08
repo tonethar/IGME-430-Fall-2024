@@ -10,10 +10,10 @@
   b. Chrome
 
 
-  c. curl - ex. `curl http://localhost:3000/quotes`
+  c. `curl` - ex. `curl http://localhost:3000/quotes`
 
 
-  d. curl - ex.
+  d. `curl` - ex.
 
 ```
 curl --request POST --data '{
@@ -28,16 +28,22 @@ curl --request POST --data '{
 e. `fetch()`
 
 
-f. Postman
+f. A mapping app on mobile phone (ex. Google Maps)
 
 
-g. **quotes-app**
+g. PHP on banjo
 
 
-h. **quotes-server**
+h. Postman
 
 
-i. `XMLHttpRequest()` (aka `XHR`)
+i. **quotes-app**
+
+
+j. **quotes-server**
+
+
+k. `XMLHttpRequest()` (aka `XHR`)
 
 ---
 ---
