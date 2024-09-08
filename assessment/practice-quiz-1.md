@@ -25,6 +25,7 @@ curl --request POST --data '{
 }' --header 'Content-Type: application/json' --location http://localhost:3000/quotes/
 ```
 
+
     e. `fetch()`
 
 
