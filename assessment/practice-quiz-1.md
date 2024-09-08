@@ -97,10 +97,13 @@ curl --request POST --data '{
 ---
 ---
 
-3) Label HTTP header as a:
+
+3) Label HTTP header as a (choose 1):
 
   A) *request* header
+  
   B) *response* header
+  
   C) *request* header AND a *respomse* header
 
 ```
