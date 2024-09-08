@@ -98,7 +98,47 @@ curl --request POST --data '{
 ---
 
 3) Label HTTP header as a:
-   A) *request* header
-   B) *response* header
-   C) *request* header AND a *respomse* header
 
+  A) *request* header
+  B) *response* header
+  C) *request* header AND a *respomse* header
+
+```
+Accept:
+
+
+Accept-Language:
+
+
+Accept-Encoding:
+
+
+Access-Control-Allow-Origin:
+
+
+Connection:
+
+
+Content-Encoding: gzip
+
+
+Content-Type:
+
+
+Date:
+
+
+Host:
+
+
+Keep-Alve:
+
+
+Last-Modified:
+
+
+Server:
+
+
+User-Agent:
+```
