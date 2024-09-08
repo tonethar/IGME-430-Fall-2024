@@ -68,50 +68,37 @@ curl --request POST --data '{
 
 ```
 
-    DELETE - 
+   DELETE - 
 
 
-    GET - 
+   GET - 
 
 
-    PATCH - 
+   PATCH - 
 
 
-    POST -
+   POST -
 
 
-    PUT -
-
-```
-
-- Bonus: There are two missing methods (that we didn't) talk about in class - write them below and indicate their applicable desciption
+   PUT -
 
 ```
 
-    ???- 
+- Bonus: There are two missing methods (that we didn't talk about in class) - write them below and indicate their applicable desciption
+
+```
+
+   ???- 
 
 
-    ???- 
+   ???- 
 ```
 
 ---
 ---
 
-3) Label each part of this
+3) Label HTTP header as a:
+   A) *request* header
+   B) *response* header
+   C) *request* header AND a *respomse* header
 
-  
-
-
-5) Describe (exactly) how to create JS breakpoints in Chrome
-
-
-
----
-
-5) For each function, what is the order of the following logs?
-
-
-const func1 = () => {
-  
-
-}
