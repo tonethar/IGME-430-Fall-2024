@@ -1,8 +1,8 @@
 # Practice Quiz #1
 
 1) Spot the client. Spot the server.
-- Which are *Clients*?
-- Which are *Servers*?
+- Which of the below are *Clients*?
+- Which of the below are *Servers*?
   
   a. banjo.rit.edu
 
