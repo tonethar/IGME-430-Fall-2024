@@ -25,26 +25,25 @@ curl --request POST --data '{
 }' --header 'Content-Type: application/json' --location http://localhost:3000/quotes/
 ```
 
-
-    e. `fetch()`
-
-
-    f. A mapping app on mobile phone (ex. Google Maps)
+  e. `fetch()`
 
 
-    g. PHP on banjo
+  f. A mapping app on mobile phone (ex. Google Maps)
 
 
-    h. Postman
+  g. PHP on banjo
 
 
-    i. **quotes-app**
+  h. Postman
 
 
-    j. **quotes-server**
+  i. **quotes-app**
 
 
-    k. `XMLHttpRequest()` (aka `XHR`)
+  j. **quotes-server**
+
+
+  k. `XMLHttpRequest()` (aka `XHR`)
 
 
 ---
