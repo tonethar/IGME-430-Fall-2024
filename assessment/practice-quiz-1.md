@@ -50,7 +50,7 @@ curl --request POST --data '{
 ---
 
 
-2) Matchiing - associate the HTTP methods listed below with one of the 7 descriptions (choose 1 description per resource):
+2) Matching - associate the HTTP methods listed below with one of the 7 descriptions (choose 1 description per resource):
 
     A. Creates a new resource
    
