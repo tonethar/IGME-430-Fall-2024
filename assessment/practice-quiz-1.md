@@ -4,13 +4,16 @@
 - Which are *Clients*?
 - Which are *Servers*?
   
-a. banjo.rit.edu
+  a. banjo.rit.edu
 
-b. Chrome
 
-c. curl - ex. `curl http://localhost:3000/quotes`
+  b. Chrome
 
-d. curl - ex.
+
+  c. curl - ex. `curl http://localhost:3000/quotes`
+
+
+  d. curl - ex.
 
 ```
 curl --request POST --data '{
@@ -24,51 +27,68 @@ curl --request POST --data '{
 
 e. `fetch()`
 
+
 f. Postman
+
 
 g. **quotes-app**
 
+
 h. **quotes-server**
+
 
 i. `XMLHttpRequest()` (aka `XHR`)
 
+---
+---
 
-2) Describe (exactly) how to create JS breakpoints in Chrome
 
-3) For each function, what is the order of the following logs?
+2) Matchiing - associate the HTTP methods listed below with one of the 7 descriptions (choose 1 description per resource):
+
+A. Creates a new resource
+B. Deletes the specified resource
+C. Partially modifies the specified resource
+D. Replaces the specified resource
+E. Returns the resource
+F. Returns the resource's HTTP headers (solely)
+G. Returns the HTTP header options (solely) for the target resource
+
+
+**DELETE**
+
+**GET**
+
+**PATCH**
+
+**POST**
+
+**PUT**
+
+- Bonus: There are two missing methods (that we didn't) talka bout in class - note them and the applicable desciption below
+  
+??? 
+
+???
+
+
+---
+---
+
+3) Label each part of this
+
+  
+
+
+5) Describe (exactly) how to create JS breakpoints in Chrome
+
+
+
+---
+
+5) For each function, what is the order of the following logs?
 
 
 const func1 = () => {
   
 
 }
-
-
-
-4) Describe what each HTTP method *does* (choose 1 per resource)
-
-- Creates a new resource
-- Deletes the specified resource
-- Partially modifies the specified resource
-- Replaces the specified resource
-- Returns the resource
-- Returns the resource's HTTP headers (solely)
-- Returns the HTTP header options (solely) for the target resource
-
-
-DELETE
-
-GET
-
-PATCH
-
-POST
-
-PUT
-
-___
-
-___
-
-
-5) Label each part of this 
