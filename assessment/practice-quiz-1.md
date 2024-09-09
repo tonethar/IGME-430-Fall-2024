@@ -200,7 +200,7 @@ Host: www.rit.edu
 
 ```
 
-### 4B. Response Phase
+### 5B. Response Phase
 - server.php
 
 ```
