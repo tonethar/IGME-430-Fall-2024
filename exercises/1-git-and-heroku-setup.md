@@ -27,7 +27,7 @@
 - Follow the instructions to set up a Heroku account and receive the educational credits
 - Be sure to pick the Free Dyno
 
-![screenshot](../_images/heroku-1.png)
+![screenshot](_images/heroku-1.png)
 
 
 ---
