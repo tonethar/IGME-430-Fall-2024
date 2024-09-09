@@ -1,6 +1,6 @@
 # Practice Quiz #1
 
-1) Spot the client. Spot the server.
+**1) Spot the client. Spot the server.**
 - Which of the below are *Clients*?
 - Which of the below are *Servers*?
   
@@ -50,7 +50,7 @@ curl --request POST --data '{
 ---
 
 
-2) Matching - associate the HTTP methods listed below with one of the 7 descriptions (choose 1 description per resource):
+**2) Matching - associate the HTTP methods listed below with one of the 7 descriptions (choose 1 description per resource):**
 
     A. Creates a new resource
    
@@ -98,7 +98,7 @@ curl --request POST --data '{
 ---
 
 
-3) Label HTTP header as a (choose 1):
+**3) Label the *HTTP headers* below as a (choose 1):**
 
   A) *request* header
   
@@ -145,3 +145,76 @@ Server:
 
 User-Agent:
 ```
+
+---
+---
+
+**4) HTTP Status Codes**
+- We haven't seen many of these yet, but ...
+- ... which HTTP status code did json-server return for each of the following queries (assume they are all *successful*):
+  - `DELETE /quotes/guid`
+  - `GET /quotes`
+  - `GET /quotes/?id=5`
+  - `PUT /quotes/guid`
+  - `POST /quotes/`
+  - `PATCH /quotes/guid`
+- ... and how about for these *unsuccessful* queries
+  - `GET /quotes/?id=666`
+  - `DELETE /quotes/666`
+ 
+
+---
+---
+
+**5) Reconstruct below from the following "fragments":**
+
+```
+POST /service.php HTTP/1.1
+Host: www.rit.edu
+Content-Type: application/json
+\n
+{"name":"Timmy", "score":1000}
+```
+
+```
+GET /service.php HTTP/1.1
+Host: www.rit.edu
+
+```
+
+### 5A. Request Phase
+- `GET` service.php
+
+```
+
+
+
+
+```
+
+- `POST` service.php
+
+```
+
+
+
+```
+
+### 4B. Response Phase
+- server.php
+
+```
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
