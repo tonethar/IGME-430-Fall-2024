@@ -23,8 +23,14 @@
 
 ---
 
-## IV. Setting Up Heroku (page 20)
+## IV. Setting Up Heroku (page 20-23)
 - Follow the instructions to set up a Heroku account and receive the educational credits
 - Be sure to pick the Free Dyno
 
-![screenshot](../_images/heroku-1.jpg)
+![screenshot](../_images/heroku-1.png)
+
+
+---
+
+## V. Submission (page 24)
+- You don't need to submit anything to myCourses
