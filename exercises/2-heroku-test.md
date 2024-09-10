@@ -127,7 +127,7 @@ To https://github.com/tonethar/HerokuTest-Demo
 
 ## VI. Verify that your changes were pushed
 
-- In your web browser, head to your forked repo on GitHub, and take a look at **server.js**, you should see the chnages you made and an updated timestamp
+- In your web browser, head to your forked repo on GitHub, and take a look at **server.js**, you should see the changes you made and an updated timestamp
 - Now head to the browser link for your HerokuTest app - you should see that Heroku already knows about the changes to the repo, and has published the changes (assuming that you checked "Automatic deploys are enabled" when you set up the project in the Heroku control panel)
 
 ---
