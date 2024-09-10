@@ -88,7 +88,7 @@
   - type `npm start` again, head to `http://localhost:3000/`, and verify that your changes took
   - shut down your node server again by typing `control-c`
 - Commit your changes to the local repository - you should hopefully aready know how to do this from the command line - but here's a reminder:
-  - type 'git status`
+  - type `git status`
     - you should see something like `Changes not staged for commit: - modified:   src/server.js`
   - type `git add .` (which will "stage" all tracked files)
   - type `git status` again
