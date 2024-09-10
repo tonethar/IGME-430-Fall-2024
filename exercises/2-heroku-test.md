@@ -80,12 +80,12 @@
 
 ---
 
-## V. Make some changes, commit them, and push them to GitHub
+## V. Make some local edits, commit them, and push them to GitHub
 - Shut down your node server by typing `control-c`
 - Go ahead and edit **server.js**
   - change "Hello Server" to "Hello 430!"
   - save the file changes
-  - type `npm start` again and verify that your changes took
+  - type `npm start` again, head to `http://localhost:3000/`, and verify that your changes took
   - shut down your node server again by typing `control-c`
 - Commit your changes to the local repository - you should hopefully aready know how to do this from the command line - but here's a reminder:
   - type 'git status`
