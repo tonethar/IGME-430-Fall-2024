@@ -21,10 +21,12 @@
 
 ![screenshot](./_images/heroku-3.png)
 
+![screenshot](./_images/heroku-4.png)
+
 - Clicking the "View" button will launch the app in a web browser
   - copy the  browser link, you'll need it later when you submit this assignment
 
-![screenshot](./_images/heroku-4.png)
+![screenshot](./_images/heroku-5.png)
 
 - If everything above works correctly, move on
 
