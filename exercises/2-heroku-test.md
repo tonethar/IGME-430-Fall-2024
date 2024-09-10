@@ -132,7 +132,7 @@ To https://github.com/tonethar/HerokuTest-Demo
 
 ---
 
-![screenshot](./_images/heroku-8.png)
+![screenshot](./_images/heroku-9.png)
 
 ---
 
