@@ -72,7 +72,7 @@
 
 ---
 
-- Head to `http://localhost:3000/` and verify that the project is running
+- Head to `http://localhost:3000/` and verify that the project is running on your local machine
  
 ---
 
