@@ -147,7 +147,7 @@ To https://github.com/tonethar/HerokuTest-Demo
 - Post it to the dropbox
 - In the comments field:
   - give the link to your **HerokuTest** github repo
-  - give the browser link for your HerokuTest app (see most recent screenshot above)
+  - give the browser link for your HerokuTest app (see most recent screenshot above) - ***NOT your Heroku Dashboard link***
 
 ---
 ---
