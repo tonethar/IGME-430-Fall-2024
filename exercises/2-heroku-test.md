@@ -58,7 +58,7 @@
 
 ---
 
-## IV. Run the HerokuTest project Locally
+## IV. Run the HerokuTest project locally
 - Quit GitBash
 - Open the **HerokuTest** folder in VScode ("Open Folder" in VSCode OR do a drag/drop)
 - Open up the Terminal in VSCode:
