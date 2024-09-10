@@ -10,3 +10,11 @@
 
 ## II. Pushing/Deploying to GitHub
 - Follow the instructions in the "Pushing to Heroku"
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [1 - Git & Heroku Setup](1-git-and-heroku-setup.md)  |  [**IGME-430**](../) | ???
+
