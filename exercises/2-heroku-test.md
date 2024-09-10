@@ -154,5 +154,5 @@ To https://github.com/tonethar/HerokuTest-Demo
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [1 - Git & Heroku Setup](1-git-and-heroku-setup.md)  |  [**IGME-430**](../) | ???
+| [**1 - Git & Heroku Setup**](1-git-and-heroku-setup.md)  |  [**IGME-430**](../) | ???
 
