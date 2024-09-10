@@ -33,7 +33,7 @@
 - If you don't already have something like this, create a folder on your PC named **430-files** or similar. Put it someplace easy to find
 - Now open GitBash in that folder:
   - you might be able to right-click inside the folder to do so OR
-  - you could open up a GitBash terminal window, then type `cd ` (`cd` follwed by a space) and then drag drop the folder into the the terminal window, and then press enter
+  - you could open up a GitBash terminal window, then type `cd ` (`cd` followed by a space) and then drag drop the folder into the the terminal window, and then press enter
   - verify that your current working directory is **430-files** by typing `pwd`
 - Clone your forked repository to the **430-files** folder:
   - type `git clone <clone-url-to-your-HerokuTest>`
