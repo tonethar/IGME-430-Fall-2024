@@ -34,4 +34,12 @@
 ---
 
 ## V. Submission (page 24)
+- I am not collecting this
 - You don't need to submit anything to myCourses
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+|   :-\  |  [**IGME-430**](../) | [**2 - Heroku Test**](2-heroku-test.md)
