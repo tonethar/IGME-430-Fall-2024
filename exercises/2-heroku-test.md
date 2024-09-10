@@ -59,7 +59,8 @@
 ---
 
 ## IV. Edit HerokuTest
-- Open the HerokuTest folder in VScode ("Open Folder" in VSCode OR do a drag/drop)
+- Quit GitBash
+- Open the **HerokuTest** folder in VScode ("Open Folder" in VSCode OR do a drag/drop)
   
 ---
 ---
