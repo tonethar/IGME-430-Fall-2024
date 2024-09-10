@@ -23,10 +23,19 @@
 
 ![screenshot](./_images/heroku-4.png)
 
+- If everything above works correctly, move on
+
 ---
 
-## III.
+## III. Clone your forked respository
 
+- Now you need to clone your forked HerokuTest repository to your desktop
+- If you don't already have something like this, create a folder on your PC named **430-files** or similar. Put it someplace easy to find
+- Now open GitBash in that folder:
+  - you might be able to right-click inside the folder to do so OR
+  - you could open up a GitBash terminal window, then type `cd ` (`cd` follwed by a space) and then drag drop the folder into the the terminal window, and then press enter
+  - verify that your current working directory is **430-files** by typing `pwd`
+  
 ---
 ---
 
