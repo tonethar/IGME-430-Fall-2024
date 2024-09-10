@@ -25,7 +25,7 @@
 
 ## IV. Setting Up Heroku (page 20-23)
 - Follow the instructions to set up a Heroku account and receive the educational credits
-  - after you get the confirmation email, and can see the platform credits, you can enter your credit card # and choose a plan ...
+  - AFTER you get the confirmation email, and can see the platform credits in Heroku, you can enter your credit card # and choose a plan ...
   - ... and be sure to pick the *Eco Dyno*!
 
 ![screenshot](./_images/heroku-1.png)
