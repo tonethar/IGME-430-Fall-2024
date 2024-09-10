@@ -91,7 +91,7 @@
   - type 'git status`
     - you should see something like `Changes not staged for commit: - modified:   src/server.js`
   - type `git add .` (which will "stage" all tracked files)
-  - type 'git status` again
+  - type `git status` again
 
 ```
 On branch main
