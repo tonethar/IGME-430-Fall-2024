@@ -16,7 +16,8 @@
 
 ## II. Pushing/Deploying to Heroku
 - Follow the instructions in the "Pushing to Heroku" DOC, which is located in the myCourses *Content* Section, *Week-3*, *Guides & Links*
-  - Here, you can deploy your forked copy of “HerokuTest”
+  - Name the app **abc1234-heroku-test** (where `abc1234` is your RIT id)
+  - You can deploy your forked copy of “HerokuTest”
 
 ![screenshot](./_images/heroku-3.png)
 
