@@ -29,12 +29,20 @@
 
 ## III. Clone your forked respository
 
-- Now you need to clone your forked HerokuTest repository to your desktop
+- Now you need to clone your forked **HerokuTest** repository to your desktop
 - If you don't already have something like this, create a folder on your PC named **430-files** or similar. Put it someplace easy to find
 - Now open GitBash in that folder:
   - you might be able to right-click inside the folder to do so OR
   - you could open up a GitBash terminal window, then type `cd ` (`cd` follwed by a space) and then drag drop the folder into the the terminal window, and then press enter
   - verify that your current working directory is **430-files** by typing `pwd`
+- Clone your forked repository to the **430-files** folder:
+  - type `git clone <clone-url-to-your-HerokuTest>`
+- Verify that you have cloned the **HerokuTest** folder and files to your desktop
+
+---
+
+## IV. Edit HerokuTest
+- Open the HerokuTest folder in VScode ("Open Folder" in VSCode OR do a drag/drop)
   
 ---
 ---
