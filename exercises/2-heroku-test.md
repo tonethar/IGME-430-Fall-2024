@@ -3,7 +3,7 @@
 ## I. Fork the test repository
 
 - Head to https://github.com/tonethar/HerokuTest and **Fork** your own copy of it
-  - keep the fork you made open in a web brpwser tab, or copy the URL for later
+  - keep the fork you made open in a web browser tab, or copy the URL for later
   - you don't need to clone to your desktop yet
 - Look at the source code of your new repository - it is a simple web server that will echo "Hello!" to the browser
 - Note the "start" script in **package.json** - this is what Heroku will run after it has downloaded all of the required packages from npm
