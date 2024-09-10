@@ -80,8 +80,75 @@
 
 ---
 
-## V. 
-  
+## V. Make some changes, commit them, and push them to GitHub
+- Shut down your node server by typing `control-c`
+- Go ahead and edit **server.js**
+  - change "Hello Server" to "Hello 430!"
+  - save the file changes
+  - type `npm start` again and verify that your changes took
+  - shut down your node server again by typing `control-c`
+- Commit your changes to the local repository - you should hopefully aready know how to do this from the command line - but here's a reminder:
+  - type 'git status`
+    - you should see something like `Changes not staged for commit: - modified:   src/server.js`
+  - type `git add .` (which will "stage" all tracked files)
+  - type 'git status` again
+
+```
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   src/server.js
+```
+
+- ***commit*** this changed file to your local repo by typing `git commit -m "Added 'Hello 430!'"`
+
+```
+Added 'Hello 430!'
+1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+- ***push*** to your remote GitHub repo by typing `git push`
+
+```
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 349 bytes | 349.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/tonethar/HerokuTest-Demo
+0b55e2e..c951fc0  main -> main
+```
+
+---
+
+## VI. Verify that your changes were pushed
+
+- In your web browser, head to your forked repo on GitHub, and take a look at **server.js**, you should see the chnages you made and an updated timestamp
+- Now head to the browser link for your HerokuTest app - you should see that Heroku already knows about the changes to the repo, and has published the changes (assuming that you checked "Automatic deploys are enabled" when you set up the project in the Heroku control panel)
+
+---
+
+![screenshot](./_images/heroku-8.png)
+
+---
+
+- Congratulations - You've now performed some "Continuous Delivery" part of **CI/CD**
+  - we'll learn about the "Continuous Integration" part very soon
+
+---
+
+## VII. HW Submission
+- Normally you would need to delete the **HerokuTest/node_modules** folder, but this project is so simple it doesn't have one
+- ZIP up your **HerokuTest** folder
+- Post it to the dropbox
+- In the comments field:
+  - give the link to your **HerokuTest** github repo
+  - give the browser link for your HerokuTest app (see most recent screenshot above)
+
 ---
 ---
 
