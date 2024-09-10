@@ -1,7 +1,7 @@
 # 1 - Git & Heroku Setup
 
 ## I. Where are the Instructions?
-- Head to myCourses *Content* Section, *Guides & Links*, and download the "Git & Heroku Setup" DOC - it consists of the following sections:
+- Head to myCourses *Content* Section, *Week-3*, *Guides & Links*, and download the "Git & Heroku Setup" DOC - it consists of the following sections:
   - Setting Up Github/Creating a GitHub Account
   - Using Git
   - Setting up Heroku
