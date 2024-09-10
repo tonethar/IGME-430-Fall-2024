@@ -136,7 +136,7 @@ To https://github.com/tonethar/HerokuTest-Demo
 
 ---
 
-- Congratulations - You've now performed some "Continuous Delivery" part of **CI/CD**
+- Congratulations! You've now performed the "Continuous Delivery" part of **CI/CD**
   - we'll learn about the "Continuous Integration" part very soon
 
 ---
