@@ -4,7 +4,7 @@
 
 - Head to XXX and Fork your own copy of it
 - Look at the source code - it is a simple web server that will echo "Hello!" to the browser
-- Noe the "start" script in **package.json**
+- Note the "start" script in **package.json**
 
 ---
 
