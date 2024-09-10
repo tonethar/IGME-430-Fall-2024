@@ -52,19 +52,19 @@ curl --request POST --data '{
 
 **2) Matching - associate the HTTP methods listed below with one of the 7 descriptions (choose 1 description per resource):**
 
-    A. Creates a new resource
+  A. Creates a new resource
    
-    B. Deletes the specified resource
+  B. Deletes the specified resource
    
-    C. Partially modifies the specified resource
+  C. Partially modifies the specified resource
    
-    D. Replaces the specified resource
+  D. Replaces the specified resource
    
-    E. Returns the resource
+  E. Returns the resource
    
-    F. Returns the resource's HTTP headers (solely)
+  F. Returns the resource's HTTP headers (solely)
    
-    G. Returns the HTTP header options (solely) for the target resource
+  G. Returns the HTTP header options (solely) for the target resource
 
 ```
 
