@@ -60,7 +60,7 @@
 
 ## IV. Run the HerokuTest project locally
 - Quit GitBash
-- Open the **HerokuTest** folder in VScode ("Open Folder" in VSCode OR do a drag/drop)
+- Open the **HerokuTest** folder in VSCode ("Open Folder" in VSCode OR do a drag/drop)
 - Open up the Terminal in VSCode:
   - verify you are in the correct folder by typing `pwd`
   - normally you would install the dependencies of a project by typing `npm i` - but this project is so simple it's not using any npm packages!
