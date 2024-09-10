@@ -54,6 +54,10 @@
 
 ---
 
+![screenshot](./_images/heroku-6.png)
+
+---
+
 ## IV. Edit HerokuTest
 - Open the HerokuTest folder in VScode ("Open Folder" in VSCode OR do a drag/drop)
   
