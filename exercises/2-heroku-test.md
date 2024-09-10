@@ -8,7 +8,7 @@
 - Look at the source code of your new repository - it is a simple web server that will echo "Hello!" to the browser
 - Note the "start" script in **package.json** - this is what Heroku will run after it has downloaded all of the required packages from npm
 
-![screenshot](![screenshot](./_images/heroku-2.png)
+![screenshot](./_images/heroku-2.png)
 
 ---
 
