@@ -1,4 +1,4 @@
-# Practice Quiz #1 - some answers
+# Practice Quiz #1 - partial key
 
 - Quiz is here: [practice-quiz-1.md](practice-quiz-1.md)
 
