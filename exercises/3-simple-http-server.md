@@ -66,7 +66,7 @@
 
 6) Install ESLint:
 
-- `npm install -D eslint eslint-config-airbnb eslint-plugin-import`
+- `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
 
 OR
 
