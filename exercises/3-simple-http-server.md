@@ -51,20 +51,21 @@
 
 ## III. Get started!
 - Grab the instructions PDF (in myCourses Content/Assignments)
+1) On GitHUb, ***fork*** the starter files respository - https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start
+   
+2) Using GitBash, cd to your **430-files** folder (or wherever you are putting your course files)
 
-1) Using GitBash, cd to your **430-files** folder (or wherever you are putting your course files)
+3) Type `git clone <url-to-your-forked-repo>`
 
-2) Type `git clone https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start`
+4) Open the **Simple-HTTP-Assignment-Start** folder (or whatever you named it) with VSCode
 
-3) Open the **Simple-HTTP-Assignment-Start** folder (or whatever you named it) with VSCode
+5) Open the Terminal in VSCode, and type `pwd` to verify that you are in the correct folder
 
-4) Open the Terminal in VSCode, and type `pwd` to verify that you are in the correct folder
-
-5) `npm init -y`
+6) `npm init -y`
 
 - now you have a **package.json** file
 
-6) Install ESLint:
+7) Install ESLint:
 
 - `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
 
@@ -76,7 +77,7 @@
 
 - now you have a `"devDependencies": {...}` key in **package.json**
 
-7) create `src` folder
+8) create `src` folder
 
 - and so on
 
