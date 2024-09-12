@@ -39,6 +39,7 @@
   - `image/png`
 - ESLint for automatic code quality checking - https://eslint.org/
   - we have a `npm test` script that runs ESLint, and gives us warnings and errors - before we run the code!
+  - ESLint is a "developer dependency" that we locally while we develop, but never in production. Heroko won't download any developer dependencies!
 - Continuous Integration with GitHub Actions
   - GitHub will run `npm test` on our code and tell us if it fails - look under the Actions tab in GitHub (on the repo for your Forked Simple HTTP Server starter code)
   - If we check the "Wait for CI to pass before deploy" on Heroku - the new GitHub code will NOT be depolyed to the running version on Heroku!
