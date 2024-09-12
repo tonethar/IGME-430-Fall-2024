@@ -32,16 +32,19 @@
 
 ## II. What's new in this assignment?
 - ESLint for automatic code quality checking - https://eslint.org/
-  - we have a `npm test` script that runs ESLint, and gives us warnings and errors
-- `fs.readFileSync()` for loading files on the server
+  - we have a `npm test` script that runs ESLint, and gives us warnings and errors - before we run the code!
+- `fs.readFileSync()` for loading static files on the server
 - Endpoints that return:
   - `text/html`
   - `application/json`
   - `text/plain`
   - `image/png`
-- Continuous Integration with GitHUb Actions
+- Continuous Integration with GitHub Actions
   - GitHub will run `npm test` on our code and tell us if it fails - look under the Actions tab in GitHub (on the repo for your Forked Simple HTTP Server starter code)
+  - If we check the "Wait for CI to pass before deploy" on Heroku - the new GitHub code will NOT be depolyed to the running version on Heroku!
   - Look for the "Assignment Submission Guide (GitHub, GitHub Actions, Heroku)" PDF document in myCourses/Content/Guides
+  - https://en.wikipedia.org/wiki/Continuous_delivery
+  - https://en.wikipedia.org/wiki/Continuous_integration
   
 ---
 
