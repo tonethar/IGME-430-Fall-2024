@@ -68,11 +68,11 @@
 
 - `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
 
-OR
+*OR*
 
 - `npm install --save-dev eslint eslint-config-airbnb eslint-plugin-import`
 
-... they do the same thing ...
+*... they do the same thing ...*
 
 - now you have a `"devDependencies": {...}` key in **package.json**
 
