@@ -1,4 +1,4 @@
-# HW - Simple HTTP Server
+# 3 - *HW - Simple HTTP Server*
 
 - See myCourses Content/Assignments for the instructions PDF
 - See myCourses dropbox for due date
@@ -71,3 +71,10 @@
 7) create `src` folder
 
 - and so on
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**2 - Heroku Test**](2-heroku-test.md)  |  [**IGME-430**](../) | ???
