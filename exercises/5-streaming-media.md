@@ -12,3 +12,4 @@
 - http://localhost:3000/bling.mp3 - audio file
 - http://localhost:3000/page3 - HTML page that has a `<video>` tag that points at the **bird.mp4** video file
 - http://localhost:3000/bird.mp4 - video file
+- http://localhost:3000/beh! - any URL other than the 6 above shows **client.html**
