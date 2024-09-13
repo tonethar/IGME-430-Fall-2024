@@ -53,7 +53,7 @@
 - Grab the instructions PDF (in myCourses Content/Assignments)
 1) On GitHUb, ***fork*** the starter files respository - https://github.com/IGM-RichMedia-at-RIT/Simple-HTTP-Assignment-Start
    
-2) Using GitBash, cd to your **430-files** folder (or wherever you are putting your course files)
+2) Using GitBash, `cd` to your **430-files** folder (or wherever you are putting your course files)
 
 3) Type `git clone <url-to-your-forked-repo>`
 
