@@ -7,7 +7,7 @@
 
 ## I. Overview
 The key lessons taught by this exercise:
-- <u>Reinforcing things you have seen before:</u>
+### A. Reinforcing things you have seen before:
   - **Your developer workflow:**
     - forking the starter code on github.com
     - cloning it to a local repository - `git clone <url-to-forked-repo>`
@@ -29,6 +29,7 @@ The key lessons taught by this exercise:
     - *Release* or *Production* - what you push to GitHub, and what is running on Heroku
     - See relevant **#430-career** thread for more info
 
+### B. New Stuff
 
 ---
 
