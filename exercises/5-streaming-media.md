@@ -6,8 +6,8 @@
 ---
 
 ## I. Overview
-The key lessons taught by this exercise:
-### A. Reinforcing things you have seen before:
+Below are the key lessons taught by this exercise.
+### A. Reinforcing things you have seen before
   - **Your developer workflow:**
     - forking the starter code on github.com
     - cloning it to a local repository - `git clone <url-to-forked-repo>`
@@ -30,6 +30,11 @@ The key lessons taught by this exercise:
     - See relevant **#430-career** thread for more info
 
 ### B. New Stuff
+- Serving new media types - `audio/mpeg` and `video/mp4`
+- Streaming media (audio and video):
+  - browsers no longer have to download an entire audio or video file before beginning to play it, and can instead request just part of a file - a "range" to download and play
+  - See `'Content-Range'` and `'Accept-Ranges'` HTTP response headers
+  - See status code `206 Partial Content`
 
 ---
 
