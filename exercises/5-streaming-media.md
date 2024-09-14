@@ -7,7 +7,7 @@
 
 ## I. Overview
 The key lessons taught by this exercise:
-- Reinforcing things you have seen before:
+- <u>Reinforcing things you have seen before:</u>
   - **Your developer workflow:**
     - forking the starter code on github.com
     - cloning it to a local repository - `git clone <url-to-forked-repo>`
@@ -19,11 +19,15 @@ The key lessons taught by this exercise:
      - setting up *auto deployment*
      - setting up *continuous integration*
   - **Code quality:**
-    - ESLint, a `"devDependency"` that 
+    - ESLint, a `"devDependency"` for development, that Heroku won't download
     - running tests with `npm test`
     - Continuous integration - where GitHub Actions run our `npm test`:
       - Heroku won't accept the code if it fails the tests
-      - if the code passes the tests, Heroku will accept the new code, and run `npm i` and `npm start`
+      - if the code passes the tests, Heroku will accept the new code, and run `npm i` and `npm start` on it
+  - **Development Environments/"Stages"**
+    - *Development* - what you are doing on your local machine
+    - *Release* or *Production* - what you push to GitHub, and what is running on Heroku
+    - See relevant **#430-career** thread for more info
 
 
 ---
