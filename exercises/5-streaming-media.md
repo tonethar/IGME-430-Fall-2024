@@ -38,7 +38,7 @@ Below are the key lessons taught by this exercise.
   - `Range: ` request header (the browser does this for us with the `<audio>` and `<video>`) tags
 - **A typical HTML "page" consists multiple "parts":**
   - an HTML file that contains marked up text, but also has a bunch of links to other resources such as external CSS style sheets, images, JS files, other media files and so on
-  - as the browser is parsing and rendering the HTML file, it will make additional requests to the sever for these files, ONE request per file
+  - as the browser is parsing and rendering the HTML file, it will make additional requests to the server for these files, ONE request per file
   - as the files arrive, the browser will gradually "assemble" the HTML page and display it to the user
   - which means: in order to display the "party.mp4" to a user, we need to implement server endpoints for both the HTML page that contains the `<video>` tag AND the "party.mp4" itself
 
