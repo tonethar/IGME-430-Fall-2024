@@ -1,6 +1,11 @@
 # HW - Streaming Media
 
-## Test Links
+## I. Overview
+
+
+---
+
+## II. Test Links
 
 ### Heroku
 
@@ -21,3 +26,24 @@
 - http://localhost:3000/page3 - HTML page that has a `<video>` tag that points at the **bird.mp4** video file
 - http://localhost:3000/bird.mp4 - video file
 - http://localhost:3000/beh! - any URL other than the 6 above shows **client.html**
+
+### Modify your HTML, a little
+
+- To make it more obvious when you are viewing an HTML page as opposed to solely a media file, add the following CSS to the `<style>` tag of **client2.html**
+
+```css
+audio{
+  border: 10px solid green;
+}
+```
+- And add the following to **client.html** & **client3.html** (this second file you will create later)
+
+```css
+video{
+  width: 85%;
+  border: 10px solid red;
+}
+```
+
+---
+
