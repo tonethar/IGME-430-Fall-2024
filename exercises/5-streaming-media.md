@@ -30,11 +30,12 @@ Below are the key lessons taught by this exercise.
     - See relevant **#430-career** thread for more info
 
 ### B. New Stuff
-- Serving new media types - `audio/mpeg` and `video/mp4`
+- Serving new media types (`Content-Type: `) - `audio/mpeg` and `video/mp4`
 - Streaming media (audio and video):
   - browsers no longer have to download an entire audio or video file before beginning to play it, and can instead request just part of a file - a "range" to download and play
-  - See `'Content-Range'` and `'Accept-Ranges'` HTTP response headers
-  - See status code `206 Partial Content`
+  - `Content-Range: ` and `Accept-Ranges: ` HTTP response headers
+  - server status code `206 Partial Content`
+  - `Range: ` request header (the browser does this for us with the `<audio>` and `<video>`) tags
 
 ---
 
