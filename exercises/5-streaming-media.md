@@ -36,7 +36,7 @@ audio{
   border: 10px solid green;
 }
 ```
-- And add the following to **client.html** & **client3.html** (this second file you will create later)
+- And add the following CSS to **client.html** & **client3.html** (this second file you will create later)
 
 ```css
 video{
