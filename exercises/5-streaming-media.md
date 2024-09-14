@@ -4,6 +4,14 @@
 
 ### Heroku
 
+- https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/
+- https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/party.mp4
+- https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/page2
+- https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/bling.mp3
+- https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/page3
+- https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/bird.mp4
+- [http://localhost:3000/](https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/)beh!
+
 ### `localhost:3000`
 
 - http://localhost:3000/ - default HTML page, and has a `<video>` tag that points at the **party.mp4** video file
