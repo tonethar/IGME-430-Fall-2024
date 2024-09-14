@@ -10,7 +10,7 @@
 - https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/bling.mp3
 - https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/page3
 - https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/bird.mp4
-- [http://localhost:3000/](https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/)beh!
+- https://acjvks-streaming-media-28b1ee1e434d.herokuapp.com/beh!
 
 ### `localhost:3000`
 
