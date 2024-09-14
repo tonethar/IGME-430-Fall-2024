@@ -29,7 +29,7 @@
 
 ### Modify your HTML, a little
 
-- To make it more obvious when you are viewing an HTML page as opposed to solely a media file, add the following CSS to the `<style>` tag of **client2.html**
+- To make it more obvious when you are in the browser viewing a media file embedded in an HTML page, as opposed to solely the media file, add the following CSS to the `<style>` tag of **client2.html**
 
 ```css
 audio{
