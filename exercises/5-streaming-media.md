@@ -90,6 +90,6 @@ video{
 
 - `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
 
-8) Create an `src` folder
+8) Create a `src` folder
 
 9) An so on ...
