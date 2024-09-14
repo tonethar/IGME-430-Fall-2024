@@ -1,6 +1,29 @@
 # HW - Streaming Media
 
+- See myCourses Content/Assignments for the instructions PDF
+- See myCourses dropbox for due date
+
+---
+
 ## I. Overview
+The key lessons taught by this exercise:
+- Reinforcing things you have seen before:
+  - **The workflow:**
+    - forking the starter code on github.com
+    - cloning it to a local repository - `git clone <url-to-forked-repo>`
+    - making changes
+    - committing those changes to your repository - `git status`, `git add .`, `git commit -m "message`
+    - pushing those changes to your forked remote repository on GitHub - `git push`
+  - **Heroku:**
+     - linking to a GitHub repository
+     - setting up *auto deployment*
+     - setting up *continuous integration*
+  - **Code quality:**
+    - ESLint, a `"devDependency"` that 
+    - running tests with `npm test`
+    - Continuous integration - where GitHub Actions run our `npm test`:
+      - Heroku won't accept the code if it fails the tests
+      - if the code passes the tests, Heroku will accept the new code, and run `npm i` and `npm start`
 
 
 ---
