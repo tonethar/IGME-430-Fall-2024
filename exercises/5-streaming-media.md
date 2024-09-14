@@ -47,3 +47,26 @@ video{
 
 ---
 
+## III. Get started!
+- Grab the instructions PDF (in myCourses Content/Assignments)
+1) On GitHUb, ***fork*** the starter files respository - https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment
+   
+2) Using GitBash, `cd` to your **430-files** folder (or wherever you are putting your course files)
+
+3) Type `git clone <url-to-your-forked-repo>`
+
+4) Open the **streaming-media-assignment** folder (or whatever you named it) with VSCode
+
+5) Open the Terminal in VSCode, and type `pwd` to verify that you are in the correct folder
+
+6) `npm init -y`
+
+- now you have a **package.json** file
+
+7) Install ESLint:
+
+- `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
+
+8) Create an `src` folder
+
+9) An so on ...
