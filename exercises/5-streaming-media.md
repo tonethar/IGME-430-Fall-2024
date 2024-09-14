@@ -30,12 +30,17 @@ Below are the key lessons taught by this exercise.
     - See relevant **#430-career** thread for more info
 
 ### B. New Stuff
-- Serving new media types (`Content-Type: `) - `audio/mpeg` and `video/mp4`
-- Streaming media (audio and video):
+- **Serving new media types** for (`Content-Type: `) - `audio/mpeg` and `video/mp4`
+- **Streaming media (audio and video):**
   - browsers no longer have to download an entire audio or video file before beginning to play it, and can instead request just part of a file - a "range" to download and play
   - `Content-Range: ` and `Accept-Ranges: ` HTTP response headers
   - server status code `206 Partial Content`
   - `Range: ` request header (the browser does this for us with the `<audio>` and `<video>`) tags
+- **A typical HTML "page" consists multiple "parts":**
+  - an HTML file that contains marked up text, but also has a bunch of links to other resources such as external CSS style sheets, images, JS files, other media files and so on
+  - as the browser is parsing and rendering the HTML file, it will make additional requests to the sever for these files, ONE request per file
+  - as the files arrive, the browser will gradually "assemble" the HTML page and display it to the user
+  - which means: in order to display the "party.mp4" to a user, we need to implement server endpoints for both the HTML page that contains the `<video>` tag AND the "party.mp4" itself
 
 ---
 
