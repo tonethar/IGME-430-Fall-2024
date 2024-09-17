@@ -116,4 +116,4 @@ video{
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**4 - Simple HTTP HW - add an Ajax client**](4-simple-http-add-client.md)  |  [**IGME-430**](../) | TBA
+| [**4 - Simple HTTP Server HW - add an Ajax client**](4-simple-http-add-client.md)  |  [**IGME-430**](../) | TBA
