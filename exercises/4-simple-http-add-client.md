@@ -27,6 +27,10 @@
 - *Release* or *Production* - what you push to GitHub, and what is running on Heroku
 - See relevant **#430-career** thread for more info
 
+### 1E. Other
+- How does the browser know that the `/dankmemes` endpoint is actually a PNG image? (For example, it could be an HTML page like the `/page2` endpoint)
+- Could we change the name of this endpoint to `/dankmemes.png`?
+- Why doesn't `http://127.0.0.1:3000/client/` show the contents of the **client/** folder (like it would on banjo)
 
 ---
 
