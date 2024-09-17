@@ -76,7 +76,11 @@
 
 <h2>View the "Current Time" Message</h2>
 
-<p>You do!</p>
+<p>You do this!</p>
+
+<hr>
+
+<h2>A Dank Meme ...</h2>
   
 </body>
 <script>
