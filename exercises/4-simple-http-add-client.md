@@ -120,14 +120,24 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
   - Test the Rich Client by clicking the button  - it should function now! BECAUSE NOW the rich-client "front end" is running on the same port as the web service (meaning `/helloJSON`) "back end"
  
 5) **(Optionally) Try pushing this code to your remote GitHub/Heroku**
+- Quit your node server (`ctrl-c`)
 - Run `npm test`
 - `git status, ``git add .`, `git commit -m "message"`,  `git push`
 - The `/rich-client.html` endpoint works, but the JS doesn't.
 - Why? Check the console!
+- Our `fetch()` code is looking for `http://localhost:3000/helloJSON` - and there is no localhost or port 3000 running on Heroku!
+
+6) Quick fix!
+- In ****rich-client.html****, change the value of `helloJSONURL` from `http://localhost:3000/helloJSON`  to `/helloJSON`
+- Test the code locally with `npm start` - it doesn't work
+- But push it to the cloud -- it does work
+
+7) 
 
 
 ---
 - Working version is here: https://acjvks-simple-http-server-eb5e0c2bf4e7.herokuapp.com/rich-client.html
+  
 ---
 
 ---
