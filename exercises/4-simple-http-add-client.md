@@ -156,11 +156,6 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 - Post the Heroku link (not the Dashboard link) in the comments section
 
 ---
-
-  
----
-
----
 ---
 
 | <-- Previous Unit | Home | Next Unit -->
