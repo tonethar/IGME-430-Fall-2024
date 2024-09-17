@@ -1,6 +1,6 @@
 # 4 - Simple HTTP HW - add an Ajax client
 
-## I. Overview - what was new in *Heroku Test** & **Simple HTTP HW*?
+## I. Recap - what was new in *Heroku Test** & **Simple HTTP HW*?
 - ***Quite a bit!***
 
 ### IA. Your developer workflow:
@@ -15,7 +15,7 @@
 - setting up *auto deployment*
 - setting up *continuous integration*
 
-### 1C. Code quality:**
+### 1C. Code quality:
 - ESLint, a `"devDependency"` for development, that Heroku won't download
 - running tests with `npm test`
 - Continuous integration - where GitHub Actions run our `npm test`:
