@@ -161,7 +161,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 - Push the changes to GitHub
 - Be sure that `npm test` still passes locally and on GitHub
 - Make sure everything (the `/rich-client.html` endpoint and both buttons and the visible image) works on Heroku
-- Post the ZIPed files (minus the node_modules) folder to the myCourses dropbox
+- Post the ZIPed files (minus the **node_modules**) folder to the myCourses dropbox
 - Post the GitHub Link in the comments section
 - Post the Heroku link (not the Dashboard link) in the comments section
 
