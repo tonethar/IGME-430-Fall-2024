@@ -32,12 +32,12 @@
 
 ## II. In-class Exercise - add a "rich client" to *Simple HTTP*
 
-1) Get a fresh copy of Simple HTTP Server HW
+1) **Get a fresh copy of Simple HTTP Server HW**
 - `cd` to you local 430 working directory
 - `git clone <url-to-forked-repository>`
 
 
-2) Make sure everything works
+2) **Make sure everything works**
 
 - `cd` into folder
 - `npm i`
@@ -46,7 +46,7 @@
 - Check the endpoints in the browser - esp. http://localhost:3000/helloJSON and http://localhost:3000/timeJSON
 
 
-3) Here's the HTML/JS for your "Rich Client":
+3) **Here's the HTML/JS for your "Rich Client":**
 
 - put this in your **client/** folder
 
@@ -108,7 +108,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 </html>
 ```
 
-4) Test the Rich Client by launching **rich-client.html** with LiveServer
+4) **Test the Rich Client by launching **rich-client.html** with LiveServer**
 - When you click the button, this code fails!
 - If you check the console you should see a CORS error - because LiveServer is running on port 3000, and our server is running on port 5500.
 - Stop LiveServer
