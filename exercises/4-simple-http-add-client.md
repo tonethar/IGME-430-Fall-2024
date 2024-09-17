@@ -131,7 +131,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 - In ****rich-client.html****, change the value of `helloJSONURL` from `http://localhost:3000/helloJSON`  to `/helloJSON`
 - Test the code locally with `npm start` - it should still work:
   - http://localhost:3000/rich-client.html
-- Push it to the cloud it works there too!
+- Push it to the cloud (i.e. GitHub --> Heroku) - it works there too!
 - Working demo version is here: https://acjvks-simple-http-server-eb5e0c2bf4e7.herokuapp.com/rich-client.html
 
 ---
