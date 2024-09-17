@@ -148,7 +148,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 ## IV. Homework
 - In **rich-client.html**, add HTML and JS to get the "View Current Time" section of the page working:
   - When a button is clicked, it calls `/timeJSON` and displays the results
-- Push the chnages to GitHub
+- Push the changes to GitHub
 - Be sure that `npm test` still passes locally and on GitHub
 - Make sure everything (the `rich-client.html` endpoint and both buttons) works on Heroku
 - Post the ZIPed files (minus the node_modules) folder to the myCourses dropbox
