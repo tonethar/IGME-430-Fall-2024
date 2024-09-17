@@ -129,14 +129,34 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 
 6) Quick fix!
 - In ****rich-client.html****, change the value of `helloJSONURL` from `http://localhost:3000/helloJSON`  to `/helloJSON`
-- Test the code locally with `npm start` - it doesn't work
-- But push it to the cloud -- it does work
-
-7) 
-
+- Test the code locally with `npm start` - it should still work:
+  - http://localhost:3000/rich-client.html
+- Push it to the cloud it works there too!
+- Working demo version is here: https://acjvks-simple-http-server-eb5e0c2bf4e7.herokuapp.com/rich-client.html
 
 ---
-- Working version is here: https://acjvks-simple-http-server-eb5e0c2bf4e7.herokuapp.com/rich-client.html
+
+## III. Discussion & HW
+
+- After we push this to Heroku, and test it there:
+  - where exactly is the JS inside of **htmlRsponses.js** *running*?
+  - where exactly is the JS inside of **server.js** *running*?
+  - where exactly is the JS inside of **rich-client.html** *running*?
+ 
+---
+ 
+## IV. Homework
+- In **rich-client.html**, add HTML and JS to get the "View Current Time" section of the page working:
+  - When a button is clicked, it calls `/timeJSON` and displays the results
+- Push the chnages to GitHub
+- Be sure that `npm test` still passes locally and on GitHub
+- Make sure everything (the `rich-client.html` endpoint and both buttons) works on Heroku
+- Post the ZIPed files (minus the node_modules) folder to the myCourses dropbox
+- Post the GitHub Link in the comments section
+- Post the Heroku link (not the Dashboard link) in the comments section
+
+---
+
   
 ---
 
