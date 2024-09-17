@@ -118,6 +118,12 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
   - Quit and restart node.js so that the changes take
   - Head to http://localhost:3000/rich-client.html to verify your new endpoint works
   - Test the Rich Client by clicking the button  - it should function now! BECAUSE NOW the rich-client "front end" is running on the same port as the web service (meaning `/helloJSON`) "back end"
+ 
+5) **(Optionally) Try pushing this code to your remote GitHub/Heroku**
+- Run `npm test`
+- `git status, ``git add .`, `git commit -m "message"`,  `git push`
+- The `/rich-client.html` endpoint works, but the JS doesn't.
+- Why? Check the console!
 
 ---
 ---
