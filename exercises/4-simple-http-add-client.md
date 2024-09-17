@@ -99,7 +99,7 @@ const outputHello = document.querySelector("#output-hello");
 
 const helloJSONURL = "http://localhost:3000/helloJSON";
 const helloCallback = json => {
-  outputHello.textContent = json.message || "No <kbd>.message</kbd> value found!";
+  outputHello.innerHTML = json.message || "No <kbd>.message</kbd> value found!";
 };
 
 btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
@@ -114,9 +114,9 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 - Stop LiveServer
 - There are a number of ways to fix this - but the most appropriate way in this instance is to have our node code "serve up" **rich-client.html** - you DO this:
   - Write and export a `getRichClient` function in **htmlResponses.js**
-  - Create a `/rich-client` endpoint in **server.js**
+  - Create a `/rich-client.html` endpoint in **server.js**
   - Quit and restart node.js so that the changes take
-  - Head to http://localhost:3000/rich-client to verify your new endpoint works
+  - Head to http://localhost:3000/rich-client.html to verify your new endpoint works
   - Test the Rich Client by clicking the button  - it should function now! BECAUSE NOW the rich-client "front end" is running on the same port as the web service (meaning `/helloJSON`) "back end"
 
 ---
