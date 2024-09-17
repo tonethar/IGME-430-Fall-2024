@@ -1,6 +1,6 @@
 # 4 - Simple HTTP Server - add an Ajax client
 
-## I. Recap - what was new in *Heroku Test** & **Simple HTTP HW*?
+## I. Recap - what was new in *Heroku Test* & *Simple HTTP Server HW*?
 - ***Quite a bit!***
 
 ### IA. Your developer workflow:
