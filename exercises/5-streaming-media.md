@@ -7,29 +7,8 @@
 
 ## I. Overview
 Below are the key lessons taught by this exercise.
-### A. Reinforcing things you have seen before
-  - **Your developer workflow:**
-    - forking the starter code on github.com
-    - cloning it to a local repository - `git clone <url-to-forked-repo>`
-    - making changes
-    - committing those changes to your local repository - `git status`, `git add .`, `git commit -m "message`
-    - pushing those local changes to your forked remote repository on GitHub - `git push`
-  - **Heroku:**
-     - linking to a GitHub repository
-     - setting up *auto deployment*
-     - setting up *continuous integration*
-  - **Code quality:**
-    - ESLint, a `"devDependency"` for development, that Heroku won't download
-    - running tests with `npm test`
-    - Continuous integration - where GitHub Actions run our `npm test`:
-      - Heroku won't accept the code if it fails the tests
-      - if the code passes the tests, Heroku will accept the new code, and run `npm i` and `npm start` on it
-  - **Development Environments/"Stages"**
-    - *Development* - what you are doing on your local machine
-    - *Release* or *Production* - what you push to GitHub, and what is running on Heroku
-    - See relevant **#430-career** thread for more info
 
-### B. New Stuff
+### New Stuff
 - **Serving new media types** for (`Content-Type: `) - `audio/mpeg` and `video/mp4`
 - **Streaming media (audio and video):**
   - browsers no longer have to download an entire audio or video file before beginning to play it, and can instead request just part of a file - a "range" to download and play
@@ -110,6 +89,9 @@ video{
 
 9) An so on ...
 
+---
+
+## IV. Finish it up - submission instructions are in document
 
 ---
 ---
