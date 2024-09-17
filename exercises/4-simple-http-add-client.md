@@ -133,6 +133,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
   - http://localhost:3000/rich-client.html
 - Push it to the cloud (i.e. GitHub --> Heroku) - it works there too!
 - Working demo version is here: https://acjvks-simple-http-server-eb5e0c2bf4e7.herokuapp.com/rich-client.html
+- ***Why** does this work? Explain!
 
 ---
 
