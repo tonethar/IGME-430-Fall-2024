@@ -1,4 +1,4 @@
-# HW - Streaming Media
+# 5 - Streaming Media HW
 
 - See myCourses Content/Assignments for the instructions PDF
 - See myCourses dropbox for due date
@@ -109,3 +109,11 @@ video{
 8) Create a `src` folder
 
 9) An so on ...
+
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**4 - Simple HTTP HW - add an Ajax client**](4-simple-http-add-client.md)  |  [**IGME-430**](../) | TBA
