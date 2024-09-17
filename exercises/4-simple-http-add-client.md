@@ -130,7 +130,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 5) **Try pushing this code to your remote GitHub/Heroku**
 - Quit your node server (`ctrl-c`)
 - Run `npm test`
-- `git status, ``git add .`, `git commit -m "message"`,  `git push`
+- `git status`, `git add .`, `git commit -m "message"`,  `git push`
 - The `/rich-client.html` endpoint works, but the JS doesn't.
 - Why? Check the console!
 - Our `fetch()` code is looking for `http://localhost:3000/helloJSON` - and there is no localhost or port 3000 running on Heroku!
