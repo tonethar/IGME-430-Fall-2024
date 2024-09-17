@@ -118,7 +118,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 
 4) **Test the Rich Client by launching **rich-client.html** with LiveServer**
 - When you click the button, this code fails!
-- If you check the console you should see a CORS error - because LiveServer is running on port 3000, and our server is running on port 5500.
+- If you check the console you should see a CORS error - because LiveServer is running on port 5500, and our server is running on port 3000.
 - Stop LiveServer
 - There are a number of ways to fix this - but the most appropriate way in this instance is to have our node code "serve up" **rich-client.html** - you DO this:
   - Write and export a `getRichClient` function in **htmlResponses.js**
