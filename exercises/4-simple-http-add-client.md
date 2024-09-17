@@ -125,6 +125,11 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
 - The `/rich-client.html` endpoint works, but the JS doesn't.
 - Why? Check the console!
 
+
+---
+- Working version is here: https://acjvks-simple-http-server-eb5e0c2bf4e7.herokuapp.com/rich-client.html
+---
+
 ---
 ---
 
