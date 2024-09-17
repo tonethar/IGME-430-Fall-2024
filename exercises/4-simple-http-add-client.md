@@ -30,7 +30,7 @@
 
 ---
 
-## In-class Exercise
+## II. In-class Exercise - add a "rich client" to *Simple HTTP*
 
 
 
