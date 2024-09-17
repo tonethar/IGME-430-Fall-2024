@@ -7,7 +7,7 @@
 - forking the starter code on github.com
 - cloning it to a local repository - `git clone <url-to-forked-repo>`
 - making changes
-- committing those changes to your local repository - `git status`, `git add .`, `git commit -m "message`
+- committing those changes to your local repository - `git status`, `git add .`, `git commit -m "message"`
 - pushing those local changes to your forked remote repository on GitHub - `git push`
 
 ### 1B. Heroku:
