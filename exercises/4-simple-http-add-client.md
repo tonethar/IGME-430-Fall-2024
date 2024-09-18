@@ -30,14 +30,14 @@
 ### 1E. Other
 - How does the browser know that the `/dankmemes` endpoint is actually a PNG image? (For example, it could be an HTML page like the `/page2` endpoint)
 - Could we change the name of this endpoint to `/dankmemes.png`?
-- Why doesn't `http://127.0.0.1:3000/client/` show the contents of the **client/** folder (like it would on banjo)
+- Why doesn't `http://127.0.0.1:3000/client/` show the contents of the **client/** folder? (like it would on banjo)
 
 ---
 
 ## II. In-class Exercise - add a "rich client" to *Simple HTTP*
 
 1) **Get a fresh copy of Simple HTTP Server HW**
-- `cd` to you local 430 working directory
+- `cd` to your local 430 working directory
 - `git clone <url-to-forked-repository>`
 
 
@@ -157,7 +157,8 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
  
 ## IV. Homework
 - In **rich-client.html**, add HTML and JS to get the "View Current Time" section of the page working:
-  - When a button is clicked, it calls `/timeJSON` and displays the results
+  - when a button is clicked, it calls `/timeJSON` and displays the results
+  - BTW - why is the time that `/timeJSON` gives us now off by several hours?
 - Add an `<img>` tag to **rich-client.html** that displays **/dankmemes** at the bottom of the page (I made mine `width="200"`)
 - Push the changes to GitHub
 - Be sure that `npm test` still passes locally and on GitHub
