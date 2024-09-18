@@ -1,58 +1,58 @@
 # 4 - Simple HTTP Server - add an Ajax client
 
 ## I. Recap - what was new in *Heroku Test* & *Simple HTTP Server HW*?
-- ***Quite a bit!***
+    - ***Quite a bit!***
 
 ### IA. Your developer workflow:
-- forking the starter code on github.com
-- cloning it to a local repository - `git clone <url-to-forked-repo>`
-- making changes
-- committing those changes to your local repository - `git status`, `git add .`, `git commit -m "message"`
-- pushing those local changes to your forked remote repository on GitHub - `git push`
+    - forking the starter code on github.com
+    - cloning it to a local repository - `git clone <url-to-forked-repo>`
+    - making changes
+    - committing those changes to your local repository - `git status`, `git add .`, `git commit -m "message"`
+    - pushing those local changes to your forked remote repository on GitHub - `git push`
 
 ### 1B. Heroku:
-- linking to a GitHub repository
-- setting up *auto deployment*
-- setting up *continuous integration*
+    - linking to a GitHub repository
+    - setting up *auto deployment*
+    - setting up *continuous integration*
 
 ### 1C. Code quality:
-- ESLint, a `"devDependency"` for development, that Heroku won't download
-- running tests with `npm test`
-- Continuous integration - where GitHub Actions run our `npm test`:
-  - Heroku won't accept the code if it fails the tests
-  - if the code passes the tests, Heroku will accept the new code, and run `npm i` and `npm start` on it
+    - ESLint, a `"devDependency"` for development, that Heroku won't download
+    - running tests with `npm test`
+    - Continuous integration - where GitHub Actions run our `npm test`:
+      - Heroku won't accept the code if it fails the tests
+      - if the code passes the tests, Heroku will accept the new code, and run `npm i` and `npm start` on it
 
 ### 1D. Development Environments/"Stages"
-- *Development* - what you are doing on your local machine
-- *Release* or *Production* - what you push to GitHub, and what is running on Heroku
-- See relevant **#430-career** thread in Slack for more info
+    - *Development* - what you are doing on your local machine
+    - *Release* or *Production* - what you push to GitHub, and what is running on Heroku
+    - See relevant **#430-career** thread in Slack for more info
 
 ### 1E. Other
-- How does the browser know that the `/dankmemes` endpoint is actually a PNG image? (For example, it could be an HTML page like the `/page2` endpoint)
-- Could we change the name of this endpoint to `/dankmemes.png`?
-- Why doesn't `http://127.0.0.1:3000/client/` show the contents of the **client/** folder? (like it would on banjo)
+    - How does the browser know that the `/dankmemes` endpoint is actually a PNG image? (For example, it could be an HTML page like the `/page2` endpoint)
+    - Could we change the name of this endpoint to `/dankmemes.png`?
+    - Why doesn't `http://127.0.0.1:3000/client/` show the contents of the **client/** folder? (like it would on banjo)
 
 ---
 
 ## II. In-class Exercise - add a "rich client" to *Simple HTTP*
 
 1) **Get a fresh copy of Simple HTTP Server HW**
-- `cd` to your local 430 working directory
-- `git clone <url-to-forked-repository>`
+    - `cd` to your local 430 working directory
+    - `git clone <url-to-forked-repository>`
 
 
 2) **Make sure everything works**
 
-- `cd` into folder
-- `npm i`
-- `npm test`
-- `npm start`
-- Check the endpoints in the browser - esp. http://localhost:3000/helloJSON and http://localhost:3000/timeJSON
+    - `cd` into folder
+    - `npm i`
+    - `npm test`
+    - `npm start`
+    - Check the endpoints in the browser - esp. http://localhost:3000/helloJSON and http://localhost:3000/timeJSON
 
 
 3) **Here's the HTML/JS for your "Rich Client":**
 
-- put this in your **client/** folder
+    - put this in your **client/** folder
 
 **client/rich-client.html**
 
