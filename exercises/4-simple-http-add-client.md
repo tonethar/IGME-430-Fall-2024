@@ -24,7 +24,7 @@
 
 ### 1D. Development Environments/"Stages"
   - *Development* - what you are doing on your local machine
-  - *Release* or *Production* - what you push to GitHub, and what is running on Heroku
+  - *Release* (or *Production*) - what you push to GitHub, and what is running on Heroku
   - See relevant **#430-career** thread in Slack for more info
 
 ### 1E. Questions
