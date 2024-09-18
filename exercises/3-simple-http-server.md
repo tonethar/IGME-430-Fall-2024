@@ -42,7 +42,7 @@
   - ESLint is a "developer dependency" that we use on our local development machine while we add features/debug, but NEVER in production. Heroko won't download any developer dependencies!
 - **Continuous Integration** with **GitHub Actions**
   - GitHub will run `npm test` on our code and tell us if it fails - look under the Actions tab in GitHub (on the repo for your Forked Simple HTTP Server starter code)
-  - If we check the "Wait for CI to pass before deploy" on Heroku - the new GitHub code will NOT be depolyed to the running version on Heroku!
+  - If we check the "Wait for CI to pass before deploy" on Heroku - the new GitHub code will NOT be deployed to the running version on Heroku!
   - Look for the ***"Assignment Submission Guide (GitHub, GitHub Actions, Heroku)"*** PDF document in myCourses/Content/Guides
   - https://en.wikipedia.org/wiki/Continuous_delivery
   - https://en.wikipedia.org/wiki/Continuous_integration
