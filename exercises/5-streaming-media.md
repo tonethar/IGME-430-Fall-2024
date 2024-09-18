@@ -67,7 +67,7 @@ video{
 
 ## III. Get started!
 - Grab the instructions PDF (in myCourses Content/Assignments)
-1) On GitHUb, ***fork*** the starter files respository - https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment
+1) On GitHub, ***fork*** the starter files respository - https://github.com/IGM-RichMedia-at-RIT/streaming-media-assignment
    
 2) Using GitBash, `cd` to your **430-files** folder (or wherever you are putting your course files)
 
