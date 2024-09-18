@@ -18,7 +18,7 @@
 ### 1C. Code quality:
   - ESLint, a `"devDependency"` for development, that Heroku won't download
   - running tests with `npm test`
-  - Continuous integration - where GitHub Actions run our `npm test`:
+  - *Continuous Integration* - where GitHub Actions run our `npm test`:
     - Heroku won't accept the code if it fails the tests
     - if the code passes the tests, Heroku will accept the new code, and run `npm i` and `npm start` on it
 
