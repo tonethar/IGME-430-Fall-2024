@@ -79,15 +79,15 @@ video{
 
 6) `npm init -y`
 
-- now you have a **package.json** file
+    - now you have a **package.json** file
 
 7) Install ESLint:
 
-- `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
+    - `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
 
 8) Create a `src` folder
 
-9) An so on ...
+9) And so on ...
 
 ---
 
