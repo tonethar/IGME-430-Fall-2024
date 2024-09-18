@@ -133,7 +133,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
   - Why? Check the console!
   - Our `fetch()` code is looking for `http://localhost:3000/helloJSON` - and there is no localhost or port 3000 running on Heroku!
 
-6) Quick fix!
+6) **Quick fix!**
   - In ****rich-client.html****, change the value of `helloJSONURL` from `http://localhost:3000/helloJSON`  to `/helloJSON`
   - Test the code locally with `npm start` - it should still work:
     - http://localhost:3000/rich-client.html
