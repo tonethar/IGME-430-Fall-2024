@@ -1,14 +1,14 @@
 # 4 - Simple HTTP Server - add an Ajax client
 
 ## I. Recap - what was new in *Heroku Test* & *Simple HTTP Server HW*?
-    - ***Quite a bit!***
+  - ***Quite a bit!***
 
 ### IA. Your developer workflow:
-    - forking the starter code on github.com
-    - cloning it to a local repository - `git clone <url-to-forked-repo>`
-    - making changes
-    - committing those changes to your local repository - `git status`, `git add .`, `git commit -m "message"`
-    - pushing those local changes to your forked remote repository on GitHub - `git push`
+  - forking the starter code on github.com
+  - cloning it to a local repository - `git clone <url-to-forked-repo>`
+  - making changes
+  - committing those changes to your local repository - `git status`, `git add .`, `git commit -m "message"`
+  - pushing those local changes to your forked remote repository on GitHub - `git push`
 
 ### 1B. Heroku:
     - linking to a GitHub repository
