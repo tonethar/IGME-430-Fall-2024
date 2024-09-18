@@ -151,6 +151,7 @@ btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
   - where exactly is the JS inside of **htmlRsponses.js** *running*?
   - where exactly is the JS inside of **server.js** *running*?
   - where exactly is the JS inside of **rich-client.html** *running*?
+  - in order to properly display **rich-client.html**, how many *requests* does the web browser need to make to the Heroku server?
  
 ---
  
