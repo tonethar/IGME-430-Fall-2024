@@ -42,7 +42,6 @@
 
 
 2) **Make sure everything works**
-
   - `cd` into folder
   - `npm i`
   - `npm test`
@@ -51,8 +50,7 @@
 
 
 3) **Here's the HTML/JS for your "Rich Client":**
-
-  - put this in your **client/** folder
+  - Put this in your **client/** folder:
 
 **client/rich-client.html**
 
