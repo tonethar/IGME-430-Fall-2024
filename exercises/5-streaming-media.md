@@ -91,7 +91,7 @@ video{
 
 ---
 
-## IV. Finish it up - submission instructions are in document
+## IV. Finish it up - submission instructions are in the PDF
 
 ---
 ---
