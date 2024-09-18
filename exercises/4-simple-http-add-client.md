@@ -25,7 +25,7 @@
 ### 1D. Development Environments/"Stages"
   - *Development* - what you are doing on your local machine
   - *Release* (or *Production*) - what you push to GitHub, and what is running on Heroku
-  - See relevant **#430-career** thread in Slack for more info
+  - see relevant **#430-career** thread in Slack for more info
 
 ### 1E. Questions
   - How does the browser know that the `/dankmemes` endpoint is actually a PNG image? (For example, it could be an HTML page like the `/page2` endpoint)
