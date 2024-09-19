@@ -72,7 +72,7 @@ app.listen(port, () => {
 
 - test it with: http://localhost:3000/bye
 
-5) You should have 2 `GET` endpoints at this point - which are easy to test in the browser. Let's add a POST endpoint:
+5) You should have 2 `GET` endpoints at this point - which are easy to test in the browser. Let's add a POST endpoint with `app.post()`:
 
 ```js
 app.post('/addComment', function(req, res){
