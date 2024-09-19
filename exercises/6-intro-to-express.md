@@ -23,7 +23,7 @@
 
 3) In **package.json**, verify that `"dependencies"` and `"devDependencies"` have the values you expect
    
-4) Add the following to the "scripts" key of **package.json**
+4) Add the following to the `"scripts"` key of **package.json**
     - `"dev": "nodemon src/app.js"`
 
 5) Create a **src** folder for your program files
