@@ -95,8 +95,23 @@ app.post('/addComment', function(req, res){
 
 ---
 
-## IV. Routing
+## IV. Serving Static Files
+
+- Recall that in recent assignments we've had to write specific endpoints for static files like **client.html**, **rich-client.html** and **dankmemes.png** etc?
+- express can serve up static files for us, automatically, if we just tell it which folder to use
+- add the following to **app.js**:
+
+```js
+// put this after we instantiate `app`
+app.use(express.static('public'));
+```
+
+- Next, create a **public** folder (at the "top level" where **src** is)
+- And add these files to it --> [intro-express-files](_files/intro-express-files/)
+
+---
+## XX. Routing
 
 - Routing libraries make it easy to organize your app's *routes* - for example `/home`, `/quotes`, `/quotes/id`, `quotes/random`, `quotes/random/5` etc
 
-1) 
+1) XX
