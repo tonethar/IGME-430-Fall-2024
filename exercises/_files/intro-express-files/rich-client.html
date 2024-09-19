@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rich Client!</title>
+
+</head>
+<body>
+
+<h1>"Rich" Client for <i>Simple HTTP Server</i></h1>
+<h2>View the "Hello" Message</h2>
+<p><button id="btn-hello">See contents of <kbd>/helloJSON</kbd></button></p>
+<div id="output-hello">???</div>
+
+<hr>
+
+<h2>View the "Current Time" Message</h2>
+
+<p>You do this!</p>
+
+<hr>
+
+<h2>A Dank Meme ...</h2>
+
+<img src="/dankmemes" width="200" />
+  
+</body>
+<script>
+const getJsonFetch = async (url, callback) => {
+  let json;
+  try{
+    const response = await fetch(url,{
+      method: "GET",
+      headers: {
+        "Accept": "application/json"
+      }
+    });
+    json = await response.json();
+  }
+  catch(error){
+    console.log("ERROR:", error);
+    json = {author: `Can't parse data file '${url}'`};
+  }
+  callback(json);
+};
+
+const btnHello = document.querySelector("#btn-hello");
+const outputHello = document.querySelector("#output-hello");
+
+const helloJSONURL = "/helloJSON";
+const helloCallback = json => {
+  outputHello.innerHTML = json.message || "No <kbd>.message</kbd> value found!";
+};
+
+btnHello.onclick = () => getJsonFetch(helloJSONURL, helloCallback);
+
+</script>
+</html>
