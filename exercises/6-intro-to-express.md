@@ -36,7 +36,7 @@
 
 9) Make a change to the code in **app.js** and save it - you should see that nodemon has detected the change and rebooted the server (**app.js**)
 
-***BTW - we haven't created a `"start":...` script yet because we don't plaan on deploying this to Heroku, yet...***
+***BTW - we haven't created a `"start":...` script yet because we don't plan on deploying this to Heroku, yet...***
 
 ---
 
