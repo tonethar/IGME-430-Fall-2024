@@ -32,7 +32,7 @@
 
 7) Add `console.log('First Express');` to the top of **app.js**
 
-8) `npm run dev` to test your code
+8) Type `npm run dev` to test your code
 
 9) Make a change to the code in **app.js** and save it - you should see that nodemon has detected the change and rebooted the server (**app.js**)
 
@@ -62,17 +62,17 @@ app.listen(port, () => {
 
 ---
 
-2) `npm run dev` (if the server is not already running)
+2) Type `npm run dev` (if the server is not already running)
 
-- you should see `App running on localhost:3000` in the console
-- in your browser, head to http://localhost:3000/ to see `http://localhost:3000/` in the console
-- see code explaination here: https://www.tutorialspoint.com/expressjs/expressjs_hello_world.htm
+- You should see `App running on localhost:3000` in the console
+- In your browser, head to http://localhost:3000/ to see `http://localhost:3000/` in the console
+- See code explaination here: https://www.tutorialspoint.com/expressjs/expressjs_hello_world.htm
 
 ---
 
 3) ***YOU DO THIS*** - add a `/bye` endpoint that prints `Goodbye!` in the console
 
-- test it with: http://localhost:3000/bye
+- Test it in the browser here: http://localhost:3000/bye
 
 ---
 
