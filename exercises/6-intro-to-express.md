@@ -60,7 +60,7 @@ app.listen(port, () => {
 
 ---
 
-2) `npm run dev` (if you are not already running)
+2) `npm run dev` (if the server is not already running)
 
 - you should see `App running on localhost:3000` in the console
 - in your browser, head to http://localhost:3000/ to see `http://localhost:3000/` in the console
