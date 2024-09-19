@@ -35,4 +35,26 @@
 8) `npm run dev` to test your code
 
 9) Make a change to the code in **app.js** and save it - you should see that nodemon has rebooted the server (**app.js**)
+
+---
+
+## III. How about some express?
+
+1) Delete the `console.log`, and add the following to the top of **app.js**
+
+```js
+const express = require('express');
+
+const port = 3000;
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello world!');
+});
+
+app.listen(port, () => {
+  console.log(`App running on localhost:${port}`);
+});
+```
    
