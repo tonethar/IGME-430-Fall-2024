@@ -58,10 +58,26 @@ app.listen(port, () => {
 });
 ```
 
+---
+
 2) `npm run dev` (if you are not already running)
 
 - you should see `App running on localhost:3000` in the console
 - in your browser, head to http://localhost:3000/ to see `http://localhost:3000/` in the console
 - see code explaination here: https://www.tutorialspoint.com/expressjs/expressjs_hello_world.htm
 
-3) YOU DO THIS - add a `/bye` endpoint that prints `Goodbye!` in the console
+---
+
+3) ***YOU DO THIS*** - add a `/bye` endpoint that prints `Goodbye!` in the console
+
+- test it with: http://localhost:3000/bye
+
+5) You should have 2 GET endpoints at this point - which are easy to test in the browser. Let's add a POST endpoint:
+
+```js
+app.post('/hello', function(req, res){
+   res.send("You just called the post method at '/hello'!\n");
+});
+```
+
+- Now head to 
