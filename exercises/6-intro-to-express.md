@@ -34,7 +34,7 @@
 
 8) `npm run dev` to test your code
 
-9) Make a change to the code in **app.js** and save it - you should see that nodemon has rebooted the server (**app.js**)
+9) Make a change to the code in **app.js** and save it - you should see that nodemon has detected the change and rebooted the server (**app.js**)
 
 ---
 
