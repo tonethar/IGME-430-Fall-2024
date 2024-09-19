@@ -83,7 +83,7 @@ app.post('/addComment', function(req, res){
 ```
 
 - In your web browser, head to http://localhost:3000/addComment
-  - This gives you a `not found` message in the browser, and if you check the n=browser Network inspector you'll see you also got a 404 status code
+  - This gives you a `Cannot GET /addComment` message in the browser, and if you check the n=browser Network inspector you'll see you also got a 404 status code
   - Why? Because requests sent in the browser's location box are always `GET`
   - To test this endpoint, launch Postman, choose the `POST` method, and try the above URL again. You should see the expected server response now.
 
