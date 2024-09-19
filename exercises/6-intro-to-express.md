@@ -72,12 +72,15 @@ app.listen(port, () => {
 
 - test it with: http://localhost:3000/bye
 
-5) You should have 2 GET endpoints at this point - which are easy to test in the browser. Let's add a POST endpoint:
+5) You should have 2 `GET` endpoints at this point - which are easy to test in the browser. Let's add a POST endpoint:
 
 ```js
-app.post('/hello', function(req, res){
-   res.send("You just called the post method at '/hello'!\n");
+app.post('/addComment', function(req, res){
+   res.send("You just called the post method at '/addComment'!\n");
 });
 ```
 
-- Now head to 
+- In your web browser, head to http://localhost:3000/addComment
+  - This gives you a `not found` message in the browser, and if you check the n=browser Network inspector you'll see you also got a 404 status code
+  - Why? Because requests sent in the browser's location box are always `GET`
+  - To test this endpoint, launch Postman, choose the `POST` method, and try the above URL again. You should see the expected server response now.
