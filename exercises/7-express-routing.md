@@ -41,6 +41,20 @@ app.listen(port, () => {
 ---
 
 ## III. Adding the router
+- Inside your **src/** directory, create a **routes** directory
+- Inside of **src/routes/**, create a **index.js** file
+- Add the following to the top of **index.js**
+
+```js
+const express = require('express');
+const router = express.Router();
+
+router.get('/', (req, res)=> {
+  res.send('Hello world!');
+});
+
+module.exports = router;
+```
 
 ---
 
