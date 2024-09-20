@@ -187,12 +187,23 @@ const filePath404Page = path.resolve(__dirname,'../public/404.html');
 
 ## VI. Updating nodemon
 
-- One more thing - let's update nodemon so that it reboots our server whenever there are changes to the `public/` folder:
+- One more thing - let's update `nodemon` so that it reboots our server whenever there are changes to any HTML or CSS files in the `public/` folder. Here's the new value for the `"dev"` key in **package.json**:
 
 ```json
-
+"dev": "nodemon -e js,html,css,json ./src/app.js"
 ```
+
+- you might have guessed that the `-e` flag stands for "file extensions we watch to watch"
+- test this by modifying **server.js** and saving the change - you should still see a server reboot
+- now modify one of the HTML files and save the change - you will now see a server reboot
+- and now any changes to **package.json** will also cause a server reboot
 
 ---
 
 ## VII. HW & Submission
+- Add a `/timeJSON` endpoint to **server.js** that returns the current time in the JSON format (we previously did this in *3 - HW - Simple HTTP Server*)
+  - test this endpoint in the browser to be sure it works right
+- Add a button and code to **rich-client.html** that calls `/timeJSON`, and then displays the results in the browser window (we previously did this in *4 - Simple HTTP Server - add an Ajax client*)
+- ZIP and POST the entire folder to the myCourses dropbox:
+  - don't neglect to first delete the **node_modules** folder
+  - there is no need to post this to GitHub or Heroku
