@@ -103,15 +103,16 @@ app.post('/addComment', function(req, res){
 
 ```js
 // put this AFTER we instantiate `app`, and BEFORE our GET and POST routes
-app.use(express.static('public'));
+app.use(express.static('client'));
 ```
 
 ---
 
 BTW - `app.use()` defines a "middleware" function - we'll get deeper into this later on in the course - see links at the top of this document for more info.
+
 ---
 
-- Next, create a **public** folder (at the "top level" where **src** is)
+- Next, create a **client** folder (at the "top level" where **src** is)
   - then add these 3 files to it --> [intro-express-files](_files/intro-express-files/)
 - Verify that the static files are  visible:
   - http://localhost:3000/rich-client.html
@@ -186,7 +187,7 @@ app.all('*', (req, res) => {
 
 ```js
 const path = require('path');
-const filePath404Page = path.resolve(__dirname,'../public/404.html');
+const filePath404Page = path.resolve(__dirname,'../client/404.html');
 ```
 
 - Test it with - http://localhost:3000/qwerty - you should now see the 404.html error page!
@@ -195,7 +196,7 @@ const filePath404Page = path.resolve(__dirname,'../public/404.html');
 
 ## VI. Updating nodemon
 
-- One more thing - let's update `nodemon` so that it reboots our server whenever there are changes to any HTML or CSS files in the `public/` folder. Here's the new value for the `"dev"` key in **package.json**:
+- One more thing - let's update `nodemon` so that it reboots our server whenever there are changes to any HTML or CSS files in the `client/` folder. Here's the new value for the `"dev"` key in **package.json**:
 
 ```json
 "dev": "nodemon -e js,html,css,json ./src/app.js"
