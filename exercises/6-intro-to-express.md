@@ -114,6 +114,8 @@ app.use(express.static('public'));
   - http://localhost:3000/404.html
 - Easy Peasy! 
 
+---
+
 ***\*\* YOU DO THIS: \*\**** 
 1) Modify the `<img>` tag in **rich-client.html** so that **spongegar.png** is displayed
 
@@ -159,7 +161,7 @@ app.all('*', (req, res) => {
   - http://localhost:3000/rich-client.html
   - http://localhost:3000/spongegar.png
   - http://localhost:3000/404.html
-- And any other route not mathed above should send you to the `404` "page" (Look under the Network tab to all see the `404` status code)
+- And any other route not matched above should send you to the `404` "page" (Look under the Network tab to all see the `404` status code)
   - http://localhost:3000/page1
   - http://localhost:3000/qwerty
 
@@ -181,7 +183,7 @@ const path = require('path');
 const filePath404Page = path.resolve(__dirname,'../public/404.html');
 ```
 
-- Test it with - http://localhost:3000/qwerty - you should not see the 404.html error page!
+- Test it with - http://localhost:3000/qwerty - you should now see the 404.html error page!
 
 ---
 
@@ -193,10 +195,10 @@ const filePath404Page = path.resolve(__dirname,'../public/404.html');
 "dev": "nodemon -e js,html,css,json ./src/app.js"
 ```
 
-- you might have guessed that the `-e` flag stands for "file extensions we watch to watch"
-- test this by modifying **server.js** and saving the change - you should still see a server reboot
-- now modify one of the HTML files and save the change - you will now see a server reboot
-- and now any changes to **package.json** will also cause a server reboot
+- You might have guessed that the `-e` flag stands for "file extensions we watch to watch"
+- Test this by modifying **server.js** and saving the change - you should still see a server reboot
+- Now modify one of the HTML files and save the change - you will now see a server reboot
+- And now any changes to **package.json** will also cause a server reboot
 
 ---
 
