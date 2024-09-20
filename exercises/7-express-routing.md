@@ -36,7 +36,7 @@ app.listen(port, () => {
 
 - Test it in the browser:
   - your static files will still be served up
-  - `/`, `/bye`, `helloJSON`, etc endpoints will no longer function and will give the `Cannot GET` message 
+  - `/`, `/bye`, `helloJSON`, etc endpoints will no longer function and will give the `Cannot GET ...` message 
 
 ---
 
