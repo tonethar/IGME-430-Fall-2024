@@ -202,7 +202,15 @@ const filePath404Page = path.resolve(__dirname,'../public/404.html');
 
 ---
 
-## VII. HW & Submission
+## VII. Discussion & Reference
+- We've given you a taste of what express can do
+- You wrote dramatically less code than we did for *HW - Simple HTTP Server*
+- And picked up a new capability - the custom 404 page
+- Here are some links you find find helpful:
+
+---
+
+## VIII. HW & Submission
 - Add a `/timeJSON` endpoint to **server.js** that returns the current time in the JSON format (we previously did this in *3 - HW - Simple HTTP Server*)
   - test this endpoint in the browser to be sure it works right - http://localhost:3000/timeJSON
 - Add a button and code to **rich-client.html** that calls `/timeJSON`, and then displays the results in the browser window (we previously did this in *4 - Simple HTTP Server - add an Ajax client*)
