@@ -76,10 +76,11 @@ app.use('/', indexRouter);
 
 ```
 
----
-
 - Now head to http://localhost:3000/ in the browser - you should see the `Hello world!` message!
   - go ahead and delete the commented out `app.get('/', ...` code in **app.js** - you don't need it any more
+
+---
+
 - ***\*\* YOU TRY THIS \*\**** --> Now implement the `/bye` endpoint in **index.js**
 
 
@@ -96,5 +97,8 @@ app.use('/', indexRouter);
 
 ---
 
+
+
+---
 ## XX. Links
 - https://expressjs.com/en/api.html#express.router
