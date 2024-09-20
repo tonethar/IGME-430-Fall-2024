@@ -70,7 +70,7 @@ app.listen(port, () => {
 
 ---
 
-3) ***YOU DO THIS*** - add a  GET `/bye` endpoint that prints `Goodbye!` in the console
+3) ***YOU DO THIS*** - add a  `/bye` endpoint (`GET` method) that prints `Goodbye!` in the console
 
 - Test it in the browser here: http://localhost:3000/bye
 
@@ -107,10 +107,11 @@ app.use(express.static('public'));
 ```
 
 - Next, create a **public** folder (at the "top level" where **src** is)
-  - then add these 2 files to it --> [intro-express-files](_files/intro-express-files/)
+  - then add these 3 files to it --> [intro-express-files](_files/intro-express-files/)
 - Verify that the static files are  visible:
   - http://localhost:3000/rich-client.html
   - http://localhost:3000/spongegar.png
+  - http://localhost:3000/404.html
 - Easy Peasy! 
 
 ***\*\* YOU DO THIS: \*\**** 
