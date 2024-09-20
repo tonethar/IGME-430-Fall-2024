@@ -15,7 +15,7 @@
 
 ---
 
-## II. Adding the router
+## II. Cleaning up the code
 
 - In **app.js**, go ahead and comment out (don't delete them yet) all your existing routes - meaning you should only have the first 6 lines of code or so, and the last line of code. Example:
 
@@ -34,7 +34,13 @@ app.listen(port, () => {
 });
 ```
 
+- Test it in the browser:
+  - your static files will still be served up
+  - `/`, `/bye`, `helloJSON`, etc endpoints will no longer function and will give the `Cannot GET` message 
 
+---
+
+## III. Adding the router
 
 ---
 
