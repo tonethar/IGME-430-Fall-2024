@@ -45,8 +45,6 @@ app.listen(port, () => {
 - Inside of **src/routes/**, create a **index.js** file
 - Make **index.js** look like this:
 
----
-
 **index.js**
 ```js
 const express = require('express');
@@ -64,16 +62,15 @@ module.exports = router;
 - You can see above that we have created a `router` instance, and have attached our `/` route to it
 - To utilize these routes, add the following to **app.js**:
 
----
-
+**app.js**
 ```js
-
+...
 // import routes (put this near top)
 const indexRouter = require('./routes/index.js');
 
 // use routes (put this near the bottom, BEFORE app.listen()
 app.use('/', indexRouter);
-
+...
 ```
 
 - Now head to http://localhost:3000/ in the browser - you should see the `Hello world!` message!
