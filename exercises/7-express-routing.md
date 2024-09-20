@@ -205,6 +205,21 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
   </code>
 </details>
 
+
 ---
-## XX. Links
+
+## VI. Homework
+- Add a `quotes/recent` route that returns the last quote in the `data` array as JSON
+  - test it with --> http://localhost:3000/quotes/recent
+- Move the `/helloJSON` and `timeJSON` routes over to a new route file named **api.js**
+  - **api.js** will be in the **routes/** folder
+  - in **app.js** you will need to  require() and `use()` **api.js** as we did with the other routes
+  - when you are done, the new routes can be tested at:
+    - http://localhost:3000/api/helloJSON
+    - http://localhost:3000/api/timeJSON
+  - be sure to update the button code in **rich-client.html** to work with these new routes!
+  
+---
+
+## VII. Links
 - https://expressjs.com/en/api.html#express.router
