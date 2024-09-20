@@ -234,7 +234,7 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
   - http://localhost:3000/quotes/recent - last quote
   - http://localhost:3000/api/helloJSON
   - http://localhost:3000/api/timeJSON
-- `404` page - http://localhost:3000/querty
+- The "File not found" `404` page --> http://localhost:3000/querty
 
 ---
 
