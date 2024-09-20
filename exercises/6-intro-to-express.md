@@ -107,7 +107,7 @@ app.use(express.static('public'));
 ```
 
 - Next, create a **public** folder (at the "top level" where **src** is)
-- And add these files to it --> [intro-express-files](_files/intro-express-files/)
+  - then add these 2 files to it --> [intro-express-files](_files/intro-express-files/)
 
 ---
 ## XX. Routing
