@@ -159,7 +159,7 @@ app.all('*', (req, res) => {
   - http://localhost:3000/rich-client.html
   - http://localhost:3000/spongegar.png
   - http://localhost:3000/404.html
-- And any other route should send you to the `404` page
+- And any other route should send you to the `404` "page" (Look under the Network tab to all see the `404` status code
   - http://localhost:3000/page1
   - http://localhost:3000/qwerty
 
