@@ -226,7 +226,7 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 ---
 
 ## VII. Test all your routes!
-- Staticly served:
+- Staticly served files:
   - http://localhost:3000/rich-client.html
   - http://localhost:3000/spongegar.png
   - http://localhost:3000/404.html
