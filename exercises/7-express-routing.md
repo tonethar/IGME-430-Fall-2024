@@ -84,9 +84,11 @@ app.use('/', indexRouter);
 <details>
   <summary><b>Solution for <kbd>/bye</kbd> in index.js</b></summary>
   <code>
+    ...
     router.get('/bye', (req, res) => {
       res.send('Goodbye!');
     });
+    ...
   </code>
 </details>
 
