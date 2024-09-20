@@ -230,7 +230,7 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
   - http://localhost:3000/ - "hello" page
   - http://localhost:3000/bye - "bye" page
   - http://localhost:3000/quotes/ - array of all quotes
-  - http://localhost:3000/quotes/recent - one random quote
+  - http://localhost:3000/quotes/random - one random quote
   - http://localhost:3000/quotes/recent - last quote
   - http://localhost:3000/api/helloJSON
   - http://localhost:3000/api/timeJSON
