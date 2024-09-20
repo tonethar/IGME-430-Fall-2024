@@ -109,7 +109,7 @@ app.use('/', indexRouter);
 - Delete
    - the commented out versions of `/helloJSON` and `/timeJSON` endpoint in **app.js**
    - the `app.post('/addComment', ...)` code in **app.js** (we'll handle express POST operations in a future exercise)
-- Test http://localhost:3000/rich-client.html
+- Open --> http://localhost:3000/rich-client.html
   - this endpoint is being served by `express.static()`
   - test both buttons - because we have restored the `/helloJSON`  and `/timeJSON`  endpoints, they should work as before
 
