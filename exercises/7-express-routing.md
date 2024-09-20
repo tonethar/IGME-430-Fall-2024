@@ -93,8 +93,39 @@ app.use('/', indexRouter);
 </details>
 
 - Now head to http://localhost:3000/bye in the browser - you should see the `Goodbye!` message!
+  - go ahead and delete the commented out `app.get('/bye', ...` code in **app.js** - you don't need it any more
 
 ---
+
+- ***\*\* YOU DO THIS \*\**** --> Now implement the `/helloJSON` endpoint in **index.js**
+- ***\*\* YOU DO THIS \*\**** --> Now implement the `/timeJSON` endpoint in **index.js**
+- Test the endpoints in the browser:
+  - http://localhost:3000/helloJSON
+  - http://localhost:3000/timeJSON
+- Delete
+   - the commented out versions of `/helloJSON` and `/timeJSON` endpoint in **app.js**
+   - the `app.post('/addComment', ...)` code in **app.js** (we'll handle express POST operations in a future exercise)
+- Test http://localhost:3000/rich-client.html
+  - this endpoint is being served by `express.static()`
+  - test both buttons - because we have restored the `/helloJSON`  and `/timeJSON`  endpoints, they should work as before
+
+---
+
+## IV. Bring Back the 404 page!
+
+- If you head to http://localhost:3000/qwerty you'll see that our custom 404 page is not showing and we're just getting the express default `Cannot GET /qwerty` message
+- Let's fix that! Add this to **app.js** - this will be the LAST route before `app.listen()`
+
+```js
+
+```
+
+- Reference: ***How do I handle 404 responses?*** - https://expressjs.com/en/starter/faq.html  
+
+---
+
+## V. More routes
+- So far, we have cleaned up **app.js** quite a bit by moving all the endpoints over to 
 
 
 
