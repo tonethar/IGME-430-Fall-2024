@@ -65,7 +65,7 @@ app.listen(port, () => {
 2) Type `npm run dev` (if the server is not already running)
 
 - You should see `App running on localhost:3000` in the console
-- In your browser, head to http://localhost:3000/ to see `http://localhost:3000/` in the console
+- In your browser, head to http://localhost:3000 to see `Hello World!` in the window
 - See code explaination here: https://www.tutorialspoint.com/expressjs/expressjs_hello_world.htm
 
 ---
