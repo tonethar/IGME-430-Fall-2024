@@ -132,8 +132,7 @@ app.use(express.static('public'));
 - When you are done, you should be able to click the button and see `Hello there!` in the `<div>`
 
 ---
-## XX. Routing
 
-- Routing libraries make it easy to organize your app's *routes* - for example `/home`, `/quotes`, `/quotes/id`, `quotes/random`, `quotes/random/5` etc
+## V. Showing a "404 File Not Found" page
 
 1) XX
