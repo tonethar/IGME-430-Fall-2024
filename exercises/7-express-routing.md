@@ -200,9 +200,10 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
   <code>
     ...
     
-    router.get('/bye', (req, res) => {
-      res.send('Goodbye!');
-    });
+   router.get('/random', (req, res)=> {
+     const quote = data[Math.floor(Math.random() * data.length)];
+     res.json(quote);
+   });
     
     ...
   </code>
