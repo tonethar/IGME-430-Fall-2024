@@ -132,7 +132,8 @@ app.use(express.static('public'));
 - Fortunately, `res.json()` does most of this for you!
   - give it an object, and it will stringify it for you
   - it will also send the correct `Content-Type`
-- When you are done, you should be able to click the button and see `Hello there!` in the `<div>`
+- Test the endpoint: http://localhost:3000/helloJSON
+- When you are done wring code in **rich-client.html**, you should be able to click the button and see `Hello there!` in the `<div>`
 
 ---
 
