@@ -179,10 +179,11 @@ const quotesRouter = require('./routes/quotes.js');
 
 // use routes (put this near the bottom, BEFORE app.listen()
 // ...
-app.use('/quotes', quotesRouter);
+app.use('/quotes', quotesRouter); now /quotes is a route!
 
 ```
 
+- Test it here - http://localhost:3000/quotes/ - and you should see the entire `data` array returned as JSON
 
 
 ---
