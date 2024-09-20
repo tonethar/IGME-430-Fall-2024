@@ -60,16 +60,18 @@ module.exports = router;
 ---
 
 - You can see above that we have created a `router` instance, and have attached our `/` route to it
-- To utilize these routes, add the following to **app.js**:
+- To utilize this `/` route, and the other routes we will be adding soon, add the following code to **app.js**:
 
 **app.js**
 ```js
 ...
+
 // import routes (put this near top)
 const indexRouter = require('./routes/index.js');
 
 // use routes (put this near the bottom, BEFORE app.listen()
 app.use('/', indexRouter);
+
 ...
 ```
 
@@ -85,9 +87,11 @@ app.use('/', indexRouter);
   <summary><b>Solution for <kbd>/bye</kbd> in index.js</b></summary>
   <code>
     ...
+    
     router.get('/bye', (req, res) => {
       res.send('Goodbye!');
     });
+    
     ...
   </code>
 </details>
