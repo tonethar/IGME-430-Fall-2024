@@ -213,6 +213,13 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
 - We've given you a taste of what express can do
 - You wrote dramatically less code than we did for *HW - Simple HTTP Server*
 - And picked up a new capability - the custom 404 page
+- Express response methods:
+  - `res.send()` - Send data
+  - `res.sendFile()` - Send a file
+  - `res.json()` - Send JSON data
+  - `res.status()` - Specify HTTP response code
+  - `res.redirect()` -  Redirect to a certain path
+  - `res.render()` -  Render and send a view template
 - Hello World:
   - https://expressjs.com/en/starter/hello-world.html
 - Routing:
