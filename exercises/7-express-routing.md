@@ -217,9 +217,26 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
   - when you are done, the new routes can be tested at:
     - http://localhost:3000/api/helloJSON
     - http://localhost:3000/api/timeJSON
-  - be sure to update the button code in **rich-client.html** to work with these new routes!
+  - be sure to update the button code in **rich-client.html** to work with these 2 new routes!
   
 ---
 
-## VII. Links
+## VII. Test all your routes!
+- Staticly served:
+  - http://localhost:3000/rich-client.html
+  - http://localhost:3000/spongegar.png
+  - http://localhost:3000/404.html
+- Your `express.Router()` routes:
+  - http://localhost:3000/ - "hello" page
+  - http://localhost:3000/bye - "bye" page
+  - http://localhost:3000/quotes/ - array of all quotes
+  - http://localhost:3000/quotes/recent - one random quote
+  - http://localhost:3000/quotes/recent - last quote
+  - http://localhost:3000/api/helloJSON
+  - http://localhost:3000/api/timeJSON
+- `404` page - http://localhost:3000/querty
+
+---
+
+## VIII. Links
 - https://expressjs.com/en/api.html#express.router
