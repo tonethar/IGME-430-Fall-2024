@@ -64,6 +64,8 @@ module.exports = router;
 - You can see above that we have created a `router` instance, and have attached our `/` route to it
 - To utilize these routes, add the following to **app.js**:
 
+---
+
 ```js
 
 // import routes (put this near top)
@@ -74,6 +76,18 @@ app.use('/', indexRouter);
 
 ```
 
+---
+
+- Now head to http://localhost:3000/ in the browser - you should see the `Hello world!` message!
+  - go ahead and delete the commented out `app.get('/', ...` in **app.js** - you don't need it any more
+- Now try to implement the `/bye` endpoint in **index.js**
+
+**Solution:**
+
+<details>
+  <summary>Details</summary>
+  Something small enough to escape casual notice.
+</details>
 
 
 
