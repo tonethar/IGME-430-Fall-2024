@@ -169,7 +169,30 @@ app.all('*', (req, res) => {
   - replace the previous wildcard code with this:
 
 ```js
+app.all('*', (req, res) => {
+  res.status(404).sendFile(filePath404Page);
+});
+```
+
+- You will also need to define `filePath404Page` - add the following to somewhere near the top of **app.js**
+
+```js
+const path = require('path');
+const filePath404Page = path.resolve(__dirname,'../public/404.html');
+```
+
+- Test it with - http://localhost:3000/qwerty - you should not see the 404.html error page!
+
+---
+
+## VI. Updating nodemon
+
+- One more thing - let's update nodemon so that it reboots our server whenever there are changes to the `public/` folder:
+
+```json
 
 ```
 
+---
 
+## VII. HW & Submission
