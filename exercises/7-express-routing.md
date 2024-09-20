@@ -121,7 +121,14 @@ app.use('/', indexRouter);
 - Let's fix that! Add this to **app.js** - this will be the LAST route before `app.listen()`
 
 ```js
+...
 
+// this is the LAST route, right before app.listen()
+app.use((req, res, next) => {
+  res.status(404).sendFile(filePath404Page);
+})
+
+// app.listen(...)
 ```
 
 - Reference: ***How do I handle 404 responses?*** - https://expressjs.com/en/starter/faq.html  
