@@ -106,6 +106,10 @@ app.post('/addComment', function(req, res){
 app.use(express.static('public'));
 ```
 
+---
+BTW - `app.use()` defines a "middleware" function - we'll get deeper into this later on in the course - https://expressjs.com/en/guide/writing-middleware.html
+---
+
 - Next, create a **public** folder (at the "top level" where **src** is)
   - then add these 3 files to it --> [intro-express-files](_files/intro-express-files/)
 - Verify that the static files are  visible:
@@ -207,7 +211,14 @@ const filePath404Page = path.resolve(__dirname,'../public/404.html');
 - We've given you a taste of what express can do
 - You wrote dramatically less code than we did for *HW - Simple HTTP Server*
 - And picked up a new capability - the custom 404 page
-- Here are some links you might find helpful:
+- Hello World:
+  - https://expressjs.com/en/starter/hello-world.html
+- Routing:
+  - https://expressjs.com/en/starter/basic-routing.html
+- Serving static files:
+  - https://expressjs.com/en/starter/static-files.html
+- Examples:
+  - https://expressjs.com/en/starter/examples.html
 
 ---
 
