@@ -70,7 +70,7 @@ app.listen(port, () => {
 
 ---
 
-3) ***YOU DO THIS*** - add a `/bye` endpoint that prints `Goodbye!` in the console
+3) ***YOU DO THIS*** - add a  GET `/bye` endpoint that prints `Goodbye!` in the console
 
 - Test it in the browser here: http://localhost:3000/bye
 
