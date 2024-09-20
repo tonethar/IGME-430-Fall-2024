@@ -226,6 +226,7 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
   - https://expressjs.com/en/starter/basic-routing.html
 - Serving static files:
   - https://expressjs.com/en/starter/static-files.html
+  - https://expressjs.com/en/api.html#express.static
 - Examples:
   - https://expressjs.com/en/starter/examples.html
 
