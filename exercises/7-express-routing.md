@@ -198,14 +198,10 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 <details>
   <summary><b>Solution for <kbd>/quotes/random</kbd> in routes/quotes.js</b></summary>
   <code>
-    ...
-    
    router.get('/random', (req, res)=> {
      const quote = data[Math.floor(Math.random() * data.length)];
      res.json(quote);
    });
-    
-    ...
   </code>
 </details>
 
