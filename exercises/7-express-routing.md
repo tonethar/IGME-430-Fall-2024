@@ -177,7 +177,7 @@ module.exports = router;
 const quotesRouter = require('./routes/quotes.js');
 
 // use routes (put this near the bottom, BEFORE app.listen()
-app.use('/', quotesRouter);
+app.use('/quotes', quotesRouter);
 ```
 
 
