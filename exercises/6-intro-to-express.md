@@ -113,7 +113,7 @@ app.use(express.static('public'));
   - http://localhost:3000/spongegar.png
 - Easy Peasy! 
 
-***\*\* YOU DO THIS \*\**** 
+***\*\* YOU DO THIS: \*\**** 
 1) Modify the `<img>` tag in **rich-client.html** so that **spongegar.png** is displayed
 
 2) In **app.js**, implement a `/helloJSON` endpoint that **rich-client.html** will be able to call when the button is clicked:
