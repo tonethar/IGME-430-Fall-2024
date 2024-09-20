@@ -208,7 +208,7 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 
 ---
 
-## VI. Homework
+## VI. Homework Requirements
 - Add a `quotes/recent` route that returns the last quote in the `data` array as JSON
   - test it with --> http://localhost:3000/quotes/recent
 - Move the `/helloJSON` and `timeJSON` routes over to a new route file named **api.js**
@@ -242,5 +242,12 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 
 ---
 
-## VIII. Links
+## VIII. Homework Submission
+- ZIP and POST the entire folder to the myCourses dropbox:
+  - don't neglect to delete the **node_modules** folder BEFORE zipping
+  - there is no need to post this to GitHub or Heroku
+
+---
+
+## IX. Links
 - https://expressjs.com/en/api.html#express.router
