@@ -107,7 +107,8 @@ app.use(express.static('public'));
 ```
 
 ---
-BTW - `app.use()` defines a "middleware" function - we'll get deeper into this later on in the course - https://expressjs.com/en/guide/writing-middleware.html
+
+BTW - `app.use()` defines a "middleware" function - we'll get deeper into this later on in the course - see links at the top of this document for more info.
 ---
 
 - Next, create a **public** folder (at the "top level" where **src** is)
