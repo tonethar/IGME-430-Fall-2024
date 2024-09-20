@@ -174,10 +174,13 @@ module.exports = router;
 
 ```js
 // import routes (put this near top)
+// ...
 const quotesRouter = require('./routes/quotes.js');
 
 // use routes (put this near the bottom, BEFORE app.listen()
+// ...
 app.use('/quotes', quotesRouter);
+
 ```
 
 
