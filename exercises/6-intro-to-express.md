@@ -108,6 +108,26 @@ app.use(express.static('public'));
 
 - Next, create a **public** folder (at the "top level" where **src** is)
   - then add these 2 files to it --> [intro-express-files](_files/intro-express-files/)
+- Verify that the static files are  visible:
+  - http://localhost:3000/rich-client.html
+  - http://localhost:3000/spongegar.png
+- Easy Peasy! 
+
+***YOU DO THIS*** 
+1) Modify the `<img>` tag in **rich-client.html** so that **spongegar.png** is displayed
+
+2) In **app.js**, implement a `/helloJSON` endpoint that **rich-client.html** will be able to call when the button is clicked:
+
+- It should return a status code of `200`, a `Content-Type` of `application/json`, and some JSON that looks like this:
+
+```json
+{
+  "message": "Hello there!"
+}
+```
+
+- Fortunately, `res.json()` does most of this for you!
+- When you are done, you should be able to click the button and see `Hello there!` in the `<div>`
 
 ---
 ## XX. Routing
