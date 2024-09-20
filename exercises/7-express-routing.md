@@ -92,7 +92,7 @@ app.use('/', indexRouter);
   </code>
 </details>
 
-
+- Now head to http://localhost:3000/bye in the browser - you should see the `Goodbye!` message!
 
 ---
 
