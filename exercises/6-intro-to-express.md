@@ -136,4 +136,30 @@ app.use(express.static('public'));
 
 ## V. Showing a "404 File Not Found" page
 
-1) XX
+1) Really easy! Add a "wildcard route" - basically a fallthrough - that matches any path not matched by earlier code.
+- Put this code AFTER all of the other routes in **app.js**, and right before `app.listen(...)`
+
+---
+
+```js
+// .all refers to ALL http methods - GET, POST, DELETE etc
+// note .status(404) and method chaining
+// .status(404) is how we send the 404 - File Not Found status code/message
+app.all('*', (req, res) => {
+  res.status(404).send('<h1>404! Page not found</h1>');
+});
+```
+
+---
+
+- All of your previous routes should still work:
+  - http://localhost:3000
+  - http://localhost:3000/bye
+  - http://localhost:3000/helloJSON
+  - http://localhost:3000/rich-client.html
+  - http://localhost:3000/spongegar.png
+  - http://localhost:3000/404.html
+- And any other route should send you to the `404` page
+  - http://localhost:3000/page1
+  - http://localhost:3000/qwerty
+
