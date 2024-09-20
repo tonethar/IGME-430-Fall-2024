@@ -115,9 +115,9 @@ app.use('/', indexRouter);
 
 ---
 
-## IV. Bring Back the 404 page!
+## IV. Bring Back the `404` page!
 
-- If you head to http://localhost:3000/qwerty you'll see that our custom 404 page is not showing and we're just getting the express default `Cannot GET /qwerty` message
+- If you head to http://localhost:3000/qwerty - you'll see that our custom `404` page is not showing and we're just getting the express default `Cannot GET /qwerty` message
 - Let's fix that! Add this to **app.js** - this will be the LAST route before `app.listen()`
 
 ```js
@@ -135,8 +135,50 @@ app.use((req, res, next) => {
 
 ---
 
-## V. More routes
-- So far, we have cleaned up **app.js** quite a bit by moving all the endpoints over to 
+## V. More routes - the `quotes/` API!
+- So far, we have cleaned up **app.js** quite a bit by moving all the "top level" endpoints over to **src/routes/index.js**
+- But we have not yet fully seen how this pattern can help us write easier to maintain code
+- So let's go ahead and create a read-only (for now) quotes API
+
+### V-A. New router file - quotes.js
+
+- Inside of **src/routes/** go ahead and create a **quotes.js** file
+- Make it look like this:
+
+```js
+const express = require('express');
+const router = express.Router();
+
+// just 2 quotes for now
+const data = [{
+  "id": "4c951b60-1f90-41e7-a913-c1f454ff4c6e",
+  "author": "Oscar Wilde",
+  "content": "Be yourself; everyone else is already taken."
+},
+{
+  "id": "4c6217c3-c6e5-460b-8f8f-0df64ad6fef2",
+  "author": "Mark Twain",
+  "content": "If you tell the truth, you don't have to remember anything."
+ }];
+
+router.get('/', (req, res)=> {
+  res.json(data);
+});
+
+
+module.exports = router;
+
+```
+
+### V-B. Import these routes into app.js
+
+```js
+// import routes (put this near top)
+const quotesRouter = require('./routes/quotes.js');
+
+// use routes (put this near the bottom, BEFORE app.listen()
+app.use('/', quotesRouter);
+```
 
 
 
