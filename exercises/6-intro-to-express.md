@@ -112,7 +112,7 @@ app.use(express.static('public'));
   - http://localhost:3000/rich-client.html
   - http://localhost:3000/spongegar.png
   - http://localhost:3000/404.html
-- Easy Peasy! 
+- We only needed one line of code to do this! Easy Peasy! 
 
 ---
 
@@ -207,7 +207,7 @@ const filePath404Page = path.resolve(__dirname,'../public/404.html');
 - We've given you a taste of what express can do
 - You wrote dramatically less code than we did for *HW - Simple HTTP Server*
 - And picked up a new capability - the custom 404 page
-- Here are some links you find find helpful:
+- Here are some links you might find helpful:
 
 ---
 
