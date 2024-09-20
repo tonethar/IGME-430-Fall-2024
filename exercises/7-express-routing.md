@@ -170,6 +170,8 @@ module.exports = router;
 
 ```
 
+---
+
 ### V-B. Import these routes into app.js
 
 ```js
@@ -185,6 +187,26 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 
 - Test it here - http://localhost:3000/quotes/ - and you should see the entire `data` array returned as JSON
 
+---
+
+### V-C. Create a `/quotes/random` endpoint!
+
+- ***\*\* YOU DO THIS \*\**** --> Now implement the `/quotes/random` endpoint in **routes/quotes.js**
+- Hint: you only need to add code to **routes/quotes.js**, **app.js** is all set and doe not need any more code!
+- Test it at --> http://localhost:3000/quotes/random
+
+<details>
+  <summary><b>Solution for <kbd>/quotes/random</kbd> in routes/quotes.js</b></summary>
+  <code>
+    ...
+    
+    router.get('/bye', (req, res) => {
+      res.send('Goodbye!');
+    });
+    
+    ...
+  </code>
+</details>
 
 ---
 ## XX. Links
