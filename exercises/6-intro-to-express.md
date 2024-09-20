@@ -204,7 +204,7 @@ const filePath404Page = path.resolve(__dirname,'../public/404.html');
 
 ## VII. HW & Submission
 - Add a `/timeJSON` endpoint to **server.js** that returns the current time in the JSON format (we previously did this in *3 - HW - Simple HTTP Server*)
-  - test this endpoint in the browser to be sure it works right
+  - test this endpoint in the browser to be sure it works right - http://localhost:3000/timeJSON
 - Add a button and code to **rich-client.html** that calls `/timeJSON`, and then displays the results in the browser window (we previously did this in *4 - Simple HTTP Server - add an Ajax client*)
 - ZIP and POST the entire folder to the myCourses dropbox:
   - don't neglect to first delete the **node_modules** folder
