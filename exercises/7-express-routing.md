@@ -80,12 +80,12 @@ app.use('/', indexRouter);
 
 - Now head to http://localhost:3000/ in the browser - you should see the `Hello world!` message!
   - go ahead and delete the commented out `app.get('/', ...` code in **app.js** - you don't need it any more
-- Now try to implement the `/bye` endpoint in **index.js**
+- Now try to implement the `/bye` endpoint in **index.js** - ***\*\* YOU TRY THIS \*\****
 
 
 
 <details>
-  <summary>**Solution:**</summary>
+  <summary><b>Solution for <kbd>/bye</kbd></b></summary>
   Something small enough to escape casual notice.
 </details>
 
