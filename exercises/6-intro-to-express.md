@@ -102,7 +102,7 @@ app.post('/addComment', function(req, res){
 - add the following to **app.js**:
 
 ```js
-// put this after we instantiate `app`
+// put this AFTER we instantiate `app`, and BEFORE our GET and POST routes
 app.use(express.static('public'));
 ```
 
