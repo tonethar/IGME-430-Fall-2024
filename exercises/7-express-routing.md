@@ -10,10 +10,33 @@
 ## I. Get Started
 - Duplicate the entire **first-express-app** folder and re-name the copy to **first-routing-app**
   - you might want to delete the **node_modules** folder before you make the copy; if so, don't forget to `npm i`
-- Open up **first-routing-app** in VSCode and `npm i` . `npm run dev` and verify that the app still works in the browser
+- Open up **first-routing-app** in VSCode and `npm i`,  `npm run dev`
+- Verify that the app's endpoints still work in the browser
 
 ---
 
+## II. Adding the router
+
+- In **app.js**, go ahead and comment out (don't delete them yet) all your existing routes - meaning you should only have the first 6 lines of code or so, and the last line of code. Example:
+
+```js
+const express = require('express');
+const port = 3000;
+const path = require('path');
+const filePath404Page = path.resolve(__dirname,'../client/404.html');
+const app = express();
+app.use(express.static('client'));
+
+// ** COMMENT OUT ALL THE ROUTES **
+
+app.listen(port, () => {
+  console.log(`App running on http://localhost:${port}`);
+});
+```
+
+
+
+---
 
 ## XX. Links
 - https://expressjs.com/en/api.html#express.router
