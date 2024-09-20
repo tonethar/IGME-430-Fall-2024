@@ -134,7 +134,7 @@ app.use(express.static('public'));
 
 ---
 
-## V. Showing a "404 File Not Found" page
+## V. Showing a "404 File Not Found" message
 
 1) Really easy! Add a "wildcard route" - basically a fallthrough - that matches any path not matched by earlier code.
 - Put this code AFTER all of the other routes in **app.js**, and right before `app.listen(...)`
@@ -144,7 +144,7 @@ app.use(express.static('public'));
 ```js
 // .all refers to ALL http methods - GET, POST, DELETE etc
 // note .status(404) and method chaining
-// .status(404) is how we send the 404 - File Not Found status code/message
+// .status(404) is how we send the 404 - File Not Found status code
 app.all('*', (req, res) => {
   res.status(404).send('<h1>404! Page not found</h1>');
 });
@@ -152,14 +152,24 @@ app.all('*', (req, res) => {
 
 ---
 
-- All of your previous routes should still work:
+- **All of your previous routes should still work:**
   - http://localhost:3000
   - http://localhost:3000/bye
   - http://localhost:3000/helloJSON
   - http://localhost:3000/rich-client.html
   - http://localhost:3000/spongegar.png
   - http://localhost:3000/404.html
-- And any other route should send you to the `404` "page" (Look under the Network tab to all see the `404` status code
+- And any other route not mathed above should send you to the `404` "page" (Look under the Network tab to all see the `404` status code
   - http://localhost:3000/page1
   - http://localhost:3000/qwerty
+
+---
+
+- **Want to show the 404.html page instead? Easy!**
+  - replace the previous wildcard code with this:
+
+```js
+
+```
+
 
