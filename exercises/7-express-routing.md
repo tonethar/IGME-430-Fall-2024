@@ -218,6 +218,10 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
     - http://localhost:3000/api/helloJSON
     - http://localhost:3000/api/timeJSON
   - be sure to update the button code in **rich-client.html** to work with these 2 new routes!
+- **rich-client.html**:
+  - add a functional "Show all quotes" button
+  - add a functional "Show random quote" button
+  - add a functional "Show most recent quote" button
   
 ---
 
