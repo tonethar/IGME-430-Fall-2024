@@ -1,4 +1,4 @@
-# 8 - Passing Params
+# 8 - Passing Params in express
 
 ## I. Get Started
 - Duplicate the entire **first-routing-app** folder and re-name the copy to **router-app-passing-params**
