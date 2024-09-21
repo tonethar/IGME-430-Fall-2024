@@ -254,5 +254,11 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 
 ---
 
-## IX. Links
+## IX. Screenshot
+
+![screenshot](_images/express-1.png)
+
+---
+
+## X. Links
 - https://expressjs.com/en/api.html#express.router
