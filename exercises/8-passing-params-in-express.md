@@ -26,8 +26,10 @@
 }
 ```
 
-- By the way, here's an [article discussing the various ESLint config files](https://medium.com/@ritz.sh/understanding-eslint-configuration-eslintrc-js-vs-eslintrc-vs-eslintrc-json-287ec5e95bf4)
-- Now add the follwoing "pretest" and "test" scripts to **package.json**:
+- By the way:
+  - here's an [article discussing the various ESLint config files](https://medium.com/@ritz.sh/understanding-eslint-configuration-eslintrc-js-vs-eslintrc-vs-eslintrc-json-287ec5e95bf4)
+  - https://eslint.org/docs/latest/use/getting-started
+- Now add the following "pretest" and "test" scripts to **package.json**:
 
 ```json
 "pretest": "eslint ./src --fix",
