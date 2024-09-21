@@ -9,7 +9,7 @@
 ## II. ESLint
 - We are eventually going to be pushing this app to Heroku, so let's go ahead and get ESLint set up for this project
 - In VSCode's terminal (Windows folks be sure you are using GitBash), type `pwd` and verify that your *current working directory* is `router-app-passing-params/`
-- Install ESLint and a developer dependency - type:
+- Install ESLint as a developer dependency - type:
   - `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
 - Create an empty `.eslintrc` config file - type:
   - `touch .eslintrc`
