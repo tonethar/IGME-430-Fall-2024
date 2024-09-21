@@ -6,6 +6,8 @@
 - Open up **router-app-passing-params** in VSCode and `npm i`,  `npm run dev`
 - Verify that the app's endpoints still work in the browser
 
+---
+
 ## II. ESLint
 - We are eventually going to be pushing this app to Heroku, so let's go ahead and get ESLint set up for this project
 - In VSCode's terminal (Windows folks be sure you are using GitBash), type `pwd` and verify that your *current working directory* is `router-app-passing-params/`
@@ -36,3 +38,18 @@
 "test": "echo \"Tests Complete!\"",
 "pretest": "eslint ./src --fix",
 ```
+
+## II-A. Run ESLint and Fix the Errors
+- Type `npm test` to see all of the errors and warnings
+- Miraculously, I only got 1 warning (a `console.log()`) and 1 error (in our "fallthrough" route):
+
+```
+router-app-passing-params/src/app.js 29:20  error 'next' is defined but never used  no-unused-vars
+```
+
+- Which was easy to fix - I deleted the `next` param - we don't need it
+- Go ahead and fix any other errors and move on
+
+---
+
+## III. 
