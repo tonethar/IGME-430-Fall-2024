@@ -11,7 +11,7 @@
 - In VSCode's terminal (Windows folks be sure you are using GitBash), type `pwd` and verify that your *current working directory* is `router-app-passing-params/`
 - Install ESLint as a developer dependency - type:
   - `npm i -D eslint eslint-config-airbnb eslint-plugin-import`
-- Create an empty `.eslintrc` config file - type:
+- Create an empty **.eslintrc** config file - type:
   - `touch .eslintrc`
 - Make the contents of **.eslintrc** look like this:
 
