@@ -32,6 +32,6 @@
 - Now add the following "pretest" and "test" scripts to **package.json**:
 
 ```json
-"pretest": "eslint ./src --fix",
 "test": "echo \"Tests Complete!\"",
+"pretest": "eslint ./src --fix",
 ```
