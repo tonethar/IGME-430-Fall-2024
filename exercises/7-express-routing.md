@@ -226,7 +226,13 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
   - be sure to update the button code in **rich-client.html** to work with these 2 new routes!
 - **rich-client.html**:
   - add a functional "Show random quote" button that calls `/quotes/random`
+    - display the values of the `content` and `author` properties
   - add a functional "Show most recent quote" button that calls `/quotes/recent`
+    - display the values of the `content` and `author` properties
+  - Optionally, think about DRY ("Don't Repeat Yourself") on your code wherever possible:
+    - rather than 4 button callback functions, how about 2?
+    - *Closures* could help? - https://javascript.info/closure
+    - *Curried* functions?  - https://javascript.info/currying-partials
   
 ---
 
@@ -254,7 +260,7 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 
 ---
 
-## IX. Screenshot
+## IX. Screenshot of completed version
 
 ![screenshot](_images/express-1.png)
 
