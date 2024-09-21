@@ -229,7 +229,7 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
     - display the values of the `content` and `author` properties
   - add a functional "Show most recent quote" button that calls `/quotes/recent`
     - display the values of the `content` and `author` properties
-  - Optionally, think about DRY ("Don't Repeat Yourself") on your code wherever possible:
+  - Optionally, think about D.R.Y. ("Don't Repeat Yourself") on your code whenever possible:
     - rather than 4 button callback functions, how about 2?
     - *Closures* could help? - https://javascript.info/closure
     - *Curried* functions?  - https://javascript.info/currying-partials
