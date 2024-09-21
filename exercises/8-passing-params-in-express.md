@@ -29,7 +29,8 @@
 - By the way:
   - here's an [article discussing the various ESLint config files](https://medium.com/@ritz.sh/understanding-eslint-configuration-eslintrc-js-vs-eslintrc-vs-eslintrc-json-287ec5e95bf4)
   - https://eslint.org/docs/latest/use/getting-started
-- Now add the following "pretest" and "test" scripts to **package.json**:
+- Now add the following "pretest" and "test" scripts to **package.json**
+  - be sure to delete the default `"test"` script
 
 ```json
 "test": "echo \"Tests Complete!\"",
