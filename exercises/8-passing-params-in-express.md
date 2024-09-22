@@ -111,3 +111,15 @@ router.get('/', (req, res) => {
   - http://localhost:3000/quotes/ - still returns all the quotes
 
 ---
+
+## V. Accessing parameters via the route
+- Another way to pass in parameters to a web script is via the route, like this
+- `http://localhost:3000/quotes/12345` - "give me the quote with an id of `12345`"
+  - if we try this URL right now we'lll just get a 404 page
+- Let's get coding and get this endpoint working!
+- Add the following to **src/routes/quotes.js**:
+
+```js
+
+```
+
