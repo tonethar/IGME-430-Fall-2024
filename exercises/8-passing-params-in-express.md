@@ -160,7 +160,6 @@ const data = {
   "version": "2.0",
   "quotes": [
     {
-      "index": 0,
       "id": "4c951b60-1f90-41e7-a913-c1f454ff4c6e",
       "author": "Oscar Wilde",
       "content": "Be yourself; everyone else is already taken.",
@@ -171,7 +170,6 @@ const data = {
       "updatedAt": "2024-08-01T04:00:00.000Z"
     },
     {
-      "index": 1,
       "id": "4c6217c3-c6e5-460b-8f8f-0df64ad6fef2",
       "author": "Mark Twain",
       "content": "If you tell the truth, you don't have to remember anything.",
@@ -182,7 +180,6 @@ const data = {
       "updatedAt": "2024-08-01T04:00:00.000Z"
     },
     {
-      "index": 2,
       "id": "6e35a396-c108-4f72-8673-521aa9a3c7f6",
       "author": "Elbert Hubbard",
       "content": "A friend is someone who knows all about you and still loves you.",
@@ -193,7 +190,6 @@ const data = {
       "updatedAt": "2024-08-01T04:00:00.000Z"
     },
     {
-      "index": 3,
       "id": "4f19e53d-8b5b-40ab-ba72-cfbbcd2ce4f6",
       "author": "J.K. Rowling",
       "content": "It does not do to dwell on dreams and forget to live.",
@@ -204,7 +200,6 @@ const data = {
       "updatedAt": "2024-08-01T04:00:00.000Z"
     },
     {
-      "index": 4,
       "id": "7690718f-01b7-4775-9998-6a4adb480d27",
       "author": "Thomas Sowell",
       "content": "When you want to help people, you tell them the truth. When you want to help yourself, you tell them what they want to hear.",
