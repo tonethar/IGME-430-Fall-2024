@@ -117,9 +117,25 @@ router.get('/', (req, res) => {
 - `http://localhost:3000/quotes/12345` - "give me the quote with an id of `12345`"
   - if we try this URL right now we'lll just get a 404 page
 - Let's get coding and get this endpoint working!
-- Add the following to **src/routes/quotes.js**:
+- Add the following to **src/routes/quotes.js** - put this at then end of the file, right before `module.exports = router;`
 
 ```js
+router.get('/:id', (req, res) => {
+  const { id } = req.params;
+  console.log(`id=${id}`);
+  res.send(data);
+});
 
+module.exports = ...
 ```
+- Test the code with - http://localhost:3000/quotes/12345
+  - in the Node.js console you should see `id=12345`
+- Note that we are using `req.params` this time
+  - https://expressjs.com/en/api.html#req.params
+- ***YOU DO THIS*** - As we did above, write code that returns the single quote that has a matching `id`
+- Test your code:
+  - http://localhost:3000/quotes/4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 - returns the Mark Twain quote
+  - http://localhost:3000/quotes/6e35a396-c108-4f72-8673-521aa9a3c7f6 - returns the Elbert Hubbard quote
+  - http://localhost:3000/quotes/12345 - returns `{}`
+  - http://localhost:3000/quotes/ - still returns all the quotes
 
