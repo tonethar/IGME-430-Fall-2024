@@ -255,4 +255,28 @@ module.exports = { getAllQuotes };
   - http://localhost:3000/quotes/12345 - returns `{}`
   - http://localhost:3000/quotes/ - still returns all the quotes
 
+---
 
+## VII. Homework
+- In **src/db.js**:
+  - create a `randomQuote()` function that returns a random quote from `data.quotes`, and export it
+  - create a `recentQuote()` function that returns the last element of `data.quotes`, and export it
+  - create a `getQuoteById(id)` function that returns the quote in `data.quotes` with the matching `id`, and export it
+    - utilize `array.find()`
+    - if there is not a quote with a matching `id`, the function will return `undefined
+- In **src/routes/quotes.js**
+  - utilize all 3 functions above `db.randomQuote()`, `db.recentQuote()`, and `db.getQuoteById()`
+  - delete unnecessary code - example:
+
+```js
+// DELETE THIS!
+router.get('/random', (req, res) => {
+  const quote = data[Math.floor(Math.random() * data.length)];
+  res.json(quote);
+});
+
+REPLACE IT WITH THIS!
+router.get('/random', (req, res) => {
+  res.json(db.randomQuote());
+});
+```
