@@ -44,13 +44,13 @@
 
 ## II-A. Run ESLint and Fix the Errors
 - Type `npm test` to see all of the errors and warnings
-- Miraculously, I only got 1 warning (a `console.log()`) and 1 error (in our "fallthrough" route):
+- Miraculously, I only got 1 warning - a `console.log()` - and 1 error - in our "fallthrough" route located in **index.js**:
 
 ```
 router-app-passing-params/src/app.js 29:20  error 'next' is defined but never used  no-unused-vars
 ```
 
-- Which was easy to fix - I deleted the `next` param - we don't need it
+- Which was easy to fix - go ahead and delete the `next` param - we don't need it
 - Go ahead and fix any other errors and move on
 
 ---
@@ -104,5 +104,8 @@ router.get('/', (req, res) => {
 - `quotes.find()` would be the most elegant solution, but using a `for` loop is fine for now
 - if there is not a matching quote, return an empty `{}`
 - if the `id` parameter does not exist, return *ALL* of the quotes as we did before
+- Test your done:
+  - http://localhost:3000/quotes/?id=4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 - returns the Mark Twain quote
+  - http://localhost:3000/quotes/?id=12345 - returns `{}`
 
 ---
