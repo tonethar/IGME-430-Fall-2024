@@ -87,6 +87,6 @@ router.get('/', (req, res) => {
   - check the node.js terminal, you should see `id=undefined` logged out
   - Why? Because we never passed in a value for `id`
 - If you want to see ALL the query params logged out:
-  - add `console.log('res.query.params=', res.query.params);`
+  - add `console.log('req.query=', req.query);`
   - head to http://localhost:3000/quotes/?id=4&param2=value2&param3=value3&param4=value4
-  - check the node terminal to see
+  - check the node terminal to see `req.query= { id: '4', param2: 'value2', param3: 'value3', param4: 'value4' }`
