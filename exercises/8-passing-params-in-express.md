@@ -151,7 +151,7 @@ module.exports = ...
 
 ### VI-A. quotes-data.json
 
-- Here is **quotes-data.json** - put this is a **src/data/** folder
+- Here is **quotes-data.json** - now we are up to 5 quotes - put this is a **src/data/** folder
 
 **src/data/quotes-data.json** 
 
@@ -224,6 +224,29 @@ module.exports = ...
 **src/db.js**
 
 ```js
+const fs = require('fs');
+const path = require('path');
+
+const quotesPath = path.resolve(__dirname, 'data/quotes-data.json');
+const jsonString = fs.readFileSync(quotesPath);
+const quotes = JSON.parse(jsonString);
+// console.log(quotes);
+
+const getAllQuotes = () => quotes;
+
+module.exports = { getAllQuotes };
 
 ```
+
+---
+
+### VI-C. Utilize db.js
+
+- Now head back to **src/router/quotes.js**
+  - import **db.js** with (put this near top of file):
+    - `const db = require('../db.js');`
+- At the top of **src/router/quotes.js** where we are declaring `const data=[{...]`, which is the hard-coded array of 3 quotes:
+  - replace that code with `const data = db.getAllQuotes();` - which will use the array of 5 quotes that **db.js** is loading in
+- Test all of the quotes endpoints - everything should work as before!
+
 
