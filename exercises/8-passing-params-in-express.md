@@ -73,7 +73,7 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
   - https://expressjs.com/en/api.html#req.query
   - https://www.geeksforgeeks.org/express-js-req-query-property/
 - Let's set up our `routes/quotes` route to grab `routes/quotes?id=12345`
-- Add the following to **src/routes/quotes.js**, a the top of the existing `router.get('/', ...` route handler
+- Add the following to **src/routes/quotes.js**, at the top of the existing `router.get('/', ...` route handler
 
 ---
 
