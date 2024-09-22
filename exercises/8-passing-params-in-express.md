@@ -150,8 +150,8 @@ module.exports = ...
 ---
 
 ### VI-A. quotes-data.json
-
-- Here is **quotes-data.json** - now we are up to 5 quotes - put this is a **src/data/** folder
+- In the **src/** folder, create a **data** folder
+- Here is **quotes-data.json** - now we are up to 5 quotes - put this is the **src/data/** folder
 
 **src/data/quotes-data.json** 
 
