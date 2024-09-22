@@ -42,7 +42,7 @@
 "pretest": "eslint ./src --fix",
 ```
 
-## II-A. Run ESLint and Fix the Errors
+### II-A. Run ESLint and Fix the Errors
 - Type `npm test` to see all of the errors and warnings
 - Miraculously, I only got 1 warning - a `console.log()` - and 1 error - in our "fallthrough" route located in **index.js**:
 
