@@ -143,6 +143,6 @@ module.exports = ...
 
 ## VI. Refactor time
 - Your version of the code likely has one or more quality issues that need to be addressed:
-  - ESLint airbnb/base does not like using a for loop on arrays, and prefers a more functional style with methods like `.map()`, `.forEach()`, `.find()` etc
+  - ESLint airbnb/base does not like using a `for` loop on arrays, and prefers a more functional style with methods like `.map()`, `.forEach()`, `.find()` etc
   - you might have some duplicated code that needs to be factored out
   - we have "model" code (the quotes data) mixed in with our routing code (a "controller") - these should be separated 
