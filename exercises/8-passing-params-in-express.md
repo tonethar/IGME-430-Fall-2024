@@ -229,10 +229,9 @@ const path = require('path');
 
 const quotesPath = path.resolve(__dirname, 'data/quotes-data.json');
 const jsonString = fs.readFileSync(quotesPath);
-const quotes = JSON.parse(jsonString);
-// console.log(quotes);
+const data = JSON.parse(jsonString);
 
-const getAllQuotes = () => quotes;
+const getAllQuotes = () => data.quotes;
 
 module.exports = { getAllQuotes };
 
