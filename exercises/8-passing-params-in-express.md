@@ -1,7 +1,7 @@
 # 8 - Passing params to `express`
 
 - Here we will start to implement more of the server functionality that `json-server` gave us "for free"
-  - sepcifically, searching for quotes of a specific `id` value
+  - specifically, searching for quotes of a specific `id` value
 
 ## I. Get Started
 - Duplicate the entire **first-routing-app** folder and re-name the copy to **router-app-passing-params**
