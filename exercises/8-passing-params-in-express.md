@@ -219,7 +219,7 @@ module.exports = ...
 - "db" is short for "database"
 - we will have it load in our **quotes-data.js** file
 - put this in the **src/** folder
-- it will (eventually) have have methiods that **C**reate, **R**ead, **U**pdate & **D**elete (**CRUD**) the quotes data
+- it will (eventually) have methods that **C**reate, **R**ead, **U**pdate & **D**elete (**CRUD**) the quotes data
 
 **src/db.js**
 
