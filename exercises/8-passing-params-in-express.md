@@ -66,7 +66,7 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
 ---
 
 ## IV. Accessing query parameters with `express`
-- First, let's consider how to do the *query string* version - here we'll use `request.query`:
+- First, let's consider how to do the *query string* version - here we'll use `request.query`, which gives us an object containing all of the query parameters and their values:
   - https://expressjs.com/en/api.html#req.query
   - https://www.geeksforgeeks.org/express-js-req-query-property/
 - Let's set up our `routes/quotes` route to grab `routes/quotes?id=12345`
@@ -85,7 +85,7 @@ router.get('/', (req, res) => {
   - check the node.js terminal, you should see `id=4` logged out
 - In the browser (or Postman) head to http://localhost:3000/quotes/?index=4
   - check the node.js terminal, you should see `id=undefined` logged out
-  - Why? Because we never passed in a value for `id`
+  - Why? Because we never passed in a value for `id`, and our code is ignoring `?index=4`
 - If you want to see ALL the query params logged out:
   - add `console.log('req.query=', req.query);`
   - head to http://localhost:3000/quotes/?id=4&param2=value2&param3=value3&param4=value4
