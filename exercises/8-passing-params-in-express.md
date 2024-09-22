@@ -1,5 +1,8 @@
 # 8 - Passing params to `express`
 
+- Here we will start to implement more of the server functionality that `json-server` gave us "for free"
+  - sepcifically, searching for quotes of a specific `id` value
+
 ## I. Get Started
 - Duplicate the entire **first-routing-app** folder and re-name the copy to **router-app-passing-params**
   - you might want to delete the **node_modules** folder before you make the copy; if so, don't forget to `npm i`
@@ -72,6 +75,8 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
 - Let's set up our `routes/quotes` route to grab `routes/quotes?id=12345`
 - Add the following to **src/routes/quotes.js**, a the top of the existing `router.get('/', ...` route handler
 
+---
+
 ```js
 router.get('/', (req, res) => {
   const { id } = req.query; // note: ESLint airbnb/base insists on object destructuring syntax!
@@ -79,6 +84,8 @@ router.get('/', (req, res) => {
   ...
 }
 ```
+
+---
 
 - `npm run dev` to start the server
 - In the browser (or Postman) head to http://localhost:3000/quotes/?id=4
@@ -90,3 +97,12 @@ router.get('/', (req, res) => {
   - add `console.log('req.query=', req.query);`
   - head to http://localhost:3000/quotes/?id=4&param2=value2&param3=value3&param4=value4
   - check the node terminal to see `req.query= { id: '4', param2: 'value2', param3: 'value3', param4: 'value4' }`
+ 
+---
+
+***YOU DO THIS*** - write code that returns the single quote that has a matching `id`:
+- `quotes.find()` would be the most elegant solution, but using a `for` loop is fine for now
+- if there is not a matching quote, return an empty `{}`
+- if the `id` parameter does not exist, return *ALL* of the quotes as we did before
+
+---
