@@ -149,14 +149,14 @@ module.exports = ...
 
 ---
 
-### VI-A. quotes-data.js
+### VI-A. quotes-data.json
 
-- Here is **quotes-data.js** - put this is a **src/data/** folder
+- Here is **quotes-data.json** - put this is a **src/data/** folder
 
-**src/data/quotes-data.js** 
+**src/data/quotes-data.json** 
 
 ```js
-const data = {
+{
   "version": "2.0",
   "quotes": [
     {
@@ -210,9 +210,7 @@ const data = {
       "updatedAt": "2024-08-01T04:00:00.000Z"
     }
   ]
-};
-
-module.exports = data;
+}
 ```
 
 ---
