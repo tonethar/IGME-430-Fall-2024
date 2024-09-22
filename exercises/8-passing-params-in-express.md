@@ -86,5 +86,5 @@ router.get('/', (req, res) => {
 - In the browser (or Postman) head to http://localhost:3000/quotes/?index=4
   - check the node.js terminal, you should see `id=undefined` logged out
   - Why? Because we never passed in a value for `id`
-- If you want to see ALL the query params, add `console.log(`query.params=${query.params}`);
+- If you want to see ALL the query params, add `console.log(\`query.params=${query.params}\`);
   - head to http://localhost:3000/quotes/?id=4&param2=value2&param3=value3&param4=value4
