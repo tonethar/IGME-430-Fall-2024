@@ -145,4 +145,85 @@ module.exports = ...
 - Your version of the code likely has one or more quality issues that need to be addressed:
   - ESLint airbnb/base does not like using a `for` loop on arrays, and prefers a more functional style with methods like `.map()`, `.forEach()`, `.find()` etc
   - you might have some duplicated code that needs to be factored out
-  - we have "model" code (the quotes data) mixed in with our routing code (a "controller") - these should be separated 
+  - we have "model" code (the quotes data) mixed in with our routing code (a "controller") - these should be separated
+
+---
+
+### VI-A. quotes-data.js
+
+- Here is **quotes-data.js** - put this is a **src/data/** folder
+
+**src/data/quotes-data.js** 
+
+```js
+const data = {
+  "version": "2.0",
+  "quotes": [
+    {
+      "index": 0,
+      "id": "4c951b60-1f90-41e7-a913-c1f454ff4c6e",
+      "author": "Oscar Wilde",
+      "content": "Be yourself; everyone else is already taken.",
+      "tags": [
+        "uncategorized"
+      ],
+      "createdAt": "2024-08-01T04:00:00.000Z",
+      "updatedAt": "2024-08-01T04:00:00.000Z"
+    },
+    {
+      "index": 1,
+      "id": "4c6217c3-c6e5-460b-8f8f-0df64ad6fef2",
+      "author": "Mark Twain",
+      "content": "If you tell the truth, you don't have to remember anything.",
+      "tags": [
+        "uncategorized"
+      ],
+      "createdAt": "2024-08-01T04:00:00.000Z",
+      "updatedAt": "2024-08-01T04:00:00.000Z"
+    },
+    {
+      "index": 2,
+      "id": "6e35a396-c108-4f72-8673-521aa9a3c7f6",
+      "author": "Elbert Hubbard",
+      "content": "A friend is someone who knows all about you and still loves you.",
+      "tags": [
+        "uncategorized"
+      ],
+      "createdAt": "2024-08-01T04:00:00.000Z",
+      "updatedAt": "2024-08-01T04:00:00.000Z"
+    },
+    {
+      "index": 3,
+      "id": "4f19e53d-8b5b-40ab-ba72-cfbbcd2ce4f6",
+      "author": "J.K. Rowling",
+      "content": "It does not do to dwell on dreams and forget to live.",
+      "tags": [
+        "fiction"
+      ],
+      "createdAt": "2024-08-01T04:00:00.000Z",
+      "updatedAt": "2024-08-01T04:00:00.000Z"
+    },
+    {
+      "index": 4,
+      "id": "7690718f-01b7-4775-9998-6a4adb480d27",
+      "author": "Thomas Sowell",
+      "content": "When you want to help people, you tell them the truth. When you want to help yourself, you tell them what they want to hear.",
+      "tags": [
+        "uncategorized"
+      ],
+      "createdAt": "2024-08-01T04:00:00.000Z",
+      "updatedAt": "2024-08-01T04:00:00.000Z"
+    }
+  ]
+};
+
+module.exports = data;
+```
+
+---
+
+### VI-B. db.js
+- "db" is short for "database"
+- we will have it load in our **quotes-data.js** file
+- put this in the **src/** folder
+
