@@ -249,8 +249,8 @@ module.exports = { getAllQuotes };
 - Test your code:
   - http://localhost:3000/quotes/4f19e53d-8b5b-40ab-ba72-cfbbcd2ce4f6 - returns the JK Rowling quote
   - http://localhost:3000/quotes/?id=6e35a396-c108-4f72-8673-521aa9a3c7f6 - returns the Elbert Hubbard quote
-  - http://localhost:3000/quotes/random
-  - http://localhost:3000/quotes/recent // returns the Thomas Sowell quote
+  - http://localhost:3000/quotes/random - returns a random quote
+  - http://localhost:3000/quotes/recent  - returns the Thomas Sowell quote
   - http://localhost:3000/quotes/12345 - returns `{}`
   - http://localhost:3000/quotes/ - still returns all the quotes
 
