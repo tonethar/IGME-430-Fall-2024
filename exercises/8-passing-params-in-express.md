@@ -1,4 +1,4 @@
-# 8 - Passing Params in express
+# 8 - Passing params to `express`
 
 ## I. Get Started
 - Duplicate the entire **first-routing-app** folder and re-name the copy to **router-app-passing-params**
@@ -52,4 +52,39 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
 
 ---
 
-## III. 
+## III. Discussion
+
+- Currently, the `/quotes` endpoint returns an *entire array* of quotes...
+- ... but what if the user of this API was only interested in a *single* quote of a particular `.id`?
+- If we passed the *entire array* of quotes back to the user it would not be a big deal yet because we only have 3 total quotes ...
+- ... but what if we had 3000 (or 30,000) quotes in our database? Sending *all* of the quotes won't scale and our server would either run out of bandwidth or start costing iu a lot!
+- Solution: Send back just the one quote the user is interested in.
+- Commonly, because of API *conventions* (common practice), they might ask for the endpoint for a single quote using one of these techniques:
+  - a `GET` request: `/quotes/?id=12345` - using the *query string* to pass in an `id` parameter value of `12345`
+  - a `GET` request: `/quotes/12345` - using a URL *route* to pass in a value, which our code will assume is an `id` value
+
+---
+
+## IV. Accessing query parameters with `express`
+- First, let's consider how to do the *query string* version - here we'll use `request.query`:
+  - https://expressjs.com/en/api.html#req.query
+  - https://www.geeksforgeeks.org/express-js-req-query-property/
+- Let's set up our `routes/quotes` route to grab `routes/quotes?id=12345`
+- Add the following to **src/routes/quotes.js**, a the top of the existing `router.get('/', ...` route handler
+
+```js
+router.get('/', (req, res) => {
+  const { id } = req.query; // note: ESLint airbnb/base insists on object destructuring syntax!
+  console.log(`id=${id}`);
+  ...
+}
+```
+
+- `npm run dev` to start the server
+- In the browser (or Postman) head to http://localhost:3000/quotes/?id=4
+  - check the node.js terminal, you should see `id=4` logged out
+- In the browser (or Postman) head to http://localhost:3000/quotes/?index=4
+  - check the node.js terminal, you should see `id=undefined` logged out
+  - Why? Because we never passed in a value for `id`
+- If you want to see ALL the query params, add `console.log(`query.params=${query.params}`);
+  - head to http://localhost:3000/quotes/?id=4&param2=value2&param3=value3&param4=value4
