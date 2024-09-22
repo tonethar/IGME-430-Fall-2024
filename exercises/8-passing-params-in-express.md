@@ -139,3 +139,8 @@ module.exports = ...
   - http://localhost:3000/quotes/12345 - returns `{}`
   - http://localhost:3000/quotes/ - still returns all the quotes
 
+---
+
+## VI. Refactor time
+- Your version of the code likely has one or more quality issues that need to be addressed:
+  -  
