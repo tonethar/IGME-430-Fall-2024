@@ -103,9 +103,11 @@ router.get('/', (req, res) => {
 ***YOU DO THIS*** - write code that returns the single quote that has a matching `id`:
 - `quotes.find()` would be the most elegant solution, but using a `for` loop is fine for now
 - if there is not a matching quote, return an empty `{}`
-- if the `id` parameter does not exist, return *ALL* of the quotes as we did before
-- Test your done:
+- if the `id` parameter does not exist or has no value, return *ALL* of the quotes as we did before
+- Test your code:
   - http://localhost:3000/quotes/?id=4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 - returns the Mark Twain quote
+  - http://localhost:3000/quotes/?id=6e35a396-c108-4f72-8673-521aa9a3c7f6 - returns the Elbert Hubbard quote
   - http://localhost:3000/quotes/?id=12345 - returns `{}`
+  - http://localhost:3000/quotes/ - still returns all the quotes
 
 ---
