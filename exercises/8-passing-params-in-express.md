@@ -231,6 +231,7 @@ const quotesPath = path.resolve(__dirname, 'data/quotes-data.json');
 const jsonString = fs.readFileSync(quotesPath);
 const data = JSON.parse(jsonString);
 
+// PUBLIC METHODS
 const getAllQuotes = () => data.quotes;
 
 module.exports = { getAllQuotes };
