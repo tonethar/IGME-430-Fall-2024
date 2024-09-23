@@ -266,7 +266,7 @@ module.exports = { getAllQuotes };
     - if there is not a quote with a matching `id`, the function will return `undefined
 - In **src/routes/quotes.js**
   - utilize all 3 functions above `db.randomQuote()`, `db.recentQuote()`, and `db.getQuoteById()`
-  - delete unnecessary code - example:
+  - AND delete unnecessary code - for example:
 
 ```js
 // DELETE THIS!
@@ -280,3 +280,8 @@ router.get('/random', (req, res) => {
   res.json(db.randomQuote());
 });
 ```
+
+---
+
+## VIII. Submission
+
