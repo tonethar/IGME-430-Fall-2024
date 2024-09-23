@@ -268,3 +268,10 @@ app.use('/quotes', quotesRouter); now /quotes is a route!
 
 ## X. Links
 - https://expressjs.com/en/api.html#express.router
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**6 - Intro to express**](6-intro-to-express.md)  |  [**IGME-430**](../) | [**8 - Passing params to express**](8-passing-params-in-express.md)
