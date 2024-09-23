@@ -291,4 +291,12 @@ router.get('/random', (req, res) => {
 - ZIP and POST the entire folder to the myCourses dropbox:
   - don't neglect to delete the **node_modules** folder BEFORE zipping
   - there is no need to post this to GitHub or Heroku
+ 
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**7 - Express Routing**](7-express-routing.md)  |  [**IGME-430**](../) | 9 - POSTing data to express
 
