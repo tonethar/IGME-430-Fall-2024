@@ -1,4 +1,4 @@
-# 6 - Intro to express
+# 6 - Intro to `express`
 
 ## I. Overview of express
 - *Fast, "unopinionated", minimalist web framework for node:*
