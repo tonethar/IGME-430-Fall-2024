@@ -19,5 +19,5 @@
 
 ---
 
-## IV, Example
+## IV. Example
 - https://willoughby-project-1-5f0f90052f40.herokuapp.com/
