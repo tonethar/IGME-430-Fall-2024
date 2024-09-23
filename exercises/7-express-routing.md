@@ -1,4 +1,4 @@
-# 7 - Express Routing
+# 7 - `express` Routing
 
 ## Overview
 - *Routing* refers to determining how an application responds to a client request for a particular endpoint
