@@ -255,6 +255,7 @@ module.exports = { getAllQuotes };
   - http://localhost:3000/quotes/recent  - returns the Thomas Sowell quote
   - http://localhost:3000/quotes/12345 - returns `{}`
   - http://localhost:3000/quotes/ - still returns all the quotes
+  - http://localhost:3000/rich-client.html - the buttons still work!
 
 ---
 
@@ -276,13 +277,18 @@ router.get('/random', (req, res) => {
   res.json(quote);
 });
 
-REPLACE IT WITH THIS!
+// REPLACE IT WITH THIS!
 router.get('/random', (req, res) => {
   res.json(db.randomQuote());
 });
 ```
+- Test all of the above links again to be sure that everything still works
+- Run `npm test` and fix all errors
 
 ---
 
-## VIII. Submission
+## VIII. Homework Submission
+- ZIP and POST the entire folder to the myCourses dropbox:
+  - don't neglect to delete the **node_modules** folder BEFORE zipping
+  - there is no need to post this to GitHub or Heroku
 
