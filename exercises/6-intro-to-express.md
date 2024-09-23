@@ -245,3 +245,10 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
 - ZIP and POST the entire folder to the myCourses dropbox:
   - don't neglect to delete the **node_modules** folder BEFORE zipping
   - there is no need to post this to GitHub or Heroku
+ 
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**5 - Streaming Media HW**](5-streaming-media.md)  |  [**IGME-430**](../) | [7 - Express Routing](7-express-routing.md)
