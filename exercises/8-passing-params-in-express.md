@@ -264,7 +264,7 @@ module.exports = { getAllQuotes };
   - create a `recentQuote()` function that returns the last element of `data.quotes`, and export it
   - create a `getQuoteById(id)` function that returns the quote in `data.quotes` with the matching `id`, and export it
     - utilize `array.find()`
-    - if there is not a quote with a matching `id`, the function will return `undefined
+    - if there is not a quote with a matching `id`, the function will return `undefined`
 - In **src/routes/quotes.js**
   - utilize all 3 functions above `db.randomQuote()`, `db.recentQuote()`, and `db.getQuoteById()`
   - AND delete unnecessary code - for example:
