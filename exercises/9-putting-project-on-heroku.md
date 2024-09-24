@@ -100,6 +100,7 @@ branch 'main' set up to track 'origin/main'.
   - replace `const port = 3000;` ...
   - with `const port = process.env.PORT || process.env.NODE_PORT || 3000;`
   - `npm start` again to test it locally
+  - git add, git commit, git push etc to push the changes to GitHub
 - Once everything is deployed, the app on Heroku should work!
 
 ---
@@ -147,7 +148,11 @@ jobs:
     - run: npm test
 
 ```
- 
+
+- Type `git status` - it should note that **.github/** isn't being tracked
+- git add, git commit, git push etc to push the changes to GitHub
+- 
+   
 ---
 ---
 
