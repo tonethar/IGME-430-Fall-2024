@@ -85,8 +85,9 @@ app.post('/addComment', function(req, res){
 ```
 
 - In your web browser, head to http://localhost:3000/addComment
-  - This gives you a `Cannot GET /addComment` message in the browser, and if you check the browser's Network inspector you'll see you also got a `404` status code. Express does this for us automatically with unknown endpoint requests (but very soon, we'll create our own custom "File not found" `404` message)
-  - Why? Because requests sent in the browser's location box are always `GET`
+  - This gives you a `Cannot GET /addComment` message in the browser, and if you check the browser's Network inspector you'll see you also got a `404` status code. Express does this for us automatically with unknown endpoint requests
+    - ... but very soon, we'll create our own custom "File not found" `404` message ...
+  - Why did we the `404` page? Because requests sent in the browser's location box are always `GET`, NOT `POST` like the route we created
   - To test this `POST` endpoint, launch the *Postman* app
     - create a new request
     - choose the `POST` method
