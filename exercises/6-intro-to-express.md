@@ -204,7 +204,7 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
 "dev": "nodemon -e js,html,css,json ./src/app.js"
 ```
 
-- You might have guessed that the `-e` flag stands for "file extensions we watch to watch"
+- You might have guessed that the `-e` flag stands for "file extensions we want to watch"
 - Test this by modifying **server.js** and saving the change - you should still see a server reboot
 - Now modify one of the HTML files and save the change - you will now see a server reboot
 - And now any changes to **package.json** will also cause a server reboot
