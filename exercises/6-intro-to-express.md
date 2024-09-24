@@ -76,11 +76,11 @@ app.listen(port, () => {
 
 ---
 
-4) You should have 2 `GET` endpoints at this point - which are easy to test in the browser. Let's add a POST endpoint with `app.post()`:
+4) You should have 2 `GET` endpoints right now - which are easy to test in the browser. Let's add a POST endpoint with `app.post()`:
 
 ```js
 app.post('/addComment', function(req, res){
-   res.send("You just called the post method at '/addComment'!\n");
+   res.send("You just called the post method at '/addComment'!");
 });
 ```
 
