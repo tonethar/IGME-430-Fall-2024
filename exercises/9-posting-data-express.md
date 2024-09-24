@@ -80,6 +80,19 @@ branch 'main' set up to track 'origin/main'.
 - Be sure to "Enable Automatic Deploys" and CI - even though we don't yet have GitHUb Actions/continuous integration set up yet
 - Push the repo by clicking "Deploy Branch"
 - Open the app and verify that **rich-client.html** and the other endpoints work
+  - they don't! CRASH!!
+ 
+---
+
+## V. Fix the crash
+- To get a sense of what went wrong, in the dashboard, click the "More" button and choose "View logs"
+  - in this case we know that somnething went wrong with `npm` - and the error messages aren't very specific ...
+  - ... but I'll give you a hint, we never created a `"start"` script for `npm` to run!
+- Back in VSCode, open up **package.json**:
+  - add the following script - `"start": "node src/app.js"`
+  - save the file and type `npm start` to set it locally
+  - quit the server with `ctrl-x`
+  - git add, git commit, git push etc to push the chnages to GitHub
  
 ---
 ---
