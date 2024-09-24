@@ -45,6 +45,15 @@ node_modules
   - click the "New" button
   - name it **430-express-post-server**
   - initialize the repo so that it is entirely *empty* - DO NOT check any boxes that create a README file, or a gitignore or a license file etc
+  - you should see something like the following (but with values for your repo, not mine):
+
+---
+
+![screenshot](_images/express-2.png)
+
+---
+
+- To connect your local repo, to this remote repo we just created, type those last 3 lines above into the terminal in VSCode (and be sure that your current working directory is **router-app-POST**
  
 ---
 ---
