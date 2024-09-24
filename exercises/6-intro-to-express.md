@@ -108,7 +108,9 @@ app.use(express.static('client'));
 
 ---
 
-BTW - `app.use()` defines a "middleware" function - we'll get deeper into this later on in the course - see links at the top of this document for more info.
+BTW:
+- so the above code causes our app to first look in the **client/** folder whenever it gets a request for an endpoint
+- what `app.use()` does is to define a "middleware" function - we'll get deeper into this later on in the course - see links at the top of this document for more info.
 
 ---
 
