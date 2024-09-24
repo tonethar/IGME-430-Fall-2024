@@ -77,8 +77,8 @@ branch 'main' set up to track 'origin/main'.
 - You should know how to do this
 - Name the app **`<your-RIT-id>-430-express-post-server`**
 - Hook up your **430-express-post-server** repo to the app
-- Be sure to enable "Autodeploy" and CI - even though we don't yet have GitHUb Actions/continuous integration set up yet
-- Push the repo
+- Be sure to "Enable Automatic Deploys" and CI - even though we don't yet have GitHUb Actions/continuous integration set up yet
+- Push the repo by clicking "Deploy Branch"
 - Open the app and verify that **rich-client.html** and the other endpoints work
  
 ---
