@@ -160,7 +160,9 @@ jobs:
 
 ---
 
-- Now head to Heroku's "Deploy" tab for your app and check the "Wait for CI to pass before deploy" box - the next time you push a commit to your GitHub repo - `npm test` will run - and if the code passed it will get pushed to Heroku
+- Now head to Heroku's "Deploy" tab for your app and check the "Wait for CI to pass before deploy" box:
+  - the next time you push a commit to your GitHub repo - `npm test` will run ...
+  - ... and if the code passed it will then get pushed to Heroku
   - you might want to test that assumption now, by making a small change to the code locally and pushing it!
    
 ---
