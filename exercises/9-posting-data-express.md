@@ -91,8 +91,9 @@ branch 'main' set up to track 'origin/main'.
 - Back in VSCode, open up **package.json**:
   - add the following script - `"start": "node src/app.js"`
   - save the file and type `npm start` to set it locally
-  - quit the server with `ctrl-x`
+  - quit the server with `ctrl-c`
   - git add, git commit, git push etc to push the changes to GitHub
+- Once everything is deployed, the app should work!
  
 ---
 ---
