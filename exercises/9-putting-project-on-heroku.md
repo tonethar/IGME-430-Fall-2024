@@ -87,19 +87,18 @@ branch 'main' set up to track 'origin/main'.
  
 ---
 
-## V. Fix the crash
+## V. Fix the crash!
 - To get a sense of what went wrong, in the dashboard, click the "More" button and choose "View logs"
-  - in this case we know that somnething went wrong with `npm` - and the error messages aren't very specific ...
+  - in this case we know that something went wrong with `npm` - but the error messages aren't very specific ...
   - ... but I'll give you a hint, one issue is that we never created a `"start"` script for `npm` to run!
 - Back in VSCode, open up **package.json**:
   - add the following script - `"start": "node src/app.js"`
   - save the file and type `npm start` to test it locally
   - quit the server with `ctrl-c`
-  - git add, git commit, git push etc to push the changes to GitHub
-- Back in VSCode, open **app.js**, we need to tell Heroku which port to use:
+- Back in VSCode, open **app.js**, now we need to tell Heroku which port to use:
   - replace `const port = 3000;` ...
   - with `const port = process.env.PORT || process.env.NODE_PORT || 3000;`
-  - `npm start` again to test it locally
+  - `npm start` again, to test it locally
   - git add, git commit, git push etc to push the changes to GitHub
 - Once everything is deployed, the app on Heroku should work!
 
@@ -162,7 +161,7 @@ jobs:
 ---
 
 - Now head to Heroku's "Deploy" tab for your app and check the "Wait for CI to pass before deploy" box - the next time you push a commit to your GitHub repo - `npm test` will run - and if the code passed it will get pushed to Heroku
-  - you  might want to test that now by making a small chnage and pushing it!
+  - you might want to test that assumption now, by making a small change to the code locally and pushing it!
    
 ---
 ---
