@@ -207,7 +207,7 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
 ```
 
 - You might have guessed that the `-e` flag stands for "file extensions we want to watch"
-- Test this by modifying **server.js** and saving the change - you should still see a server reboot
+- Test this by modifying **app.js** and saving the change - you should still see a server reboot
 - Now modify one of the HTML files and save the change - you will now see a server reboot
 - And now any changes to **package.json** will also cause a server reboot
 
@@ -237,7 +237,7 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
 ---
 
 ## VIII. HW & Submission
-- Add a `/timeJSON` endpoint to **server.js** that returns the current time in the JSON format
+- Add a `/timeJSON` endpoint to **app.js** that returns the current time in the JSON format
   - we previously did this in *3 - HW - Simple HTTP Server*
   - test this endpoint in the browser to be sure it works right - http://localhost:3000/timeJSON
 - Add a button and code to **rich-client.html** that calls `/timeJSON`, and then displays the results in the browser window
