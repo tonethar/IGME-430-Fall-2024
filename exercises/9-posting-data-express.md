@@ -31,8 +31,10 @@ node_modules
 
 - BTW: If you want a more exhaustive list of files for this **.gitignore** file, you can use GitHub's "Node" version of **.gitignore**, here it is (just be sure to add **.DS_Store** to the end of it) --> https://github.com/github/gitignore/blob/main/Node.gitignore
 - Now let's get our local (currently empty) repo tracking our project files, and commit them:
-  - `git status`
-  - 
+  - `git status` - what's untracked?
+  - `git add .` - add everything (except for what's in **.gitignore**
+  - `git status` - shows what has been "staged" for a commit
+  - `git commit -m "First commit"` - commits all staged files to local repo
  
 ---
 ---
