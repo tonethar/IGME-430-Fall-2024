@@ -54,7 +54,7 @@ node_modules
 
 ---
 
-- To connect your local repo, to this remote repo we just created, type those last 3 lines above into the terminal in VSCode (and be sure that your current working directory is **router-app-POST**
+- To connect your local repo to this remote repo we just created, type those last 3 lines above into the terminal in VSCode (and be sure that your current working directory is **router-app-POST**
 - Which logs to the console:
 
 ```
