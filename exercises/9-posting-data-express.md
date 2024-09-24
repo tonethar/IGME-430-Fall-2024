@@ -44,7 +44,7 @@ node_modules
   - head to https://github.com/
   - click the "New" button
   - name it **430-express-post-server**
-  - initialize the repo so that it is entirely *empty* - DO NOT check any boxes that create a read me file, or a gitignore etc
+  - initialize the repo so that it is entirely *empty* - DO NOT check any boxes that create a README file, or a gitignore or a license file etc
  
 ---
 ---
