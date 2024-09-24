@@ -107,6 +107,44 @@ branch 'main' set up to track 'origin/main'.
 ## VI. GitHub Actions / Continuous Integration
 
 - **TODO**
+- Create a **.github** folder
+- Inside of the **.github** folder, create a **workflows** folder
+- Inside of the **workflows** folder, create a **node.js.yml** file
+- Make **node.js.yml** look like this:
+
+```
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Node.js CI
+
+on:
+  push:
+    branches: [ "master", "main" ]
+  pull_request:
+    branches: [ "master", "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+    - run: npm ci
+    - run: npm run build --if-present
+    - run: npm test
+
+```
  
 ---
 ---
