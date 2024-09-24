@@ -298,5 +298,5 @@ router.get('/random', (req, res) => {
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**7 - Express Routing**](7-express-routing.md)  |  [**IGME-430**](../) | 9 - POSTing data to express
+| [**7 - Express Routing**](7-express-routing.md)  |  [**IGME-430**](../) | 9 - `POST`ing data to express
 
