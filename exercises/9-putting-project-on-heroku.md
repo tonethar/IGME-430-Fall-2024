@@ -148,6 +148,7 @@ jobs:
 
 ```
 
+- BTW - this is what `npm ci` does - https://docs.npmjs.com/cli/v10/commands/npm-ci
 - Type `git status` - it should note that **.github/** isn't being tracked
 - git add, git commit, git push etc to push the changes to GitHub
 - Also, better do a `npm test` and verify that your code still passes!
