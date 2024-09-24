@@ -107,7 +107,7 @@ branch 'main' set up to track 'origin/main'.
 
 ## VI. GitHub Actions / Continuous Integration
 
-- **TODO**
+- In VSCode's Terminal, type `pwd` to make sure that your current working directory is **router-app-POST**
 - Create a **.github** folder
 - Inside of the **.github** folder, create a **workflows** folder
 - Inside of the **workflows** folder, create a **node.js.yml** file
@@ -151,7 +151,18 @@ jobs:
 
 - Type `git status` - it should note that **.github/** isn't being tracked
 - git add, git commit, git push etc to push the changes to GitHub
-- 
+- Also, better do a `npm test` and verify that your code still passes!
+- Head to the GitHub repo and look under the Actions tab - the **node.js.yml** script should run and succeed!
+- You should also have that beautiful green checkmark showing on the main repo page
+
+---
+
+![screenshot](_images/express-3.png)
+
+---
+
+- Now head to Heroku and check the CI box - the next time you push a commit to your GitHub repo - `npm test` will run - and if the code passed it will get pushed to Heroku
+  - you  might want to test that now by making a small chnage and pushing it!
    
 ---
 ---
