@@ -1,7 +1,7 @@
-# 9 - `POST`ing data to express
+# 9 - Putting our project on Heroku
 
-- We have seen how to pass data to an express app with `GET` via URL params and URL routes ...
-- now let's see how to send data to express via `POST`
+- Pretty soon, we'll be POSTing data to this app, and testing it on Heroku
+- In this exercise, we'll first get everything running on Heroku
 
 ## I. Get Started
 - Duplicate the entire **router-app-passing-params** folder and re-name the copy to **router-app-POST**
