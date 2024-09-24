@@ -3,6 +3,8 @@
 - Pretty soon, we'll be POSTing data to this app, and testing it on Heroku
 - In this exercise, we'll first get everything running on Heroku
 
+---
+
 ## I. Get Started
 - Duplicate the entire **router-app-passing-params** folder and re-name the copy to **router-app-POST**
   - you might want to delete the **node_modules** folder before you make the copy; if so, don't forget to `npm i` below
