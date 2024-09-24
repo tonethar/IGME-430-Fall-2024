@@ -35,6 +35,16 @@ node_modules
   - `git add .` - add everything (except for what's in **.gitignore**
   - `git status` - shows what has been "staged" for a commit
   - `git commit -m "First commit"` - commits all staged files to local repo
+
+
+---
+
+## III. Creating a remote Git repository
+- Let's go ahead and create a remote git repository on GitHub:
+  - head to https://github.com/
+  - click the "New" button
+  - name it **430-express-post-server**
+  - initialize the repo so that it is entirely *empty* - DO NOT check any boxes that create a read me file, or a gitignore etc
  
 ---
 ---
