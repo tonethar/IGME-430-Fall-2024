@@ -101,6 +101,10 @@ branch 'main' set up to track 'origin/main'.
   - with `const port = process.env.PORT || process.env.NODE_PORT || 3000;`
   - `npm start` again to test it locally
 - Once everything is deployed, the app on Heroku should work!
+
+---
+
+## VI. GitHub Actions / Continuous Integration
  
 ---
 ---
