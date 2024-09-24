@@ -11,8 +11,24 @@
 
 ---
 
-## II.
+## II. Setting up a local Git repository
+- It's about time to get this posted to Heroku, and to do that we'll need a Git repo
+- In VSCode's Terminal, type `pwd` to make sure that your current working directory is **router-app-POST**
+- Type `git init` to create a new git repository
+  - in the console you should see `Initialized empty Git repository in ...`
+  - BTW: if you type `ls -al` you'll see a **.git**  folder now - this is where the file changes you make are tracked
+  - BTW: if you type `ls .git` you'll see its contents
+  - BTW: never modify any of the files in the **.git** - pretty much just ignore it
+- We need to tell git which files and folders to exclude from version tracking:
+  - type `touch .gitignore` to create an empty text file named **.gitignore**
+  - make **.gitignore** look like this:
 
+**.gitignore**
+```
+node_modules
+.DS_Store
+```
+ 
 ---
 ---
 
