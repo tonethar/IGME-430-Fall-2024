@@ -35,6 +35,7 @@ node_modules
   - `git add .` - add everything (except for what's in **.gitignore**
   - `git status` - shows what has been "staged" for a commit
   - `git commit -m "First commit"` - commits all staged files to local repo
+  - `git status` - logs `"On branch main nothing to commit, working tree clean"`
 
 
 ---
