@@ -92,7 +92,7 @@ branch 'main' set up to track 'origin/main'.
   - add the following script - `"start": "node src/app.js"`
   - save the file and type `npm start` to set it locally
   - quit the server with `ctrl-x`
-  - git add, git commit, git push etc to push the chnages to GitHub
+  - git add, git commit, git push etc to push the changes to GitHub
  
 ---
 ---
