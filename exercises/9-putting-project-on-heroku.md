@@ -112,6 +112,8 @@ branch 'main' set up to track 'origin/main'.
 - Inside of the **workflows** folder, create a **node.js.yml** file
 - Make **node.js.yml** look like this:
 
+
+**.github/workflows/node.js.yml**
 ```
 # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
