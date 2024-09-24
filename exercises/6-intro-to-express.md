@@ -93,6 +93,7 @@ app.post('/addComment', function(req, res){
     - choose the `POST` method
     - try the above URL again
     - you should see the expected server response now!
+- OK, you can move on now - we just wanted to show you how express handles `POST` requests
 
 ---
 
