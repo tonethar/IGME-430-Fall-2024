@@ -55,6 +55,31 @@ node_modules
 ---
 
 - To connect your local repo, to this remote repo we just created, type those last 3 lines above into the terminal in VSCode (and be sure that your current working directory is **router-app-POST**
+- Which logs to the console:
+
+```
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (17/17), done.
+Writing objects: 100% (19/19), 173.30 KiB | 21.66 MiB/s, done.
+Total 19 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/tonethar/430-express-post-server.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+```
+- Type `git status` - which logs `On branch main Your branch is up to date with 'origin/main'. nothing to commit, working tree clean`
+- In the web browser, reload your GitHub repo, you should see all of the files you just committed!
+
+---
+
+## IV. Set up an app on Heroku
+- You should know how to do this
+- Name the app **`<your-RIT-id>-430-express-post-server`**
+- Hook up your **430-express-post-server** repo to the app
+- Be sure to enable "Autodeploy" and CI - even though we don't yet have GitHUb Actions/continuous integration set up yet
+- Push the repo
+- Open the app and verify that **rich-client.html** and the other endpoints work
  
 ---
 ---
