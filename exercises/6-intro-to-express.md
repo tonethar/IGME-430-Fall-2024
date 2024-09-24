@@ -197,9 +197,9 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
 
 ---
 
-## VI. Updating nodemon
+## VI. Improving `nodemon`
 
-- One more thing - let's update `nodemon` so that it reboots our server whenever there are changes to any HTML or CSS files in the `client/` folder. Here's the new value for the `"dev"` key in **package.json**:
+- One more thing - let's improve our `nodemon` call so that it reboots our server whenever there are changes to any of the HTML or CSS files in the `client/` folder. Here's the new value for the `"dev"` key in **package.json**:
 
 ```json
 "dev": "nodemon -e js,html,css,json ./src/app.js"
