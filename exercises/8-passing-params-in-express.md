@@ -5,7 +5,7 @@
 
 ## I. Get Started
 - Duplicate the entire **first-routing-app** folder and re-name the copy to **router-app-passing-params**
-  - you might want to delete the **node_modules** folder before you make the copy; if so, don't forget to `npm i`
+  - you might want to delete the **node_modules** folder before you make the copy; if so, don't forget to `npm i` below
 - Open up **router-app-passing-params** in VSCode and `npm i`,  `npm run dev`
 - Verify that the app's endpoints still work in the browser
 
