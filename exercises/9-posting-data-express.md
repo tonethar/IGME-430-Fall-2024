@@ -43,7 +43,7 @@ node_modules
 ## III. Creating a remote Git repository
 - Let's go ahead and create a remote git repository on GitHub:
   - head to https://github.com/
-  - click the "New" button
+  - click the "New" button and create a new, empty repository
   - name it **430-express-post-server**
   - initialize the repo so that it is entirely *empty* - DO NOT check any boxes that create a README file, or a gitignore or a license file etc
   - you should see something like the following (but with values for your repo, not mine):
