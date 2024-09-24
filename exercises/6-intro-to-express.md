@@ -216,12 +216,12 @@ const filePath404Page = path.resolve(__dirname,'../client/404.html');
 - You wrote dramatically less code than we did for *HW - Simple HTTP Server*
 - And picked up a new capability - the custom 404 page
 - Express response methods:
-  - `res.send()` - Send data
-  - `res.sendFile()` - Send a file
-  - `res.json()` - Send JSON data
-  - `res.status()` - Specify HTTP response code
-  - `res.redirect()` -  Redirect to a certain path
-  - `res.render()` -  Render and send a view template
+  - [`res.send()`](https://expressjs.com/en/4x/api.html#res.send) - Send data
+  - [`res.sendFile()`](https://expressjs.com/en/4x/api.html#res.sendFile) - Send a file
+  - [`res.json()`](https://expressjs.com/en/4x/api.html#res.json) - Send JSON data
+  - [`res.status()`](https://expressjs.com/en/4x/api.html#res.status) - Specify HTTP response code
+  - [`res.redirect()`](https://expressjs.com/en/4x/api.html#res.redirect) -  Redirect to a certain path
+  - [`res.render()`](https://expressjs.com/en/4x/api.html#res.render) -  Render and send a view template. Something we'll do in Project 2
 - Hello World:
   - https://expressjs.com/en/starter/hello-world.html
 - Routing:
