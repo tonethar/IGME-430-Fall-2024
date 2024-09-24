@@ -95,7 +95,7 @@ branch 'main' set up to track 'origin/main'.
   - add the following script - `"start": "node src/app.js"`
   - save the file and type `npm start` to test it locally
   - quit the server with `ctrl-c`
-- Back in VSCode, open **app.js**, now we need to tell Heroku which port to use:
+- Also in VSCode, open **app.js**, now we need to let Heroku choose which `port` to use when it launches the server:
   - replace `const port = 3000;` ...
   - with `const port = process.env.PORT || process.env.NODE_PORT || 3000;`
   - `npm start` again, to test it locally
