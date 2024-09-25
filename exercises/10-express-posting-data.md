@@ -97,11 +97,11 @@ router.post('/addHoot', (req, res) => {
 ```
 This is a new Hoot!
 ```
-- Meaning that express is taking that string content that's coming over the POST request, and `JSON.parse()`ing it into an object for us!
+- Meaning that express is taking that string content that's coming over the `POST` request, and `JSON.parse()`ing it into an object for us!
 
 ---
 
-### II-B. Adding POST data to the `hoots` array 
+### II-B. Adding `POST` data to the `hoots` array 
 
 --- 
 ## XX. Reference
