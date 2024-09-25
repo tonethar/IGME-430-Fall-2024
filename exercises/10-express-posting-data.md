@@ -37,9 +37,30 @@ const hoots = [{
 ---
 
 ## II. Create the POST `/api/hoots` endpoint
-- POSTing in HTTP is for when we want to send data to the server - for example a new Hoot!
+- `POST`ing in HTTP is for when we want to send data to the server - for example a new Hoot!
+- To get started, add the following to **routes/api.js**:
 
+```js
+router.post('/hoots', (req, res) => {
+  res.json({ content: 'POST /hoots - test' });
+});
+```
 
+- If you head to http://localhost:3000/api/hoots in the browser you'll be calling the `GET` endpoint where you see all the hoots
+- To test this `POST` endpoint, go ahead and use Postman to connect to http://localhost:3000/api/hoots - and don't forget to set the method to `POST`
+- If everything is working you should see the following in the response body:
+
+```
+{
+    "content": "POST /hoots - test"
+}
+```
+
+- Let's move on and add code that accepts "Hoot" data and adds it to the `hoots` array
+
+```js
+
+```
 
 
 --- 
