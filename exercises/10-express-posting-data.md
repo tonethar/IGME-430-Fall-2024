@@ -79,9 +79,12 @@ router.post('/addHoot', (req, res) => {
 ```
 
 - In Postman, send a `POST` request to http://localhost:3000/api/addHoot
-  - in the request body, make it type "raw" and JSON - here's what you can send: `{ "content" : "hello" }`
+  - in the request body, make it type "raw" and JSON
+  - here's the JSON you can send: `{ "content" : "hello" }`
 - Check the Node console - it will log `undefined` - WHY??  ...
-- Because ... we need to tell express to look for raw JSON data ...
+- Because ... we need to tell express to look for "raw JSON" data ...
+- And we easily do that with "middleware" ...
+- Over in 
 
 
 --- 
