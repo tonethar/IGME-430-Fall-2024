@@ -42,16 +42,21 @@ const hoots = [{
 
 ```js
 router.post('/hoots', (req, res) => {
-  res.json({ content: 'POST /hoots - test' });
+  const hoot = {
+    id: generateNewId(),
+    content: 'POST /hoots - test',
+  };
+  res.json(hoot);
 });
 ```
 
 - If you head to http://localhost:3000/api/hoots in the browser you'll be calling the `GET` endpoint where you see all the hoots
 - To test this `POST` endpoint, go ahead and use Postman to connect to http://localhost:3000/api/hoots - and don't forget to set the method to `POST`
-- If everything is working you should see the following in the response body:
+- If everything is working you should see something like in the response body (although the `id` will be different everytime this is called:
 
 ```
 {
+    "id": "5d334e30-cf73-473a-a66e-7f8a72029927",
     "content": "POST /hoots - test"
 }
 ```
