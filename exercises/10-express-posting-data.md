@@ -21,7 +21,7 @@ const hoots = [{
 }];
 ```
 
-- ***\*\* YOU TRY THIS \*\**** --> Now add a route to **routes/api.js** that will display all of the `hoots` as JSON - it will be available at **/api/hoots**
+- ***\*\* YOU TRY THIS \*\**** --> Now add a `GET` route to **routes/api.js** that will display all of the `hoots` as JSON - it will be available at **/api/hoots**
 
 <details>
   <summary><b>Solution for <kbd>/api/hoots</kbd> in index.js</b></summary>
@@ -32,11 +32,12 @@ const hoots = [{
   </code>
 </details>
 
-- Test it at: http://localhost:3000/api/hoots
+- Test it at: http://localhost:3000/api/hoots - you should see the contents of the `hoots` array - as JSON
 
 ---
 
 ## II. Create the POST `/api/hoots` endpoint
+- POSTing in HTTP is for when we want to send data to the server - for example a new Hoot!
 
 
 
