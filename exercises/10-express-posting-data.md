@@ -105,7 +105,7 @@ req.body.content=This is a new Hoot!
 
 ```js
 router.post('/addHoot', (req, res) => {
-  // req.body.content=',req.body.content);
+  // console.log('req.body.content=',req.body.content);
   // verify that we got POST data
   const content = req.body && req.body.content
     ? req.body.content
