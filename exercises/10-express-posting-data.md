@@ -26,16 +26,13 @@ const hoots = [{
 <details>
   <summary><b>Solution for <kbd>/api/hoots</kbd> in index.js</b></summary>
   <code>
-    ...
-    
    router.get('/hoots', (req, res) => {
     res.json(hoots);
    });
-    
-    ...
   </code>
 </details>
 
+- Test it at: http://localhost:3000/api/hoots
 
 ---
 
