@@ -156,15 +156,20 @@ router.post('/addHoot', (req, res) => {
 
 ---
 
-- In Postman, head to http://localhost:3000/api/addHoot and send the same request we did last time (the one with the `{ "content" : "This is a new Hoot!" }` data)
-- In a browser, head to http://localhost:3000/api/hoots to see that the new hoot has been added to the array:
+- In Postman, head to http://localhost:3000/api/addHoot and send the same request we did last time:
+  - the one with the `{ "content" : "This is a new Hoot!" }` data
 
 ![screenshot](_images/express-8.png)
 
 ---
 
+- In a browser, head to http://localhost:3000/api/hoots to see that the new hoot has been added to the array:
+
+![screenshot](_images/express-9.png)
 
 --- 
+
+
 ## XX. Reference
 - https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters#step-5-using-req-body-with-post-parameters
 
