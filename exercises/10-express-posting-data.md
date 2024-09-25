@@ -24,7 +24,7 @@ const hoots = [{
 - ***\*\* YOU TRY THIS \*\**** --> Now add a `GET` route to **routes/api.js** that will display all of the `hoots` as JSON - it will be available at **/api/hoots**
 
 <details>
-  <summary><b>Solution for <kbd>/api/hoots</kbd> in index.js</b></summary>
+  <summary><b>Solution for <kbd>/api/hoots</kbd> in routes/api.js</b></summary>
   <code>
    router.get('/hoots', (req, res) => {
     res.json(hoots);
