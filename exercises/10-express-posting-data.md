@@ -92,7 +92,7 @@ router.post('/addHoot', (req, res) => {
 { content: 'This is a new Hoot!' }
 ```
 
-- If we change the log to `console.log(req.body.content);` we will instead see
+- If we change the log to `console.log(req.body.content);` we will instead see:
 
 ```
 This is a new Hoot!
