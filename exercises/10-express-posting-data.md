@@ -52,7 +52,8 @@ router.post('/hoots', (req, res) => {
 
 - If you head to http://localhost:3000/api/hoots in the browser you'll be calling the `GET` endpoint where you see all the hoots
 - To test this `POST` endpoint, go ahead and use Postman to connect to http://localhost:3000/api/hoots - and don't forget to set the method to `POST`
-- If everything is working you should see something like in the response body (although the `id` will be different everytime this is called:
+- Did you forget how to use Postman with POST requests? See --> [Week 2 - Read/Update/Delete with json-server](5-read-update-delete-json-server.md#iii-get--post-endpoints)
+- If everything is working you should see something like this in the response body (although the `id` will be different everytime this is called:
 
 ```
 {
@@ -61,12 +62,22 @@ router.post('/hoots', (req, res) => {
 }
 ```
 
-- Let's move on and add code that accepts "Hoot" data and adds it to the `hoots` array
+### II-A. `POST` data
+- Let's move on and add code that accepts data that is sent along with the `POST` request:
+- First add `console.log(req.body);` to the top of the `POST` `/api/hoots` route:
 
 ```js
-
+router.post('/hoots', (req, res) => {
+  console.log(req.body); // NEW!
+  const hoot = {
+    id: generateNewId(),
+    content: 'POST /hoots - test',
+  };
+  res.json(hoot);
+});
 ```
 
+- In Postman, send a `POST` request to http://localhost:3000/api/hoots
 
 --- 
 ## XX. Reference
