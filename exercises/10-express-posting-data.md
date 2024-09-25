@@ -65,14 +65,14 @@ router.post('/addHoot', (req, res) => {
 
 - To properly test this `POST` endpoint, go ahead and use Postman to connect to http://localhost:3000/api/addHoot - and don't forget to set the method to `POST`
 - Did you forget how to use Postman with POST requests? See --> [Week 2 - Read/Update/Delete with json-server](5-read-update-delete-json-server.md#iii-get--post-endpoints)
-- If everything is working you should see something like this in the response body (although the `id` will be different everytime this is called:
+- If everything is working you should see something like this in the response body (although the `id` will be different everytime this is called):
 
 ![screenshot](_images/express-6.png)
 
 ---
 
-- This POST `/addHost` endpoint isn't doing much yet"
-  - it's returning some data
+- This `POST` `/addHost` endpoint isn't doing much yet:
+  - it's *returning* some data
   - but not *accepting* any data
 - So let's move on!
 
