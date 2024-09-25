@@ -42,11 +42,11 @@ const hoots = [{
 
 ```js
 router.post('/addHoot', (req, res) => {
-  const hoot = {
+  const test = {
     id: generateNewId(),
-    content: 'POST /addHoot - test',
+    test: 'POST /addHoot - test',
   };
-  res.json(hoot);
+  res.json(test);
 });
 ```
 
