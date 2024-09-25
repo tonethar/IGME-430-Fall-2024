@@ -167,8 +167,11 @@ router.post('/addHoot', (req, res) => {
 
 ![screenshot](_images/express-9.png)
 
+- If you head back to Postman and click the Send button a few more times, and then reload http://localhost:3000/api/hoots in the browser, you will see that more hoots have been added, each with a unique `id` value
+
 --- 
 
+## III. 
 
 ## XX. Reference
 - https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters#step-5-using-req-body-with-post-parameters
