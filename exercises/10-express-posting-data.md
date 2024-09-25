@@ -171,7 +171,7 @@ router.post('/addHoot', (req, res) => {
 
 --- 
 
-## III. 
+## III. Create a `<form>` to add a new hoot 
 
 
 ---
