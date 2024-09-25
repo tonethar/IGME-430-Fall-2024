@@ -81,7 +81,7 @@ router.post('/addHoot', (req, res) => {
 ### II-A. Accessing `POST` data sent by the client
 - Let's move on and add code that accepts data that is sent along with the `POST` request
 - `request.body` is a property that contains any `POST` data that is sent with a `POST` request
-- First make the two chnages below in the `POST` `/api/hoots` route:
+- First make the two changes below in the `POST` `/api/hoots` route:
 
 ```js
 router.post('/addHoot', (req, res) => {
