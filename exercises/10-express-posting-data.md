@@ -36,6 +36,10 @@ const hoots = [{
 
 ---
 
+![screenshot](_images/express-4.png)
+
+---
+
 ## II. Create the POST `/api/addHoot` endpoint
 - `POST`ing in HTTP is for when we want to send data to the server - for example a new Hoot!
 - To get started, add the following to **routes/api.js**:
