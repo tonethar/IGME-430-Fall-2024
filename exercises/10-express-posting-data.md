@@ -69,7 +69,7 @@ router.post('/addHoot', (req, res) => {
 - This POST `/addHost` endpoint isn't doing much yet"
   - it's returning some data
   - but not *accepting* any data
-- SO let's move on!
+- So let's move on!
 
 ---
 
