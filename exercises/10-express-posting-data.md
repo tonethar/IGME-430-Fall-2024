@@ -103,6 +103,29 @@ This is a new Hoot!
 
 ### II-B. Adding `POST` data to the `hoots` array 
 
+```js
+router.post('/addHoot', (req, res) => {
+  // console.log(req.body.content);
+  // verify that we got POST data
+  const content = req.body && req.body.content
+    ? req.body.content
+    : 'No req.body or req.body.content found!';
+
+  // create a `hoot` object literal
+  const hoot = {
+    id: generateNewId(),
+    content,
+    createdAt: new Date(),
+  };
+
+  // add hoot to array
+  hoots.push(hoot);
+
+  // send new hoot back to caller
+  res.json(hoot);
+});
+```
+
 --- 
 ## XX. Reference
 - https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters#step-5-using-req-body-with-post-parameters
