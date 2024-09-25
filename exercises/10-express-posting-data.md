@@ -85,11 +85,11 @@ router.post('/addHoot', (req, res) => {
 
 ```js
 router.post('/addHoot', (req, res) => {
-  console.log('req.body=',req.body); // NEW!
+  console.log('req.body=', req.body); // NEW!
   const test = {
     testId: generateNewId(),
     testMsg: req.body.content, // NEW!
-   };
+  };
   res.json(test);
 });
 ```
@@ -117,10 +117,10 @@ app.use(express.json());
 req.body= { content: 'This is a new Hoot!' }`
 ```
 
-- If we change the log to `console.log('req.body.content=',req.body.content);` we will instead see:
+- If we change the log to `console.log('req.body.content=', req.body.content);` we will instead see:
 
 ```
-req.body.content=This is a new Hoot!
+req.body.content= This is a new Hoot!
 ```
 
 - Meaning that express is taking that string content that's coming over the `POST` request, and `JSON.parse()`ing it into an object for us!
@@ -129,11 +129,11 @@ req.body.content=This is a new Hoot!
 
 ### II-B. Adding `POST` data to the `hoots` array 
 
-- Here's your new version of POST `/api/addHoot`:
+- Here's your new version of POST `/api/addHoot` (replace the old version with this one):
 
 ```js
 router.post('/addHoot', (req, res) => {
-  // console.log('req.body.content=',req.body.content);
+  // console.log('req.body.content=', req.body.content);
   // verify that we got POST data
   const content = req.body && req.body.content
     ? req.body.content
@@ -153,9 +153,16 @@ router.post('/addHoot', (req, res) => {
   res.json(hoot);
 });
 ```
-- In Postman, head to http://localhost:3000/api/addHoot
-  - the raw JSON POST data you will send looks like this -->  `{ "content" : "This is a new Hoot!" }`
-- In a browser, head to http://localhost:3000/api/hoots to see that the new hoot has been added to the array
+
+---
+
+- In Postman, head to http://localhost:3000/api/addHoot and send the same request we did last time (the one with the `{ "content" : "This is a new Hoot!" }` data)
+- In a browser, head to http://localhost:3000/api/hoots to see that the new hoot has been added to the array:
+
+![screenshot](_images/express-8.png)
+
+---
+
 
 --- 
 ## XX. Reference
