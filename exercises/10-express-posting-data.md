@@ -36,29 +36,29 @@ const hoots = [{
 
 ---
 
-## II. Create the POST `/api/hoots` endpoint
+## II. Create the POST `/api/addHoot` endpoint
 - `POST`ing in HTTP is for when we want to send data to the server - for example a new Hoot!
 - To get started, add the following to **routes/api.js**:
 
 ```js
-router.post('/hoots', (req, res) => {
+router.post('/addHoot', (req, res) => {
   const hoot = {
     id: generateNewId(),
-    content: 'POST /hoots - test',
+    content: 'POST /addHoot - test',
   };
   res.json(hoot);
 });
 ```
 
-- If you head to http://localhost:3000/api/hoots in the browser you'll be calling the `GET` endpoint where you see all the hoots
-- To test this `POST` endpoint, go ahead and use Postman to connect to http://localhost:3000/api/hoots - and don't forget to set the method to `POST`
+- If you head to http://localhost:3000/api/addHoot in the browser you'll be calling a `GET` endpoint that does not exist
+- To test this `POST` endpoint, go ahead and use Postman to connect to http://localhost:3000/api/addHoot - and don't forget to set the method to `POST`
 - Did you forget how to use Postman with POST requests? See --> [Week 2 - Read/Update/Delete with json-server](5-read-update-delete-json-server.md#iii-get--post-endpoints)
 - If everything is working you should see something like this in the response body (although the `id` will be different everytime this is called:
 
 ```
 {
     "id": "5d334e30-cf73-473a-a66e-7f8a72029927",
-    "content": "POST /hoots - test"
+    "content": "POST /addHoot - test"
 }
 ```
 
