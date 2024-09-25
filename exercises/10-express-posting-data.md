@@ -81,17 +81,24 @@ router.post('/addHoot', (req, res) => {
 ### II-A. Accessing `POST` data sent by the client
 - Let's move on and add code that accepts data that is sent along with the `POST` request
 - `request.body` is a property that contains any `POST` data that is sent with a `POST` request
-- First add `console.log('req.body=',req.body);` to the top of the `POST` `/api/hoots` route
+- First make the two chnages below in the `POST` `/api/hoots` route:
 
 ```js
 router.post('/addHoot', (req, res) => {
   console.log('req.body=',req.body); // NEW!
   const test = {
     testId: generateNewId(),
-    testMsg: 'POST /api/addHoot - test',
+    testMsg: req.body.content, // NEW!
    };
   res.json(test);
 });
+```
+
+- Over in **app.js** - you just need to add this one line of code, that tells express to handle `POST` JSON data:
+
+```js
+// put this right after the other `app.use()` call
+app.use(express.json());
 ```
 
 ---
