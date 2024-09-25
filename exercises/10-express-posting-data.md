@@ -66,6 +66,13 @@ router.post('/addHoot', (req, res) => {
 }
 ```
 
+- This POST `/addHost` endpoint isn't doing much yet"
+  - it's returning some data
+  - but not *accepting* any data
+- SO let's move on!
+
+---
+
 ### II-A. Accessing `POST` data sent by the client
 - Let's move on and add code that accepts data that is sent along with the `POST` request:
 - `request.body` is a property that contains any `POST` data that is sent with a `POST` request
