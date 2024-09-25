@@ -21,7 +21,7 @@ const hoots = [{
 }];
 ```
 
-- ***\*\* YOU TRY THIS \*\**** --> Now add a route to **routes/api.js** that will display all of the hoots as JSON - it will be avaialble at **/api/hoots**
+- ***\*\* YOU TRY THIS \*\**** --> Now add a route to **routes/api.js** that will display all of the `hoots` as JSON - it will be avaialble at **/api/hoots**
 
 <details>
   <summary><b>Solution for <kbd>/api/hoots</kbd> in index.js</b></summary>
