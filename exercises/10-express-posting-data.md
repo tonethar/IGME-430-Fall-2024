@@ -62,7 +62,7 @@ router.post('/addHoot', (req, res) => {
 }
 ```
 
-### II-A. `POST` data
+### II-A. Accessing `POST` data sent by the client
 - Let's move on and add code that accepts data that is sent along with the `POST` request:
 - `request.body` is a property that contains any `POST` data that is sent with a `POST` request
 - First add `console.log(req.body);` to the top of the `POST` `/api/hoots` route
@@ -84,8 +84,24 @@ router.post('/addHoot', (req, res) => {
 - Check the Node console - it will log `undefined` - WHY??  ...
 - Because ... we need to tell express to look for "raw JSON" data ...
 - And we easily do that with "middleware" ...
-- Over in 
+- Over in **app.js** - you just need to add one line of code, that tells express to handle POST JSON data:
+  - `app.use(express.json());`
+- Send that POST request again in Postman, this time you will see a log in the console:
 
+```
+{ content: 'This is a new Hoot!' }
+```
+
+- If we change the log to `console.log(req.body.content);` we will instead see
+
+```
+This is a new Hoot!
+```
+- Meaning that express is taking that string content that's coming over the POST request, and `JSON.parse()`ing it into an object for us!
+
+---
+
+### II-B. Adding POST data to the `hoots` array 
 
 --- 
 ## XX. Reference
