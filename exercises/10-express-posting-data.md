@@ -65,11 +65,11 @@ router.post('/addHoot', (req, res) => {
 ### II-A. Accessing `POST` data sent by the client
 - Let's move on and add code that accepts data that is sent along with the `POST` request:
 - `request.body` is a property that contains any `POST` data that is sent with a `POST` request
-- First add `console.log(req.body);` to the top of the `POST` `/api/hoots` route
+- First add `console.log('req.body=',req.body);` to the top of the `POST` `/api/hoots` route
 
 ```js
 router.post('/addHoot', (req, res) => {
-  console.log(req.body); // NEW!
+  console.log('req.body=',req.body); // NEW!
   const test = {
     testId: generateNewId(),
     testMsg: 'POST /api/addHoot - test',
@@ -81,21 +81,21 @@ router.post('/addHoot', (req, res) => {
 - In Postman, send a `POST` request to http://localhost:3000/api/addHoot
   - in the request body, make it type "raw" and JSON
   - here's the JSON you can send: `{ "content" : "hello" }`
-- Check the Node console - it will log `undefined` - WHY??  ...
+- Check the Node console - it will log `req.body=undefined` - WHY??  ...
 - Because ... we need to tell express to look for "raw JSON" data ...
 - And we easily do that with "middleware" ...
 - Over in **app.js** - you just need to add one line of code, that tells express to handle POST JSON data:
   - `app.use(express.json());`
-- Send that POST request again in Postman, this time you will see a log in the console:
+- Send that POST request again in Postman, this time you will see a log in the Node console:
 
 ```
-{ content: 'This is a new Hoot!' }
+req.body={ content: 'This is a new Hoot!' }
 ```
 
-- If we change the log to `console.log(req.body.content);` we will instead see:
+- If we change the log to `console.log('req.body.content=',req.body.content);` we will instead see:
 
 ```
-This is a new Hoot!
+req.body.content=This is a new Hoot!
 ```
 - Meaning that express is taking that string content that's coming over the `POST` request, and `JSON.parse()`ing it into an object for us!
 
@@ -105,7 +105,7 @@ This is a new Hoot!
 
 ```js
 router.post('/addHoot', (req, res) => {
-  // console.log(req.body.content);
+  // req.body.content=',req.body.content);
   // verify that we got POST data
   const content = req.body && req.body.content
     ? req.body.content
