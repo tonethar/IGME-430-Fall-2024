@@ -43,8 +43,8 @@ const hoots = [{
 ```js
 router.post('/addHoot', (req, res) => {
   const test = {
-    id: generateNewId(),
-    test: 'POST /addHoot - test',
+    testId: generateNewId(),
+    testMsg: 'POST /addHoot - test',
   };
   res.json(test);
 });
@@ -57,27 +57,30 @@ router.post('/addHoot', (req, res) => {
 
 ```
 {
-    "id": "5d334e30-cf73-473a-a66e-7f8a72029927",
-    "content": "POST /addHoot - test"
+    "testId": "5d334e30-cf73-473a-a66e-7f8a72029927",
+    "testMsg": "POST /addHoot - test"
 }
 ```
 
 ### II-A. `POST` data
 - Let's move on and add code that accepts data that is sent along with the `POST` request:
-- First add `console.log(req.body);` to the top of the `POST` `/api/hoots` route:
+- `request.body` is a property that contains any `POST` data that is sent with a `POST` request
+- First add `console.log(req.body);` to the top of the `POST` `/api/hoots` route
 
 ```js
-router.post('/hoots', (req, res) => {
+router.post('/addHoot', (req, res) => {
   console.log(req.body); // NEW!
-  const hoot = {
-    id: generateNewId(),
-    content: 'POST /hoots - test',
-  };
-  res.json(hoot);
+  const test = {
+    testId: generateNewId(),
+    testMsg: 'POST /addHoot - test',
+   };
+  res.json(test);
 });
 ```
 
-- In Postman, send a `POST` request to http://localhost:3000/api/hoots
+- In Postman, send a `POST` request to http://localhost:3000/api/addHoot
+  - in the request body, send along some JSON - `{"contnet":"hello"}`
+- 
 
 --- 
 ## XX. Reference
