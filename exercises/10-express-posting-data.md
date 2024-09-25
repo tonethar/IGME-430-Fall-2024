@@ -44,7 +44,7 @@ const hoots = [{
 router.post('/addHoot', (req, res) => {
   const test = {
     testId: generateNewId(),
-    testMsg: 'POST /addHoot - test',
+    testMsg: 'POST /api/addHoot - test',
   };
   res.json(test);
 });
@@ -72,7 +72,7 @@ router.post('/addHoot', (req, res) => {
   console.log(req.body); // NEW!
   const test = {
     testId: generateNewId(),
-    testMsg: 'POST /addHoot - test',
+    testMsg: 'POST /api/addHoot - test',
    };
   res.json(test);
 });
