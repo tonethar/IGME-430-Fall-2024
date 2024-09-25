@@ -128,7 +128,7 @@ router.post('/addHoot', (req, res) => {
 });
 ```
 - In Postman, head to http://localhost:3000/api/addHoot
-  - the raw JSON POST data you willsend looks like this -->  `{ "content" : "This is a new Hoot!" }`
+  - the raw JSON POST data you will send looks like this -->  `{ "content" : "This is a new Hoot!" }`
 - In a browser, head to http://localhost:3000/api/hoots to see that the new hoot has been added to the array
 
 --- 
