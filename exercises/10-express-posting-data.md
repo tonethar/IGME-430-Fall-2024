@@ -84,9 +84,9 @@ router.post('/addHoot', (req, res) => {
 - Check the Node console - it will log `req.body=undefined` - WHY??  ...
 - Because ... we need to tell express to look for "raw JSON" data ...
 - And we easily do that with "middleware" ...
-- Over in **app.js** - you just need to add one line of code, that tells express to handle POST JSON data:
+- Over in **app.js** - you just need to add one line of code, that tells express to handle `POST` JSON data:
   - `app.use(express.json());`
-- Send that POST request again in Postman, this time you will see a log in the Node console:
+- Send that `POST` request again in Postman, this time you will see a log in the Node console:
 
 ```
 req.body={ content: 'This is a new Hoot!' }
