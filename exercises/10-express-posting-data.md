@@ -111,15 +111,10 @@ app.use(express.json());
 
 ---
 
-- Check the Node console - it will log `req.body=undefined` - WHY??  ...
-- Because ... we need to tell express to look for "raw JSON" data ...
-- And we easily do that with "middleware" ...
-- Over in **app.js** - you just need to add one line of code, that tells express to handle `POST` JSON data:
-  - `app.use(express.json());`
-- Send that `POST` request again in Postman, this time you will see a log in the Node console:
+- Check the Node console - it will log:
 
 ```
-req.body={ content: 'This is a new Hoot!' }
+req.body= { content: 'This is a new Hoot!' }`
 ```
 
 - If we change the log to `console.log('req.body.content=',req.body.content);` we will instead see:
@@ -127,6 +122,7 @@ req.body={ content: 'This is a new Hoot!' }
 ```
 req.body.content=This is a new Hoot!
 ```
+
 - Meaning that express is taking that string content that's coming over the `POST` request, and `JSON.parse()`ing it into an object for us!
 
 ---
