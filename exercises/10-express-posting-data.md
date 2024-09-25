@@ -80,7 +80,7 @@ router.post('/addHoot', (req, res) => {
 
 - In Postman, send a `POST` request to http://localhost:3000/api/addHoot
   - in the request body, make it type "raw" and JSON
-  - here's the JSON you can send: `{ "content" : "hello" }`
+  - here's the JSON you can send: `{ "content" : "This is a new Hoot!" }`
 - Check the Node console - it will log `req.body=undefined` - WHY??  ...
 - Because ... we need to tell express to look for "raw JSON" data ...
 - And we easily do that with "middleware" ...
@@ -102,6 +102,8 @@ req.body.content=This is a new Hoot!
 ---
 
 ### II-B. Adding `POST` data to the `hoots` array 
+
+- Here's your new version of POST `/api/addHoot`:
 
 ```js
 router.post('/addHoot', (req, res) => {
@@ -125,6 +127,9 @@ router.post('/addHoot', (req, res) => {
   res.json(hoot);
 });
 ```
+- In Postman, head to http://localhost:3000/api/addHoot
+  - the raw JSON POST data you willsend looks like this -->  `{ "content" : "This is a new Hoot!" }`
+- In a browser, head to http://localhost:3000/api/hoots to see that the new hoot has been added to the array
 
 --- 
 ## XX. Reference
