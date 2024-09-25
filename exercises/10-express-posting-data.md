@@ -32,10 +32,10 @@ const hoots = [{
   </code>
 </details>
 
-- Test it at: http://localhost:3000/api/hoots - you should see the contents of the `hoots` array - as JSON
-
 ---
 
+- Test it at: http://localhost:3000/api/hoots - you should see the contents of the `hoots` array - as JSON
+  
 ![screenshot](_images/express-4.png)
 
 ---
@@ -54,7 +54,15 @@ router.post('/addHoot', (req, res) => {
 });
 ```
 
+---
+
 - If you head to http://localhost:3000/api/addHoot in the browser you'll be calling a `GET` endpoint that does not exist
+  
+![screenshot](_images/express-5.png)
+
+---
+
+
 - To test this `POST` endpoint, go ahead and use Postman to connect to http://localhost:3000/api/addHoot - and don't forget to set the method to `POST`
 - Did you forget how to use Postman with POST requests? See --> [Week 2 - Read/Update/Delete with json-server](5-read-update-delete-json-server.md#iii-get--post-endpoints)
 - If everything is working you should see something like this in the response body (although the `id` will be different everytime this is called:
