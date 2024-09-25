@@ -5,7 +5,36 @@
 
 ---
 
-## I. 
+## I. Create the GET `/api/hoots` endpoint
+
+- `/api/hoots` will be an endpoint where we can play around with the `GET`, `POST`,`DELETE` and `PATCH` HTTP methods
+- "hoots" will be short declamations or interjections, such as "Yay! Free lunch is good" or "Hmm... Birds aren't real!"
+- Here's the code for our array of `hoots` that has a single default hoot - add this to  **routes/api.js**
+
+```js
+const generateNewId = () => crypto.randomUUID();
+
+const hoots = [{
+  id: generateNewId(),
+  content: "Let's Rock!",
+  createdAt: new Date(),
+}];
+```
+
+- ***\*\* YOU TRY THIS \*\**** --> Now add a route to **routes/api.js** that will display all of the hoots as JSON - it will be avaialble at **/api/hoots**
+
+<details>
+  <summary><b>Solution for <kbd>/api/hoots</kbd> in index.js</b></summary>
+  <code>
+    ...
+    
+   router.get('/hoots', (req, res) => {
+    res.json(hoots);
+   });
+    
+    ...
+  </code>
+</details>
 
 
 ---
