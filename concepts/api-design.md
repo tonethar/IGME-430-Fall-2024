@@ -2,7 +2,7 @@
 
 ## I. Study Guide
 
-- [ (PDF)]()
+- [HTTP_API_Worksheet (PDF)](_files/HTTP_API_Worksheet.pdf)
 - Reference:
   - https://www.tutorialspoint.com/http/http_methods.htm
   - http://www.w3schools.com/TAGS/ref_httpmethods.asp
