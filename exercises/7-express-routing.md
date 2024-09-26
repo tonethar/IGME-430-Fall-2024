@@ -187,7 +187,7 @@ const quotesRouter = require('./routes/quotes.js');
 
 // use routes (put this near the bottom, BEFORE app.listen()
 // ...
-app.use('/quotes', quotesRouter); now /quotes is a route!
+app.use('/quotes', quotesRouter); // now /quotes is a route!
 
 ```
 
