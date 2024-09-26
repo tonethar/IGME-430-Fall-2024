@@ -7,6 +7,7 @@
   - https://www.tutorialspoint.com/http/http_methods.htm
   - http://www.w3schools.com/TAGS/ref_httpmethods.asp
   - https://geemus.gitbooks.io/http-api-design/content/en/responses/
+  - https://www.freecodecamp.org/news/idempotence-explained/
 
 
 ---
