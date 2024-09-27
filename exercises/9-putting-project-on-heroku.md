@@ -165,7 +165,13 @@ jobs:
   - the next time you push a commit to your GitHub repo - `npm test` will run ...
   - ... and if the code passed it will then get pushed to Heroku
   - you might want to test that assumption now, by making a small change to the code locally and pushing it!
-   
+ 
+---
+
+## Submission
+
+- You don't need to submit this to a dropbox (yet) - so move on!
+
 ---
 ---
 
