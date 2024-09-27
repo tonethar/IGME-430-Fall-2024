@@ -148,12 +148,12 @@ jobs:
 
 ```
 
-- BTW - this is what `npm ci` does - https://docs.npmjs.com/cli/v10/commands/npm-ci
+- BTW (referring to the last 3 lines in **node.js.yml**) - this is what `npm ci` does - https://docs.npmjs.com/cli/v10/commands/npm-ci
 - Type `git status` - it should note that **.github/** isn't being tracked
 - git add, git commit, git push etc to push the changes to GitHub
-- Also, better do a `npm test` and verify that your code still passes!
+- Also, better do a `npm test` and verify that your code still passes! Fix the code and push the changes if it doesn't!
 - Head to the GitHub repo and look under the Actions tab - the **node.js.yml** script should run and succeed!
-- You should also have that beautiful green checkmark showing on the main repo page
+- You should also have that ***beautiful green checkmark*** showing on the main repo page
 
 ---
 
