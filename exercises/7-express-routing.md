@@ -104,7 +104,7 @@ app.use('/', indexRouter);
 - Test the endpoints in the browser:
   - http://localhost:3000/helloJSON
   - http://localhost:3000/timeJSON
-- Delete
+- Code you can now delete:
    - the commented out versions of `/helloJSON` and `/timeJSON` endpoint in **app.js**
    - the `app.post('/addComment', ...)` code in **app.js** (we'll handle express POST operations in a future exercise)
 - Open --> http://localhost:3000/rich-client.html
