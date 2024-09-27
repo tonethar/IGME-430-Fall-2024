@@ -121,8 +121,8 @@ router.get('/', (req, res) => {
 - Add the following to **src/routes/quotes.js** - put this at then end of the file, right before `module.exports = router;`
 
 ```js
-router.get('/:id', (req, res) => {
-  const { id } = req.params;
+router.get('/:id', (req, res) => { // Note the colon, which matches anything after '/' and assigns it to the `id` variable
+  const { id } = req.params; // NEW!
   console.log(`id=${id}`);
   res.send(data);
 });
@@ -131,7 +131,7 @@ module.exports = ...
 ```
 - Test the code with - http://localhost:3000/quotes/12345
   - in the Node.js console you should see `id=12345`
-- Note that we are using `req.params` this time
+- ***Note that we are using `req.params` this time***
   - https://expressjs.com/en/api.html#req.params
 - ***YOU DO THIS*** - As we did above, write code that returns the single quote that has a matching `id`
 - Test your code:
