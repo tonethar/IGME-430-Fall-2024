@@ -52,6 +52,7 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
 
 - Which was easy to fix - go ahead and delete the `next` param - we don't need it
 - Go ahead and fix any other errors and move on
+- BTW - the way it is set up now, ESLint will *solely* be validating your *server* code (the `src/` folder), and will NOT be looking at the *client* code that runs in a browser (the HTML or JS files in the `client/` folder)
 
 ---
 
