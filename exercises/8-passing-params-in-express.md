@@ -61,9 +61,9 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
 - Currently, the `/quotes` endpoint returns an *entire array* of quotes...
 - ... but what if the user of this API was only interested in a *single* quote of a particular `.id`?
 - If we passed the *entire array* of quotes back to the user it would not be a big deal yet because we only have 3 total quotes ...
-- ... but what if we had 3000 (or 30,000) quotes in our database? Sending *all* of the quotes won't scale and our server would either run out of bandwidth or start costing iu a lot!
-- Solution: Send back just the one quote the user is interested in.
-- Commonly, because of API *conventions* (common practice), they might ask for the endpoint for a single quote using one of these techniques:
+- ... but what if we had 3000 (or 30,000) quotes in our database? Sending *all* of the quotes won't scale and our server would either run out of bandwidth or start costing you a lot of $$$!
+- Solution: Have the server send back just the one quote the user is interested in.
+- Commonly, because of API *conventions* (common practice), we might ask for a single quote using one of these endpoint styles:
   - a `GET` request: `/quotes/?id=12345` - using the *query string* to pass in an `id` parameter value of `12345`
   - a `GET` request: `/quotes/12345` - using a URL *route* to pass in a value, which our code will assume is an `id` value
 
@@ -80,7 +80,7 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
 
 ```js
 router.get('/', (req, res) => {
-  const { id } = req.query; // note: ESLint airbnb/base insists on object destructuring syntax!
+  const { id } = req.query; // note: ESLint `airbnb/base` insists on object destructuring syntax!
   console.log(`id=${id}`);
   ...
 }
@@ -104,7 +104,7 @@ router.get('/', (req, res) => {
 ***YOU DO THIS*** - write code that returns the single quote that has a matching `id`:
 - `quotes.find()` would be the most elegant solution, but using a `for` loop is fine for now
 - if there is not a matching quote, return an empty `{}`
-- if the `id` parameter does not exist or has no value, return *ALL* of the quotes as we did before
+- if the `id` parameter does not exist or has no value (meaning, if `req.query.id` is `undefined`), return *ALL* of the quotes as we did before
 - Test your code:
   - http://localhost:3000/quotes/?id=4c6217c3-c6e5-460b-8f8f-0df64ad6fef2 - returns the Mark Twain quote
   - http://localhost:3000/quotes/?id=6e35a396-c108-4f72-8673-521aa9a3c7f6 - returns the Elbert Hubbard quote
