@@ -21,7 +21,7 @@
   - BTW: if you type `ls -al` you'll see a **.git**  folder now - this is where the file changes you make are tracked
   - BTW: if you type `ls .git` you'll see its contents
   - BTW: never modify any of the files in the **.git** folder - pretty much just ignore it!
-- We need to tell git which files and folders to exclude from version tracking:
+- We need to tell git which files and folders to ***exclude*** from version tracking:
   - type `touch .gitignore` to create an empty text file named **.gitignore**
   - make **.gitignore** look like this:
 
