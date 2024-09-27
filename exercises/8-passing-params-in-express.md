@@ -63,13 +63,13 @@ router-app-passing-params/src/app.js 29:20  error 'next' is defined but never us
 - If we passed the *entire array* of quotes back to the user it would not be a big deal yet because we only have 3 total quotes ...
 - ... but what if we had 3000 (or 30,000) quotes in our database? Sending *all* of the quotes won't scale and our server would either run out of bandwidth or start costing you a lot of $$$!
 - Solution: Have the server send back just the one quote the user is interested in.
-- Commonly, because of API *conventions* (common practice), we might ask for a single quote using one of these endpoint styles:
+- ***Commonly, because of API *conventions* (common practice), we might ask for a single quote using one of these endpoint styles:***
   - a `GET` request: `/quotes/?id=12345` - using the *query string* to pass in an `id` parameter value of `12345`
   - a `GET` request: `/quotes/12345` - using a URL *route* to pass in a value, which our code will assume is an `id` value
 
 ---
 
-## IV. Accessing query parameters with `express`
+## IV. Accessing *query string* parameters with `express`
 - First, let's consider how to do the *query string* version - here we'll use `request.query`, which gives us an object containing all of the query parameters and their values:
   - https://expressjs.com/en/api.html#req.query
   - https://www.geeksforgeeks.org/express-js-req-query-property/
@@ -113,7 +113,7 @@ router.get('/', (req, res) => {
 
 ---
 
-## V. Accessing parameters via the route
+## V. Accessing parameters via the *route*
 - Another way to pass in parameters to a web script is via the route, like this
 - `http://localhost:3000/quotes/12345` - "give me the quote with an id of `12345`"
   - if we try this URL right now we'lll just get a 404 page
