@@ -203,19 +203,23 @@ req.body.content= This is a new Hoot!
 <hr>
 
 <h2>III. Delete a hoot!</h2>
-<form id="form-delete-hoot"></form>
-  <label>Id: <input type="text" name="hoot-id"></label><br><br>
+<form id="form-delete-hoot">
+  <label>Id: <input type="text" name="hoot-id" size="36"></label><br><br>
   <button type="submit">Send DELETE Request to <kbd>/api/deleteHoot</kbd></button>
 </form>
+
+<div id="output-delete-hoot">???</div>
 
 <hr>
 
 <h2>IV. Edit a hoot!</h2>
-<form id="form-edit-hoot"></form>
-  <label>Id: <input type="text" name="hoot-id"></label><br>
-  <label>New content: <input type="text" name="content"></label><br><br>
+<form id="form-edit-hoot">
+  <label>Id: <input type="text" name="hoot-id" size="36"></label><br>
+  <label>New content: <input type="text" name="content" size="80"></label><br><br>
   <button type="submit">Send PUT Request to <kbd>/api/hoot/</kbd></button>
 </form>
+
+<div id="output-edit-hoot">???</div>
 
 <hr>
 
