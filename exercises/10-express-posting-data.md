@@ -273,8 +273,8 @@ btnAllHoots.onclick = () => {
 
 ## IV. admin.html - "add a hoot"
 
-- The `POST `/api/addHoot` endpoint is already working - we tested that with Postman, above
-- Now we just need an HTML form to call the endpoint
+- The `POST` `/api/addHoot` endpoint is already working - we tested that with Postman, above
+- Now we just need an HTML form to call this endpoint
 
 
 ---
