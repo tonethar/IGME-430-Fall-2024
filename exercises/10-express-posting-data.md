@@ -326,7 +326,7 @@ btnAllHoots.onclick = () => {
     - FAILS - a short `404` error message
   - `DELETE http://localhost:3000/api/deleteHoot/12345`
     - FAILS - you get the full `404` page back and the array is untouched
-  
+- Below is a successful `DELETE`
 
 ![screenshot](_images/express-14.png)
   
