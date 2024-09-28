@@ -339,6 +339,20 @@ btnAllHoots.onclick = () => {
 ## VI. admin.html - Delete a hoot `<form>`
 
 
+- Here's the code!
+  - if you look carefully, you can see that we're reusing `addHootCallback()`, but giving it a different `<div>` to update
+
+![screenshot](_images/express-15.png)
+
+---
+
+- If you run the above code now, you'll get an error, because we are also re-using `postJsonFetch()` - and passing it a 4th parameter - `DELETE`
+- We need to update the `postJsonFetch()` code to utilize this new parameter, and without breaking the previous `POST` code that is using the function
+- See the 2 chnages in the screnshot below:
+
+![screenshot](_images/express-16.png)
+
+
 ---
 
 ## VII. Edit a hoot server endpoint
