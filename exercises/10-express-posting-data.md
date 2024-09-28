@@ -358,7 +358,7 @@ btnAllHoots.onclick = () => {
 
 ![screenshot](_images/express-17.png)
 
-- ***BTW - sending over a non-existant 36-character invalid id will show a "Status 404". Sending a malformed id will show "undefined" - that's how we wrote our server code, so that's OK for now.***
+- ***BTW - sending over a nonexistent 36-character invalid id will show a "Status 404". Sending a malformed id will show "undefined" - that's how we wrote our server code, so that's OK for now.***
 
 ---
 
