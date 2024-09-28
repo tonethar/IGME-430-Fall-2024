@@ -354,7 +354,7 @@ btnAllHoots.onclick = () => {
 
 ---
 
-- Now test it - a successful delete will return the hoot that was just deleted, AND clicking the "Show all Hoots" button will verify that the hoot has been deleted
+- ***Now test it - a successful delete will return the hoot that was just deleted, AND clicking the "Show all Hoots" button will verify that the hoot has been deleted***
 
 ![screenshot](_images/express-17.png)
 
