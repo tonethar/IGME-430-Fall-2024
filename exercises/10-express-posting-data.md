@@ -294,7 +294,14 @@ btnAllHoots.onclick = () => {
 
 ---
 
-## V. admin.html - delete a hoot
+## V. Delete a hoot
+
+- Let's build the server endpoint first!
+- Add the following to **routes/api.js**:
+
+---
+
+![screenshot](_images/express-12.png)
 
 ---
 
