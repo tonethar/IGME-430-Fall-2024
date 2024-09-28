@@ -305,7 +305,14 @@ btnAllHoots.onclick = () => {
 
 ---
 
+## V. admin.html - delete a hoot
 
+---
+
+## VI. admin.html - edit a hoot
+
+
+---
 
 ## XX. Reference
 - https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters#step-5-using-req-body-with-post-parameters
