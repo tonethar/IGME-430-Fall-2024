@@ -216,7 +216,7 @@ req.body.content= This is a new Hoot!
 <form id="form-edit-hoot">
   <label>Id: <input type="text" name="hoot-id" size="36"></label><br>
   <label>New content: <input type="text" name="content" size="80"></label><br><br>
-  <button type="submit">Send PUT Request to <kbd>/api/hoot/</kbd></button>
+  <button type="submit">Send PUT Request to <kbd>/api/updateHoot/</kbd></button>
 </form>
 
 <div id="output-edit-hoot">???</div>
