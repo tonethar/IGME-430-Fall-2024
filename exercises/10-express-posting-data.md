@@ -385,8 +385,16 @@ btnAllHoots.onclick = () => {
 
 ## VIII. admin.html - Edit a hoot `<form>`
 
+- Here's the code:
+
+![screenshot](_images/express-20.png)
 
 ---
+
+- ***Test it in the browser***
+
+![screenshot](_images/express-21.png)
+
 
 ## XX. Reference
 - https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters#step-5-using-req-body-with-post-parameters
