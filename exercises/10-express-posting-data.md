@@ -322,8 +322,13 @@ btnAllHoots.onclick = () => {
 - Test this from Postman:
   - http://localhost:3000/api/deleteHoot/a-valid-36-character-id
     - will DELETE that hoot - check http://localhost:3000/api/hoots to confirm
+  - http://localhost:3000/api/deleteHoot/an-invalid-36-character-id
+    - FAILS - a short `404` error message
   - http://localhost:3000/api/deleteHoot/12345
-    - FAILS - you get a `404` back and the array is untouched
+    - FAILS - you get the full `404` page back and the array is untouched
+  
+
+![screenshot](_images/express-14.png)
   
 ---
 
