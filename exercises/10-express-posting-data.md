@@ -149,6 +149,12 @@ req.body.content= This is a new Hoot!
 
 - If you head back to Postman and click the Send button a few more times, and then reload http://localhost:3000/api/hoots in the browser, you will see that more hoots have been added, each with a unique `id` value
 
+---
+
+- ***Oops! One little update to the code above - you may have already caught it - here we should be sending back an HTTP status code of `201 Created`, NOT `200 Ok`***
+  - it's an easy fix! Change `res.json(hoot)` to `res.status(201).json(hoot);`
+  - test it again in Postman to confirm you can see the `201` status code
+
 --- 
 
 ## III. admin.html - view all hoots
