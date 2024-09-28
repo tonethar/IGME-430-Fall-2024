@@ -300,6 +300,9 @@ btnAllHoots.onclick = () => {
 ---
 
 - Here's the rest of the code - keep typing!
+- Note the function declared on line 117, that's the `callback(json,status)` function that will be called from `postJsonFetch()`
+  - BTW: it's a function that was declared inside a function, aka a *closure*. We did this so that we could access the `selector` parameter later on, after the data was loaded
+  - we did the same thing in `allHootsCB()`
 
 ![screenshot](_images/express-11.png)
 
