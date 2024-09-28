@@ -294,9 +294,9 @@ btnAllHoots.onclick = () => {
 
 ---
 
-## V. Delete a hoot
+## V. Delete a hoot server endpoint
 
-- Let's build the server endpoint first!
+- Let's build the server endpoint first - `DELETE` `/api/deleteHoot/:id`
 - Add the following to **routes/api.js**:
 
 ---
@@ -305,7 +305,38 @@ btnAllHoots.onclick = () => {
 
 ---
 
-## VI. admin.html - edit a hoot
+- Let's talk about the code above:
+- `getHootById(id)` is a helper function that returns a hoot with a matching `id`, or `undefined` if no match is found
+  - we made this a (reusable) function because you can also utilize it elsewhere for finding and returning a specific quote, or finding and editing a specific quote, etc ...
+  - BTW you could shorten whis to a "one-liner" if you want to
+- `deleteHootById()` is also some code that could potentially be re-used, for example if we wanted to delete a bunch of hoots at the same time (a "batch" delete)
+- `router.delete('/deleteHoot/:id([0-9,a-z,A-Z,-]{36})', ...`
+  - ***above we gave you that regular expression you could copy!***
+  - this route will only be called if a 36-character long `id` with the allowed characters is passed in
+  - it then searches for a matching hoot:
+    - if it finds it, that hoot is deleted, and then a copy of the hoot is returned via the HTTP response. The `200 Ok` status code is returned.
+    - if not, a `404` response is returned
+
+---
+
+- Test this from Postman:
+  - http://localhost:3000/api/deleteHoot/a-valid-36-character-id
+    - will DELETE that hoot - check http://localhost:3000/api/hoots to confirm
+  - http://localhost:3000/api/deleteHoot/12345
+    - FAILS - you get a `404` back and the array is untouched
+  
+---
+
+## VI. admin.html - Delete a hoot `<form>`
+
+
+---
+
+## VII. Edit a hoot server endpoint
+
+---
+
+## VIII. admin.html - Edit a hoot `<form>`
 
 
 ---
