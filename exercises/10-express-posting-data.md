@@ -103,7 +103,7 @@ app.use(express.json());
 
 ---
 
-- In Postman, send a `POST` request to http://localhost:3000/api/addHoot
+- In Postman, send a `POST` request to `http://localhost:3000/api/addHoot`
   - in the request body, make it type "raw" and JSON
   - here's the JSON you can send: `{ "content" : "This is a new Hoot!" }`
  
