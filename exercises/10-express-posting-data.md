@@ -157,7 +157,7 @@ req.body.content= This is a new Hoot!
 
 --- 
 
-## III. admin.html - view all hoots
+## III. admin.html - "view all hoots"
 
 - How about an HTML `<form>` for viewing hoots, adding hoots, editing, hoot, deleting hoots etc?
 - Here's the HTML & JS for viewing hoots
@@ -271,7 +271,7 @@ btnAllHoots.onclick = () => {
 
 ---
 
-## IV. admin.html - add a hoot
+## IV. admin.html - "add a hoot"
 
 - The `POST `/api/addHoot` endpoint is already working - we tested that with Postman, above
 - Now we just need an HTML form to call the endpoint
@@ -298,7 +298,7 @@ btnAllHoots.onclick = () => {
 
 ---
 
-## V. Delete a hoot server endpoint
+## V. "Delete a hoot" server endpoint
 
 - Let's build the server endpoint first - `DELETE` `/api/deleteHoot/:id`
 - Add the following to **routes/api.js**:
@@ -336,7 +336,7 @@ btnAllHoots.onclick = () => {
   
 ---
 
-## VI. admin.html - Delete a hoot `<form>`
+## VI. admin.html - "Delete a hoot" `<form>`
 
 
 - Here's the code!
@@ -348,14 +348,19 @@ btnAllHoots.onclick = () => {
 
 - If you run the above code now, you'll get an error, because we are also re-using `postJsonFetch()` - and passing it a 4th parameter - `DELETE`
 - We need to update the `postJsonFetch()` code to utilize this new parameter, and without breaking the previous `POST` code that is using the function
-- See the 2 chnages in the screnshot below:
+- See the 2 changes in the screnshot below:
 
 ![screenshot](_images/express-16.png)
 
+---
+
+- Now test it - a successful delete will return the hoot that was just deleted, AND clicking the "Show all Hoots" button will verify that the hoot has been deleted
+
+![screenshot](_images/express-17.png)
 
 ---
 
-## VII. Edit a hoot server endpoint
+## VII. "Edit a hoot" server endpoint
 
 ---
 
