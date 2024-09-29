@@ -1,13 +1,16 @@
 # 11 - Creating admin.html
-
-- Here we will create an "admin" page that will allow the user to **C**reate (`POST`) and **R**ead (`GET`) hoots:
-  - soon we will add **E**dit (`PUT`) and **D**elete (`DELETE`) capabilities
+- How about an HTML `<form>` for viewing hoots, adding hoots, editing hoots, deleting hoots etc?
+- Over the next several parts to this exercise, we will implement an "admin" page that will allow the user to:
+  - **C**reate (`POST`) hoots
+  - **R**ead (`GET`) hoots
+  - **E**dit (`PUT`) hoots
+  - **D**elete (`DELETE`) hoots
 
 ---
 
 ## I. Creating admin.html - "view all hoots"
 
-- How about an HTML `<form>` for viewing hoots, adding hoots, editing, hoot, deleting hoots etc?
+
 - Here's the HTML & JS for viewing hoots
 - The file is named **admin.html** - put this in the **client/** folder
 
