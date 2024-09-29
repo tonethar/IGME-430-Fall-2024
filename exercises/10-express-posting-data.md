@@ -7,7 +7,7 @@
 
 ## I. Create the GET `/api/hoots` endpoint
 
-- `/api/hoots` will be an endpoint where we can play around with the `GET`, `POST`,`DELETE` and `PATCH` HTTP methods
+- `/api/hoots` will be an endpoint where we can play around with the `GET`, `POST`,`DELETE` and `PUT` HTTP methods
 - "hoots" will be short declamations or interjections, such as "Yay! Free lunch is good" or "Hmm... Birds aren't real!"
 - Here's the code for our array of `hoots` - it has a single default hoot - add this code to  **routes/api.js**:
 
