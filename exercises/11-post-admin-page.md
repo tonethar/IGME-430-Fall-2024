@@ -1,6 +1,7 @@
 # 11 - admin.html
 
-- Here we will create an "admin" page that will allow the user to **C**reate (`POST`) and **R**ead (`GET`)
+- Here we will create an "admin" page that will allow the user to **C**reate (`POST`) and **R**ead (`GET`) hoots
+  - soon we will and **E**dit (`PUT`) and **D**elete (`DELETE`) capabilities
 
 ## I. admin.html - "view all hoots"
 
