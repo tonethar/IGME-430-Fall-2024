@@ -149,8 +149,13 @@ btnAllHoots.onclick = () => {
 
 ---
 
-## III. Wrap up
+## III. Test it
 
+- Go ahead and test the form by adding a hoot, and then clicking the "View all" button verify that the hoot has been added
+
+---
+
+![screenshot](_images/express-11.png)
 
 ---
 ---
