@@ -1,9 +1,11 @@
-# 11 - admin.html
+# 11 - Creating admin.html
 
 - Here we will create an "admin" page that will allow the user to **C**reate (`POST`) and **R**ead (`GET`) hoots
   - soon we will and **E**dit (`PUT`) and **D**elete (`DELETE`) capabilities
 
-## I. admin.html - "view all hoots"
+---
+
+## I. Creating admin.html - "view all hoots"
 
 - How about an HTML `<form>` for viewing hoots, adding hoots, editing, hoot, deleting hoots etc?
 - Here's the HTML & JS for viewing hoots
@@ -117,19 +119,18 @@ btnAllHoots.onclick = () => {
 
 ---
 
-## IV. admin.html - "add a hoot"
+## II. admin.html - "add a hoot"
 
 - The `POST` `/api/addHoot` endpoint is already working - we tested that endpoint with Postman, last time
 - Now we just need an HTML form to call this endpoint
 
-
 ---
 
-- First, here's the POST request helper function we'll need - start typing!
+- First, here's the `POST` request helper function we'll need - start typing!
   - note that `postJsonFetch()` has a parameter we have not seen before `payload`
     - this is the data we want to send along with the `POST` request, as a file
-  - you can see that in the fetch() request, thie payload is getting stringified and sent along as the `body` of the `POST` request
-  - the other new thing we are doing is to send the HTTP status code back with the callback function, along with the JSON
+  - you can see that in the `fetch()` request, thie payload is getting *stringified* and sent along as the `body` of the `POST` request
+  - the other new thing we are doing in this helper function is to send the HTTP status code back with the callback function, along with the JSON
 
 ![screenshot](_images/express-10.png)
 
@@ -137,10 +138,21 @@ btnAllHoots.onclick = () => {
 
 - Here's the rest of the code - keep typing!
 - Note the function declared on line 117, that's the `callback(json,status)` function that will be called from `postJsonFetch()`
-  - BTW: it's a function that was declared inside a function, aka a *closure*. We did this so that we could access the `selector` parameter later on, after the data was loaded
+  - BTW: it's a function that was declared inside a function, aka a *closure*
+  - we did this so that we could access the `selector` parameter later on, after the data was loaded
   - we did the same thing in `allHootsCB()`
 
 ![screenshot](_images/express-11.png)
 
 ---
+
+## III. Wrap up
+
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**10 - `POST`ing data to express**](10-express-posting-data.md)  |  [**IGME-430**](../) | [**12 - Delete a hoot**](12-delete-hoot-server-client.md)
 
