@@ -130,9 +130,9 @@ btnAllHoots.onclick = () => {
 ---
 
 - First, here's the `POST` request helper function we'll need - start typing!
-  - note that `postJsonFetch()` has a parameter we have not seen before `payload`
+  - note that `postJsonFetch()` has a parameter we have not seen before  - `payload`
     - this is the data we want to send along with the `POST` request, as a file
-  - you can see that in the `fetch()` request, thie payload is getting *stringified* and sent along as the `body` of the `POST` request
+  - you can see that in the `fetch()` request, this payload is getting *stringified* and sent along as the `body` of the `POST` request
   - the other new thing we are doing in this helper function is to send the HTTP status code back with the callback function, along with the JSON
 
 ![screenshot](_images/express-10.png)
