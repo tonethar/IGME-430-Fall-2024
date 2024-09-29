@@ -1,4 +1,4 @@
-# Delete a hoot
+# 12 - Delete a hoot
 
 ## V. "Delete a hoot" server endpoint
 
