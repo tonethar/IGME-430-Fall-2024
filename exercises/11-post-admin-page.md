@@ -1,6 +1,8 @@
 # 11 - admin.html
 
-## III. admin.html - "view all hoots"
+- Here we will create an "admin" page that will allow the user to **C**reate (`POST`) and **R**ead (`GET`)
+
+## I. admin.html - "view all hoots"
 
 - How about an HTML `<form>` for viewing hoots, adding hoots, editing, hoot, deleting hoots etc?
 - Here's the HTML & JS for viewing hoots
@@ -116,7 +118,7 @@ btnAllHoots.onclick = () => {
 
 ## IV. admin.html - "add a hoot"
 
-- The `POST` `/api/addHoot` endpoint is already working - we tested that with Postman, above
+- The `POST` `/api/addHoot` endpoint is already working - we tested that endpoint with Postman, last time
 - Now we just need an HTML form to call this endpoint
 
 
