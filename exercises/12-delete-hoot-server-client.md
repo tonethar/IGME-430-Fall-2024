@@ -1,6 +1,6 @@
 # 12 - Delete a hoot
 
-## I. "Delete a hoot" server endpoint
+## I. "`DELETE` a hoot" server endpoint
 
 - Let's build the server endpoint first - `DELETE` `/api/deleteHoot/:id`
 - Add the following to **routes/api.js**:
