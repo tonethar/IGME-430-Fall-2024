@@ -1,6 +1,9 @@
 # 14 - Finish up the hoot admin
 
-## I. "View a single hoot" server endpoint
+## I. "View a single hoot" server GET endpoint 
+- Endpoint in **api.js** is  `'/hoots/:id([0-9,a-z,A-Z,-]{36})'`
+- In 
+- Test it with http://localhost:3000/api/hoots/valid-id
 
 ---
 
