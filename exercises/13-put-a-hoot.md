@@ -39,6 +39,6 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**12 - `DELETE` at hoot**](12-delete-hoot-server-client.md)  |  [**IGME-430**](../) | TBA
+| [**12 - `DELETE` at hoot**](12-delete-hoot-server-client.md)  |  [**IGME-430**](../) | [**14 - Finish up the hoot admin page**](14-finish-up-hoot-admin.md)
 
 
