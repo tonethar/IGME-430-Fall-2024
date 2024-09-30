@@ -1,4 +1,4 @@
-# 14 - Finish up the hoot app
+# 14 - Finish up the hoot admin
 
 ## I. "View a single hoot" server endpoint
 
