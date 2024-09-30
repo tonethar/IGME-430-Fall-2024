@@ -159,7 +159,7 @@ btnAllHoots.onclick = () => {
 ---
 
 ## IV. Wrap up
-- We continue to build out and test these server capabilities *first* -  *"server first"* -  before we write any client code ...
+- We continue to build out and test these server capabilities *first* -  *"server first"* -  before we write *any* client code ...
 - Move on to the next section!
 
 
