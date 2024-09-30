@@ -60,7 +60,7 @@
 
 ![screenshot](_images/express-17.png)
 
-- ***BTW - sending over a nonexistent 36-character `id` (i.e. an invalid `id`) will show a "Status 404". Sending a malformed id (meaning, not 26-characters) will show "undefined" for status - that's how we wrote our server code, so that's OK for now.***
+- ***BTW - sending over a nonexistent 36-character `id` (i.e. an invalid `id`) will show a "Status 404". Sending a malformed id (meaning, not 36-characters) will show "undefined" for status - that's how we wrote our server code, so that's OK for now.***
 
 ---
 
