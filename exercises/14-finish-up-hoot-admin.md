@@ -18,6 +18,7 @@
 }
 ```
 - Test it with a bad `id` - http://localhost:3000/api/hoots/12345 - and you'll get the regular `404` page
+
 ---
 
 ## II. admin.html - View a single hoot `<form>`
@@ -35,10 +36,12 @@
 <div id="output-view-hoot">???</div>
 ```
 
+---
+
 ## III. admin.html - View a single hoot JavaScript
 
 - You write this!
-- When functioning, it will look somethi g like this:
+- When functioning, it will look something like this:
 
 ![screenshot](_images/express-24.png)
 
@@ -59,4 +62,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**12 - `DELETE` at hoot**](12-delete-hoot-server-client.md)  |  [**IGME-430**](../) | TBA
+| [**13 - Edit (PUT) a hoot**](13-put-a-hoot.md)  |  [**IGME-430**](../) | TBA
