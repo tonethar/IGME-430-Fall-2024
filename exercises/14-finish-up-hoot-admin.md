@@ -1,4 +1,4 @@
-# 14 - Finish up the hoot admin
+# 14 - Finish up the hoot admin page
 
 ## I. Create "View a single hoot" server GET endpoint 
 - Endpoint in **api.js** is  `'/hoots/:id([0-9,a-z,A-Z,-]{36})'`
