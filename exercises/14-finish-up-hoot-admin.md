@@ -17,7 +17,7 @@
   "error": "id: '11111111-2222-3333-4444-555555555555' not found"
 }
 ```
-- Test it a bad `id` - http://localhost:3000/api/hoots/12345 - and you'll get the regular `404` page
+- Test it with a bad `id` - http://localhost:3000/api/hoots/12345 - and you'll get the regular `404` page
 ---
 
 ## II. admin.html - Edit a hoot `<form>`
