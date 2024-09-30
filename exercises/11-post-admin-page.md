@@ -151,11 +151,17 @@ btnAllHoots.onclick = () => {
 
 ## III. Test it
 
-- Go ahead and test the form by adding a hoot, and then clicking the "See all the hoots!" button to verify that the hoot has been added
+- ***Go ahead and test the form by adding a hoot, and then clicking the "See all the hoots!" button to verify that the hoot has been added:***
+
+
+![screenshot](_images/express-22.png)
 
 ---
 
-![screenshot](_images/express-22.png)
+## IV. Wrap up
+- We continue to build out and test these server capabilities *first* -  *"server first"* -  before we write any client code ...
+- Move on to the next section!
+
 
 ---
 ---
