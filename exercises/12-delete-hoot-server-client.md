@@ -1,6 +1,6 @@
 # 12 - Delete a hoot
 
-## V. "Delete a hoot" server endpoint
+## I. "Delete a hoot" server endpoint
 
 - Let's build the server endpoint first - `DELETE` `/api/deleteHoot/:id`
 - Add the following to **routes/api.js**:
@@ -38,7 +38,7 @@
   
 ---
 
-## VI. admin.html - "Delete a hoot" `<form>`
+## II. admin.html - "Delete a hoot" `<form>`
 
 
 - Here's the code!
@@ -60,7 +60,7 @@
 
 ![screenshot](_images/express-17.png)
 
-- ***BTW - sending over a nonexistent 36-character `id` (i.e. an invalid `id`) will show a "Status 404". Sending a malformed id will show "undefined" for status - that's how we wrote our server code, so that's OK for now.***
+- ***BTW - sending over a nonexistent 36-character `id` (i.e. an invalid `id`) will show a "Status 404". Sending a malformed id (meaning, not 26-characters) will show "undefined" for status - that's how we wrote our server code, so that's OK for now.***
 
 ---
 
