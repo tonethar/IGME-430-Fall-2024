@@ -164,8 +164,8 @@ req.body.content= This is a new Hoot!
 ---
 
 ## IV. Wrap up
-- Notice how we are building out and testing these server capabilities *first*, *"server first"*, before we write an client code ...
-- ... but now it's time to create a wat for the user to interact with our app, so go ahead and move on to the next part!
+- Notice how we are building out and testing these server capabilities *first*, *"server first"*, before we write any *client* code ...
+- ... but now it's time to create a way for the user to interact with our app, so go ahead and move on to the next part!
 
 
 ---
