@@ -2,7 +2,7 @@
 
 ## I. Create "View a single hoot" server GET endpoint 
 - Endpoint in **api.js** is  `'/hoots/:id([0-9,a-z,A-Z,-]{36})'`
-- Test it (either in the browser, or with Postman) with http://localhost:3000/api/hoots/valid-hoot-id
+- Test it (either in the browser, or with Postman) with `http://localhost:3000/api/hoots/<valid-hoot-id>`
 
 ![screenshot](_images/express-23.png)
 
