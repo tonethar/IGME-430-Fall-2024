@@ -1,5 +1,9 @@
 # Project 1 - "Get Going!" Checkpoint (DRAFT)
 
+- *For this project, you will take a JSON dataset and create a Web API that allows others to access, search, filter, and edit your dataset.*
+
+---
+
 ## I. Get Started
 - Complete the express HW up to and including [14 - Finish up the hoot admin page](../exercises/14-finish-up-hoot-admin.md)
 - Duplicate the entire **router-app-POST** folder and re-name the copy to **p1-430-&lt;abc1234>** where `<abc1234>` is your RIT id
