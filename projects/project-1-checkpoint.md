@@ -39,12 +39,30 @@
 ## IV. Choose a data source
 
 - Choose ONE ["Data Set"](project-1.md#ii-files) file as the primary data for your app **OR**
-- If you prefer to utilize a data set that covers something other than the provided data sets you are welcome to do so. However, there are a few things you must confirm before you can use it:
+- If you prefer to utilize a dataset that covers something other than the provided datasets you are welcome to do so. However, there are a few things you must confirm before you can use it:
     1. The data must be in the JSON format, in a **.json** file
-    2. The data set must have some amount of data nesting. That means there must be an object or array nested inside of the individual data objects
+    2. The dataset must have some amount of data nesting. That means there must be an object or array nested inside of the individual data objects
     3. You must understand how that data is organized and be able to properly parse it with JavaScript
     4. Once you have confirmed the above 3 things, send the dataset to the Prof for final approval
 
 ---
 
-## V. Re-implement the `/quotes` endpoint
+## V. Create an  `/<all-items>` endpoint
+- This will return your entire dataset
+  - this endpoint will be helpful in the debugging process as we build out our server endpoints
+  - but in the "real world" we would very likely NOT do this - but here our dataset is small so it's OK
+- For your project, replace `/<all-items>` with a meaninful name, depending on your dataset, examples:
+  - `/books` or `/all-books` for the books dataset
+  - `/countries` or `/all-countries` for the countries dataset
+  - `/pokemon` or `all-pokemon` for the pokemon dataset
+- For your API, you must use the same patterns that we did with the `/quotes` endpoint, meaning:
+  - there must be a **db.js** that loads the **.json** file
+  - this file has public methods for accessing and searching the data, for example:
+    - `getAllBooks()` - returns an array of all the books
+    - `searchByTitle(substring)` - returns an array of books that match `substring`
+    - `searchByTitleExact(title)` - returns the exact title match, or some kind of "not found" response. (Note: this assumes that titles are unique in the dataset, which is not true in the "real world")
+    - `searchByYearExact(year)` - returns an array of books that were published that `year`
+    - `getPokemon(id)` - returns the matching Pokemon or a "not found" response (each individual Pokemon entry has a unique `id`)
+
+ 
+
