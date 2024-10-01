@@ -62,7 +62,8 @@
     - `searchByTitle(substring)` - returns an array of books that match `substring`
     - `searchByTitleExact(title)` - returns the exact title match, or some kind of "not found" response. (Note: this assumes that titles are unique in the dataset, which is not true in the "real world")
     - `searchByYearExact(year)` - returns an array of books that were published that `year`
-    - `getPokemon(id)` - returns the matching Pokemon or a "not found" response (each individual Pokemon entry has a unique `id`)
+    - `getPokemon(id)` - returns the matching Pokemon or a "not found" response
+      - this works for the Pokemon dataset because each individual Pokemon entry has a unique `id`
 
  
 
