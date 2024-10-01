@@ -39,12 +39,11 @@
 ## IV. Choose a data source
 
 - Choose ONE ["Data Set"](project-1.md#ii-files) file as the primary data for your app **OR**
-- If you would like to utilize a dataset that covers something other than the provided datasets you are welcome to do so. However, there are a few things you must confirm before you can use it:
+- If you prefer to utilize a data set that covers something other than the provided data sets you are welcome to do so. However, there are a few things you must confirm before you can use it:
     1. The data must be in the JSON format, in a **.json** file
     2. The data set must have some amount of data nesting. That means there must be an object or array nested inside of the individual data objects
     3. You must understand how that data is organized and be able to properly parse it with JavaScript
     4. Once you have confirmed the above 3 things, send the dataset to the Prof for final approval
-
 
 ---
 
