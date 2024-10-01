@@ -1,4 +1,4 @@
-# Project 1 - "Get Going!" Checkpoint
+# Project 1 - "Get Going!" Checkpoint (DRAFT)
 
 ## I. Get Started
 - Complete the express HW up to and including [14 - Finish up the hoot admin page](../exercises/14-finish-up-hoot-admin.md)
