@@ -51,7 +51,7 @@
 
 ---
 
-## V. Create an  `/<all-items>` endpoint
+## V. Create an  `/"all-items"` endpoint
 - This will return your entire dataset:
   - this endpoint will be helpful in the debugging process as we build out our server endpoints
   - in the "real world" we would very likely NOT do this - but here our dataset is small so it's OK
