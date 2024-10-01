@@ -55,7 +55,7 @@
 - This will return your entire dataset:
   - this endpoint will be helpful in the debugging process as we build out our server endpoints
   - in the "real world" we would very likely NOT do this - but here our dataset is small so it's OK
-- For your project, replace `/<all-items>` with a meaninful name, depending on your dataset, examples:
+- For your project, replace `/"all-items"` with a meaninful name, depending on your dataset, examples:
   - `/books` or `/all-books` for the books dataset
   - `/countries` or `/all-countries` for the countries dataset
   - `/pokemon` or `all-pokemon` for the pokemon dataset
