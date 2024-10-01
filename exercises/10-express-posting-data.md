@@ -95,6 +95,7 @@ router.post('/addHoot', (req, res) => {
 ```
 
 - Over in **app.js** - you just need to add this one line of code, that tells express to handle `POST` JSON data:
+  - put this right AFTER `app.use(express.static('client'));`
 
 ```js
 // put this right after the other `app.use()` call
