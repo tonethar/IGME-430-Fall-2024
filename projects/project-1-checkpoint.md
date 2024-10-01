@@ -1,4 +1,4 @@
-# Project 1 - Checkpoint
+# Project 1 - "Get Going!" Checkpoint
 
 ## I. Get Started
 - Complete the express HW up to and including [14 - Finish up the hoot admin page](../exercises/14-finish-up-hoot-admin.md)
@@ -17,6 +17,10 @@
   - to change the remote url, type: `git remote set-url origin https://github.com/tonethar/<your-remore-repo-name>.git`
   - to verify the change, type: `git remote -v`
   - example - what I typed for my remote was `git remote set-url origin https://github.com/tonethar/p1-430-abc1234.git`
-- dd
+- Type `git status` to be sure that your local repo is all up to date (if not, `git add`, `git commit` etc)
+- Type `git push` to push this local repo up to github. Then check the remote github repo in your web browser to verify it's been updated
 
 ---
+
+## III. Create a Project 1 app on Heroku
+
