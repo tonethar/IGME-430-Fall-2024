@@ -12,6 +12,11 @@
 - This previous exercise will be a good reminder on how to do this **-->** [9 - Putting our project on Heroku](../exercises/9-putting-project-on-heroku.md)
   - name this new remote repo **p1-430-&lt;abc1234>** and make it empty, and **@--->** ***private*** **&lt;---@** visibility
   - after you have created it, add [`tonethar` (me)](https://github.com/tonethar) as a collaborator so that I can see this repo
-  - on the command line, in your local **p1-430-&lt;abc1234>** folder, go ahead and set the `remote` repo to this new project 1 repo you just created, as we did before in Part 9 linked above
+- Now you need to change the "origin url" of your local repo to the new project 1 repo you just created:
+  - reference: https://devconnected.com/how-to-change-git-remote-origin/
+  - to change the remote url, type: `git remote set-url origin https://github.com/tonethar/<your-remore-repo-name>.git`
+  - to verify the change, type: `git remote -v`
+  - example - what I typed for my remote was `git remote set-url origin https://github.com/tonethar/p1-430-abc1234.git`
+- dd
 
 ---
