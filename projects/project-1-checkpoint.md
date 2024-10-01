@@ -57,7 +57,7 @@
   - `/pokemon` or `all-pokemon` for the pokemon dataset
 - For your API, you must use the same patterns that we did with the `/quotes` endpoint, meaning:
   - there must be a **db.js** that loads the **.json** file
-  - this file has public methods for accessing and searching the data, for example:
+  - **db.js** has ***public methods*** for accessing and searching the data, for example:
     - `getAllBooks()` - returns an array of all the books
     - `searchByTitle(substring)` - returns an array of books that match `substring`
     - `searchByTitleExact(title)` - returns the exact title match, or some kind of "not found" response. (Note: this assumes that titles are unique in the dataset, which is not true in the "real world")
