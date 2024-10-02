@@ -49,7 +49,7 @@
 
 ## IV. Submission
 - Everything should work locally
-- Run `npm test` and fix any errors (warnings are OKM)
+- Run `npm test` and fix any errors (warnings are OK)
 - git add/git commit/git push etc
 - Make sure that everything still runs on Heroku
 - ZIP and Post app folder to myCourses
