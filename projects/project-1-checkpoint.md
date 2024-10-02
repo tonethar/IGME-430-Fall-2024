@@ -135,8 +135,11 @@ module.exports = router;
 ---
 
 6. Test it
-- all 3 routes locally
-- push chnages to GitHub and test on Heroku - here are my working links for the country dataset:
+- Try out all 3 of these new `GET` routes locally - don't forget they will all be under http://localhost:3000/api/...`
+- Push changes to GitHub and test on Heroku - here are my working links for the country dataset:
+  - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/countries
+  - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/random
+  - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
 
 
