@@ -151,7 +151,7 @@ module.exports = router;
 - Be sure that the app runs on Heroku, and that GitHub Actions show that the latest push has passed the tests, and also that the main repo page has the green checkmark
 - In the comments field of the myCourses dropbox, put:
   - the Project-1 GitHub repo link (recall that this is private, and that the prof is a collaborator)
-  - the Heroku link to the working app (NOT the dashboard link)
+  - the Heroku links to **ALL THREE*** of the working endpoints you created for your dataset
 - ZIP up the project folder and upload it to myCourses
   - don't forget to first delete your **node_modules** folder
 
