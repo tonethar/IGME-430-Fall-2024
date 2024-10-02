@@ -63,13 +63,28 @@
   - 1. there must be a **p1-db.js** that loads the **.json** file
     - **p1-db.js** has ***public methods*** for accessing and searching the data, for example:
       - `getAllBooks()` - returns an array of all the books
-- **Hints** (for this example, I am going to assume that the countries dataset was chosen):
-  - put your chosen dataset file in the **src/data** folder
-  - duplicate **db.js** and name it **p1-db.js**
-  - in **p1-db.js**:
+
+### V-A. Hints
+- Note: for this example, I am going to assume that the countries dataset was chosen
+- 1. Put your chosen dataset file in the **src/data** folder
+- 2. Duplicate **db.js** and name it **p1-db.js**
+- 3. In **p1-db.js**:
     - A. modify the code so that your dataset file is loaded (instead of **quotes-data.json**)
     - B. rename `getAllQuotes()` to `getAllXXX()` where `XXX` is the name of the elements of your dataset - ex. `getAllCountries()` - and modify the code to return all of the elements of your dataset in an array
-    - B. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return an element from your dataset
+    - C. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return an element from your dataset
+- 4. Now create the API routes in **src/routes/api.js**
+    - A. First, *comment out* (do not delete) ALL of the code in **api.js** except for:
+ 
+```js
+const express = require('express');
+const router = express.Router();
+const generateNewId = () => crypto.randomUUID();
+
+module.exports = router;
+```
+
+
+
  
 ---
 
