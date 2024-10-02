@@ -19,7 +19,7 @@
 
 ---
 
-## I-C. [admin.html](11-post-admin-page.md#ii-adminhtml---add-a-hoot) (in part 11)
+### I-C. [admin.html](11-post-admin-page.md#ii-adminhtml---add-a-hoot) (in part 11)
 - Do you see any issues with the *request headers* being sent on lines 81 & 82?
 - When is the *body* of the request actually sent?
   - A. At the beginning of the request before the request headers
@@ -34,7 +34,7 @@
   
 ---
 
-## I-D. [`DELETE` a hoot](12-delete-hoot-server-client.md) (in part 12)
+### I-D. [`DELETE` a hoot](12-delete-hoot-server-client.md) (in part 12)
 - See line #67 & https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE
 - What is the status code send back when a delete is successful?
 - Other than the deleted hoot, what other content could (or should) be sent back as a response?
@@ -42,7 +42,7 @@
 
 ---
 
-## I-E. [Edit (`PUT`) a hoot](13-put-a-hoot.md) (in part 13)
+### I-E. [Edit (`PUT`) a hoot](13-put-a-hoot.md) (in part 13)
 - The `router.put(...)` endpoint has a huge code problem - although it works it's breaking *encapsulation* - what is the exact issue?
 - What should the code do if `content` is `undefined`?
 - Which status code should be sent back if a `PUT` *fails*?
@@ -50,7 +50,7 @@
 
 ---
 
-## I-F. [View Single Hoot](14-finish-up-hoot-admin.md) (in part 14)
+### I-F. [View Single Hoot](14-finish-up-hoot-admin.md) (in part 14)
 - What should the server response status code be for this:
 
 ```js
