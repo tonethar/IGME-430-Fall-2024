@@ -98,7 +98,7 @@ router.post('/addHoot', (req, res) => {
   - put this right AFTER `app.use(express.static('client'));`
 
 ```js
-// put this right after the other `app.use()` call
+// put this right AFTER `app.use(express.static('client'));`
 app.use(express.json());
 ```
 
