@@ -18,7 +18,7 @@
   - after you have created it, add [`tonethar` (me)](https://github.com/tonethar) as a collaborator so that I can see this repo
 - Now you need to change the "origin url" of your local repo to the new project 1 repo you just created:
   - reference: https://devconnected.com/how-to-change-git-remote-origin/
-  - to change the remote url, type: `git remote set-url origin https://github.com/tonethar/<your-remote-repo-name>.git`
+  - to change the remote url of the repo, type: `git remote set-url origin https://github.com/tonethar/<your-remote-repo-name>.git`
   - to verify the change, type: `git remote -v`
   - example - what I typed for my remote was `git remote set-url origin https://github.com/tonethar/p1-430-abc1234.git`
 - Type `git status` to be sure that your local repo is all up to date (if not, `git add`, `git commit` etc)
