@@ -20,6 +20,7 @@
   - Assume your project just crashed. How can you view its logs?
   - How can you "turn off" (but not delete) a project?
   - How can you delete a project?
+  - Can we see which `port` Heroku is using to run our app?
 
 ---
 
