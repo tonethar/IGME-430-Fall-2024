@@ -5,7 +5,7 @@
 ---
 
 ## I. Get Started
-- Complete the express HW up to and including [14 - Finish up the hoot admin page](../exercises/14-finish-up-hoot-admin.md)
+- Complete the express HW up to and including [15 - Notes & Errata](../exercises/15-notes-and-errata.md)
 - Duplicate the entire **router-app-POST** folder and re-name the copy to **p1-430-&lt;abc1234>** where `<abc1234>` is your RIT id
 - Open the folder in VSCode - them `npm i`, `npm test`, `npm run dev` to be sure that everything still works
 
