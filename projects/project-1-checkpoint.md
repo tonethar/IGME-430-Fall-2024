@@ -84,8 +84,8 @@
 3. In **p1-db.js**:
     - A. modify the code so that your dataset file is loaded (instead of **quotes-data.json**)
     - B. rename `getAllQuotes()` to `getAllXXX()` where `XXX` is the name of the elements of your dataset - ex. `getAllCountries()` - and modify the code to return all of the elements of your dataset in an array.
-     - ***IMPORTANT*** Be sure to send back a *copy* of the original data (and NOT a reference to the original data) for this and all future DB endpoints.
-     - example - this is how I implemented `getAllCountries()` - `const getAllCountries = () => [...countries];`
+      - ***IMPORTANT*** Be sure to send back a *copy* of the original data (and NOT a reference to the original data) for this and all future DB endpoints.
+      - example - this is how I implemented `getAllCountries()` - `const getAllCountries = () => [...countries]; // made a copy with array destructuring`
     - C. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return an element from your dataset
 
 ---
