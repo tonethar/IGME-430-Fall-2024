@@ -1,4 +1,4 @@
-# 15 - Errata & Notes
+# 15 - Notes & Errata
 
 ## I. Questions
 
@@ -73,3 +73,10 @@
 }
 ```
 
+
+---
+---
+
+| <-- Previous Unit | Home | Next Unit -->
+| --- | --- | --- 
+| [**14 - Finish up the hoot admin page**](14-finish-up-hoot-admin.md)  |  [**IGME-430**](../) | TBA
