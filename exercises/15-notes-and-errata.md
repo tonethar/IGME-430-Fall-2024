@@ -8,7 +8,7 @@
   - `router.get('/:id', (req, res)=>...)`
   - `router.get('/:id([0-9,a-z,A-Z,-]{36})', (req, res)=>...)`
 - In most cases, what should the *order* of routes be in the code?
-  - more general routes (many matches), followed by more specific routes (fewer matches)
+  - more general routes (many matches), followed by more specific routes (fewer matches) **OR**
   - more specific routes, followed by more general routes
  - What should the *order* of the 3 routes above be?
     
@@ -28,7 +28,7 @@
 
 - What is the statement on lines 28-30 called? What does it do?
 - What do you think the server should do if no value for `content` is passed in?
-  - A. Create an "empty" hoot with default text and return it to the client OR
+  - A. Create an "empty" hoot with default text and return it to the client **OR**
   - B. Create nothing, and return an error message and an http error status code
 
 ---
