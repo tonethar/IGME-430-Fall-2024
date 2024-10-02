@@ -1,4 +1,4 @@
-# Project 1 - "Get Going!" Checkpoint (DRAFT)
+# Project 1 - "Get Going!" Checkpoint
 
 - *For this project, you will take a JSON dataset and create a Web API that allows others to access, search, filter, and edit your dataset.*
 
