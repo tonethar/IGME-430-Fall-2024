@@ -62,4 +62,4 @@
 
 | <-- Previous Unit | Home | Next Unit -->
 | --- | --- | --- 
-| [**13 - Edit (PUT) a hoot**](13-put-a-hoot.md)  |  [**IGME-430**](../) | TBA
+| [**13 - Edit (PUT) a hoot**](13-put-a-hoot.md)  |  [**IGME-430**](../) | [**15 - Notes & Errata**](../exercises/15-notes-and-errata.md)
