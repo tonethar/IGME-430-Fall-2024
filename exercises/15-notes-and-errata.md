@@ -19,7 +19,7 @@
 - What is the statement on lines 28-30 called? What does it do?
 - What do you think the server should do if no value for `content` is passed in?
   - A. Create an "empty" hoot OR
-  - B. Return an error message
+  - B. Return an error message and an http error status code
 
 ---
 
