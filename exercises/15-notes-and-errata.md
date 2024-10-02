@@ -2,7 +2,7 @@
 
 ## I. Questions
 
-### I-A. Routes ([in part 8](8-passing-params-in-express.md#v-accessing-parameters-via-the-route)
+### I-A. Routes ([in part 8](8-passing-params-in-express.md#v-accessing-parameters-via-the-route))
 - Explain the difference betweeen these routes, which are located in **routes/api.js**:
   - `router.get('/id', (req, res)=>...)`
   - `router.get('/:id', (req, res)=>...)`
