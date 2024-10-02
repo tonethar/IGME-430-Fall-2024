@@ -43,7 +43,7 @@
   - what does `addHootForm['content']` refer to?
   - what is the "long way" to write line 135?
   - what does line 137 do?
-  - explain line 138. What is the value of `addHootCallback()`?
+  - explain line 138. What is the *return value* of `addHootCallback()`?
   
 ---
 
