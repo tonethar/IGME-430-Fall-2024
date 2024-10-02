@@ -63,7 +63,7 @@
   - 1. there must be a **p1-db.js** that loads the **.json** file
     - **p1-db.js** has ***public methods*** for accessing and searching the data, for example:
       - `getAllBooks()` - returns an array of all the books
-      - other methods **p1-db.js** will need in the near future (examples):
+      - BTW - other methods **p1-db.js** will need in the near future (examples):
         - `searchByTitle(substring)` - returns an array of books that match `substring`
         - `searchByTitleExact(title)` - returns the single exact title match, or some kind of "not found" response
           - Note: this assumes that titles are unique in the book dataset, which is not true in the "real world")
