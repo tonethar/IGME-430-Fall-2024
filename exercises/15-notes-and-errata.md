@@ -50,5 +50,12 @@
 
 ---
 
-## I-F. 
+## I-F. [View Single Hoot](14-finish-up-hoot-admin.md) (in part 14)
+- What should the server response status code be for this:
+
+```js
+{
+  "error": "id: '11111111-2222-3333-4444-555555555555' not found"
+}
+```
 
