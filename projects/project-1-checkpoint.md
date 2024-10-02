@@ -63,7 +63,23 @@
   - 1. there must be a **p1-db.js** that loads the **.json** file
     - **p1-db.js** has ***public methods*** for accessing and searching the data, for example:
       - `getAllBooks()` - returns an array of all the books
-      - BTW - other methods **p1-db.js** will need in the near future (examples):
+- **Hints** (for this example, I am going to assume that the countries dataset was chosen):
+  - put your chosen dataset file in the **src/data** folder
+  - duplicate **db.js** and name it **p1-db.js**
+  - in **p1-db.js**:
+    - A. modify the code so that your dataset file is loaded (instead of **quotes-data.json**)
+    - B. rename `getAllQuotes()` to `getAllXXX()` where `XXX` is the name of the elements of your dataset - ex. `getAllCountries()` - and modify the code to return all of the elements of your dataset in an array
+    - B. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return an element from your dataset
+ 
+---
+
+
+
+
+
+
+<!---
+- BTW - other methods **p1-db.js** will need in the near future (examples):
         - `searchByTitle(substring)` - returns an array of books that match `substring`
         - `searchByTitleExact(title)` - returns the single exact title match, or some kind of "not found" response
           - Note: this assumes that titles are unique in the book dataset, which is not true in the "real world")
@@ -72,6 +88,4 @@
         - `recentBook()` - returns most recently added book
         - `getPokemon(id)` - returns the single matching Pokemon or a "not found" response
           - this works for the Pokemon dataset because each individual Pokemon entry has a unique `id`
-  - 2. XXX
- 
----
+---!>
