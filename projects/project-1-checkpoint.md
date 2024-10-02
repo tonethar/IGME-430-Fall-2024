@@ -33,10 +33,6 @@
   - make sure that autodeploy and CI are enabled
   - test the Heroku project, in particular the **admin.html** functionality, and verify that it works as expected
   - make sure that the Actions tab on GitHub shows a successful run, and that the main repo page has that ***beautiful green checkmark***
-- Submission, do this right now:
-  - In Slack, DM to the prof the following:
-    - the Project-1 GitHub repo link (recall that this is private, and that the prof is a collaborator)
-    - the Heroku link to the working app (NOT the dashboard link)
 
 ---
 
@@ -147,7 +143,15 @@ module.exports = router;
   - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/random
   - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
+---
 
+## VI. Submission
+- Be sure that the app runs on Heroku, and that GitHub Actions show that the latest push has passed the tests, and also that the main repo page has the green checkmark
+- In the comments field of the myCourses dropbox, put:
+  - the Project-1 GitHub repo link (recall that this is private, and that the prof is a collaborator)
+  - the Heroku link to the working app (NOT the dashboard link)
+- ZIP up the project folder and upload it to myCourses
+  - don't forget to first delete your **node_modules** folder
 
 
 <!---
