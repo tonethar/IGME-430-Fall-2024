@@ -51,11 +51,11 @@
 
 ---
 
-## V. Create an  `/"all-items"` endpoint
+## V. Create an  `/"all items"` endpoint
 - This will return your entire dataset:
   - this endpoint will be helpful in the debugging process as we build out our server endpoints
   - in the "real world" we would very likely NOT do this - but here our dataset is small so it's OK
-- For your project, replace `/"all-items"` with a meaningful name, depending on your dataset, examples:
+- For your project, replace `/"all items"` with a meaningful name, depending on your dataset, examples:
   - `/books` or `/all-books` for the books dataset
   - `/countries` or `/all-countries` for the countries dataset
   - `/pokemon` or `all-pokemon` for the pokemon dataset
@@ -63,11 +63,13 @@
   - 1. there must be a **p1-db.js** that loads the **.json** file
     - **p1-db.js** has ***public methods*** for accessing and searching the data, for example:
       - `getAllBooks()` - returns an array of all the books
+      - `getRandomBook()` - returns a single random book
+      - `getRecentBook()` - returns the most recently added book (the last one in the array)
 
 ---
 
 ### V-A. Hints
-- Note: for this example, I am going to assume that the countries dataset was chosen
+- Note: for this example, I am going to assume that the *countries* dataset was chosen
 
 ---
 
