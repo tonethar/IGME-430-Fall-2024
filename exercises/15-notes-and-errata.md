@@ -13,7 +13,7 @@
 
 ## I-B. [admin.html](11-post-admin-page.md#ii-adminhtml---add-a-hoot) (in part 11)
 - Do you see any issues with the *request headers* being sent on lines 81 & 82?
-- When is the *body* of the request actually sent"
+- When is the *body* of the request actually sent?
   - A. At the beginning of the request before the request headers
   - B. In the middle of the request
   - C. At the end of the request
