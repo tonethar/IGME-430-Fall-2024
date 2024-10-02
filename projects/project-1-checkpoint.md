@@ -47,7 +47,11 @@
     1. The data must be in the JSON format, in a **.json** file
     2. The dataset must have some amount of data nesting. That means there must be an object or array nested inside of the individual data objects
     3. You must understand how that data is organized and be able to properly parse it with JavaScript
-    4. Once you have confirmed the above 3 things, send the dataset to the Prof for final approval
+    4. Be sure that there is a unique identifier for each element of data - for example:
+       - each pokemon has a unique `.id`
+       - each country has a unique `.name` (but maybe you want to assign each a GUID or a country code?)
+       - each book has a unique `.title` (but maybe you want to assign each a GUID or an ISBN?)
+    5. Once you have confirmed the above 3 things, send the dataset to the Prof for final approval
 
 ---
 
