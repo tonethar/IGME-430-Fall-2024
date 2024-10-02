@@ -72,7 +72,7 @@
     - A. modify the code so that your dataset file is loaded (instead of **quotes-data.json**)
     - B. rename `getAllQuotes()` to `getAllXXX()` where `XXX` is the name of the elements of your dataset - ex. `getAllCountries()` - and modify the code to return all of the elements of your dataset in an array
     - C. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return an element from your dataset
-- 4. Now create the API routes in **src/routes/api.js**
+- 4. Now get rid of the "hoots" routes in **src/routes/api.js**
     - A. First, *comment out* (do not delete) ALL of the code in **api.js** except for:
  
 ```js
@@ -82,7 +82,13 @@ const generateNewId = () => crypto.randomUUID();
 
 module.exports = router;
 ```
-
+    - B. Test these links - the routes no longer function - but the code doesn't crash:
+      - http://localhost:3000/hoots - returns the 404 page
+      - http://localhost:3000/hoots/random - returns the 404 page
+      - http://localhost:3000/hoots/recent - returns the 404 page
+      - http://localhost:3000/admin - page loads, but none of the buttons work. Check browser console to see errors
+- 5.  XX
+      
 
 
  
