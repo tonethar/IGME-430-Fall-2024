@@ -10,7 +10,8 @@
 - In most cases, what should the *order* of routes be in the code?
   - more general routes (many matches), followed by more specific routes (fewer matches)
   - more specific routes, followed by more general routes
-  
+ - What should the *order* of the 3 routes above be?
+    
 ---
 
 ### I-B. [`/addHoot`](10-express-posting-data.md#ii-b-adding-post-data-to-the-hoots-array) (in part 10)
