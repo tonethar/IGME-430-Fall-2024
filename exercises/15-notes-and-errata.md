@@ -72,6 +72,13 @@
 }
 ```
 
+---
+
+## II. Test and Push your changes
+- As you make edits and fixes, be sure to test your endpoints to be sure that everything still works
+- Test your code with `npm test`:
+  - BTW: can your code still crash or otherwise not work as expected *even though it passes `npm test`?*
+- Commit your changes to the local repo, then push to the remote repo
 
 ---
 ---
