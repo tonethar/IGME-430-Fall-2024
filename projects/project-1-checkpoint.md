@@ -125,9 +125,9 @@ router.get('/countries', (req, res) => {
   res.json(db.getAllCountries());
 });
 
-// TODO: /country/random
+// for you TODO: '/country/random'
 
-// TODO: /country/recent
+// for you TODO: '/country/recent'
 
 module.exports = router;
 ```
@@ -135,6 +135,8 @@ module.exports = router;
 ---
 
 6. Test it
+- all 3 routes locally
+- push chnages to GitHub and test on Heroku - here are my working links for the country dataset:
 
 
 
