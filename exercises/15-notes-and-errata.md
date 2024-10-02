@@ -40,3 +40,13 @@
 - Other than the deleted hoot, what other content could (or should) be sent back as a response?
 - Explain what line 154 does.
 
+---
+
+## I-E. [Edit (`PUT`) a hoot](13-put-a-hoot.md) (in part 13)
+- The `router.put(...)` endpoint has a huge code problem - although it works it's breaking *encapsulation* - what is the exact issue?
+- What should the code do if `content` is `undefined`?
+- Which status code should be sent back if a `PUT` *fails*?
+---
+
+## I-F. 
+
