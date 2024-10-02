@@ -17,6 +17,12 @@
   - A. At the beginning of the request before the request headers
   - B. In the middle of the request
   - C. At the end of the request
+- Take a look at `addHootForm.onsubmit = ...` on line 131, and explain every line of code.
+  - what does `evt.preventDefault()` do?
+  - what does `addHootForm['content']` refer to?
+  - what is the "long way" to write line 135?
+  - what does line 137 do?
+  - explain line 138. What is the value of `addHootCallback()`?
   
 
 
