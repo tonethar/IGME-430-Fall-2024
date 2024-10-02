@@ -8,7 +8,7 @@
   - `router.get('/:id', (req, res)=>...)`
   - `router.get('/:id([0-9,a-z,A-Z,-]{36})', (req, res)=>...)`
 - In most cases, what should the *order* of routes be in the code?
-  - more general routes, followed by more specific routes
+  - more general routes (many matches), followed by more specific routes (fewer matches)
   - more specific routes, followed by more general routes
   
 ---
