@@ -87,7 +87,7 @@
       - ***IMPORTANT*** Be sure to send back a *copy* of the original data (and NOT a reference to the original data) for this and all future DB endpoints.
       - example - this is how I implemented `getAllCountries()` with array destructuring to make a copy:
         - `const getAllCountries = () => [...countries];`
-    - C. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return an element from your dataset
+    - C. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return a *copied* element from your dataset
 
 ---
 
