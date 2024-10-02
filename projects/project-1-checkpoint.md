@@ -83,11 +83,11 @@ const generateNewId = () => crypto.randomUUID();
 module.exports = router;
 ```
    
-    - B. Test these links - the routes no longer function - but the code doesn't crash:
-      - http://localhost:3000/hoots - returns the 404 page
-      - http://localhost:3000/hoots/random - returns the 404 page
-      - http://localhost:3000/hoots/recent - returns the 404 page
-      - http://localhost:3000/admin - page loads, but none of the buttons work. Check browser console to see errors
+- B. Test these links - the routes no longer function - but the code doesn't crash:
+  - http://localhost:3000/hoots - returns the 404 page
+  - http://localhost:3000/hoots/random - returns the 404 page
+  - http://localhost:3000/hoots/recent - returns the 404 page
+  - http://localhost:3000/admin - page loads, but none of the buttons work. Check browser console to see errors
 
 - 5.  XX
       
