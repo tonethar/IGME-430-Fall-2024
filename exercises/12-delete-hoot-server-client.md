@@ -14,7 +14,7 @@
 - Let's talk about the code above:
 - `getHootById(id)` is a helper function that returns a hoot with a matching `id`, or `undefined` if no match is found
   - we made this a (reusable) function because you can also utilize it elsewhere for finding and returning a specific quote, or finding and editing a specific quote, etc ...
-  - BTW you could shorten whis to a "one-liner" if you want to
+  - BTW you could shorten this to a "one-liner" if you want to
 - `deleteHootById()` is also some code that could potentially be re-used, for example if we wanted to delete a bunch of hoots at the same time (a "batch" delete)
 - `router.delete('/deleteHoot/:id([0-9,a-z,A-Z,-]{36})', ...`
   - ***above we gave you that regular expression you could copy!***
