@@ -35,7 +35,7 @@
   - make sure that the Actions tab on GitHub shows a successful run, and that the main repo page has that ***beautiful green checkmark***
 - Submission, do this right now:
   - In Slack, DM to the prof the following:
-    - the Project-1 GitHUb repo link (recall that this is private, and that the prof is a collaborator)
+    - the Project-1 GitHub repo link (recall that this is private, and that the prof is a collaborator)
     - the Heroku link to the working app (NOT the dashboard link)
 
 ---
