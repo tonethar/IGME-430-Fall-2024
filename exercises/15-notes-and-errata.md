@@ -7,7 +7,10 @@
   - `router.get('/id', (req, res)=>...)`
   - `router.get('/:id', (req, res)=>...)`
   - `router.get('/:id([0-9,a-z,A-Z,-]{36})', (req, res)=>...)`
-
+- In most cases, what should the *order* of routes be in the code?
+  - more general routes, followed by more specific routes
+  - more specific routes, followed by more general routes
+  
 ---
 
 ### I-B. [`/addHoot`](10-express-posting-data.md#ii-b-adding-post-data-to-the-hoots-array) (in part 10)
