@@ -46,6 +46,8 @@
 - The `router.put(...)` endpoint has a huge code problem - although it works it's breaking *encapsulation* - what is the exact issue?
 - What should the code do if `content` is `undefined`?
 - Which status code should be sent back if a `PUT` *fails*?
+- Explain what line 169 does.
+
 ---
 
 ## I-F. 
