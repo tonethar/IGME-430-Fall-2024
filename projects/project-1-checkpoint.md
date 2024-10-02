@@ -106,7 +106,11 @@ module.exports = router;
 
 ---
 
-5.  Now modify **src/routes/api.js** to use **p1-db.js** to implement  `/"all items"`, `/"item"/random` and `/"item"/recent`. Here's my version of **api.js** right now:
+5.  Now modify **src/routes/api.js** to use **p1-db.js** to implement:
+  -  `/"all items"`
+  -  `/"item"/random`
+  -  `/"item"/recent`
+  -  here's my version of **api.js** right now ...
  
 ```js
 const express = require('express');
