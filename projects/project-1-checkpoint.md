@@ -61,16 +61,17 @@
   - `/pokemon` or `all-pokemon` for the pokemon dataset
 - For your API, you must use the same patterns that we did with the `/quotes` endpoint, meaning:
   - 1. there must be a **p1-db.js** that loads the **.json** file
-    - **db.js** has ***public methods*** for accessing and searching the data, for example:
+    - **p1-db.js** has ***public methods*** for accessing and searching the data, for example:
       - `getAllBooks()` - returns an array of all the books
-      - `searchByTitle(substring)` - returns an array of books that match `substring`
-      - `searchByTitleExact(title)` - returns the single exact title match, or some kind of "not found" response
-        - Note: this assumes that titles are unique in the book dataset, which is not true in the "real world")
-      - `searchByYearExact(year)` - returns an array of books that were published that `year`
-      - `randomBook()` - returns a random book
-      - `recentBook()` - returns most recently added book
-      - `getPokemon(id)` - returns the single matching Pokemon or a "not found" response
-        - this works for the Pokemon dataset because each individual Pokemon entry has a unique `id`
+      - other methods **p1-db.js** will need in the near future (examples):
+        - `searchByTitle(substring)` - returns an array of books that match `substring`
+        - `searchByTitleExact(title)` - returns the single exact title match, or some kind of "not found" response
+          - Note: this assumes that titles are unique in the book dataset, which is not true in the "real world")
+        - `searchByYearExact(year)` - returns an array of books that were published that `year`
+        - `randomBook()` - returns a random book
+        - `recentBook()` - returns most recently added book
+        - `getPokemon(id)` - returns the single matching Pokemon or a "not found" response
+          - this works for the Pokemon dataset because each individual Pokemon entry has a unique `id`
   - 2. XXX
  
 ---
