@@ -54,7 +54,7 @@
 - Make sure that everything still runs on Heroku
 - ZIP and Post app folder to myCourses
   - don't forget to delete **node_modules** first
-- Put the GitHUb repo Link in the comments field of the dropbox
+- Put the GitHub repo Link in the comments field of the dropbox
 - Put the Heroku Link for the working app in the comments field of the dropbox (NOT the Heroku Dashboard link)
 
 ---
