@@ -131,9 +131,9 @@ module.exports = router;
   -  `/"all items"`
   -  `/"item"/random`
   -  `/"item"/recent`
-  -  here's my version of **p1-db.js** right now ...
+  -  here's my version of **api.js** right now ...
 
-**p1-db.js**
+**api.js**
 ```js
 const express = require('express');
 
