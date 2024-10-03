@@ -106,7 +106,8 @@ const getAllCountries = () => countries.map((c) => ({ ...c }));
 4. Now get rid of the "hoots" routes in **src/routes/api.js**
 
 - **First**, *comment out* (do not delete) ALL of the code in **api.js** except for:
- 
+
+**api.js**
 ```js
 const express = require('express');
 const router = express.Router();
@@ -127,8 +128,9 @@ module.exports = router;
   -  `/"all items"`
   -  `/"item"/random`
   -  `/"item"/recent`
-  -  here's my version of **api.js** right now ...
- 
+  -  here's my version of **p1-db.js** right now ...
+
+**p1-db.js**
 ```js
 const express = require('express');
 
