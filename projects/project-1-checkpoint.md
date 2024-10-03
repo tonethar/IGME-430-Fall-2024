@@ -123,7 +123,7 @@ module.exports = router;
   - http://localhost:3000/api/hoots - returns the 404 page
   - http://localhost:3000/api/hoots/random - returns the 404 page
   - http://localhost:3000/api/hoots/recent - returns the 404 page
-  - http://localhost:3000/admin - page loads, but none of the buttons work. Check browser console to see errors
+  - http://localhost:3000/admin.html - page loads, but none of the buttons work. Check browser console to see errors
 
 ---
 
