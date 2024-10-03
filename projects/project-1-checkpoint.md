@@ -84,10 +84,22 @@
 3. In **p1-db.js**:
     - A. modify the code so that your dataset file is loaded (instead of **quotes-data.json**)
     - B. rename `getAllQuotes()` to `getAllXXX()` where `XXX` is the name of the elements of your dataset - ex. `getAllCountries()` - and modify the code to return all of the elements of your dataset in an array.
-      - ***IMPORTANT*** Be sure to send back a *copy* of the original data (and NOT a reference to the original data) for this and all future DB endpoints.
-      - example - this is how I implemented `getAllCountries()` with array destructuring to make a copy:
-        - `const getAllCountries = () => [...countries];`
-    - C. similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return a *copied* element from your dataset
+      - ***IMPORTANT*** When sending data to a script *external* to our "database" script, be sure to send back a *copy* of the original data (and NOT a reference to the original data) for this and all future DB endpoints.
+      - example - this is how I implemented `getAllCountries()` with object destructuring to make a *deep copy* of each country object:
+      
+```js
+// PICK ONE!
+// I. returns original object references and original array
+const getAllCountries = () => countries;
+
+// II. shallow copy - returns new array, but same object references
+const getAllCountries = () => [...countries];
+
+// III. deep copy - returns new array, and new object references
+const getAllCountries = () => countries.map((c) => ({ ...c }));
+```
+
+- ***Similarly, rename and reimplement `randomQuote()` and `recentQuote()` to return a *copied* element from your dataset***
 
 ---
 
