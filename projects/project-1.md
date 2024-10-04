@@ -36,6 +36,11 @@
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
 ### V-D. `/api/country/:name`
-- http://localhost:3000/api/country/alBani
+- Must be *case insensitive*
+- http://localhost:3000/api/country/albania
+- http://localhost:3000/api/country/AlbaniA
+- http://localhost:3000/api/country/Latveria - returns error message and `404` status code
+
+
 
 
