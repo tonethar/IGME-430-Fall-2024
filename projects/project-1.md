@@ -36,10 +36,12 @@
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
 ### V-D. `/api/country/:name`
-- Must be *case insensitive*
+- `.trim()` the search string that is passed in
+- Must be a *case insensitive* search
 - http://localhost:3000/api/country/albania
 - http://localhost:3000/api/country/AlbaniA
 - http://localhost:3000/api/country/Latveria - returns error message and `404` status code
+- http://localhost:3000/api/country/%20 - if the string is empty don't search the database
 
 
 
