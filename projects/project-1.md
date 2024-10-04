@@ -21,3 +21,21 @@
 
 ## IV. Example
 - https://willoughby-project-1-5f0f90052f40.herokuapp.com/
+
+---
+
+## V. `GET` endpoints
+
+### V-A. Array of ALL elements - `/api/countries`
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/countries
+
+### V-B. One random element - `/api/country/random`
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/random
+
+### V-C. Most recently added element - `/api/country/recent`
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
+
+### V-D. `/api/country/:name`
+- http://localhost:3000/api/country/alBani
+
+
