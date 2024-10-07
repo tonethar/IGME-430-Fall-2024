@@ -73,6 +73,24 @@ Finally, an "array" of apples:
 
 ## IV. `hoots` as XML
 
+Here are some possible representations of a hoot:
+
+```xml
+<hoot>
+  <id>12345</id>
+  <createdAt>Mon Oct 07 2024 07:29:57 GMT-0400 (Eastern Daylight Time)</createdAt>
+  <content>Let's Rock!</content>
+</hoot>
+```
+
+OR with the metadata as attributes:
+
+```xml
+<hoot id="12345" createdAt="Mon Oct 07 2024 07:29:57 GMT-0400 (Eastern Daylight Time)">
+Let's Rock!
+</hoot>
+```
+
 ---
 
 ## V. Creating XML in code
