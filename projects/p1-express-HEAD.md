@@ -28,13 +28,13 @@
 
 - ***Meaning, put the `app.head()` code BEFORE the `app.get()` code ...***
 
+---
+
 ## III. "Hoots" Example
 
 **app/routes/api.js**
 
-```js
-
-```
+![screenshot](_images/p1-1.png)
 
 ---
 
