@@ -22,7 +22,7 @@
 
 ## II. express and `app.head()` (or `router.head()`)
 - https://expressjs.com/en/5x/api.html#app.METHOD
-  - *"The app.get() function is automatically called for the HTTP HEAD method in addition to the GET method if app.head() was not called for the path before app.get()."*
+  - *"The `app.get()` function is automatically called for the HTTP `HEAD` method in addition to the `GET` method if `app.head()` was not called for the path before `app.get(`)."*
 
 ---
 
