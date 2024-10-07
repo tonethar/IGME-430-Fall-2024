@@ -4,7 +4,7 @@
   - "stringifies" `obj`
   -  sends a status code of `200`
   -  sends a response header of `Content-Type: application/json`
-  -  send the contnet
+  -  send the content
 - AND if we send a `HEAD` request to an already implemented `GET` route, it will:
   - send the `Content-Type: application/json`
   - send the `Content-Length` of the stringified `obj` in *bytes*
@@ -28,9 +28,9 @@
 
 - ***Meaning, put the `app.head()` code BEFORE the `app.get()` code ...***
 
-## III. Example
+## III. "Hoots" Example
 
-**app/routes/hoot.js**
+**app/routes/api.js**
 
 ```js
 
