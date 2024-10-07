@@ -1,1 +1,1 @@
-# `Accept` headers amd XML
+# `Accept` headers and XML
