@@ -95,7 +95,7 @@ Let's Rock!
 
 ## V. Creating XML in code
 
-- Here it is - and there's lot's to talk about here!
+- Here it is - and there is a lot to talk about here!
 
 ![screenshot](_images/p1-2.png)
 
