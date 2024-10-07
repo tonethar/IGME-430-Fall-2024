@@ -36,7 +36,18 @@
 
 ![screenshot](_images/p1-1.png)
 
+- Note: replace `X-Coder: TJ` with `X-Coder: <your-actual-initials>`
+
 ---
 
-## IV. Reference
+## IV. Test it
+- `GET` in browser or Postman - http://localhost:3000/api/hoots
+  - You will see the content and all of the default headers that express sends
+- `HEAD` in Postman - http://localhost:3000/api/hoots
+  - You will NOT see the content, and will also see the `Content-Type`, `Content-Length` and `X-<your-actual-initials>`
+
+
+---
+
+## V. Reference
 - https://stackoverflow.com/questions/27025486/express-js-multiple-methods
