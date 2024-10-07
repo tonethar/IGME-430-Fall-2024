@@ -1,4 +1,4 @@
-# Express and sending headers (only)
+# Express and responding to `HEAD` requests
 
 ## I. HEAD method
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/HEAD
