@@ -101,5 +101,11 @@ Let's Rock!
 
 ---
 
-## VI. XML in Project 1
+## VI. Parsing XML on the client side
+
+
+
+---
+
+## VII. XML in Project 1
 
