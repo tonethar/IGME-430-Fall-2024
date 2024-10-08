@@ -103,7 +103,28 @@ Let's Rock!
 
 ## VI. Parsing XML on the client side
 
+- Add the following to **admin.html**
 
+```html
+<hr>
+
+<h2>VI. See all the hoots! (XML Version)</h2>
+<p><button id="btn-all-hoots-xml">Fetch XML <kbd>/api/hoots</kbd></button></p>
+<h3>Results:</h3>
+<div id="output-all-hoots-xml">???</div>
+```
+
+- `XHR` already has a responseXML property, so it's pretty easy
+
+```js
+
+```
+
+- But let's just keep using `fetch()`
+
+```js
+
+```
 
 ---
 
