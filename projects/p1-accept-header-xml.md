@@ -101,7 +101,22 @@ Let's Rock!
 
 ---
 
-## VI. Parsing XML on the client side
+## VI. XML issues to watch out for
+
+- If an `&` character is in any of your data, it will stop any further client-side parsing of the XML and give an error.
+  - Solution, either manually or with code replace all `&` with the entity reference `&amp;`
+  - Single quotes `'` are usually OK but ...
+  - Double quotes `"` are a problem - you can either escape them with a backslash `<hoot>\"No good deed goes unpunished!\"</hoot>` or with `&quot;`
+
+  
+---
+
+## VII. Testing with Postman
+
+
+---
+
+## VIII. Parsing XML on the client side
 
 - Add the following to **admin.html**
 
@@ -128,5 +143,5 @@ Let's Rock!
 
 ---
 
-## VII. XML in Project 1
+## IX. XML in Project 1
 
