@@ -43,18 +43,54 @@
 - http://localhost:3000/api/country/Latveria - return error message and `404` status code
 - http://localhost:3000/api/country/%20 - if the string is empty don't search the database & return error message and `404` status code
 
+### V-X. index.html
+- This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
+
+### V-XX. admin.html
+- This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
+
+### V-XXX. 404 page
+- All other get endpoints will be served a `404` status code and an HTML error page 
+
 ---
 
 ## VI. HEAD endpoints
+- These will be tested with Postman
 - Choose a minimum of 3 GET endpoints that will also respond to `HEAD` requests
 - The following 3 headers will be send
-  - `Content-Type` - specifying the qctual content-type that is being returned
+  - `Content-Type` - specifying the actual MIME content type that is being returned
     `Content-Length` - specifying the actual content length in bytes
     `X-Coder` - a custom header specifying your initials
-- These will be tested with Postman - here's an example you can try `HEAD` 
+- Here's an example you can try in Postman - `HEAD` http://localhost:3000/api/hoots/
 
+---
+
+## VII. XML endpoints
+
+---
+
+## VIII. POST, DELETE and PUT endpoints
+
+---
+
+## IX. "Above and Beyond"
+- Suggestions:
+  - utilize query string to add filtering, so
+
+---
 
 ## XX. Submission
+
+### XX-A. links
+- GET endpoints
+  - Array of ALL elements
+  - One random element
+  - Most recently added element
+  - One element found by name - exact match search
+  - One element found by name - case insensitive search
+  - One element found by name - bad name - returns a 404 JSON object
+- HEAD endpoints
+  - 
 
 
 
