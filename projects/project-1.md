@@ -43,7 +43,19 @@
 - http://localhost:3000/api/country/Latveria - return error message and `404` status code
 - http://localhost:3000/api/country/%20 - if the string is empty don't search the database & return error message and `404` status code
 
+---
+
 ## VI. HEAD endpoints
+- Choose a minimum of 3 GET endpoints that will also respond to `HEAD` requests
+- The following 3 headers will be send
+  - `Content-Type` - specifying the qctual content-type that is being returned
+    `Content-Length` - specifying the actual content length in bytes
+    `X-Coder` - a custom header specifying your initials
+- These will be tested with Postman - here's an example you can try `HEAD` 
+
+
+## XX. Submission
+
 
 
 
