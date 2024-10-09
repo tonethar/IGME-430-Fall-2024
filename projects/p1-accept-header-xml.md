@@ -113,6 +113,12 @@ Let's Rock!
 
 ## VII. Testing with Postman
 
+- By default, Postman sends a "Accept any MIME type" header that looks like this `Accept: */*`
+  - https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept
+- Which means we'll get JSON back from out server by default
+- But because we want to test the XML capability we just added, we want to tell the server, "just send me XML!", which looks like this:
+  - `Accept: application/xml`
+- Go ahead and send this `Accept: application/xml` header using Postman, and you'll get the XML back - see below!
 
 ![screenshot](_images/p1-3.png)
 
