@@ -104,15 +104,17 @@ Let's Rock!
 ## VI. XML issues to watch out for
 
 - If an `&` character is in any of your data, it will stop any further client-side parsing of the XML and give an error.
-  - Solution, either manually or with code replace all `&` with the entity reference `&amp;`
-  - Single quotes `'` are usually OK but ...
-  - Double quotes `"` are a problem - you can either escape them with a backslash `<hoot>\"No good deed goes unpunished!\"</hoot>` or with `&quot;`
+  - solution: either manually or with code replace all `&` with the entity reference `&amp;`
+  - single quotes `'` are usually OK but ...
+  - double quotes `"` are a problem - you can either escape them with a backslash `<hoot>\"No good deed goes unpunished!\"</hoot>` or with `&quot;`
 
   
 ---
 
 ## VII. Testing with Postman
 
+
+![screenshot](_images/p1-3.png)
 
 ---
 
