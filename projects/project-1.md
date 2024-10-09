@@ -14,8 +14,6 @@
 
 ## III. Additional Requirements
 - We will be utilizing the [express](https://www.npmjs.com/package/express) libary (in lieu of node's built-in [http](https://nodejs.org/api/http.html))
-- You will add a `/random` endpoint to your API
-- You will add a `/recent` endpoint to your API
 
 ---
 
