@@ -153,5 +153,10 @@ Let's Rock!
 
 ---
 
-## IX. XML in Project 1
+- ***Now you need to write the code that gets called when the "See all the hoots! (XML Version)" button gets clicked***
+- Then test it. The `#output-all-hoots-xml` div should display the values from parsed XML
+  
+---
+
+
 
