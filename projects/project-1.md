@@ -57,8 +57,8 @@
 - Choose a minimum of 3 GET endpoints that will also respond to `HEAD` requests
 - The following 3 headers will be send
   - `Content-Type` - specifying the actual MIME content type that is being returned
-    `Content-Length` - specifying the actual content length in bytes
-    `X-Coder` - a custom header specifying your initials
+  - `Content-Length` - specifying the actual content length in bytes
+  - `X-Coder` - a custom header specifying your initials
 - Here's an example you can try in Postman - `HEAD` http://localhost:3000/api/hoots/
 
 ---
