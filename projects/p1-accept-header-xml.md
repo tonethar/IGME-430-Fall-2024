@@ -137,17 +137,17 @@ Let's Rock!
 <div id="output-all-hoots-xml">???</div>
 ```
 
-- `XHR` already has a responseXML property, so it's pretty easy
+---
 
-```js
+- Here's `fetch()` code that will parse XML - lot's to talk about here:
 
-```
+![screenshot](_images/p1-4.png)
 
-- But let's just keep using `fetch()`
+---
 
-```js
+- Here's the callback function - note that we are using `querySelectorAll()`, this time on an `xml` object rather than the `document` object:
 
-```
+![screenshot](_images/p1-5.png)
 
 ---
 
