@@ -106,7 +106,9 @@ Let's Rock!
 - If an `&` character is in any of your data, it will stop any further client-side parsing of the XML and give an error.
   - solution: either manually or with code replace all `&` with the entity reference `&amp;`
   - single quotes `'` are usually OK but ...
-  - double quotes `"` are a problem - you can either escape them with a backslash `<hoot>\"No good deed goes unpunished!\"</hoot>` or with `&quot;`
+  - double quotes `"` are a problem - you can either escape them with a backslash:
+    -  e.g. `<hoot>\"No good deed goes unpunished!\"</hoot>`
+    -  or use `&quot;`
 
   
 ---
