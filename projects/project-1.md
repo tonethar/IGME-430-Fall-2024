@@ -35,7 +35,7 @@
 
 ### V-D. `/api/country/:name`
 - Have the router do `.trim()` on the search string that is passed in
-- The DB nust do a *case insensitive* search
+- The DB must do a *case insensitive* search
 - http://localhost:3000/api/country/albania - SUCCESS
 - http://localhost:3000/api/country/AlbaniA - SUCCESS
 - http://localhost:3000/api/country/Latveria - return error message and `404` status code
