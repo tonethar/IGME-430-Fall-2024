@@ -33,7 +33,15 @@
 ### V-C. Most recently added element - `/api/country/recent`
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
-### V-D. `/api/country/:name`
+### V-D. `/api/country/:id`
+- Have the router do `.trim()` on the `id` in the path
+- The DB must do a *case insensitive* search
+- http://localhost:3000/api/country/AUS - SUCCESS
+- http://localhost:3000/api/country/GTM - SUCCESS
+- http://localhost:3000/api/country/GTA - return error message and `404` status code
+- http://localhost:3000/api/country/%20 - if the string is empty don't search the database & return error message and `404` status code
+
+### V-E. `/api/country/?name=`
 - Have the router do `.trim()` on the search string that is passed in
 - The DB must do a *case insensitive* search
 - http://localhost:3000/api/country/albania - SUCCESS
