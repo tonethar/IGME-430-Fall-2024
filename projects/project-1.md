@@ -7,7 +7,6 @@
 ---
 
 ## II. Files
-- [Project 1 Requirements (PDF)](_files/430%20Project%201%20(New%2C%202024).pdf)
 - [430 Project 1 Datasets.zip (ZIP)](_files/430%20Project%201%20Datasets.zip) 
 
 ---
@@ -16,11 +15,24 @@
 - We will be utilizing the [express](https://www.npmjs.com/package/express) library (on top of node's built-in [http](https://nodejs.org/api/http.html))
 - All client-side code will be written as we have done so in 330/430 (arrow functions, `const` & `let` but NO `var`, modern JS features such as destructuring where possible, etc)
 - Server code will pass `npm test`
+- Other (should all be present in project checkpoint):
+  - Uses Git for version control in a repo that the professor can access
+  - Uses ESLint with the Airbnb spec for all server code
+  - Uses GitHub Actions for build testing
+  - Uses a proper **.eslintrc** file and proper .gitignore file placed correctly in the repo
+  - Uses a cloud service (such as Heroku) for deployment
+  - Borrowed code and code fragments must be credited in code comments and in the written documentation for the project
+  - Separation of Concerns: your code should be appropriately broken up into files and functions based on the main functionality of those pieces of code:
+    - you must utilize public functions  **p1-db.js** for all data access, queries, filtering etc
+  - D.R.Y. - Don’t Repeat Yourself. If you have multiple nearly identical blocks of code, those should be factored out into separate functions.
+  - Code must be well commented. You don’t need to comment on every line. Have a comment for each function, and comments for confusing lines of code. Ideally, code should be "self-documenting", meaning the variable and function names explicitly state what they are and what they do
+  - Code must be free of runtime and ESLint errors
 
 ---
 
-## IV. Example
-- https://willoughby-project-1-5f0f90052f40.herokuapp.com/
+## IV. Documentation
+- You are required to submit documentation of how you met all of the requirements
+  - this can be submitted separately as a DOC or PDF, or you could create a **README.md** file in your private project repo
 
 ---
 
@@ -36,7 +48,6 @@
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
 ### V-d. `/api/country/:id`
-- Have the router do `.trim()` on the `id` in the path
 - http://localhost:3000/api/country/AUS - SUCCESS
 - http://localhost:3000/api/country/GTM - SUCCESS
 - http://localhost:3000/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
@@ -103,12 +114,14 @@
 ---
 
 ## VIII. `DELETE`, `POST` and `PUT` endpoints
-- Implement these as we did in the "hoots" exercise
+- Implement these as we did in the "hoots" exercise - you can name these endpoints as you wish:
+  - as we did in "hoots", primarily utilizing a query string OR
+  - more analagous to how `json-server` named them
 - Return appropriate "success" status codes along with the resource - e.g. `200`, `201`
 - Return appropriate "error" status codes along with a JSON error object - e.g. `400`, `404`
 - `DELETE`
 - `POST`
-  - You do not have to send ALL of the required resource fields to the server, instead, have the server initialize the resource's unique `id` and any other fields that can be initialized to a default value
+  - You do NOT have to send ALL of the required resource fields to the server, instead, have the server initialize the resource's unique `id` and any other fields that can be initialized to a default value
 - `PUT`
   - You are only required to make 3 of the resource's fields "editable"
   - `id` is unique, don't make that editable
@@ -126,7 +139,7 @@
 
 ## X. Submission
 
-### X-a. Links (to be provided in comments field of dropbox)
+### X-a. Links (to be provided in Documentation)
 - GET endpoints
   - Array of ALL resources
   - One random resource
@@ -139,7 +152,10 @@
   - list all 3 supported endpoints
 - ...
 
-### X-b. Rubric
+### X-b. Documentation
+- ...
+
+### X-c. Rubric
 - (-5%) for each missing endpoint
 - (-15%) **client.html** requirements not met
 - (-25%) **admin.html** requirements not met
