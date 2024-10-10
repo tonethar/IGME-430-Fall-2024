@@ -38,7 +38,7 @@
 - http://localhost:3000/api/country/AUS - SUCCESS
 - http://localhost:3000/api/country/GTM - SUCCESS
 - http://localhost:3000/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
-- http://localhost:3000/api/country/ - if no `id` is passed in don't search the database & return a "id is required" error message and a `400` status code ("Bad Request")
+- http://localhost:3000/api/country/ - if no `id` is passed in, don't search the database, and return a "id is required" error message and a `400` status code ("Bad Request")
 
 ### V-E. `/api/country/?name=`
 - Have the router do `.trim()` on the search string that is passed in
@@ -46,7 +46,7 @@
 - http://localhost:3000/api/country/?name=albania - SUCCESS
 - http://localhost:3000/api/country/?name=AlbaniA - SUCCESS
 - http://localhost:3000/api/country/?name=Latveria - return "no name match found" error message and `404` status code ("Not Found")
-- http://localhost:3000/api/country/?name= - if the string is empty don't search the database & return a "value for name is required" error message and `400` status code ("Bad Request")
+- http://localhost:3000/api/country/?name= - if the string is empty don't search the database, and return a "value for name is required" error message and `400` status code ("Bad Request")
 
 ### V-X. index.html
 - This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
