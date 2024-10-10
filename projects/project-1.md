@@ -13,7 +13,7 @@
 ---
 
 ## III. Additional Requirements
-- We will be utilizing the [express](https://www.npmjs.com/package/express) libary (in lieu of node's built-in [http](https://nodejs.org/api/http.html))
+- We will be utilizing the [express](https://www.npmjs.com/package/express) libary (on top of node's built-in [http](https://nodejs.org/api/http.html))
 
 ---
 
