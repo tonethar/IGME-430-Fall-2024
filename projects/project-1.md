@@ -73,7 +73,7 @@
   - will be *usable* and give hints to the user where necessary:
     - make `DELETE`ing a resource easier - the admin should be able to search for a resource by name and then delete it. They should NOT (for example) have to copy/paste an `id` value from another part of the UI
     - ditto for `PUTing` edits to the server
-    - this easiest way to do this is to utilize a `type="hidden"` `<form>` field - https://www.w3schools.com/tags/att_input_type_hidden.asp
+    - this easiest way to do this is to utilize a `type="hidden"` `<input>` field - https://www.w3schools.com/tags/att_input_type_hidden.asp
     - I will give you some more hints about this AFTER the break
 
 ### V-h. 404 page
