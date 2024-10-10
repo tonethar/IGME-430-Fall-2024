@@ -101,10 +101,16 @@
 
 ---
 
-## VIII. `POST`, `DELETE` and `PUT` endpoints
+## VIII. `DELETE`, `POST` and `PUT` endpoints
 - Implement these as we did in the "hoots" exercise
 - Return appropriate "success" status codes along with the resource - e.g. `200`, `201`
 - Return appropriate "error" status codes along with a JSON error object - e.g. `400`, `404`
+- `DELETE`
+- `POST`
+  - You do not have to send ALL of the required resource fields to the server, instead, have the server initialize the resource's unique `id` and any other fields that can be initialized to a default value
+- `PUT`
+  - You are only required to make 3 of the resource's fields "editable"
+  - `id` is unique, don't make that editable
 
 ---
 
