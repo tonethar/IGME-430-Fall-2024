@@ -97,7 +97,7 @@
 - We covered this here: [`Accept` headers and XML](p1-accept-header-xml.md)
 - This will be tested with Postman
 - Choose 1 GET endpoint that will return XML when the `Accept: application/xml` header is sent by the client
-- Here's an example you can try in Postman -
+- Here's an example you can try in Postman with the `Accept: application/xml` header - http://localhost:3000/api/countries/
 
 ---
 
