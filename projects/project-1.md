@@ -2,7 +2,7 @@
 
 ## I. Overview
 - Web APIs are ubiquitous in the modern world as a means of accessing and interacting with a dataset. Oftentimes companies provide APIs to provide limited or complete access to the data they have and manage. Many of these APIs are publicly available such as the Google Maps API, Spotify API, PokeAPI, and many others. They allow other developers to build rich web applications and experiences that are augmented by the data they get. Private Web APIs are also used by nearly every company to pass data between various internal systems and tools.
-- *For this project, you will not be utilizing one of these preexisting APIs. Instead, you will take a JSON dataset and create a Web API that allows others to access, search, filter, and edit your dataset.*
+- *For this project, you will not be utilizing one of these pre-existing APIs. Instead, you will take a JSON dataset and create a Web API that allows others to access, search, filter, and edit your dataset.*
 
 ---
 
@@ -53,13 +53,24 @@
 - This page will provide a way for an *end-user* to interact with your API
 - **index.html** will:
   - consist of [valid HTML](https://validator.w3.org/) & [valid CSS](https://jigsaw.w3.org/css-validator/)
-  - will allow the user to *interact with ALL* of the "Read Only" (`GET`) endpoints of your API that are required above
+  - will allow the user to *interact with ALL* of the "Read Only" (`GET`) endpoints of your API that are required *above*
   - will *look nothing like* the **client.html** and **admin.html** pages from our exercises
   - will be *nicely styled* with CSS, the page aesthetics at a minimum should be "not ugly"
   - will be *usable* and give hints to the user where necessary (ex. *"Enter a country code - example 'AUS'"*)
 
 ### V-g. admin.html
 - This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
+- This page will provide a way for an *administrator* to interact with your API with `DELETE`, `POST` and `PUT` requests as we did with the hoot's **admin.html**
+- **admin.html** will:
+  - consist of [valid HTML](https://validator.w3.org/) & [valid CSS](https://jigsaw.w3.org/css-validator/)
+  - will allow the user to *interact with ALL* of `DELETE`, `POST` and `PUT` endpoints of your API that are required *below*
+  - will *look nothing like* the **admin.html** pages from our exercises
+  - will be *nicely styled* with CSS, the page aesthetics at a minimum should be "not ugly"
+  - will be *usable* and give hints to the user where necessary
+    - make `DELETE`ing a resource easier - the admin should be able to search for a resource by name and then delete it. They should NOT (for example) have to copy/paste an `id` value from another part of the UI
+    - ditto for `PUTing` edits to the server
+    - this easiest way to do this is to utilize a `type="hidden"` `<form>` field - https://www.w3schools.com/tags/att_input_type_hidden.asp
+    - I will give you some more hints about this AFTER the break
 
 ### V-h. 404 page
 - All other get endpoints (not located under the `/api` route) will be served a `404` status code and an HTML error page 
