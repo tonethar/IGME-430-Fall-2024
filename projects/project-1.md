@@ -50,12 +50,14 @@
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
 ### V-d. `/api/country/:id`
+- Hint: use `req.params` as we did in **quotes.js**
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/AUS - SUCCESS
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/GTM - SUCCESS
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/ - if no `id` is passed in, don't search the database, and return a "id is required" error message and a `400` status code ("Bad Request")
 
 ### V-e. `/api/country/?name=`
+- Hint: use `req.query` as we did in **quotes.js**
 - Have the router do `.trim()` on the search string that is passed in
 - The DB must do a *case insensitive* search
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/?name=albania - SUCCESS
