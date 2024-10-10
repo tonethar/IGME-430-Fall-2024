@@ -122,11 +122,17 @@
 - Return appropriate "success" status codes along with the resource - e.g. `200`, `201`
 - Return appropriate "error" status codes along with a JSON error object - e.g. `400`, `404`
 - `DELETE`
+  - on success, return JSON with the `id` of the resource that was deleted (and/or the enrtire resource, it's up to you) and a `200` status code
+  - on failure, return "no resource found!" JSON and a `400` status code
 - `POST`
   - You do NOT have to send ALL of the required resource fields to the server, instead, have the server initialize the resource's unique `id` and any other fields that can be initialized to a default value
+  - on success, return the newly created resource as JSON and a `201` status code
+  - on failure, return "missing required fields" JSON and a `400` status code
 - `PUT`
   - You are only required to make 3 of the resource's fields "editable"
   - `id` is unique, don't make that editable
+  - on success, return the newly updated resource as JSON and a `200` status code
+  - on failure, return "no id match found" JSON and a `400` status code
 
 ---
 
