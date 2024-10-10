@@ -49,18 +49,18 @@
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
 ### V-d. `/api/country/:id`
-- http://localhost:3000/api/country/AUS - SUCCESS
-- http://localhost:3000/api/country/GTM - SUCCESS
-- http://localhost:3000/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
-- http://localhost:3000/api/country/ - if no `id` is passed in, don't search the database, and return a "id is required" error message and a `400` status code ("Bad Request")
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/AUS - SUCCESS
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/GTM - SUCCESS
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/ - if no `id` is passed in, don't search the database, and return a "id is required" error message and a `400` status code ("Bad Request")
 
 ### V-e. `/api/country/?name=`
 - Have the router do `.trim()` on the search string that is passed in
 - The DB must do a *case insensitive* search
-- http://localhost:3000/api/country/?name=albania - SUCCESS
-- http://localhost:3000/api/country/?name=AlbaniA - SUCCESS
-- http://localhost:3000/api/country/?name=Latveria - return "no name match found" error message and `404` status code ("Not Found")
-- http://localhost:3000/api/country/?name= - if the string is empty don't search the database, and return a "value for name is required" error message and `400` status code ("Bad Request")
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/?name=albania - SUCCESS
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/?name=AlbaniA - SUCCESS
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/?name=Latveria - return "no name match found" error message and `404` status code ("Not Found")
+- https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/?name= - if the string is empty don't search the database, and return a "value for name is required" error message and `400` status code ("Bad Request")
 - If your data source has multiple resources with the same *name* (or similar names), just return the first match
 
 ### V-f. index.html
@@ -102,7 +102,7 @@
   - `Content-Type` - specifying the actual MIME content type that is being returned
   - `Content-Length` - specifying the actual content length in bytes
   - `X-Coder` - a custom header specifying your initials
-- Here's an example you can try in Postman - `HEAD` http://localhost:3000/api/countries/
+- Here's an example you can try in Postman - `HEAD` https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/countries/
 
 ---
 
@@ -110,7 +110,7 @@
 - We covered this here: [`Accept` headers and XML](p1-accept-header-xml.md)
 - This will be tested with Postman
 - Choose 1 GET endpoint that will return XML when the `Accept: application/xml` header is sent by the client
-- Here's an example you can try in Postman with the `Accept: application/xml` header - http://localhost:3000/api/countries/
+- Here's an example you can try in Postman with `GET` and the `Accept: application/xml` header - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/countries/
 
 ---
 
