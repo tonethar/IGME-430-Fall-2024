@@ -43,10 +43,10 @@
 ### V-E. `/api/country/?name=`
 - Have the router do `.trim()` on the search string that is passed in
 - The DB must do a *case insensitive* search
-- http://localhost:3000/api/country/albania - SUCCESS
-- http://localhost:3000/api/country/AlbaniA - SUCCESS
-- http://localhost:3000/api/country/Latveria - return error message and `404` status code
-- http://localhost:3000/api/country/%20 - if the string is empty don't search the database & return error message and `404` status code
+- http://localhost:3000/api/country/?name=albania - SUCCESS
+- http://localhost:3000/api/country/?name=AlbaniA - SUCCESS
+- http://localhost:3000/api/country/?name=Latveria - return "no name match found" error message and `404` status code ("Not Found")
+- http://localhost:3000/api/country/?name= - if the string is empty don't search the database & return a "value for name is required" error message and `400` status code ("Bad Request")
 
 ### V-X. index.html
 - This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
