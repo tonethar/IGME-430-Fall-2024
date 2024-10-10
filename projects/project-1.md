@@ -138,7 +138,7 @@
 
 ---
 
-## X. Submission (TODO)
+## X. Submission (`//TODO`)
 
 ### X-a. Links (to be provided in Documentation)
 - GET endpoints
@@ -162,6 +162,7 @@
 - (-25%) **admin.html** requirements not met
 - (-2%) each `npm test` error
 - (-??%) code errors, other missing requirements or violations of coding standards
+- ...
 
 
 
