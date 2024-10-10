@@ -92,7 +92,7 @@
     - ditto for `PUTing` edits to the server
     - this easiest way to do this is to utilize a `type="hidden"` `<input>` field - https://www.w3schools.com/tags/att_input_type_hidden.asp
     - I will give you some more hints about this AFTER the break
-- - Placeholder admin page link: https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/admin.html
+- Placeholder admin page link: https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/admin.html
 
 ### V-h. 404 page
 - All other get endpoints (not located under the `/api` route) will be served a `404` status code and an HTML error page 
