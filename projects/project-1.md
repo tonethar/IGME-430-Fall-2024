@@ -1,7 +1,7 @@
 # Project 1
 
 ## I. Overview
-- Web APIs are ubiquitous in the modern world as a means of accessing and interacting with a dataset. Oftentimes companies provide APIs to provide limited or complete access to the data they have and manage. Many of these APIs are publicly available such as the Google Maps API, Spotify API, PokeAPI, and many others. They allow other developers to build rich web applications and experiences that are augmented by the data they get. Private Web APIs are also used by nearly every company to pass data between various internal systems and tools.
+- Web APIs are ubiquitous in the modern world as a means of accessing and interacting with a dataset. Commonly, companies provide APIs to provide limited or complete access to the data they have and manage. Many of these APIs are publicly available such as the Google Maps API, Spotify API, PokeAPI, and many others. They allow other developers to build rich web applications and experiences that are augmented by the data they get. Private Web APIs are also used by nearly every company to pass data between various internal systems and tools.
 - *For this project, you will not be utilizing one of these pre-existing APIs. Instead, you will take a JSON dataset and create a Web API that allows others to access, search, filter, and edit your dataset.*
 
 ---
