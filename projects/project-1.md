@@ -149,7 +149,7 @@
 ## X. Submission (`//TODO`)
 
 ### X-a. Links (to be provided in Documentation)
-- GET endpoints
+- GET endpoints (see examples running on Heroku, above)
   - Array of ALL resources
   - One random resource
   - Most recently added resource
