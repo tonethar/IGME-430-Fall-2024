@@ -77,7 +77,7 @@
 
 ---
 
-## VI. HEAD endpoints
+## VI. `HEAD` endpoints
 - We covered this here: [Express and responding to HEAD requests](p1-express-HEAD.md)
 - These will be tested with Postman
 - Choose a minimum of 3 GET endpoints that will also respond to `HEAD` requests
@@ -94,7 +94,7 @@
 
 ---
 
-## VIII. POST, DELETE and PUT endpoints
+## VIII. `POST`, `DELETE` and `PUT` endpoints
 - Implement these as we did in the "hoots" exercise
 - Return appropriate "success" status codes along with the resource - e.g. `200`, `201`
 - Return appropriate "error" status codes along with a JSON error object - e.g. `400`, `404`
@@ -108,9 +108,9 @@
 
 ---
 
-## XX. Submission
+## X. Submission
 
-### XX-A. links
+### X-a. links
 - GET endpoints
   - Array of ALL resources
   - One random resource
@@ -122,7 +122,10 @@
 - HEAD endpoints that return the required headers
   - list all 3 supported endpoints
 
-
+### X-b. Rubric
+- (-5%) for each missing endpoint
+- (-25%) **client.html** requirements not met
+- (-25%) **admin.html** requirements not met
 
 
 
