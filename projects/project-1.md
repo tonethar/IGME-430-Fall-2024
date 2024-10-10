@@ -59,6 +59,7 @@
   - will *look nothing like* the **client.html** and **admin.html** pages from our exercises
   - will be *nicely styled* with CSS, the page aesthetics at a minimum should be "not ugly"
   - will be *usable* and give hints to the user where necessary (ex. *"Enter a country code - example 'AUS'"*)
+  - will perform client-side validation of operations with JS - for example, if a required input field is empty when the user does a search, don't send the search to your API server, and let the user know what the error is
 
 ### V-g. admin.html
 - This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
@@ -68,7 +69,8 @@
   - will allow the user to *interact with ALL* of `DELETE`, `POST` and `PUT` endpoints of your API that are required *below*
   - will *look nothing like* the **admin.html** pages from our exercises
   - will be *nicely styled* with CSS, the page aesthetics at a minimum should be "not ugly"
-  - will be *usable* and give hints to the user where necessary
+  - will perform client-side validation of operations with JS - for example, if a required input field is empty when the user does a search, don't send the search to your API server, and let the user know what the error is
+  - will be *usable* and give hints to the user where necessary:
     - make `DELETE`ing a resource easier - the admin should be able to search for a resource by name and then delete it. They should NOT (for example) have to copy/paste an `id` value from another part of the UI
     - ditto for `PUTing` edits to the server
     - this easiest way to do this is to utilize a `type="hidden"` `<form>` field - https://www.w3schools.com/tags/att_input_type_hidden.asp
