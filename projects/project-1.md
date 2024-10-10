@@ -24,13 +24,13 @@
 
 ## V. `GET` endpoints
 
-### V-a. Array of ALL elements - `/api/countries`
+### V-a. Array of ALL resources - `/api/countries`
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/countries
 
-### V-b. One random element - `/api/country/random`
+### V-b. One random resource - `/api/country/random`
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/random
 
-### V-c. Most recently added element - `/api/country/recent`
+### V-c. Most recently added resource - `/api/country/recent`
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
 ### V-d. `/api/country/:id`
@@ -84,7 +84,7 @@
   - `Content-Type` - specifying the actual MIME content type that is being returned
   - `Content-Length` - specifying the actual content length in bytes
   - `X-Coder` - a custom header specifying your initials
-- Here's an example you can try in Postman - `HEAD` http://localhost:3000/api/hoots/
+- Here's an example you can try in Postman - `HEAD` http://localhost:3000/api/countries/
 
 ---
 
@@ -106,14 +106,15 @@
 
 ### XX-A. links
 - GET endpoints
-  - Array of ALL elements
-  - One random element
-  - Most recently added element
-  - One element found by name - exact match search
-  - One element found by name - case insensitive search
-  - One element found by name - bad name - returns a 404 JSON object
-- HEAD endpoints
-  - 
+  - Array of ALL resources
+  - One random resource
+  - Most recently added resource
+  - One resource found by name - exact match search
+  - One resource found by name - case insensitive search
+  - One resource found by name - bad name - returns a 404 JSON object
+  - One resource found by id
+- HEAD endpoints that return the required headers
+  - list all 3 supported endpoints
 
 
 
