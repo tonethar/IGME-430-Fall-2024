@@ -24,23 +24,23 @@
 
 ## V. `GET` endpoints
 
-### V-A. Array of ALL elements - `/api/countries`
+### V-a. Array of ALL elements - `/api/countries`
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/countries
 
-### V-B. One random element - `/api/country/random`
+### V-b. One random element - `/api/country/random`
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/random
 
-### V-C. Most recently added element - `/api/country/recent`
+### V-c. Most recently added element - `/api/country/recent`
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/recent
 
-### V-D. `/api/country/:id`
+### V-d. `/api/country/:id`
 - Have the router do `.trim()` on the `id` in the path
 - http://localhost:3000/api/country/AUS - SUCCESS
 - http://localhost:3000/api/country/GTM - SUCCESS
 - http://localhost:3000/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
 - http://localhost:3000/api/country/ - if no `id` is passed in, don't search the database, and return a "id is required" error message and a `400` status code ("Bad Request")
 
-### V-E. `/api/country/?name=`
+### V-e. `/api/country/?name=`
 - Have the router do `.trim()` on the search string that is passed in
 - The DB must do a *case insensitive* search
 - http://localhost:3000/api/country/?name=albania - SUCCESS
@@ -48,14 +48,21 @@
 - http://localhost:3000/api/country/?name=Latveria - return "no name match found" error message and `404` status code ("Not Found")
 - http://localhost:3000/api/country/?name= - if the string is empty don't search the database, and return a "value for name is required" error message and `400` status code ("Bad Request")
 
-### V-X. index.html
+### V-f. index.html
+- This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
+- This page will provide a way for an *end-user* to interact with your API
+- **index.html** will:
+  - consist of [valid HTML](https://validator.w3.org/) & [valid CSS](https://jigsaw.w3.org/css-validator/)
+  - will allow the user to *interact with ALL* of the "Read Only" (`GET`) endpoints of your API that are required above
+  - will *look nothing like* the **client.html** and **admin.html** pages from our exercises
+  - will be *nicely styled* with CSS, the page aesthetics at a minimum should be "not ugly"
+  - will be *usable* and give hints to the user where necessary (ex. *"Enter a country code - example 'AUS'"*)
+
+### V-g. admin.html
 - This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
 
-### V-XX. admin.html
-- This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
-
-### V-XXX. 404 page
-- All other get endpoints will be served a `404` status code and an HTML error page 
+### V-h. 404 page
+- All other get endpoints (not located under the `/api` route) will be served a `404` status code and an HTML error page 
 
 ---
 
