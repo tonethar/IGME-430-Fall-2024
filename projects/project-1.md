@@ -35,7 +35,6 @@
 
 ### V-D. `/api/country/:id`
 - Have the router do `.trim()` on the `id` in the path
-- The DB must do a *case insensitive* search
 - http://localhost:3000/api/country/AUS - SUCCESS
 - http://localhost:3000/api/country/GTM - SUCCESS
 - http://localhost:3000/api/country/GTA - return error message and `404` status code
