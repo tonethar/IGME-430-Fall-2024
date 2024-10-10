@@ -12,8 +12,9 @@
 
 ---
 
-## III. Additional Requirements
+## III. Code Requirements
 - We will be utilizing the [express](https://www.npmjs.com/package/express) libary (on top of node's built-in [http](https://nodejs.org/api/http.html))
+- All client-side code will be written as we have done so in 330/430 (arrow functions, `const` & `let` but NO `var`, modern JS features such as destructuring where possible, etc)
 
 ---
 
