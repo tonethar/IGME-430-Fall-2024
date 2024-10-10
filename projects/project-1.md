@@ -51,6 +51,7 @@
 
 ### V-d. `/api/country/:id`
 - Hint: use `req.params` as we did in **quotes.js**
+  - [Part VIII. Accessing parameters via the *route*](../exercises/8-passing-params-in-express.md#v-accessing-parameters-via-the-route)
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/AUS - SUCCESS
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/GTM - SUCCESS
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
@@ -58,6 +59,7 @@
 
 ### V-e. `/api/country/?name=`
 - Hint: use `req.query` as we did in **quotes.js**
+  - [Part VIII. Accessing *query string* parameters with express](../exercises/8-passing-params-in-express.md#iv-accessing-query-string-parameters-with-express)
 - Have the router do `.trim()` on the search string that is passed in
 - The DB must do a *case insensitive* search
 - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/api/country/?name=albania - SUCCESS
