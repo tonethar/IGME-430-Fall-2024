@@ -122,7 +122,7 @@
 - Return appropriate "success" status codes along with the resource - e.g. `200`, `201`
 - Return appropriate "error" status codes along with a JSON error object - e.g. `400`, `404`
 - `DELETE`
-  - on success, return JSON with the `id` of the resource that was deleted (and/or the enrtire resource, it's up to you) and a `200` status code
+  - on success, return JSON with the `id` of the resource that was deleted (and/or the entire resource, it's up to you) and a `200` status code
   - on failure, return "no resource found!" JSON and a `400` status code
 - `POST`
   - You do NOT have to send ALL of the required resource fields to the server, instead, have the server initialize the resource's unique `id` and any other fields that can be initialized to a default value
@@ -139,9 +139,10 @@
 ## IX. "Above and Beyond"
 - Doing all of the above perfectly gets you a 90% - to get higher, you need to add some extra features or polish to the app
 - Ideas:
-  - *name* search returns an array of matches 
+  - *name* search returns an array of matches, not necessarily just the first match
   - utilize the query string to add filtering and/or sorting capabilities
-  - excellent page design and usability on **index.html** and **admin.html**
+  - another `/api/` endpoint that does something useful? 
+  - excellent page design, usability or new features? on **index.html** and **admin.html**
 
 ---
 
