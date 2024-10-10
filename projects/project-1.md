@@ -161,7 +161,7 @@
 - (-15%) **client.html** requirements not met
 - (-25%) **admin.html** requirements not met
 - (-2%) each `npm test` error
-- (-??%) code errors, other missing requirements or violations of 
+- (-??%) code errors, other missing requirements or violations of coding standards
 
 
 
