@@ -21,7 +21,8 @@
   - Uses GitHub Actions for build testing
   - Uses a proper **.eslintrc** file and proper .gitignore file placed correctly in the repo
   - Uses a cloud service (such as Heroku) for deployment
-  - Borrowed code and code fragments must be credited in code comments and in the written documentation for the project
+  - Borrowed code and code fragments MUST be credited in code comments AND in the written documentation for the project:
+    - you do not have to document any code I gave you in class or on the assignments
   - Separation of Concerns: your code should be appropriately broken up into files and functions based on the main functionality of those pieces of code:
     - you must utilize public functions  **p1-db.js** for all data access, queries, filtering etc
   - D.R.Y. - Don’t Repeat Yourself. If you have multiple nearly identical blocks of code, those should be factored out into separate functions.
