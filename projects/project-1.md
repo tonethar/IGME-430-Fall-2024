@@ -13,8 +13,9 @@
 ---
 
 ## III. Code Requirements
-- We will be utilizing the [express](https://www.npmjs.com/package/express) libary (on top of node's built-in [http](https://nodejs.org/api/http.html))
+- We will be utilizing the [express](https://www.npmjs.com/package/express) library (on top of node's built-in [http](https://nodejs.org/api/http.html))
 - All client-side code will be written as we have done so in 330/430 (arrow functions, `const` & `let` but NO `var`, modern JS features such as destructuring where possible, etc)
+- Server code will pass `npm test`
 
 ---
 
@@ -125,7 +126,7 @@
 
 ## X. Submission
 
-### X-a. links
+### X-a. Links (to be provided in comments field of dropbox)
 - GET endpoints
   - Array of ALL resources
   - One random resource
@@ -136,11 +137,14 @@
   - One resource found by id
 - HEAD endpoints that return the required headers
   - list all 3 supported endpoints
+- ...
 
 ### X-b. Rubric
 - (-5%) for each missing endpoint
-- (-25%) **client.html** requirements not met
+- (-15%) **client.html** requirements not met
 - (-25%) **admin.html** requirements not met
+- (-2%) each `npm test` error
+- (-??%) code errors, other missing requirements or violations of 
 
 
 
