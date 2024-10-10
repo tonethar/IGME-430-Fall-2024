@@ -48,6 +48,7 @@
 - http://localhost:3000/api/country/?name=AlbaniA - SUCCESS
 - http://localhost:3000/api/country/?name=Latveria - return "no name match found" error message and `404` status code ("Not Found")
 - http://localhost:3000/api/country/?name= - if the string is empty don't search the database, and return a "value for name is required" error message and `400` status code ("Bad Request")
+- If your data source has multiple resources with the same *name* (or similar names), just return the first match
 
 ### V-f. index.html
 - This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
@@ -105,7 +106,9 @@
 ## IX. "Above and Beyond"
 - Doing all of the above perfectly gets you a 90% - to get higher, you need to add some extra features or polish to the app
 - Ideas:
-  - utilize the query string to add filtering, so
+  - *name* search returns an array of matches 
+  - utilize the query string to add filtering and/or sorting capabilities
+  - excellent page design and usability on **index.html** and **admin.html**
 
 ---
 
