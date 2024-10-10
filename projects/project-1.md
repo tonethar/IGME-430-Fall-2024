@@ -12,10 +12,11 @@
 ---
 
 ## III. Code Requirements
+- You should have already completed the [Project 1 - "Get Going!" Checkpoint](project-1-checkpoint.md)
 - We will be utilizing the [express](https://www.npmjs.com/package/express) library (on top of node's built-in [http](https://nodejs.org/api/http.html))
 - All client-side code will be written as we have done so in 330/430 (arrow functions, `const` & `let` but NO `var`, modern JS features such as destructuring where possible, etc)
 - Server code will pass `npm test`
-- Other (should all be present in project checkpoint):
+- Other (should all be present from completing the project 1 checkpoint):
   - Uses Git for version control in a repo that the professor can access
   - Uses ESLint with the Airbnb spec for all server code
   - Uses GitHub Actions for build testing
