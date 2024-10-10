@@ -78,6 +78,7 @@
 ---
 
 ## VI. HEAD endpoints
+- We covered this here: [Express and responding to HEAD requests](p1-express-HEAD.md)
 - These will be tested with Postman
 - Choose a minimum of 3 GET endpoints that will also respond to `HEAD` requests
 - The following 3 headers will be send
@@ -89,6 +90,7 @@
 ---
 
 ## VII. XML endpoints
+- We covered this here: [`Accept` headers and XML](p1-accept-header-xml.md)
 
 ---
 
