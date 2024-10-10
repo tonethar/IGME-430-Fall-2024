@@ -12,7 +12,7 @@
 
 ---
 
-## II. 3 Rules of XML
+## II. Rules of XML
 - Must Have a Root Element
 - All Elements Must Have a Closing Tag
 - Tags are Case Sensitive
