@@ -148,7 +148,11 @@
 
 ## X. Submission (`//TODO`)
 
-### X-a. Links (to be provided in Documentation)
+### X-a. Delete ALL unneeded code and files
+- Be sure to get rid of ALL unneeded code (ex. **quotes.js**) and files (ex. **spongegar.png**, **rich-client.html** etc)
+
+
+### X-b. Links (to be provided in Documentation)
 - GET endpoints (see examples running on Heroku, above)
   - Array of ALL resources
   - One random resource
@@ -161,15 +165,15 @@
   - list all 3 supported endpoints
 - ...
 
-### X-b. Documentation
+### X-c. Documentation
 - ...
 
-### X-c. Rubric
+### X-d. Rubric
 - (-5%) for each missing endpoint
 - (-15%) **client.html** requirements not met
 - (-25%) **admin.html** requirements not met
 - (-2%) each `npm test` error
-- (-??%) code errors, other missing requirements or violations of coding standards
+- (-??%) unnecessary code or files, code errors, other missing requirements or violations of coding standards
 - ...
 
 
