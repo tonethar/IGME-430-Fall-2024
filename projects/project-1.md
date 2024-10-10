@@ -83,7 +83,7 @@
   - will allow the user to *interact with ALL* of `DELETE`, `POST` and `PUT` endpoints of your API that are required *below*
   - will *look nothing like* the **admin.html** pages from our exercises
   - will be *nicely styled* with CSS, the page aesthetics at a minimum should be "not ugly"
-  - will perform client-side validation of operations with JS - for example, if a required input field is empty when the user clicks a search button, don't send the search to your API server, and let the user know what the error is
+  - will perform ***client-side validation*** of operations with JS - for example, if a required input field is empty when the user clicks a search button, don't send the search to your API server, and let the user know what the error is
   - will be *usable* and give hints to the user where necessary:
     - make `DELETE`ing a resource easier - the admin should be able to search for a resource by name and then delete it. They should NOT (for example) have to copy/paste an `id` value from another part of the UI
     - ditto for `PUTing` edits to the server
@@ -119,6 +119,7 @@
 - Implement these as we did in the "hoots" exercise - you can name these endpoints as you wish:
   - as we did in "hoots", primarily utilizing a query string OR
   - more analagous to how `json-server` named them
+- Unlike the "hoots" exercise, you will need to implement some level of ***server-side validation***
 - Return appropriate "success" status codes along with the resource - e.g. `200`, `201`
 - Return appropriate "error" status codes along with a JSON error object - e.g. `400`, `404`
 - `DELETE`
