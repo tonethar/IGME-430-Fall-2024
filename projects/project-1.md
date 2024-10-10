@@ -93,12 +93,16 @@
 ---
 
 ## VIII. POST, DELETE and PUT endpoints
+- Implement these as we did in the "hoots" exercise
+- Return appropriate "success" status codes along with the resource - e.g. `200`, `201`
+- Return appropriate "error" status codes along with a JSON error object - e.g. `400`, `404`
 
 ---
 
 ## IX. "Above and Beyond"
-- Suggestions:
-  - utilize query string to add filtering, so
+- Doing all of the above perfectly gets you a 90% - to get higher, you need to add some extra features or polish to the app
+- Ideas:
+  - utilize the query string to add filtering, so
 
 ---
 
