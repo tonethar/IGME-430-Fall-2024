@@ -37,8 +37,8 @@
 - Have the router do `.trim()` on the `id` in the path
 - http://localhost:3000/api/country/AUS - SUCCESS
 - http://localhost:3000/api/country/GTM - SUCCESS
-- http://localhost:3000/api/country/GTA - return "no id match found" error message and `404` status code
-- http://localhost:3000/api/country/ - if no `id` is passed in don't search the database & return a "no id provided" error message and `404` status code
+- http://localhost:3000/api/country/GTA - return "no id match found" error message and a `404` status code ("Not Found")
+- http://localhost:3000/api/country/ - if no `id` is passed in don't search the database & return a "id is required" error message and a `400` status code ("Bad Request")
 
 ### V-E. `/api/country/?name=`
 - Have the router do `.trim()` on the search string that is passed in
