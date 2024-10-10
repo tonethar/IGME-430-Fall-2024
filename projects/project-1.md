@@ -1,4 +1,4 @@
-# Project 1 (DRAFT)
+# Project 1
 
 ## I. Overview
 - Web APIs are ubiquitous in the modern world as a means of accessing and interacting with a dataset. Oftentimes companies provide APIs to provide limited or complete access to the data they have and manage. Many of these APIs are publicly available such as the Google Maps API, Spotify API, PokeAPI, and many others. They allow other developers to build rich web applications and experiences that are augmented by the data they get. Private Web APIs are also used by nearly every company to pass data between various internal systems and tools.
@@ -138,7 +138,7 @@
 
 ---
 
-## X. Submission
+## X. Submission (TODO)
 
 ### X-a. Links (to be provided in Documentation)
 - GET endpoints
