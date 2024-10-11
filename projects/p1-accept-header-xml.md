@@ -153,6 +153,10 @@ Let's Rock!
 
 ---
 
+- ***Update: In order to clear the div after each serach, add `element.innerHTML = '';` at the top of the function, right after where `element` is initialized.***
+
+---
+
 - ***Now you need to write the code that gets called when the "See all the hoots! (XML Version)" button gets clicked***
 - Then test it. The `#output-all-hoots-xml` &lt;div> should display the values from the parsed XML
   
