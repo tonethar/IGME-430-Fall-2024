@@ -153,7 +153,7 @@ Let's Rock!
 
 ---
 
-- ***Update: In order to clear the div after each serach, add `element.innerHTML = '';` at the top of the function, right after where `element` is initialized.***
+- ***Update: In order to clear the &lt;div> after each search, add `element.innerHTML = '';` at the top of the function, immediately after `element` is initialized.***
 
 ---
 
