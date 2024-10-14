@@ -45,11 +45,29 @@
 - One more thing - add this line to the form HTML
 
 ```html
-
+<input type="hidden" name="loggedin" value="true" />
 ```
 
-- and test the form again, the URL now includes a new value - `loggedin=true` - which BTW our server will ignore:
+- A `type="hidden"` input type can't be seen by the user, but is a way to pass form values to the server without the user having to type anything in
+- Test the form again, the URL now includes a new value - `loggedin=true` - which BTW, our server will ignore:
   - `http://localhost:3000/quotes?id=12345&loggedin=true`
+ 
+---
+
+## II. Old School posting to the server
+- Now let's go ahead and implement posting to the server "old school" style with no client-side JavaScript
+- Here we'll go back to using the "hoots" API, and will call `/api/addHoot` like we did sp previously in the form (see  **II. Add a hoot!**), but this time WITHOUT using JS
+- Here's the HTML you'll need:
+
+```html
+<hr>
+
+<h2>VIII. Add a Hoot (Old School POST, no JS)!</h2>
+<form action="/api/addHoot" method="POST">
+  <label>Content: <input type="text" name="content" size="80"></label><br><br>
+  <button type="submit">Send "No JS" Request to <kbd>/api/addHoot</kbd></button>
+</form>
+```
 
 ---
 ---
