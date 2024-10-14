@@ -56,7 +56,7 @@
 
 ## II. Old School `POST`ing to the server
 - Now let's go ahead and implement posting to the server "old school" style with no client-side JavaScript
-- Here we'll go back to using the "hoots" API, and will call the existing `/api/addHoot` like we did so previously in the form (see  **II. Add a hoot!**), but this time WITHOUT using JS
+- Here we'll go back to using the "hoots" API, and will call the existing `POST` `/api/addHoot` like we did so previously in the form (see  **II. Add a hoot!**), but this time WITHOUT using JS
 - Here's the HTML you'll need - add this to **admin.html**:
 
 ```html
@@ -67,6 +67,9 @@
   <label>Content: <input type="text" name="content" size="80"></label><br><br>
   <button type="submit">Send "No JS" Request to <kbd>/api/addHoot</kbd></button>
 </form>
+
+<p>This will call the existing <kbd>POST</kbd> <kbd>/api/addHoot</kbd> endpoint.</p>
+<p>Unlike the <kbd>GET</kbd> above where the data (e.g. <kbd>/quotes?id=12345</kbd> is passed to the server via the <i>query string</i>, here the data will be passed to the server-side script in a <i>separate file.</i></p>
 ```
 
 - Now add some new hoot text and try it out by clicking the "Send" button
