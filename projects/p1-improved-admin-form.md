@@ -57,6 +57,8 @@
 
 ---
 
+## III. Improved Delete/Edit form - the JavaScript
+
 - And here's the JavaScript:
 
 ![screenshot](_images/p1-6.png)
