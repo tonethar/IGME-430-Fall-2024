@@ -22,7 +22,7 @@
 </form>
 
 <p><i>This will re-direct the browser to the <kbd>/quotes?id=</kbd> endpoint, and display whatever the server sent back.</i></p>
-<p>You can use <kbd>4c6217c3-c6e5-460b-8f8f-0df64ad6fef2</kbd> to view the mark Twain quote.</p>
+<p>You can use <kbd>4c6217c3-c6e5-460b-8f8f-0df64ad6fef2</kbd> to view the Mark Twain quote.</p>
 ```
 
 - Note the `action` of the form, which is the URL it is going to call when the submit button is clicked
@@ -31,7 +31,7 @@
 
 ---
 
-- Go ahead and paste an id to an actual quote into the field and click the "Send" button - it should call `/quotes?id=` and padd in the id you typed in - and you should see the following:
+- Go ahead and paste an id to an actual quote into the field and click the "Send" button - it should call `/quotes?id=` and pass in the id you typed in - and you should see the following:
 
 ![screenshot](_images/express-25.png)
 
