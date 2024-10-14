@@ -1,6 +1,11 @@
 # 16 - "Old School" `<form>`s
 
-- https://www.w3schools.com/html/html_forms.asp
+- So far this semester, we have been using HTML forms in conjunction with client-side JavaScript to send data to our node server.
+- But HTML forms have been around since the very beginning of the web, and can function in the web browser without utilizing *client-side* scripting
+- Reference:
+  - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form
+  - https://www.w3schools.com/html/html_forms.asp
+
 
 ---
 ---
