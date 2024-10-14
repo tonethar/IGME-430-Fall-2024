@@ -65,3 +65,13 @@
 
 ---
 
+## IV. Discussion: How does it work?
+
+---
+
+## V. Project 1
+- *What do you need to do to this to finish it up for [Project 1](project-1.md)?*
+- Rather than 2 hard-coded Hoots, you need to show ALL of your current resources
+  - you might have a lot more resources than that, so the max you have to show is 50
+  - a nice (but optional) feature for this form would be *paging* capabilities so that the user could cycle through ALL of your resources
+
