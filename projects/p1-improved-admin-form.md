@@ -49,7 +49,7 @@
   </div>
 
   <!-- etc for row #2 and beyond -->
-  <!-- you will need to generate this table dynamically, with JS! -->
+  <!-- you will need to generate this entire form and all its rows dynamically, with JS! -->
 </form>
 <h3>Results:</h3>
 <div id="output-edit-hoot-improved">???</div>
