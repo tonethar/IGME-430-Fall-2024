@@ -20,13 +20,13 @@
   - Uses Git for version control in a repo that the professor can access
   - Uses ESLint with the Airbnb spec for all server code
   - Uses GitHub Actions for build testing
-  - Uses a proper **.eslintrc** file and proper .gitignore file placed correctly in the repo
+  - Uses correctly formed **.eslintrc** file and **.gitignore** files
   - Uses a cloud service (such as Heroku) for deployment
   - Borrowed code and code fragments MUST be credited in code comments AND in the written documentation for the project:
     - you do not have to document any code I gave you in class or on the assignments
   - Separation of Concerns: your code should be appropriately broken up into files and functions based on the main functionality of those pieces of code:
     - you must utilize public functions  **p1-db.js** for all data access, queries, filtering etc
-  - D.R.Y. - Don’t Repeat Yourself. If you have multiple nearly identical blocks of code, those should be factored out into separate functions.
+  - **D.R.Y.** - **D**on’t **R**epeat **Y**ourself. If you have multiple nearly identical blocks of code, those should be factored out into separate functions.
   - Code must be well commented. You don’t need to comment on every line. Have a comment for each function, and comments for confusing lines of code. Ideally, code should be "self-documenting", meaning the variable and function names explicitly state what they are and what they do
   - Code must be free of runtime and ESLint errors
 
