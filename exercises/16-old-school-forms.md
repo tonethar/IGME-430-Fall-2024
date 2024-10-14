@@ -100,7 +100,7 @@
 
 ---
 
-### II-C. Getting our expree server to handle `x-www-form-urlencoded` data
+### II-C. Getting our express server to handle `x-www-form-urlencoded` data
 
 - With express, it's really easy to get your endpoints to handle form encoding automagically, just add the following "middleware" call to **app.js**
 
