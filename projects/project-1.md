@@ -83,6 +83,7 @@
   - https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/index.html
 
 ### V-g. admin.html
+- We covered most of this here: [Improved admin `<form>`](p1-improved-admin-form.md)
 - This will be stored in your **client/** folder and served by express (via `app.use(express.static('client'))`)
 - This page will provide a way for an *administrator* to interact with your API with `DELETE`, `POST` and `PUT` requests as we did with the hoot's **admin.html**
 - **admin.html** will:
