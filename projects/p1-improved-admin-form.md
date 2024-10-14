@@ -21,6 +21,8 @@
 }
 ```
 
+---
+
 - Here's the HTML, put this at the end of the `<body>` tag
 
 ```html
@@ -53,6 +55,11 @@
 <div id="output-edit-hoot-improved">???</div>
 ```
 
+---
+
 - And here's the JavaScript:
 
 ![screenshot](_images/p1-6.png)
+
+---
+
