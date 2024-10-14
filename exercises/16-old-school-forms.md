@@ -105,7 +105,7 @@
 - With express, it's really easy to get your endpoints to handle form encoding automagically, just add the following "middleware" call to **app.js**
 
 ```js
-app.use(express.urlencoded());
+app.use(express.urlencoded({ extended: true }));
 ```
 
 - Reference:
