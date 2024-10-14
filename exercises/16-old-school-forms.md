@@ -10,7 +10,7 @@
 
 ## I. A simple GET request
 
-- Add the following to **admin.html**
+- Add the following to **admin.html**:
 
 ```html
 <hr>
@@ -54,10 +54,10 @@
  
 ---
 
-## II. Old School posting to the server
+## II. Old School `POST`ing to the server
 - Now let's go ahead and implement posting to the server "old school" style with no client-side JavaScript
-- Here we'll go back to using the "hoots" API, and will call `/api/addHoot` like we did sp previously in the form (see  **II. Add a hoot!**), but this time WITHOUT using JS
-- Here's the HTML you'll need:
+- Here we'll go back to using the "hoots" API, and will call the existing `/api/addHoot` like we did so previously in the form (see  **II. Add a hoot!**), but this time WITHOUT using JS
+- Here's the HTML you'll need - add this to **admin.html**:
 
 ```html
 <hr>
@@ -68,6 +68,8 @@
   <button type="submit">Send "No JS" Request to <kbd>/api/addHoot</kbd></button>
 </form>
 ```
+
+- Now add some new hoot text and try it out by clicking the "Send" button
 
 ---
 ---
