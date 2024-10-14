@@ -29,16 +29,27 @@
 - Note the form `method` of `GET`, which means that the form will utlize the *query string* to send data to the node server
 - PS - we are calling the `/quotes?id=xxx` endpoint here rather than `/api/hoot/xxx` because we don't already have query string handling with our `/api/hoot/xxx` endpoint
 
---
+---
 
-- Go ahead and paste an id to an actual quote into the field and click the "Send" button - you should see the following:
+- Go ahead and paste an id to an actual quote into the field and click the "Send" button - it should call `/quotes?id=` and padd in the id you typed in - and you should see the following:
 
 ![screenshot](_images/express-25.png)
 
 ---
 
-- ff
+- Now try it with `4f19e53d-8b5b-40ab-ba72-cfbbcd2ce4f6` - you should see the JK Rowling quote
+- Now try it with `12345` - you should see that an empty object is returned (because that's how we wrote the server side code for non-existent `id` values
 
+---
+
+- One more thing - add this line to the form HTML
+
+```html
+
+```
+
+- and test the form again, the URL now includes a new value - `loggedin=true` - which BTW our server will ignore:
+  - `http://localhost:3000/quotes?id=12345&loggedin=true`
 
 ---
 ---
