@@ -85,13 +85,40 @@
 
 ![screenshot](_images/express-27.png)
 
+
+- If we head back to **admin.html** and click the "See all the hoots" button - we will see it was sucessfully added
+
 ---
 
-### II-B. Oops - non-JS forms use `` encoding! Try again!
+### II-B. Oops - non-JS forms use `x-www-form-urlencoded` data encoding! Try again!
+
+- Ooops - HTML forms use `x-www-form-urlencoded` encoding, so we have to send the data that way
 
 ![screenshot](_images/express-28.png)
 
+- The script was still called as before, but note that `content` was still not passed over
 
+---
+
+### II-C. Getting our expree server to handle `x-www-form-urlencoded` data
+
+- With express, it's really easy to get your endpoints to handle form encoding automagically, just add the following "middleware" call to **app.js**
+
+```js
+app.use(express.urlencoded())
+```
+
+---
+
+- Test it in Postman again - this time the hoot `content` is added!
+
+![screenshot](_images/express-29.png)
+
+---
+
+- Now try the form again, the `content` should be added!
+
+![screenshot](_images/express-30.png)
 
 ---
 ---
