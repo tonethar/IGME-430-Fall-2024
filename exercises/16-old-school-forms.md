@@ -108,7 +108,9 @@
 app.use(express.urlencoded());
 ```
 
-- Reference: https://www.geeksforgeeks.org/express-js-express-urlencoded-function/
+- Reference:
+  - https://www.geeksforgeeks.org/express-js-express-urlencoded-function/
+  - https://dev.to/griffitp12/express-s-json-and-urlencoded-explained-1m7o
 
 ---
 
