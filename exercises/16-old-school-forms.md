@@ -72,7 +72,26 @@
 <p>Unlike the <kbd>GET</kbd> above where the data (e.g. <kbd>/quotes?id=12345</kbd>) is passed to the server via the <i>query string</i>, here the data will be passed to the server-side script in a <i>separate file.</i></p>
 ```
 
+---
+
 - Now add some new hoot text and try it out by clicking the "Send" button
+- Note that we successfully called the correct `POST` endpoint, but it appears that the `content` wasn't passed in:
+
+![screenshot](_images/express-26.png)
+
+---
+
+### II-A. Testing the `POST` `/api/addHoot` with Postman (again)
+
+![screenshot](_images/express-27.png)
+
+---
+
+### II-B. Oops - non-JS forms use `` encoding! Try again!
+
+![screenshot](_images/express-28.png)
+
+
 
 ---
 ---
