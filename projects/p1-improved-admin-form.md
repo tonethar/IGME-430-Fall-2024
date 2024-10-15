@@ -91,6 +91,10 @@
 
 ---
 
+![screenshot](_images/p1-9.png)
+
+---
+
 ## VI. Hints
 
 ---
