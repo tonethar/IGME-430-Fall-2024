@@ -95,7 +95,7 @@
 
 ---
 
-- Here's the HTML for your delted/edit form
+- Here's the HTML for your delete/edit form
 
 ```html
 <h2>X. Superform!</h2>
