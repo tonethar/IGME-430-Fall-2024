@@ -125,13 +125,13 @@ const populateSuperForm = () => {
   superForm.innerHTML = '';
 
   // callback function for when data shows up
-  const buildSuperFormCB = () => (json) => superForm.innerHTML = json.map(...
+  const buildSuperFormCB = (json) => superForm.innerHTML = json.map(...
   // build each row of the form
   // ditto
   ).join('');
 
   
-  getJsonFetch(allHootsURL, buildSuperFormCB());
+  getJsonFetch(allHootsURL, buildSuperFormCB);
 };
 
 // populate initial state of form
