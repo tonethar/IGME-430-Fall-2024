@@ -76,4 +76,11 @@
 - Rather than 2 hard-coded Hoots, you need to show ALL of your current resources
   - you might have a lot more resources than that, so the max you have to show is 50
   - a nice (but optional) feature for this form would be *paging* capabilities so that the user could cycle through ALL of your resources
+  - when a resource is added, deleted, or updated -  the form updates to show the changes
 
+
+---
+
+![screenshot](_images/p1-7.png)
+
+---
