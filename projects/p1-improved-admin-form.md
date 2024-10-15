@@ -76,10 +76,10 @@
 
 ## V. Project 1
 - *What do you need to do to this to finish it up for [Project 1](project-1.md)?*
-- Rather than 2 hard-coded Hoots, you need to show ALL of your current resources
+- Rather than 2 hard-coded Hoots, you need to show ALL of your current resources in a "Superform" (see screenshot below)
   - you might have a lot more resources than that, so the maximum you must show at any one time is 50
   - a nice (but optional) feature for this form would be *paging* capabilities so that the user could cycle through ALL of your resources
-  - when a resource is added, deleted, or updated -  the form immediately updates to show the changes
+  - when a resource is added, deleted, or updated -  the superform immediately updates to show the changes
 
 
 ### V-A. Screenshots
@@ -102,7 +102,7 @@
 
 ---
 
-- Here's the HTML for your delete/edit form
+- Here's the HTML for your delete/edit "superform":
 
 ```html
 <h2>X. Superform!</h2>
