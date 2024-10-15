@@ -25,7 +25,7 @@
 
 ---
 
-- Here's the HTML, put this at the end of the `<body>` tag
+- Here's the HTML, put this at the end of the `<body>` tag:
 
 ```html
 <hr>
@@ -68,13 +68,16 @@
 ---
 
 ## IV. Discussion: How does it work?
+- Let's be sure that we understand EVERY line of code
+- BTW:
+  - would having separate `.onclick` event handlers for the UPDATE and DELETE buttons be easier than a single `.onsubmit` on the entire form?
 
 ---
 
 ## V. Project 1
 - *What do you need to do to this to finish it up for [Project 1](project-1.md)?*
 - Rather than 2 hard-coded Hoots, you need to show ALL of your current resources
-  - you might have a lot more resources than that, so the max you have to show is 50
+  - you might have a lot more resources than that, so the maximum you must show at any one time is 50
   - a nice (but optional) feature for this form would be *paging* capabilities so that the user could cycle through ALL of your resources
   - when a resource is added, deleted, or updated -  the form immediately updates to show the changes
 
