@@ -114,7 +114,7 @@
 
 ---
 
-- Here's some JS to start you off
+- Here's some JS to start you off:
 
 ```js
 const superForm = document.querySelector('#form-super');
