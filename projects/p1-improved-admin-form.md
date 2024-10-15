@@ -125,7 +125,7 @@ const populateSuperForm = () => {
   superForm.innerHTML = '';
 
   // callback function for when data shows up
-  const buildSuperFormCB = (json) => (json) => superForm.innerHTML = json.map(...
+  const buildSuperFormCB = () => (json) => superForm.innerHTML = json.map(...
   // build each row of the form
   // ditto
   ).join('');
