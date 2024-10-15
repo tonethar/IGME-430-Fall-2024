@@ -90,3 +90,45 @@
 ![screenshot](_images/p1-7.png)
 
 ---
+
+## VI. Hints
+
+---
+
+- Here's the HTML for your delted/edit form
+
+```html
+<h2>X. Superform!</h2>
+<form id="form-super" class="table"></form>
+
+<h3>Results:</h3>
+<div id="output-super">???</div>
+```
+
+---
+
+- Here's some JS to start you off
+
+```js
+const superForm = document.querySelector('#form-super');
+superForm.onsubmit = deleteEditCB;
+
+// call populateSuperForm() when the page first loads, and whenever your server data changes (from DELETE, POST, PUT) 
+const populateSuperForm = () => {
+  superForm.innerHTML = '';
+
+  // callback function for when data shows up
+  const buildSuperFormCB = (json) => (json) => superForm.innerHTML = json.map(...
+  // build each row of the form
+  // ditto
+  ).join('');
+
+  
+  getJsonFetch(allHootsURL, buildSuperFormCB());
+};
+
+// populate initial state of form
+populateSuperForm();
+```
+
+---
