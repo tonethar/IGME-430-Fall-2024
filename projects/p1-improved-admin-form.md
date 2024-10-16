@@ -80,6 +80,7 @@
   - you might have a large number of resources (100's?), so the maximum you must show at any one time on the admin page is 50
   - a nice (but optional) feature for this form would be *paging* capabilities so that the user could cycle through ALL of your resources
   - when a resource is added, deleted, or updated -  the superform immediately updates to show the changes
+  - BTW: nobody else calls this kind of form a "superform" - we're only calling it this to distinguish it from our earlier "lame" form that made the admin copy/paste id values
 
 
 ### V-A. Screenshots
