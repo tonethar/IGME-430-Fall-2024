@@ -153,18 +153,18 @@
   - *name* search returns an array of matches, not necessarily just the first match
   - utilize the query string to add filtering and/or sorting capabilities
   - another `/api/` endpoint that does something useful? 
-  - excellent page design, usability or new features? on **index.html** and **admin.html**
+  - excellent page design, usability or new features? on **index.html** and/or **admin.html**
 
 ---
 
-## X. Submission (`//TODO`)
+## X. Submission
 
 ### X-a. Delete ALL unneeded code and files
 - Be sure to get rid of ALL unneeded code (ex. **quotes.js**) and files (ex. **spongegar.png**, **rich-client.html** etc)
 
 
 ### X-b. Links (to be provided in Documentation)
-- GET endpoints (see examples running on Heroku, above)
+- `GET` endpoints (see examples running on Heroku, above)
   - Array of ALL resources
   - One random resource
   - Most recently added resource
@@ -176,20 +176,39 @@
   - Limk to **index.html**
   - Link to **admin.html**
   - Link to **404.html**
-- HEAD endpoints that return the required headers
+- `HEAD` endpoints that return the required headers
   - list all 3 supported endpoints
-- ...
+- `XML`
+  - give the one supported endpoint
+- `DELETE`
+  - give the one supported endpoint
+- `POST`
+  - give the one supported endpoint and describe the required fields in the JSON data that is passed over (ex. The `content` property is required)
+- `PUT`
+  - give the one supported endpoint and describe the required fields in the JSON data that is passed over (ex. The `content` property is required)
+
 
 ### X-c. Documentation
-- ...
+- In PDF or DOC format, or as a README.md file in your repo
+- Provide ALL links in section X-b. above - and where possible give a "working" link (as was done for you in section V. above) that provides a valid response
+- Describe:
+  - what went right with this project
+  - what went wrong with this project
+  - what did you learn while completing this project
+  - what code fragments did you use or borrow? List these here, and make sure that there is also a comment and/or link in the source code
+  - detail your "Above and Beyond" work that
 
-### X-d. Rubric
-- (-5%) for each missing endpoint
+### X-d. Submission
+- In the myCourses dropbox and/or comments field
+  - provide a link to your project 1 GitHUb repo
+  - a ZIP of your source code (without the **node_modules** folder
+
+### X-e. Rubric
+- 90% is the base grade
+- (+0-20%) documented "Above and Beyond" work
+- (-5%) for each missing or non-functional endpoint
 - (-15%) **client.html** requirements not met
 - (-25%) **admin.html** requirements not met
 - (-2%) each `npm test` error
-- (-??%) unnecessary code or files, code errors, other missing requirements or violations of coding standards
-- ...
-
-
-
+- (-10%) Documentation not complete
+- (-TBD%) unnecessary code or files, code errors, other missing requirements or violations of coding standards
