@@ -67,6 +67,24 @@
 
 ---
 
+- PS - here's the hoot data I'm using - put it in **api.js**
+
+```js
+const hoots = [{
+  id: '11111111-2222-3333-4444-555555555555',
+  content: "Let's Rock!",
+  createdAt: new Date(),
+},
+{
+  id: '66666666-7777-8888-9999-000000000000',
+  content: "Bird's aren't real!",
+  createdAt: new Date(),
+},
+];
+```
+
+---
+
 ## IV. Discussion: How does it work?
 - Let's be sure that we understand EVERY line of code
 - BTW:
