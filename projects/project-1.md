@@ -205,10 +205,11 @@
 
 ### X-e. Rubric
 - 90% is the base grade
-- (+0-20%) documented "Above and Beyond" work
+- (**+0% to +20%**) for documented "Above and Beyond" work
 - (-5%) for each missing or non-functional endpoint (or an endpoint that does not send the correct status code)
 - (-15%) **client.html** requirements not met
 - (-25%) **admin.html** requirements not met
 - (-2%) each `npm test` error
 - (-10%) Documentation not complete
+- (-1% to 10%) "Back end" checkpoint was not complete
 - (-TBD%) unnecessary code or files, code errors, other missing requirements or violations of coding standards
