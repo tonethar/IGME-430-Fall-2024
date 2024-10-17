@@ -100,7 +100,8 @@
 - Placeholder admin page link: https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/admin.html
 
 ### V-h. 404 page
-- All other get endpoints (not located under the `/api` route) will be served a `404` status code and an HTML error page 
+- All other get endpoints (not located under the `/api` route) will be served a `404` status code and an HTML error page
+  - ex. https://p1-430-abc1234-b3dbd8e918a3.herokuapp.com/xyz 
 
 ---
 
@@ -167,10 +168,13 @@
   - Array of ALL resources
   - One random resource
   - Most recently added resource
+  - One resource found by id
   - One resource found by name - exact match search
   - One resource found by name - case insensitive search
-  - One resource found by name - bad name - returns a 404 JSON object
-  - One resource found by id
+  - One resource found by name - bad name - returns a `404` JSON object
+  - One resource found by name - empty string for name - returns a `400` JSON object
+  - Limk to **index.html**
+  - Link to **admin.html**
 - HEAD endpoints that return the required headers
   - list all 3 supported endpoints
 - ...
