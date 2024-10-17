@@ -109,7 +109,7 @@
 - We covered this here: [Express and responding to HEAD requests](p1-express-HEAD.md)
 - These will be tested with Postman
 - Choose a minimum of 3 GET endpoints that will also respond to `HEAD` requests
-- The following 3 headers will be send
+- The following 3 headers will be sent:
   - `Content-Type` - specifying the actual MIME content type that is being returned
   - `Content-Length` - specifying the actual content length in bytes
   - `X-Coder` - a custom header specifying your initials
@@ -175,6 +175,7 @@
   - One resource found by name - empty string for name - returns a `400` JSON object
   - Limk to **index.html**
   - Link to **admin.html**
+  - Link to **404.html**
 - HEAD endpoints that return the required headers
   - list all 3 supported endpoints
 - ...
