@@ -74,12 +74,12 @@ const hoots = [{
   id: '11111111-2222-3333-4444-555555555555',
   content: "Let's Rock!",
   createdAt: new Date(),
-},
-{
+ },
+ {
   id: '66666666-7777-8888-9999-000000000000',
   content: "Bird's aren't real!",
   createdAt: new Date(),
-},
+ },
 ];
 ```
 
