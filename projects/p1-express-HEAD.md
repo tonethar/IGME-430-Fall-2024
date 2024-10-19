@@ -37,6 +37,10 @@
 ![screenshot](_images/p1-1.png)
 
 - Note: replace `X-Coder: TJ` with `X-Coder: <your-actual-initials>`
+- EDIT: replace line 81 with:
+  - `const length = Buffer.byteLength(JSON.stringify(hoots), 'utf8');`
+  - ... in this instance, both lines will return the same number ...
+  - ... but `Buffer.byteLength()` will work properly with multi-byte encoded strings
 
 ---
 
