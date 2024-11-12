@@ -193,7 +193,7 @@ if (process.env.REDISCLOUD_URL) {
   - `"buildLoginBundle"`, `"watchLoginBundle"`, `buildAppBundle`, `watchAppBundle` will watch for changes to JS files in the **client/** folder, and then transpile these files into ES5/JSX and publish them to **client/hosted/** as  **bundle.js** and **loginBundle.js**
 
 ### IV-A. Tips
-- #2 - this command is easy to mistype --> `npx browserslist --update-db`
+- #2 - this command is easy to mistype: `npx browserslist --update-db`
 - You will need to make sure that the `watchLoginBundle` and `watchAppBundle` are running at all times. These are the scripts that will transpile the ES6 and React JSX that is located in your **client/** folder into the ES5 in your **hosted/** folder
  - PS - Handlebars.js isn't rendering the domos for you anymore in **app.handlebars** (React is now doing it on the client-side), so you don't need most of the code in the `makerPage` function (which located in **controllers/Domo.js**)
  - PS - clearing the form fields after the user makes a successful submission is always a good idea. With more modern React components we would just change the state variable and then the component fields would update themselves. But here the "new domo" form fields are not being rendered by React so we have to do it in "old school jQuery" style:
