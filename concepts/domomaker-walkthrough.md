@@ -40,7 +40,7 @@
     - when the user interacts with a ***view*** (for example signing up for a new account and clicking the Submit button), a message (endpoint) is routed back to the relevant ***controller***
     - the ***controllers*** will call the appropriate methods defined in the ***models***, and then render (draw) the ***views***
 - The **client.js** code:
-  - is actually getting *transpiled* into ES5 by the server (utilizing Babel) and stored in **hosted/bundle.js**
+  - is actually getting *transpiled/bundled* into ES5 by [webpack](https://www.npmjs.com/package/webpack) (similar to Babel which we used in 330) and stored in **hosted/bundle.js**
 - Create a user account (name and password) with **signup.handlebars**
   - `<input id="pass" type="password" name="pass" placeholder="password"/>`
   - note that the `type` is [`"password"`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password)
