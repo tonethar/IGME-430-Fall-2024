@@ -36,6 +36,7 @@
   - a **models/** folder that contains [mongoose](https://www.npmjs.com/package/mongoose) models (one per file) such as `Account` and (coming soon!) `Domo`
     - we add "class" methods to these models with the `statics` property
   - MVC in action:
+    - https://www.geeksforgeeks.org/mvc-design-pattern/
     - note that when a user comes to the site, the router tells a ***controller*** to render the proper ***view***
     - when the user interacts with a ***view*** (for example signing up for a new account and clicking the Submit button), a message (endpoint) is routed back to the relevant ***controller***
     - the ***controllers*** will call the appropriate methods defined in the ***models***, and then render (draw) the ***views***
