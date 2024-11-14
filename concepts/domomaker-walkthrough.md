@@ -137,7 +137,7 @@ B) Documentation
 ---
 
 
-## III. DomoMaker C - Add Redis
+## III. DomoMaker C
 
 ### III-A. dotenv
 - store constants (passwords, etc) in a **.env** file that you don't commit to your repo
@@ -148,7 +148,8 @@ B) Documentation
 - Redis (Remote Dictionary Server) is a key:value cloud database that runs independently of our Heroku project. We can store variables in Redis and then access them from multiple node apps and/or servers
 - Systems like Redis allow us to seamlessly shut down a server and bring it back up without anyone noticing (users still stay logged in, pages still work, permissions still work, etc). As an added benefit to you, Redis will let you work on your node app (restarting it as many times as you want) without getting logged out or anything
 - https://www.npmjs.com/package/connect-redis
-- *Redis Insight* client app for viewing contents --&gt; https://redis.io/insight/ 
+- *Redis Insight* client app for viewing contents --&gt; https://redis.io/insight/
+- Also --&gt; https://marketplace.visualstudio.com/items?itemName=Redis.redis-for-vscode
 
 ---
 
