@@ -7,8 +7,6 @@
 
 - [I. DomoMaker-A](#A)
 
-
-
 - [II. DomoMaker-B](#B)
 
 - [III. DomoMaker-C](#C)
@@ -91,26 +89,25 @@
 
 ## II. DomoMaker B - Assignment Walkthrough
 
-1) DomoMaker-B:
-  - What's new:
-    - HTTP *sessions* keep track of who is logged in
-    - you can now add Domos to the database, "owned" and only visible to the current logged in user
-    - multiple domos can have the *same name* (unlike the HW where according to the schema, the `Cat` documents have to have `unique` names
-    - handy mongo commands you can use while you are debugging & testing (OR, just use MongoDB Compass):
-      - `show dbs`
-      - `use DomoMaker`
-      - `show collections`
-      - `db.accounts.find().pretty()` // show all documents in the accounts collection
-      - `db.accounts.remove({})` // delete all documents in the accounts collection
-      - `db.domos.find().pretty()` // show all documents in the domos collection
-      - `db.domos.remove({})` // delete all documents in the domos collection
-    - you also might want to completely get rid of ("drop") a collection - in particular if you changed the associated mongoose schema of the documents
-      - `db.accounts.drop()` // drop accounts collection which deletes the index and all documents in that collection
-      - `db.domos.drop()` // drop domos collection which deletes the index and all documents in that collection
+### II-A. What's new:
+- HTTP *sessions* keep track of who is logged in
+- you can now add Domos to the database, "owned" and only visible to the current logged in user
+- multiple domos can have the *same name* (unlike the HW where according to the schema, the `Cat` documents have to have `unique` names
+- handy mongo commands you can use while you are debugging & testing (OR, just use MongoDB Compass):
+  - `show dbs`
+  - `use DomoMaker`
+  - `show collections`
+  - `db.accounts.find().pretty()` // show all documents in the accounts collection
+  - `db.accounts.remove({})` // delete all documents in the accounts collection
+  - `db.domos.find().pretty()` // show all documents in the domos collection
+  - `db.domos.remove({})` // delete all documents in the domos collection
+- you also might want to completely get rid of ("drop") a collection - in particular if you changed the associated mongoose schema of the documents
+  - `db.accounts.drop()` // drop accounts collection which deletes the index and all documents in that collection
+  - `db.domos.drop()` // drop domos collection which deletes the index and all documents in that collection
 
-<hr>
+---
 
-2) HTTP sessions
+### II-A. HTTP *Sessions*
 
 - HTTP sessions store *per-user* data on the server, and keep the "key" to that data stored in the user's browser, as a cookie
 - https://stackoverflow.com/questions/3804209/what-are-sessions-how-do-they-work
@@ -137,7 +134,7 @@ B) Documentation
 
 <a id="C"></a>
 
-<hr>
+---
 
 
 ## III. DomoMaker C - Add Redis & csrf
