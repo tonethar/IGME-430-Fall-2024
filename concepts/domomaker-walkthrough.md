@@ -118,8 +118,11 @@
 - [`Set-Cookie` response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie)
 
 A) Demo
-  - https://github.com/tonethar/session-demo-2201
-  - https://session-demo-2201.herokuapp.com/
+  - Session Hijacking
+    - https://en.wikipedia.org/wiki/Session_hijacking
+    - https://stackoverflow.com/questions/14573223/set-cookie-and-get-cookie-with-javascript
+  - Session demo:
+    - https://github.com/tonethar/session-demo-2201
   
 B) Documentation
  - **express-session**
