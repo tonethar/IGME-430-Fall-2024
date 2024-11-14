@@ -92,7 +92,7 @@
 ### II-A. What's new:
 - HTTP *sessions* keep track of who is logged in
 - you can now add Domos to the database, "owned" and only visible to the current logged in user
-- multiple domos can have the *same name* (unlike the HW where according to the schema, the `Cat` documents have to have `unique` names
+- multiple domos can have the *same name* (unlike the HW where according to the schema, the `Cat` documents have to have `unique` names) because Mongo is auto-assigning an `_id` (a *primary key*) to each `Domo` as it is created
 - handy mongo commands you can use while you are debugging & testing (OR, just use MongoDB Compass):
   - `show dbs`
   - `use DomoMaker`
