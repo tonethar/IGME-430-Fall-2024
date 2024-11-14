@@ -7,11 +7,13 @@
 
 - [I. DomoMaker-A](#A)
 
-<!--
+
 
 - [II. DomoMaker-B](#B)
 
 - [III. DomoMaker-C](#C)
+
+<!--
 
 - [IV. DomoMaker-D](#D)
 
@@ -85,7 +87,7 @@
 
 ---
 
-<!--
+
 
 ## II. DomoMaker B - Assignment Walkthrough
 
@@ -179,6 +181,9 @@ if (process.env.REDISCLOUD_URL) {
 - In your form elements, make sure that there is a space after the two closing (React) curly braces:
   - like this - `<input type="hidden" name="_csrf" value={{csrfToken}} />`
   - NOT this - `<input type="hidden" name="_csrf" value={{csrfToken}}/>`
+
+
+<!--
 
 <hr>
 
