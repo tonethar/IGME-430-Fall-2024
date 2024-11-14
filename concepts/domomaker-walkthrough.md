@@ -156,6 +156,16 @@ B) Documentation
 ### III-C. Middleware
 - Middleware in Express is a powerful system for injecting code calls in between other calls. Often you see it used in routing and error handling. Most all of our express plugins could be considered middleware
 - For example, our Express-session module is middleware. On every request, it is injecting checks for cookies, getting variables from Redis and creating a variable in the request called req.session.
+- Here is a simple middleware we can test out - add this to **router.js**
+
+```js
+const middleLogger = (req, res, next) => {
+  console.log('middleLogger!');
+  console.log(`user is: ${req.session.account.username}`);
+  next();
+};
+```
+- BTW - what happens if we comment out the `next()` call?
 
 <!--
 
