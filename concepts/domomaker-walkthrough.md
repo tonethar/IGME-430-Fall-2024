@@ -137,43 +137,27 @@ B) Documentation
 ---
 
 
-## III. DomoMaker C - Add Redis & csrf
+## III. DomoMaker C - Add Redis
 
-### III-A. Tips & Assignment Walkthrough
+### III-A. dotenv
+- store constants (passwords, etc) in a **.env** file that you don't commit to your repo
 
-**step #3**
-- the `mongooseOptions` parameter can be deleted (it is redundant code from a previous version of this assignment)
-- explain array destructuring and what this code is doing:
+---
 
-```js
-if (process.env.REDISCLOUD_URL) {
-  // redisPASS = redisURL.auth.split(':')[1];
-  redisURL = url.parse(process.env.REDISCLOUD_URL);
-  [, redisPASS] = redisURL.auth.split(':');
-}
-```
+### III-B. Redis
+- Redis (Remote Dictionary Server) is a key:value cloud database that runs independently of our Heroku project. We can store variables in Redis and then access them from multiple node apps and/or servers
+- Systems like Redis allow us to seamlessly shut down a server and bring it back up without anyone noticing (users still stay logged in, pages still work, permissions still work, etc). As an added benefit to you, Redis will let you work on your node app (restarting it as many times as you want) without getting logged out or anything
+- https://www.npmjs.com/package/connect-redis
 
+---
 
-**step #8**
-- demo running on 2 ports - you will need to be using `npm start` for both instances
-
-**step #9**
-- On Heroku, look under the Resources tab (Add ons) to add Redis Enterprise Cloud
-- Note that now there is a `REDISCLOUD_URL` under Config Vars - this was automagically populated for us by the Redis Add-on
-- Then, test it on Heroku, it should work the same as it did locally!
-
-**step #20**
-- we already made this change back in step #4
-
-**Step #24**
-- In your form elements, make sure that there is a space after the two closing (React) curly braces:
-  - like this - `<input type="hidden" name="_csrf" value={{csrfToken}} />`
-  - NOT this - `<input type="hidden" name="_csrf" value={{csrfToken}}/>`
-
+### III-C. Middleware
+- Middleware in Express is a powerful system for injecting code calls in between other calls. Often you see it used in routing and error handling. Most all of our express plugins could be considered middleware
+- For example, our Express-session module is middleware. On every request, it is injecting checks for cookies, getting variables from Redis and creating a variable in the request called req.session.
 
 <!--
 
-<hr>
+---
 
 <a id="D"></a>
 
